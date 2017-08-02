@@ -1,5 +1,4 @@
 module:
-  admin_menu: 0
   admin_toolbar: 0
   adminimal_admin_toolbar: 0
   block: 0
