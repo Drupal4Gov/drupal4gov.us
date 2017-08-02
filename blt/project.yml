@@ -1,0 +1,21 @@
+project:
+  machine_name: drupal4gov
+  prefix: D4G
+  human_name: 'Drupal 4 Gov'
+  profile:
+    name: lightning
+  local:
+    protocol: http
+    hostname: 'local.${project.machine_name}.com'
+git:
+  default_branch: master
+  remotes:
+    - drupal4gov.dev@staging-3383.prod.hosting.acquia.com
+drush:
+  aliases:
+    remote: '${project.machine_name}.test'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+cm:
+  allow-overrides: true
