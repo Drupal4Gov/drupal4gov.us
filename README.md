@@ -31,6 +31,7 @@ $ blt vm
 ```
 $ blt sync:refresh
 ``` 
+* Access the site and do necessary work at http://local.drupal4gov.com
 
 Additional [BLT documentation](http://blt.readthedocs.io) may be useful. You may also access a list of BLT commands by running:
 ```
