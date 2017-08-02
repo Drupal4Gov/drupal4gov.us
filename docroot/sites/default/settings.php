@@ -765,3 +765,17 @@ $settings['file_scan_ignore_directories'] = [
 # }
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $settings['install_profile'] = 'lightning';
+
+/**
+ * Environment Specific Customizations based on the Environment Indicator
+ */
+require DRUPAL_ROOT . "/sites/default/settings/environment.settings.php";
+
+/**
+ * Trusted Host Settings
+ */
+require DRUPAL_ROOT . "/sites/default/settings/trusted_host.settings.php";
+
+$config_directories = array(
+  CONFIG_SYNC_DIRECTORY => '../config/default',
+);

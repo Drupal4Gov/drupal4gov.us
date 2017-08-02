@@ -1,7 +1,7 @@
 project:
   machine_name: drupal4gov
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: D4G
+  human_name: 'Drupal 4 Gov'
   profile:
     name: lightning
   local:
