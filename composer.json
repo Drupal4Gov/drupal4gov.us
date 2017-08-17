@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^8.3",
+        "acquia/blt": "^8.9.1",
         "drupal/environment_indicator": "^3.0",
         "drupal/admin_toolbar": "^1.19",
         "drupal/adminimal_admin_toolbar": "^1.5",
