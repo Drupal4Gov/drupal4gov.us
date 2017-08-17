@@ -1,11 +1,12 @@
 {
-    "name": "acquia/blt-project",
-    "description": "Project template for Drupal 8 sites built with BLT.",
+    "name": "drupal4gov/drupal4gov.us",
+    "description": "The Drupal4Gov.us website.",
     "type": "project",
+    "license": "gpl",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^8.3",
+        "acquia/blt": "^8.9.1",
         "drupal/environment_indicator": "^3.0",
         "drupal/admin_toolbar": "^1.19",
         "drupal/adminimal_admin_toolbar": "^1.5",
