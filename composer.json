@@ -5,8 +5,26 @@
     "license": "gpl",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
     "require": {
         "acquia/blt": "^8.9.1",
+        "drupal/core": "8.4.0",
+        "acquia/lightning": "2.2.0",
+        "drush/drush": "8.1.15",
         "drupal/environment_indicator": "^3.0",
         "drupal/admin_toolbar": "^1.19",
         "drupal/adminimal_admin_toolbar": "^1.5",
@@ -40,7 +58,9 @@
                 "type:drupal-custom-theme"
             ],
             "docroot/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
@@ -59,6 +79,10 @@
             "merge-scripts": true,
             "replace": false,
             "ignore-duplicates": true
-        }
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ]
     }
 }
