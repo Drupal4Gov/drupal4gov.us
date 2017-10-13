@@ -1,4 +1,4 @@
-uuid: 514cf449-8e6e-4efd-b91c-b82a8a543696
+uuid: 1c83164a-353d-499b-912b-b013080f63c8
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: OiypyeLb74_-PfEakdyH0LpbA6qmo3kmAot9Z8LlnTk
+  default_config_hash: Kfxnq5Imio9VFBoNa_PIkzXoTmjz_T-EY3mOrwDTddU
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -27,11 +27,11 @@ content:
     region: content
   field_meta_tags:
     type: metatag_empty_formatter
+    region: content
     weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
-    region: content
   links:
     weight: 1
     settings: {  }
@@ -41,4 +41,5 @@ content:
     weight: -20
     region: content
 hidden:
+  panelizer: true
   scheduled_update: true

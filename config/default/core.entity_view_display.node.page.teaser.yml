@@ -1,12 +1,10 @@
-uuid: 6735cec5-58b0-470c-8921-6908509a6eb4
+uuid: 689696ff-3ade-4372-9653-36d1c47a9e47
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.field_meta_tags
-    - field.field.node.page.scheduled_update
     - node.type.page
   module:
     - text
@@ -34,4 +32,5 @@ content:
     region: content
 hidden:
   field_meta_tags: true
+  panelizer: true
   scheduled_update: true

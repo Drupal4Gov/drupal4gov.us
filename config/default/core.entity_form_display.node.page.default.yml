@@ -1,10 +1,11 @@
-uuid: dd940386-72c6-4a70-bd88-79104ef8ced1
+uuid: 95c5ecb7-f690-4e85-a19f-5e6c52c6d232
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.panelizer
     - field.field.node.page.scheduled_update
     - node.type.page
   module:
@@ -66,6 +67,13 @@ content:
       match_operator: CONTAINS
     third_party_settings: {  }
     region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
+    third_party_settings: {  }
+    region: content
   sticky:
     type: boolean_checkbox
     settings:
@@ -90,4 +98,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  panelizer: true

@@ -1,4 +1,4 @@
-uuid: 6f22e35b-f000-4332-94f5-f58f1c1cf8ff
+uuid: ec89cde7-36da-4cfd-9198-ab8f86c675dd
 langcode: en
 status: true
 dependencies:
@@ -568,7 +568,7 @@ display:
           decimal: .
           separator: ','
           format_plural: true
-          format_plural_string: "1 place\x03@count places"
+          format_plural_string: !!binary MSBwbGFjZQNAY291bnQgcGxhY2Vz
           prefix: ''
           suffix: ''
           plugin_id: numeric
@@ -1010,7 +1010,7 @@ display:
           decimal: .
           separator: ','
           format_plural: false
-          format_plural_string: "1\x03@count"
+          format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
           suffix: ''
           plugin_id: numeric

@@ -1,4 +1,4 @@
-uuid: e86a6c11-2841-46da-8c3d-0d76010894bf
+uuid: df4b5a9e-1137-42dc-9549-6f8349e8c60d
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: dkZ8dfnlSo0OmXOm1wWQXpXK-7X3w5RHLtVC__ucRo8
+  default_config_hash: FRp6zjyWMGM2zPiyyrxZG3ftzsqIizslb7G2H8RbxcE
 id: node.landing_page.teaser
 targetEntityType: node
 bundle: landing_page
@@ -28,12 +28,12 @@ content:
     type: text_summary_or_trimmed
     region: content
   field_meta_tags:
-    weight: 101
+    type: metatag_empty_formatter
+    region: content
+    weight: 103
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
   links:
     weight: 100
     settings: {  }

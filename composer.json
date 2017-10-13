@@ -28,7 +28,8 @@
         "drupal/environment_indicator": "^3.0",
         "drupal/admin_toolbar": "^1.19",
         "drupal/adminimal_admin_toolbar": "^1.5",
-        "doctrine/inflector": "1.1"
+        "doctrine/inflector": "1.1",
+        "drupal/page_manager": "4.x-dev"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "~4.3"
@@ -65,6 +66,11 @@
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
             ]
+        },
+        "patches": {
+            "drupal/page_manager": {
+                "Correcting installation issue": "https://www.drupal.org/files/issues/2876880-page-varient-cache-2.patch"
+            }
         },
         "merge-plugin": {
             "require": [

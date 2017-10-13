@@ -1,8 +1,9 @@
-uuid: 7b912370-911c-4011-82cf-ec1953d3db75
+uuid: e90d510c-4d00-4722-9718-c534fd3f5f91
 langcode: en
 status: true
 dependencies:
   module:
+    - lightning_workflow
     - node
     - user
 _core:
@@ -655,7 +656,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
@@ -687,7 +687,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0

@@ -1,4 +1,4 @@
-uuid: 3e75afc0-fa95-4b3d-9a69-9ea308cd82fe
+uuid: 13259aa0-a1e8-44d6-83f8-8a6e772aefaa
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,7 @@ dependencies:
     - media_entity.bundle.image
   module:
     - image
+    - path
     - workbench_moderation
 _core:
   default_config_hash: i8n8ZG9FN7dla2mgdxzezUBX7qa1Y7wIuh_yKNHnv8c
@@ -40,6 +41,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   uid: true

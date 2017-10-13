@@ -1,4 +1,4 @@
-uuid: 52bc030e-042c-4d5d-971c-15eaaefaba9d
+uuid: 7da9a83d-4595-4597-b9f6-29cfe9cb7082
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,7 @@ dependencies:
     - field.field.media.document.field_media_in_library
     - media_entity.bundle.document
   module:
+    - path
     - workbench_moderation
 _core:
   default_config_hash: Zv4Kl0S9D3NLLinyRrbx3cRFiO72K0p8HAgmPxnq_uY
@@ -31,6 +32,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   field_document: true

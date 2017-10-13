@@ -1,4 +1,4 @@
-uuid: 0eaa7fa5-e9a7-4c1b-80b3-603c62a27848
+uuid: af774188-7477-40fd-885e-ae0665a63066
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.media.instagram.field_media_in_library
     - media_entity.bundle.instagram
   module:
+    - path
     - workbench_moderation
 _core:
   default_config_hash: 3iEda9a4O9kdUm0srWixIp38YeSTbmYgKoaq143S34c
@@ -38,6 +39,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   preview:
     weight: 0
     region: content

@@ -1,4 +1,4 @@
-uuid: 6a17fe7d-01c7-474a-b60d-c953aeabf9dd
+uuid: f3b42d90-cdc5-435e-af17-95d2b2ad8c9a
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.media.video.field_media_video_embed_field
     - media_entity.bundle.video
   module:
+    - path
     - video_embed_field
     - workbench_moderation
 _core:
@@ -37,6 +38,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   preview:
     weight: 0
     region: content

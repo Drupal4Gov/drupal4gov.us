@@ -1,4 +1,4 @@
-uuid: 1b03bbe0-e262-4524-b7db-f36c07c12e59
+uuid: 7d85ffe0-ecec-4a55-8a86-14537bb4464f
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.media.tweet.field_media_in_library
     - media_entity.bundle.tweet
   module:
+    - path
     - workbench_moderation
 _core:
   default_config_hash: kUmKxQtpZvT-l8xUUpWMmPMKLcoU6PUkCBQYLsTNbhc
@@ -38,6 +39,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   preview:
     weight: 0
     region: content

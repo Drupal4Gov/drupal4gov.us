@@ -1,4 +1,4 @@
-uuid: ce5d4515-806a-469e-bccb-e416a13b04ab
+uuid: 28830d96-d7dd-4deb-8853-dd77117d8461
 langcode: en
 status: true
 dependencies:
@@ -51,6 +51,13 @@ content:
     type: path
     weight: 4
     settings: {  }
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
     third_party_settings: {  }
     region: content
   title:

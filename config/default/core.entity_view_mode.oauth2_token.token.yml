@@ -1,0 +1,10 @@
+uuid: 8640effc-45a3-4b97-8670-260013c04c62
+langcode: en
+status: true
+dependencies:
+  module:
+    - simple_oauth
+id: oauth2_token.token
+label: Token
+targetEntityType: oauth2_token
+cache: true

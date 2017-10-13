@@ -1,4 +1,4 @@
-uuid: 953ec003-9a1a-4691-9285-3e8a429ccaba
+uuid: e63a5171-2a62-4edc-8d94-4183c932c7d3
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,9 @@ dependencies:
     - image.style.medium
     - media_entity.bundle.image
   module:
+    - image
     - lightning_media
+    - path
     - workbench_moderation
 _core:
   default_config_hash: JI-1XbVBCjxKia_ogu_O1bxY9ZOlygQyq3V-OtC7D-0
@@ -26,12 +28,15 @@ content:
     third_party_settings: {  }
     region: content
   image:
-    type: image_immutable
+    type: image_image
     weight: 0
     settings:
       preview_image_style: medium
       progress_indicator: throbber
-    third_party_settings: {  }
+    third_party_settings:
+      lightning_media:
+        file_links: false
+        remove_button: false
     region: content
   name:
     type: string_textfield
@@ -41,6 +46,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   uid: true
