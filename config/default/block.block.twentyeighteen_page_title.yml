@@ -1,0 +1,20 @@
+uuid: 4f464ea2-cc17-4a54-b8ca-0cfe79db53c5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - twentyeighteen
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: twentyeighteen_page_title
+theme: twentyeighteen
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

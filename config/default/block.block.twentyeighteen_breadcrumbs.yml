@@ -1,0 +1,22 @@
+uuid: 1326ed84-70c3-433f-8888-4e5f728ed838
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - twentyeighteen
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: twentyeighteen_breadcrumbs
+theme: twentyeighteen
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

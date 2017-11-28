@@ -1,0 +1,12 @@
+govdrupal_core.content_parent:
+  title: 'Add'
+  parent: system.admin_content
+  description: 'Description of link goes here.'
+  route_name: "node.add_page"
+govdrupal_core.content_page:
+  title: 'Basic Page'
+  parent: mtatd_core.content_parent
+  description: 'Link to create Basic Page content.'
+  route_name: "node.add"
+  route_parameters:
+    node_type: "page"
