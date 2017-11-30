@@ -79,6 +79,9 @@ display:
             'entity:node':
               page: teaser
               landing_page: teaser
+              event: default
+              blog_article: default
+              news_article: default
       fields:
         rendered:
           table: search_api_index_content

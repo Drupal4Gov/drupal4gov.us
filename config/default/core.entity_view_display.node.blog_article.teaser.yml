@@ -1,0 +1,41 @@
+uuid: ecc55302-d231-4be5-abcf-3e16272708b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blog_article.body
+    - field.field.node.blog_article.field_category_topic
+    - field.field.node.blog_article.field_image
+    - field.field.node.blog_article.field_tags
+    - field.field.node.blog_article.scheduled_update
+    - node.type.blog_article
+  module:
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.blog_article.teaser
+targetEntityType: node
+bundle: blog_article
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_category_topic: true
+  field_image: true
+  field_tags: true
+  links: true
+  scheduled_update: true

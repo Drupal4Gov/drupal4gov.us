@@ -1,0 +1,9 @@
+uuid: e3a2bfe7-cd01-4338-8489-854d6330cd54
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Host'
+vid: event_host
+description: ''
+hierarchy: 0
+weight: 0
