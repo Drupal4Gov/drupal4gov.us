@@ -1,0 +1,28 @@
+uuid: ad4722a6-f28a-40a3-8af8-3fd75a877cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.scheduled_update
+    - node.type.event
+    - scheduled_updates.scheduled_update_type.node_embargo
+id: node.event.scheduled_update
+field_name: scheduled_update
+entity_type: node
+bundle: event
+label: 'Scheduled updates'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:scheduled_update'
+  handler_settings:
+    target_bundles:
+      node_embargo: node_embargo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

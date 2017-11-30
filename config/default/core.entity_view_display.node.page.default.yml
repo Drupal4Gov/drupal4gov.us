@@ -4,13 +4,23 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_category_topic
+    - field.field.node.page.field_image
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_tags
+    - field.field.node.page.panelizer
     - field.field.node.page.scheduled_update
     - node.type.page
   module:
-    - metatag
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 _core:
   default_config_hash: Kfxnq5Imio9VFBoNa_PIkzXoTmjz_T-EY3mOrwDTddU
 id: node.page.default
@@ -21,24 +31,44 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    region: content
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-  links:
     weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_category_topic:
+    weight: 2
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_tags:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   workbench_moderation_control:
     weight: -20
     region: content
 hidden:
+  field_meta_tags: true
+  panelizer: true
   scheduled_update: true

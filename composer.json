@@ -1,5 +1,5 @@
 {
-    "name": "Drupal4Gov/drupal4gov.us",
+    "name": "drupal4gov/drupal4gov.us",
     "description": "Drupal4Gov Project.",
     "type": "project",
     "minimum-stability": "dev",
@@ -17,7 +17,8 @@
         "drupal/recaptcha": "^2.2",
         "drupal/pathauto": "^1.0",
         "drupal/easy_breadcrumb": "^1.6",
-        "drupal/paragraphs": "^1.2"
+        "drupal/paragraphs": "^1.2",
+        "drupal/multiple_fields_remove_button": "^1.0@alpha"
     },
     "require-dev": {},
     "extra": {

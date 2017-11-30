@@ -26,6 +26,9 @@ field_settings:
         'entity:node':
           page: default
           landing_page: full
+          event: default
+          blog_article: default
+          news_article: default
   label:
     label: Label
     property_path: aggregated_field
