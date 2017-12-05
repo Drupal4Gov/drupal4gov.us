@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    - git@github.com:Drupal4Gov/drupal4gov.us
+    - drupal4gov@svn-9994.prod.hosting.acquia.com:drupal4gov.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
