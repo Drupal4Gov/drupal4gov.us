@@ -75,7 +75,7 @@ $ git rebase upstream/master
 ```
 * Push your commit(s) to your origin
 ```
-$  git push --set-upstream origin DGC-XXX
+$  git push --set-upstream origin D4G-XXX
 ```
 * Create a new Pull Request that mentions the original ticket in the body (#DGC-XXX)
 * Ensure the build passes
