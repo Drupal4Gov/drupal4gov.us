@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.event.field_event_host
     - field.field.node.event.field_links
     - field.field.node.event.field_location
-    - field.field.node.event.scheduled_update
     - node.type.event
   module:
     - datetime_range
@@ -86,5 +85,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  scheduled_update: true
+hidden: {  }
