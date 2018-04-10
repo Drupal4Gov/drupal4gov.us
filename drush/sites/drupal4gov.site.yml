@@ -1,0 +1,41 @@
+local:
+  host: local.drupal4gov.com
+  options: {  }
+  root: /var/www/drupal4gov/docroot
+  uri: 'http://local.drupal4gov.com'
+  user: vagrant
+  ssh:
+    options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key'
+dev:
+  host: staging-3383.prod.hosting.acquia.com
+  options:
+    ac-env: dev
+    ac-realm: prod
+    ac-site: drupal4gov
+  paths:
+    drush-script: drush8
+  root: /var/www/html/drupal4gov.dev/docroot
+  uri: drupal4govdev.prod.acquia-sites.com
+  user: drupal4gov.dev
+test:
+  host: staging-3921.prod.hosting.acquia.com
+  options:
+    ac-env: stg
+    ac-realm: prod
+    ac-site: drupal4gov
+  paths:
+    drush-script: drush8
+  root: /var/www/html/drupal4gov.test/docroot
+  uri: drupal4govtest.prod.acquia-sites.com
+  user: drupal4gov.test
+prod:
+  host: ded-5779.prod.hosting.acquia.com
+  options:
+    ac-env: prod
+    ac-realm: prod
+    ac-site: drupal4gov
+  paths:
+    drush-script: drush8
+  root: /var/www/html/drupal4gov.prod/docroot
+  uri: drupal4gov.prod.acquia-sites.com
+  user: drupal4gov.prod

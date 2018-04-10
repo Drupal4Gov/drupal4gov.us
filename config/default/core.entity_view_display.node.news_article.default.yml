@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.news_article.body
     - field.field.node.news_article.field_image
     - field.field.node.news_article.field_tags
-    - field.field.node.news_article.scheduled_update
     - node.type.news_article
   module:
     - panelizer
@@ -52,5 +51,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  scheduled_update: true
+hidden: {  }

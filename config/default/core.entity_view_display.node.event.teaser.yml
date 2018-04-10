@@ -31,4 +31,3 @@ hidden:
   field_event_host: true
   field_links: true
   field_location: true
-  scheduled_update: true

@@ -10,16 +10,14 @@ dependencies:
     - field.field.node.event.field_event_host
     - field.field.node.event.field_links
     - field.field.node.event.field_location
-    - field.field.node.event.scheduled_update
     - node.type.event
   module:
+    - content_moderation
     - datetime_range
     - entity_browser
-    - inline_entity_form
     - link
     - path
     - text
-    - workbench_moderation
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -85,6 +83,12 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 5
@@ -98,19 +102,6 @@ content:
     weight: 3
     region: content
     third_party_settings: {  }
-  scheduled_update:
-    weight: 26
-    settings:
-      match_operator: CONTAINS
-      form_mode: default
-      override_labels: false
-      label_singular: ''
-      label_plural: ''
-      allow_new: true
-      allow_existing: false
-    third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   status:
     type: boolean_checkbox
     settings:
