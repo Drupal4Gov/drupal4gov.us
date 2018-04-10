@@ -1,12 +1,13 @@
 # Ignore configuration files that may contain sensitive information.
 local.settings.php
 local.drushrc.php
+local.drush.yml
 local.aliases.drushrc.php
 local.services.yml
 tests/behat/local.yml
 box/local.config.yml
 *.local
-project.local.yml
+local.blt.yml
 
 # Ignore drupal core.
 docroot/core
@@ -124,3 +125,12 @@ nbproject/*
 
 # PHPStorm
 atlassian-ide-plugin.xml
+
+#NPM
+npm-debug.log
+
+# Drush 9 Checksums
+drush/sites/.checksums
+
+# Deprecation detector rules
+.rules
