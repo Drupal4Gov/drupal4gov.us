@@ -40,5 +40,3 @@ phpcs:
   filesets:
     - files.php.custom.modules
     - files.php.tests
-disable-targets:
-  tests: true
