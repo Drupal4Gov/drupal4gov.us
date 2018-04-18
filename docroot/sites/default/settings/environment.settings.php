@@ -32,11 +32,3 @@ if($is_ah_stage_env) {
 if ($is_ah_prod_env) {
   $config['environment_indicator.indicator']['bg_color'] = '#aa3333';
 }
-
-if ($config['environment_indicator.indicator']['name'] == "Ci") {
-  $config['environment_indicator.indicator']['bg_color'] = '#33aa3c';
-}
-
-if ($config['environment_indicator.indicator']['name'] == "Uatv") {
-  $config['environment_indicator.indicator']['bg_color'] = '#ffBB00';
-}
