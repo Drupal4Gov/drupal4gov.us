@@ -27,6 +27,7 @@
         "drupal/recaptcha": "^2.2",
         "drupal/pathauto": "^1.0",
         "drupal/easy_breadcrumb": "^1.6",
+        "drupal/lightning_core": "^2.5",
         "drupal/paragraphs": "^1.2",
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/entity": "1.0-beta3",
