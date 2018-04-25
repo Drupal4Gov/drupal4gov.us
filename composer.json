@@ -20,6 +20,7 @@
         "acquia/lightning": "^3.1.1",
         "cweagans/composer-patches": "^1.6.0",
         "drupal/adminimal_admin_toolbar": "~1.0",
+        "drupal/core": "^8.5.3",
         "drupal/environment_indicator": "~3",
         "drupal/field_group": "^1.0",
         "drupal/google_analytics": "^2.2",
