@@ -11,6 +11,8 @@ git:
   default_branch: master
   remotes:
     - 'drupal4gov@svn-9994.prod.hosting.acquia.com:drupal4gov.git'
+deploy:
+  tag_source: true
 drush:
   aliases:
     remote: '${project.machine_name}.dev'
@@ -40,3 +42,5 @@ phpcs:
   filesets:
     - files.php.custom.modules
     - files.php.tests
+cloud:
+  appId: 28dfeba3-e7de-f004-91dc-d5805b3858a8

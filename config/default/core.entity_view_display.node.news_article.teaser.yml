@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_article.body
+    - field.field.node.news_article.field_image
+    - field.field.node.news_article.field_tags
     - node.type.news_article
   module:
     - text
@@ -25,6 +27,9 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_image: true
   field_tags: true
+  langcode: true

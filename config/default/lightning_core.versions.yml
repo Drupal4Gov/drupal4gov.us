@@ -97,3 +97,17 @@ menu_link_content: 0.0.0
 pathauto: 0.0.0
 views: 0.0.0
 govdrupal: 0.0.0
+acquia_connector: 1.14.0
+shield: 1.2.0
+openapi_ui: 1.0.0-rc1
+openapi_ui_redoc: 1.0.0-rc2
+openapi_ui_swagger: 1.0.0-rc2
+media_library: 8.6.2
+config_filter: 1.3.0
+config_split: 1.4.0
+language: 8.6.2
+lightning_media_audio: 3.1.0
+libraries: 3.0.0-alpha1
+slick: 1.0.0
+slick_entityreference: 1.1.0
+lightning_media_slideshow: 3.1.0

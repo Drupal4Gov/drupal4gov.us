@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - content_moderation
     - node
     - user
 _core:
@@ -659,7 +660,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:workflow_list'
   page_1:
     display_options:
       path: admin/content/node
@@ -690,4 +692,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:workflow_list'
