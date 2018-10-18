@@ -38,4 +38,5 @@ hidden:
   created: true
   embed_code: true
   field_media_in_library: true
+  langcode: true
   uid: true

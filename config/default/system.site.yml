@@ -1,11 +1,11 @@
 uuid: 0f56f704-04ab-4924-8bf4-825e4a37f742
 name: 'Drupal 4 Gov'
-mail: no-reply@acquia.com
+mail: drupal4gov@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/21
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

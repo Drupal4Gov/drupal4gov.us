@@ -77,11 +77,11 @@ display:
         options:
           view_modes:
             'entity:node':
-              page: teaser
-              landing_page: teaser
-              event: default
               blog_article: default
+              event: default
+              landing_page: teaser
               news_article: default
+              page: teaser
       fields:
         rendered:
           table: search_api_index_content

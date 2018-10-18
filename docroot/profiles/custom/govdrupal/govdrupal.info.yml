@@ -8,9 +8,4 @@ themes:
   - bartik
   - seven
 
-base profile:
-  name: lightning
-  excluded_dependencies:
-    - config
-    - dblog
-    - views_ui
+base profile: lightning
