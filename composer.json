@@ -27,7 +27,7 @@
         "drupal/multiple_fields_remove_button": "^1.0@alpha"
     },
     "require-dev": {
-        "geerlingguy/drupal-vm": "~4.9"
+        "geerlingguy/drupal-vm": "^4.8"
     },
     "extra": {
         "enable-patching": true,
