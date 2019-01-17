@@ -9,7 +9,3 @@ Feature: Web drivers
   Scenario: Load a page with Javascript
     Given I am on "/"
     Then I should be on "/"
-
-  Scenario: Load a page without Javascript
-    Given I am on "/"
-    Then the response status code should be 200
