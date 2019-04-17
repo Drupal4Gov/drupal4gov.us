@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "acquia/blt": "^9.2",
+        "acquia/blt": "9.2.4",
         "drupal/adminimal_admin_toolbar": "~1.0",
         "drupal/config_ignore": "2.x-dev",
         "drupal/easy_breadcrumb": "^1.6",
@@ -25,7 +25,8 @@
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.0",
-        "drupal/recaptcha": "^2.2"
+        "drupal/recaptcha": "^2.2",
+        "drush/drush": "9.5.2"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.8"
