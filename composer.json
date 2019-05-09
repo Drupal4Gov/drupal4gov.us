@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "acquia/blt": "9.2.4",
+        "acquia/blt": "^9.2",
         "drupal/adminimal_admin_toolbar": "~1.0",
         "drupal/config_ignore": "2.x-dev",
         "drupal/easy_breadcrumb": "^1.6",
