@@ -5,7 +5,7 @@ features:
   favicon: true
 logo:
   use_default: false
-  path: 'public://drg-main-logo.png'
+  path: 'public://d4glogo_0_0.png'
 favicon:
   use_default: false
   path: profiles/contrib/lightning/favicon.ico
