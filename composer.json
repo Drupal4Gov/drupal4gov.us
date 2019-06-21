@@ -15,20 +15,35 @@
         }
     },
     "require": {
-        "acquia/blt": "^9.2",
+        "acquia/blt": "^10.0",
+        "acquia/drupal-spec-tool": "^2.0.0",
+        "acquia/lightning": "~3.2.0|~3.3.0",
+        "drupal/acquia_connector": "^1.5.0",
+        "drupal/acquia_purge": "^1.0-beta3",
         "drupal/adminimal_admin_toolbar": "~1.0",
+        "drupal/cog": "^1.0.0",
         "drupal/config_ignore": "2.x-dev",
+        "drupal/config_split": "^1.0.0",
+        "drupal/core": "^8.6.0",
+        "drupal/devel": "^2.0.0",
         "drupal/easy_breadcrumb": "^1.6",
         "drupal/environment_indicator": "~3",
+        "drupal/features": "^3.7.0",
         "drupal/field_group": "^1.0",
         "drupal/google_analytics": "^2.2",
+        "drupal/memcache": "2.0-alpha7",
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.0",
+        "drupal/qa_accounts": "^1.0.0-alpha1",
         "drupal/recaptcha": "^2.2",
-        "drush/drush": "9.5.2"
+        "drupal/seckit": "^1.0.0-alpha2",
+        "drupal/shield": "^1.0.0",
+        "drush/drush": "9.5.2",
+        "php": ">=7.1"
     },
     "require-dev": {
+        "acquia/blt-require-dev": "^10.0.0-alpha1",
         "geerlingguy/drupal-vm": "^4.8"
     },
     "extra": {
@@ -37,7 +52,7 @@
             "bower-asset",
             "npm-asset"
         ],
-        "patches": {},
+        "patches": [],
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
@@ -70,19 +85,39 @@
                 "type:drupal-drush"
             ]
         },
-        "merge-plugin": {
-            "require": [
-                "blt/composer.required.json",
-                "blt/composer.suggested.json"
-            ],
-            "merge-extra": true,
-            "merge-extra-deep": true,
-            "merge-scripts": true,
-            "replace": false,
-            "ignore-duplicates": true
+        "composer-exit-on-patch-failure": true,
+        "drupal-scaffold": {
+            "initial": {
+                "sites/default/default.services.yml": "sites/default/services.yml",
+                "sites/default/default.settings.php": "sites/default/settings.php"
+            }
+        },
+        "patchLevel": {
+            "drupal/core": "-p2"
         }
     },
     "config": {
         "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "blt/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Drupal\\Tests\\PHPUnit\\": "tests/phpunit/src/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "blt internal:create-project:init-repo"
+        ],
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "nuke": [
+            "rm -rf vendor composer.lock docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib",
+            "@composer clearcache --ansi",
+            "@composer install --ansi"
+        ]
     }
 }

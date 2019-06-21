@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Event Host'
 vid: event_host
 description: ''
-hierarchy: 0
 weight: 0
