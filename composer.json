@@ -31,7 +31,7 @@
         "drupal/features": "^3.7.0",
         "drupal/field_group": "^1.0",
         "drupal/google_analytics": "^2.2",
-        "drupal/memcache": "2.0-alpha7",
+        "drupal/memcache": "^2.0",
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.0",
@@ -52,7 +52,11 @@
             "bower-asset",
             "npm-asset"
         ],
-        "patches": [],
+        "patches": {
+            "acquia/blt": {
+                "memcache update": "https://github.com/acquia/blt/pull/3730.patch"
+            }
+        },
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"

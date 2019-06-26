@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7614fce54d87bf09ce55f34c69e5d81",
+    "content-hash": "b6d0bdcd019a0bc8b2ac4a83fa28d24f",
     "packages": [
         {
             "name": "acquia/blt",
@@ -83,6 +83,9 @@
                     "vendor/drupal/core": [
                         "type:drupal-core"
                     ]
+                },
+                "patches_applied": {
+                    "memcache update": "https://github.com/acquia/blt/pull/3730.patch"
                 }
             },
             "autoload": {
@@ -6344,17 +6347,17 @@
         },
         {
             "name": "drupal/memcache",
-            "version": "2.0.0-alpha7",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/memcache.git",
-                "reference": "8.x-2.0-alpha7"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0-alpha7.zip",
-                "reference": "8.x-2.0-alpha7",
-                "shasum": "06a2db4cc3699c5c54a2845058da0869b08371bf"
+                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "78c09097c42781343f4069b4823dce7acd98a8b1"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -6365,11 +6368,11 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha7",
-                    "datestamp": "1536739683",
+                    "version": "8.x-2.0",
+                    "datestamp": "1540546681",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -13267,17 +13270,6 @@
         {
             "name": "acquia/blt-require-dev",
             "version": "10.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acquia/blt-require-dev.git",
-                "reference": "85dfeac6a0b76de7a128b645ef31503c75ec9a40"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt-require-dev/zipball/85dfeac6a0b76de7a128b645ef31503c75ec9a40",
-                "reference": "85dfeac6a0b76de7a128b645ef31503c75ec9a40",
-                "shasum": ""
-            },
             "require": {
                 "behat/behat": ">=3.1 <3.4",
                 "bex/behat-screenshot": "^1.2",
@@ -15174,17 +15166,6 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.7.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "75d11db587237934914a1cd150e81462665a19aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/75d11db587237934914a1cd150e81462665a19aa",
-                "reference": "75d11db587237934914a1cd150e81462665a19aa",
-                "shasum": ""
-            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
