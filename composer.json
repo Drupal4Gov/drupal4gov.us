@@ -30,7 +30,6 @@
         "drupal/devel": "^2.0.0",
         "drupal/easy_breadcrumb": "^1.6",
         "drupal/environment_indicator": "~3",
-        "drupal/features": "^3.7.0",
         "drupal/field_group": "^3.0",
         "drupal/google_analytics": "^2.2",
         "drupal/memcache": "^2.0",
