@@ -4,7 +4,7 @@ local:
     root: /var/www/drupal4gov/docroot
     uri: 'http://local.drupal4gov.com'
     user: vagrant
-    ssh: { options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
+    ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
 dev:
     uri: drupal4govdev.prod.acquia-sites.com
     host: staging-3383.prod.hosting.acquia.com
