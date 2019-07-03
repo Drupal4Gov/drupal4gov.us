@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "acquia/blt": "^10.0",
         "acquia/drupal-spec-tool": "^2.0.0",
         "acquia/lightning": "~3.2.0|~3.3.0",
@@ -46,7 +46,7 @@
     },
     "require-dev": {
         "acquia/blt-require-dev": "^10.0.0-alpha1",
-        "geerlingguy/drupal-vm": "^4.8"
+        "geerlingguy/drupal-vm": "~5.0"
     },
     "extra": {
         "enable-patching": true,
