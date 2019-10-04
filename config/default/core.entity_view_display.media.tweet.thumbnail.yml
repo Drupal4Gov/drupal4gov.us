@@ -39,4 +39,5 @@ hidden:
   embed_code: true
   field_media_in_library: true
   langcode: true
+  search_api_excerpt: true
   uid: true

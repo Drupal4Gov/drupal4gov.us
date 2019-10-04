@@ -84,3 +84,4 @@ hidden:
   body: true
   langcode: true
   panelizer: true
+  search_api_excerpt: true
