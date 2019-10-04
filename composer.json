@@ -15,6 +15,7 @@
         }
     },
     "require": {
+        "php": ">=7.2",
         "acquia/blt": "^10.0",
         "acquia/drupal-spec-tool": "^2.0.0",
         "acquia/lightning": "~3.2.0|~3.3.0",
@@ -27,6 +28,7 @@
         "drupal/config_ignore": "2.x-dev",
         "drupal/config_split": "^1.0.0",
         "drupal/core": "^8.6.0",
+        "drupal/devel": "^2.1",
         "drupal/easy_breadcrumb": "^1.6",
         "drupal/environment_indicator": "~3",
         "drupal/field_group": "^3.0",
@@ -36,8 +38,8 @@
         "drupal/qa_accounts": "^1.0.0-alpha1",
         "drupal/recaptcha": "^2.2",
         "drupal/seckit": "^1.0.0-alpha2",
+        "drupal/shield": "^1.2",
         "hirak/prestissimo": "^0.3",
-        "php": ">=7.2",
         "typhonius/acquia_cli": "^1"
     },
     "require-dev": {
