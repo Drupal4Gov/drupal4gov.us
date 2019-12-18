@@ -8,22 +8,22 @@
 /**
  * Database configuration.
  */
-$databases = array(
+$databases = [
   'default' =>
-  array(
-    'default' =>
-    array(
-      'database' => 'drupal',
-      'username' => 'drupal',
-      'password' => 'drupal',
-      'host' => 'localhost',
-      'port' => '3306',
-      'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+    [
+      'default' =>
+        [
+          'database' => 'drupal8',
+          'username' => 'drupal8',
+          'password' => 'drupal8',
+          'host' => 'database',
+          'port' => '3306',
+          'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+          'driver' => 'mysql',
+          'prefix' => '',
+        ],
+    ],
+];
 
 $dir = dirname(DRUPAL_ROOT);
 
