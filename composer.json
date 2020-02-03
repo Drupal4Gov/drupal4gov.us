@@ -41,7 +41,9 @@
         "drupal/shield": "^1.2",
         "hirak/prestissimo": "^0.3",
         "php": ">=7.2",
-        "typhonius/acquia_cli": "^1"
+        "typhonius/acquia_cli": "^1",
+        "drush/drush": "^9.7.1",
+        "mglaman/drupal-check": "1.0.14"
     },
     "require-dev": {
         "acquia/blt-require-dev": "11.x-dev",
