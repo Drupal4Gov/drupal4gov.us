@@ -17,7 +17,7 @@
     "require": {
         "acquia/blt": "^11.0",
         "acquia/drupal-spec-tool": "^2.0.0",
-        "acquia/lightning": "~3.2.0|~3.3.0",
+        "acquia/lightning": "^4.0",
         "acquia/memcache-settings": "*",
         "davereid/drush-acquia-hook-invoke": "dev-master",
         "drupal-composer/drupal-scaffold": "^2.5.4",
@@ -27,7 +27,7 @@
         "drupal/cog": "^1.0.0",
         "drupal/config_ignore": "2.x-dev",
         "drupal/config_split": "^1.0.0",
-        "drupal/core": "~8.7.0",
+        "drupal/core": "^8.8.0",
         "drupal/devel": "^2.1",
         "drupal/easy_breadcrumb": "^1.6",
         "drupal/environment_indicator": "~3",
