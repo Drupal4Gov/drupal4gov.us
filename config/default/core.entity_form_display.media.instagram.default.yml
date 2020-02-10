@@ -7,7 +7,6 @@ dependencies:
     - field.field.media.instagram.field_media_in_library
     - media.type.instagram
   module:
-    - content_moderation
     - path
 _core:
   default_config_hash: 59ziPzJNPAqMrCE-SBvcUQxVXORfAJ_tkMlS4sIUAFQ
