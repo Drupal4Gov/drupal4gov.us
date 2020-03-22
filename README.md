@@ -3,7 +3,7 @@ Welcome to the repo for the Drupal4Gov Website. This is an open source project w
 
 ## Getting Started
 
-This project built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
+This project is built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
 
 * Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html). *At this time, use Docker Desktop v.2.1 or lower.*
 * Fork the parent repository in GitHub (see button to right of repository title to do this)
