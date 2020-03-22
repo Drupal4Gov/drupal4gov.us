@@ -1,11 +1,11 @@
-# Drupal GovCon
-Welcome to the repo for the Drupal4Gov Website. This is an open source project and we proudly make all of our source code available—not only to those that want to contribute to the project, but also for those that are interested in seeing a working Drupal 8 site.
+# Drupal4Gov
+Welcome to the repo for the Drupal4Gov Website. This is an open source project where we proudly make all of our source code available—not only to those that want to contribute to the project—but also for those that are interested in seeing a working Drupal 8 site.
 
 ## Getting Started
 
 This project built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
 
-* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html).
+* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html). *At this time, use Docker Desktop v.2.1 or lower.*
 * Fork the parent repository in GitHub (see button to right of repository title to do this)
 * Request access to the Drupal4Gov organization in GitHub 
 * Request access to the Acquia Cloud Environment for Drupal GovCon
@@ -13,7 +13,7 @@ This project built with BLT, an open-source project template and tool that enabl
     * [Setup GitHub SSH Keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
     * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
 
-After creating a fork of the repository in Github and installing all dependencies above) there are only a few commands to get started:
+After creating a fork of the repository in GitHub and installing all dependencies above) there are only a few commands to get started:
 
 * `git clone git@github.com:<your repository>/drupal4gov.us.git` (clone your fork)
 * `git remote add upstream git@github.com:Drupal4Gov/drupal4gov.us.git` (set your fork to track the upstream—*the project‘s code source of truth*—repository)
@@ -54,7 +54,7 @@ $databases = array(
 * run `lando start`
 * run `lando blt setup`
 
-Note that the new local project url is http://drupalgovcon.lndo.site:8080
+Note that the new local project url is http://drupal4gov.lndo.site:8080
 
 ## Working with Lando and BLT
 
@@ -79,8 +79,8 @@ Log Into Drupal
 ## Contributing Code
 This is the common workflow for this project.
 
-* Locate a ticket that you are planning on working
-* Ensure that your git is tracking the most current upstream.
+* Locate a ticket that you will be working on in the project issue queue.
+* Ensure that your local branch is tracking the most current upstream.
 ```
 git fetch upstream
 ```
@@ -92,7 +92,7 @@ git checkout -b D4G-XXX_your_branch_name upstream/master
 ```
 lando blt sync
 ```
-* Do whatever work is required for ticket
+* Do whatever work is required for ticket.
 * Create new commit(s) as needed. All commit messages should follow the pattern: DGC-XXX: commit messages go here. They must include the Ticket Number (with a dash AND a colon), a message, and a period.
 * Run Tests / Validation Scripts
 ```
@@ -109,7 +109,7 @@ git rebase upstream/master
 git push --set-upstream origin D4G-XXX_your_branch_name
 ```
 * Create a new Pull Request that mentions the original ticket in the body (D4G-XXX)
-* Ensure the build passes
+* Ensure the build passes (validation scripts will let you know the status)
 
 ## Resources
 
