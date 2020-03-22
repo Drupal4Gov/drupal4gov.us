@@ -77,10 +77,10 @@ Log Into Drupal
 `lando drush uli`
 
 ## Contributing Code
-This is the common workflow for this project.
+This is the project workflow:
 
 * Locate a ticket that you will be working on in the project issue queue.
-* Ensure that your local branch is tracking the most current upstream.
+* Ensure that your local branch is tracking the most current upstream:
 ```
 git fetch upstream
 ```
@@ -88,18 +88,18 @@ git fetch upstream
 ```
 git checkout -b D4G-XXX_your_branch_name upstream/master
 ```
-* Reset local environment to ensure all is inline with new branch. WARNING: this is destructive
+* Reset local environment to ensure all is inline with new branch: **WARNING: this is destructive**
 ```
 lando blt sync
 ```
 * Do whatever work is required for ticket.
 * Create new commit(s) as needed. All commit messages should follow the pattern: DGC-XXX: commit messages go here. They must include the Ticket Number (with a dash AND a colon), a message, and a period.
-* Run Tests / Validation Scripts
+* Run tests/validation scripts:
 ```
 lando blt validate
 lando blt tests
 ```
-* Ensure no other changes have been made to the upstream/master branch. If they have, rebase your branch.
+* Ensure no other changes have been made to the upstream/master branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
 ```
 git fetch upstream
 git rebase upstream/master
