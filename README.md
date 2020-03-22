@@ -84,7 +84,7 @@ This is the project workflow:
 ```
 git fetch upstream
 ```
-* Create a new branch off of upstream/master that is based on the ticket you are working (e.g. DGC-XXX)
+* Create a new branch off of upstream/master that is based on the ticket you are working (e.g. D4G-XXX)
 ```
 git checkout -b D4G-XXX_your_branch_name upstream/master
 ```
@@ -93,7 +93,7 @@ git checkout -b D4G-XXX_your_branch_name upstream/master
 lando blt sync
 ```
 * Do whatever work is required for ticket.
-* Create new commit(s) as needed. All commit messages should follow the pattern: DGC-XXX: commit messages go here. They must include the Ticket Number (with a dash AND a colon), a message, and a period.
+* Create new commit(s) as needed. All commit messages should follow the pattern: `"D4G-XXX: Commit message goes here."` They must include the ticket number (with a dash AND a colon), a message, and a period.
 * Run tests/validation scripts:
 ```
 lando blt validate
@@ -108,7 +108,7 @@ git rebase upstream/master
 ```
 git push --set-upstream origin D4G-XXX_your_branch_name
 ```
-* Create a new Pull Request that mentions the original ticket in the body (D4G-XXX)
+* Create a new pull request that references the original ticket in the body (D4G-XXX)
 * Ensure the build passes (validation scripts will let you know the status)
 
 ## Resources
