@@ -1,4 +1,5 @@
-Drupal4Gov website
+# Drupal GovCon
+Welcome to the repo for the Drupal4Gov Website. This is an open source project and we proudly make all of our source code available—not only to those that want to contribute to the project, but also for those that are interested in seeing a working Drupal 8 site.
 
 ## Getting Started
 
@@ -12,7 +13,7 @@ This project built with BLT, an open-source project template and tool that enabl
     * [Setup GitHub SSH Keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
     * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
 
-After creating a fork of the repository in Github 9and installing all dependencies above) there are only 4 commands to get started:
+After creating a fork of the repository in Github and installing all dependencies above) there are only 4 commands to get started:
 
 * `git clone` (clone your fork)
 * `composer install` (install dependencies for the project)
@@ -21,7 +22,7 @@ After creating a fork of the repository in Github 9and installing all dependenci
 
 ## Updating from DrupalVM
 
-If you have been a part of our team in the past and have a local DrupalVM, here are a few steps to take to "update" to Lando.
+If you have been a part of our team in the past and have a local DrupalVM, here are a few steps to take to update to Lando.
 
 * `blt vm:nuke` to destroy the old vm
 * open the blt/local.blt.yml file and look for a "vm" key. If present, remove the vm (and enable:true) keys from the file
