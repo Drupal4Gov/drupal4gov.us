@@ -6,18 +6,19 @@ Welcome to the repo for the Drupal4Gov Website. This is an open source project a
 This project built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
 
 * Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html).
-* Fork the parent repository in GitHub
+* Fork the parent repository in GitHub (see button to right of repository title to do this)
 * Request access to the Drupal4Gov organization in GitHub 
 * Request access to the Acquia Cloud Environment for Drupal GovCon
 * Setup a SSH key that can be used for GitHub and the Acquia Cloud (you CAN use the same key)
     * [Setup GitHub SSH Keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
     * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
 
-After creating a fork of the repository in Github and installing all dependencies above) there are only 4 commands to get started:
+After creating a fork of the repository in Github and installing all dependencies above) there are only a few commands to get started:
 
-* `git clone` (clone your fork)
+* `git clone git@github.com:<your repository>/drupal4gov.us.git` (clone your fork)
+* `git remote add upstream git@github.com:Drupal4Gov/drupal4gov.us.git` (set your fork to track the upstream—*the project‘s code source of truth*—repository)
 * `composer install` (install dependencies for the project)
-* `lando start` (provision the vm)
+* `lando start` (provision the VM)
 * `lando blt setup` (install Drupal)
 
 ## Updating from DrupalVM
@@ -74,6 +75,41 @@ Sync Drupal Database from Cloud:*
 Log Into Drupal
 
 `lando drush uli`
+
+## Contributing Code
+This is the common workflow for this project.
+
+* Locate a ticket that you are planning on working
+* Ensure that your git is tracking the most current upstream.
+```
+git fetch upstream
+```
+* Create a new branch off of upstream/master that is based on the ticket you are working (e.g. DGC-XXX)
+```
+git checkout -b D4G-XXX_your_branch_name upstream/master
+```
+* Reset local environment to ensure all is inline with new branch. WARNING: this is destructive
+```
+lando blt sync
+```
+* Do whatever work is required for ticket
+* Create new commit(s) as needed. All commit messages should follow the pattern: DGC-XXX: commit messages go here. They must include the Ticket Number (with a dash AND a colon), a message, and a period.
+* Run Tests / Validation Scripts
+```
+lando blt validate
+lando blt tests
+```
+* Ensure no other changes have been made to the upstream/master branch. If they have, rebase your branch.
+```
+git fetch upstream
+git rebase upstream/master
+```
+* Push your commit(s) to *your* origin
+```
+git push --set-upstream origin D4G-XXX_your_branch_name
+```
+* Create a new Pull Request that mentions the original ticket in the body (D4G-XXX)
+* Ensure the build passes
 
 ## Resources
 
