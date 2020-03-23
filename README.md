@@ -114,4 +114,4 @@ git push --set-upstream origin D4G-XXX_your_branch_name
 ## Resources
 
 * JIRA - https://drupal4gov.atlassian.net
-* GitHub - https://github.com/Drupal4Gov/Drupal-GovCon-2017
+* GitHub - https://github.com/Drupal4Gov/drupal4gov.us.git
