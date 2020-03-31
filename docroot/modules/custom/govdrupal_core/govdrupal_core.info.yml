@@ -2,4 +2,4 @@ name: Drupal4Gov Core
 type: module
 description: 'Core functionality provided for Drupal4Gov site.'
 package: Drupal4Gov
-core: 8.x
+core_version_requirement: ^8.8 || ^9
