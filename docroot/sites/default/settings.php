@@ -784,12 +784,8 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
-$settings['install_profile'] = 'govdrupal';
 
 /**
- * Environment Specific Customizations based on the Environment Indicator
- */
-require DRUPAL_ROOT . "/sites/default/settings/environment.settings.php";/**
  * IMPORTANT.
  *
  * Do not include additional settings here. Instead, add them to settings

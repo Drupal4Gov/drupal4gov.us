@@ -1,6 +1,6 @@
 module:
-  acquia_connector: 0
   admin_toolbar: 0
+  admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
   big_pipe: 0
   blazy: 0
@@ -23,8 +23,6 @@ module:
   ctools_block: 0
   datetime: 0
   datetime_range: 0
-  dblog: 0
-  devel: 0
   diff: 0
   dropzonejs: 0
   dynamic_page_cache: 0
@@ -103,7 +101,6 @@ module:
   search_api_db: 0
   seckit: 0
   serialization: 0
-  shield: 0
   shortcut: 0
   simple_oauth: 0
   simple_oauth_extras: 0
@@ -119,7 +116,6 @@ module:
   video_embed_field: 0
   video_embed_media: 0
   views_infinite_scroll: 0
-  views_ui: 0
   workflows: 0
   menu_link_content: 1
   pathauto: 1
@@ -129,7 +125,7 @@ theme:
   stable: 0
   classy: 0
   bartik: 0
-  seven: 0
+  claro: 0
   cog: 0
   twentyeighteen: 0
 profile: govdrupal
