@@ -5,6 +5,12 @@
  * Local development override configuration feature.
  */
 
+global $_acsf_site_name;
+$db_name = '${drupal.db.database}';
+if (isset($_acsf_site_name)) {
+  $db_name .= '_' . $_acsf_site_name;
+}
+
 /**
  * Database configuration.
  */
@@ -13,11 +19,11 @@ $databases = [
     [
       'default' =>
         [
-          'database' => 'drupal8',
-          'username' => 'drupal8',
-          'password' => 'drupal8',
-          'host' => 'database',
-          'port' => '3306',
+          'database' => $db_name,
+          'username' => '${drupal.db.username}',
+          'password' => '${drupal.db.password}',
+          'host' => '${drupal.db.host}',
+          'port' => '${drupal.db.port}',
           'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
           'driver' => 'mysql',
           'prefix' => '',
@@ -25,14 +31,12 @@ $databases = [
     ],
 ];
 
+// Configuration directories.
 $dir = dirname(DRUPAL_ROOT);
+$config_directories['sync'] = $dir . "/config/$site_dir";
 
 // Use development service parameters.
 $settings['container_yamls'][] = $dir . '/docroot/sites/development.services.yml';
-$settings['container_yamls'][] = $dir . '/docroot/sites/blt.development.services.yml';
-
-// Allow access to update.php.
-$settings['update_free_access'] = TRUE;
 
 /**
  * Assertions.
@@ -132,6 +136,6 @@ $settings['file_private_path'] = $dir . '/files-private';
  *
  * See full description in default.settings.php.
  */
-$settings['trusted_host_patterns'] = array(
-  '^.+$',
-);
+# $settings['trusted_host_patterns'] = array(
+#   '^example\.local$',
+# );
