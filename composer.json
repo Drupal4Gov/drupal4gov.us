@@ -53,11 +53,6 @@
             "bower-asset",
             "npm-asset"
         ],
-        "patches": {
-            "acquia/blt": {
-                "fix config import errors": "https://github.com/acquia/blt/pull/4068.patch"
-            }
-        },
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
