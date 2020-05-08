@@ -73,20 +73,37 @@ datasource_settings:
       default: true
       selected: {  }
 processor_settings:
-  rendered_item: {  }
   add_url: {  }
   aggregated_field: {  }
-  tokenizer:
+  content_access:
+    weights:
+      preprocess_query: -10
+  html_filter:
     fields:
       - label
       - rendered
-    spaces: ''
-    overlap_cjk: 1
-    minimum_word_size: '3'
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
     weights:
-      preprocess_index: -6
-      preprocess_query: -5
+      preprocess_index: -10
+      preprocess_query: -9
     all_fields: false
+  ignorecase:
+    fields:
+      - label
+      - rendered
+    weights:
+      preprocess_index: -9
+      preprocess_query: -8
+    all_fields: false
+  language_with_fallback: {  }
+  rendered_item: {  }
   stopwords:
     fields:
       - label
@@ -131,13 +148,16 @@ processor_settings:
       preprocess_index: -5
       preprocess_query: -4
     all_fields: false
-  ignorecase:
+  tokenizer:
     fields:
       - label
       - rendered
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
     weights:
-      preprocess_index: -9
-      preprocess_query: -8
+      preprocess_index: -6
+      preprocess_query: -5
     all_fields: false
   transliteration:
     fields:
@@ -146,26 +166,6 @@ processor_settings:
     weights:
       preprocess_index: -4
       preprocess_query: -3
-    all_fields: false
-  language_with_fallback: {  }
-  content_access:
-    weights:
-      preprocess_query: -10
-  html_filter:
-    fields:
-      - label
-      - rendered
-    title: true
-    alt: true
-    tags:
-      b: 2
-      h1: 5
-      h2: 3
-      h3: 2
-      strong: 2
-    weights:
-      preprocess_index: -10
-      preprocess_query: -9
     all_fields: false
 tracker_settings:
   default:
