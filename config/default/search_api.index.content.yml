@@ -2,12 +2,12 @@ uuid: a1531dc0-9f9a-4671-a8c6-2049e99b8584
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
+    - search_api
   config:
     - search_api.server.database
     - core.entity_view_mode.node.full
-  module:
-    - search_api
-    - node
 _core:
   default_config_hash: qEX0c8Yf878jYMC-3TrFlGSSNQeGbl3u0Hs6GJfxA38
 id: content
@@ -51,6 +51,9 @@ field_settings:
     type: boolean
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
   uid:
     label: null
     datasource_id: 'entity:node'
@@ -58,6 +61,9 @@ field_settings:
     type: integer
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
 datasource_settings:
   'entity:node':
     bundles:
@@ -67,36 +73,20 @@ datasource_settings:
       default: true
       selected: {  }
 processor_settings:
+  rendered_item: {  }
   add_url: {  }
   aggregated_field: {  }
-  content_access:
-    weights:
-      preprocess_query: -10
-  html_filter:
+  tokenizer:
     fields:
       - label
       - rendered
-    title: true
-    alt: true
-    tags:
-      b: 2
-      h1: 5
-      h2: 3
-      h3: 2
-      strong: 2
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
     weights:
-      preprocess_index: -10
-      preprocess_query: -9
+      preprocess_index: -6
+      preprocess_query: -5
     all_fields: false
-  ignorecase:
-    fields:
-      - label
-      - rendered
-    weights:
-      preprocess_index: -9
-      preprocess_query: -8
-    all_fields: false
-  rendered_item: {  }
   stopwords:
     fields:
       - label
@@ -141,16 +131,13 @@ processor_settings:
       preprocess_index: -5
       preprocess_query: -4
     all_fields: false
-  tokenizer:
+  ignorecase:
     fields:
       - label
       - rendered
-    spaces: ''
-    overlap_cjk: 1
-    minimum_word_size: '3'
     weights:
-      preprocess_index: -6
-      preprocess_query: -5
+      preprocess_index: -9
+      preprocess_query: -8
     all_fields: false
   transliteration:
     fields:
@@ -160,8 +147,29 @@ processor_settings:
       preprocess_index: -4
       preprocess_query: -3
     all_fields: false
+  language_with_fallback: {  }
+  content_access:
+    weights:
+      preprocess_query: -10
+  html_filter:
+    fields:
+      - label
+      - rendered
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+    weights:
+      preprocess_index: -10
+      preprocess_query: -9
+    all_fields: false
 tracker_settings:
-  default: {  }
+  default:
+    indexing_order: fifo
 options:
   index_directly: true
   cron_limit: 50
