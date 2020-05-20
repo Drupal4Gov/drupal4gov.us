@@ -2,12 +2,12 @@ uuid: a1531dc0-9f9a-4671-a8c6-2049e99b8584
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
+    - search_api
   config:
     - search_api.server.database
     - core.entity_view_mode.node.full
-  module:
-    - search_api
-    - node
 _core:
   default_config_hash: qEX0c8Yf878jYMC-3TrFlGSSNQeGbl3u0Hs6GJfxA38
 id: content
@@ -51,6 +51,9 @@ field_settings:
     type: boolean
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
   uid:
     label: null
     datasource_id: 'entity:node'
@@ -58,6 +61,9 @@ field_settings:
     type: integer
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
 datasource_settings:
   'entity:node':
     bundles:
@@ -96,6 +102,7 @@ processor_settings:
       preprocess_index: -9
       preprocess_query: -8
     all_fields: false
+  language_with_fallback: {  }
   rendered_item: {  }
   stopwords:
     fields:
@@ -161,7 +168,8 @@ processor_settings:
       preprocess_query: -3
     all_fields: false
 tracker_settings:
-  default: {  }
+  default:
+    indexing_order: fifo
 options:
   index_directly: true
   cron_limit: 50
