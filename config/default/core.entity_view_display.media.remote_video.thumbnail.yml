@@ -1,23 +1,23 @@
-uuid: e57ee2a6-d373-4a2a-8a00-46d0f92aaf78
+uuid: 4e260b26-edc1-4745-a0b8-609575f0b829
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.media.thumbnail
-    - field.field.media.image.field_media_in_library
-    - field.field.media.image.image
+    - field.field.media.remote_video.field_media_in_library
+    - field.field.media.remote_video.field_media_oembed_video
     - image.style.medium
-    - media.type.image
+    - media.type.remote_video
   module:
     - image
 _core:
-  default_config_hash: Gb3qN_HZzqfFf4728OIYBwnMVryxUzlsWkmOY56idC8
-id: media.image.thumbnail
+  default_config_hash: 7YtF-9LLtRZw6pC7SI4K6NQ0k3E0mYxS1OH23g7w3es
+id: media.remote_video.thumbnail
 targetEntityType: media
-bundle: image
+bundle: remote_video
 mode: thumbnail
 content:
-  image:
+  thumbnail:
     type: image
     weight: 0
     label: hidden
@@ -26,19 +26,11 @@ content:
       image_link: ''
     third_party_settings: {  }
     region: content
-  name:
-    label: hidden
-    type: string
-    weight: -5
-    region: content
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
 hidden:
   created: true
-  field_media_image: true
   field_media_in_library: true
+  field_media_oembed_video: true
   langcode: true
+  name: true
   search_api_excerpt: true
-  thumbnail: true
   uid: true
