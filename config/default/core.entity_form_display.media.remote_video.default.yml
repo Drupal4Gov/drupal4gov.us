@@ -1,27 +1,34 @@
-uuid: 3a7d40c5-efcb-43e7-b1d3-e10cb2cfcb7a
+uuid: 084f2e56-8d11-4045-a2eb-e96bf783b73b
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_form_mode.media.media_browser
-    - field.field.media.document.field_document
-    - field.field.media.document.field_media_in_library
-    - media.type.document
+    - field.field.media.remote_video.field_media_in_library
+    - field.field.media.remote_video.field_media_oembed_video
+    - media.type.remote_video
   module:
-    - content_moderation
+    - media
     - path
 _core:
-  default_config_hash: X8KEO5iV-XcsBLSyLEMOMv3sw-WxXeIdWnZZ1btyyVU
-id: media.document.media_browser
+  default_config_hash: I7aas7POMKfy7u1fW6mWQQBMZT-7qq9vZDGWNEc8ipI
+id: media.remote_video.default
 targetEntityType: media
-bundle: document
-mode: media_browser
+bundle: remote_video
+mode: default
 content:
   field_media_in_library:
     type: boolean_checkbox
+    weight: 1
     settings:
       display_label: true
+    third_party_settings: {  }
+    region: content
+  field_media_oembed_video:
+    type: oembed_textfield
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
     region: content
   langcode:
@@ -30,12 +37,6 @@ content:
     region: content
     settings:
       include_locked: true
-    third_party_settings: {  }
-  moderation_state:
-    type: moderation_state_default
-    weight: 100
-    settings: {  }
-    region: content
     third_party_settings: {  }
   name:
     type: string_textfield
@@ -60,6 +61,4 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_document: true
-  field_media_document: true
   uid: true

@@ -1,7 +1,9 @@
 module:
+  acquia_connector: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
+  autosave_form: 0
   big_pipe: 0
   blazy: 0
   block: 0
@@ -18,6 +20,7 @@ module:
   contact_storage: 0
   content_moderation: 0
   contextual: 0
+  core_context: 0
   crop: 0
   ctools: 0
   ctools_block: 0
@@ -31,7 +34,6 @@ module:
   entity_block: 0
   entity_browser: 0
   entity_embed: 0
-  entity_reference: 0
   environment_indicator: 0
   field: 0
   field_ui: 0
@@ -43,6 +45,9 @@ module:
   image: 0
   image_widget_crop: 0
   inline_entity_form: 0
+  jquery_ui: 0
+  jquery_ui_draggable: 0
+  jquery_ui_droppable: 0
   jsonapi: 0
   language: 0
   layout_builder: 0
@@ -51,7 +56,6 @@ module:
   layout_builder_styles: 0
   layout_discovery: 0
   layout_library: 0
-  libraries: 0
   lightning: 0
   lightning_api: 0
   lightning_contact_form: 0
@@ -93,6 +97,7 @@ module:
   panels_ipe: 0
   path: 0
   path_alias: 0
+  qa_accounts: 0
   quickedit: 0
   rdf: 0
   schemata: 0
@@ -106,6 +111,7 @@ module:
   simple_oauth_extras: 0
   slick: 0
   slick_entityreference: 0
+  syslog: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -123,7 +129,6 @@ module:
   govdrupal: 1000
 theme:
   stable: 0
-  classy: 0
   bartik: 0
   claro: 0
   cog: 0
