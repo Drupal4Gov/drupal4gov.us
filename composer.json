@@ -32,16 +32,20 @@
         "drupal/core": "^9.0",
         "drupal/devel": "^4.0",
         "drupal/easy_breadcrumb": "^1.6",
+        "drupal/entity_embed": "^1",
         "drupal/environment_indicator": "^3",
         "drupal/field_group": "^3.0",
         "drupal/google_analytics": "^2.2",
+        "drupal/jquery_ui": "^1.4",
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/mysql56": "^1.0",
         "drupal/paragraphs": "^1.2",
         "drupal/qa_accounts": "^1.0.0-alpha1",
         "drupal/recaptcha": "^3.0",
         "drupal/seckit": "^1.0.0-alpha2",
-        "drupal/shield": "^1.2"
+        "drupal/shield": "^1.2",
+        "drupal/video_embed_field": "^2",
+        "drupal/views_infinite_scroll": "^1.6"
     },
     "require-dev": { },
     "extra": {
