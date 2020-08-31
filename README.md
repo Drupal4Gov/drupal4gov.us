@@ -5,7 +5,7 @@ Welcome to the repo for the Drupal4Gov Website. This is an open source project w
 
 This project is built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
 
-* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html). *At this time, use Docker Desktop v.2.1 or lower.*
+* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html).
 * Fork the parent repository in GitHub (see button to right of repository title to do this)
 * Request access to the Drupal4Gov organization in GitHub
 * Request access to the Acquia Cloud Environment for Drupal GovCon
@@ -61,9 +61,9 @@ This is the project workflow:
 ```
 git fetch upstream
 ```
-* Create a new branch off of upstream/master that is based on the ticket you are working (e.g. D4G-XXX)
+* Create a new branch off of upstream/main that is based on the ticket you are working (e.g. D4G-XXX)
 ```
-git checkout -b D4G-XXX_your_branch_name upstream/master
+git checkout -b D4G-XXX_your_branch_name upstream/main
 ```
 * Reset local environment to ensure all is inline with new branch: **WARNING: this is destructive**
 ```
@@ -76,10 +76,10 @@ lando blt sync
 lando blt validate
 lando blt tests
 ```
-* Ensure no other changes have been made to the upstream/master branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
+* Ensure no other changes have been made to the upstream/main branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
 ```
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/main
 ```
 * Push your commit(s) to *your* origin
 ```
