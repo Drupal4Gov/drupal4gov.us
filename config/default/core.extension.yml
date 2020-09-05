@@ -82,6 +82,7 @@ module:
   memcache: 0
   menu_ui: 0
   metatag: 0
+  module_filter: 0
   multiple_fields_remove_button: 0
   node: 0
   openapi: 0
