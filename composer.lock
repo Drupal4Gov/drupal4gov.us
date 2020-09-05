@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ff138adfe1edd7149f5b60c64a95955",
+    "content-hash": "f87340df2225a8a9690f5722ed2fec38",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1185,7 +1185,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -7741,6 +7741,53 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/moderation_sidebar"
             }
+        },
+        {
+            "name": "drupal/module_filter",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/module_filter.git",
+                "reference": "0ff8b83d04ce0d1cd7cc0437d0c84234cede8cf9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.1+14-dev",
+                    "datestamp": "1586787172",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "andrey.troeglazov",
+                    "homepage": "https://www.drupal.org/user/3145389"
+                },
+                {
+                    "name": "greenSkin",
+                    "homepage": "https://www.drupal.org/user/173855"
+                }
+            ],
+            "description": "Filter the modules list.",
+            "homepage": "http://drupal.org/project/module_filter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/module_filter",
+                "issues": "https://www.drupal.org/project/issues/module_filter"
+            },
+            "time": "2020-04-13T14:12:31+00:00"
         },
         {
             "name": "drupal/multiple_fields_remove_button",
@@ -15290,6 +15337,7 @@
     "stability-flags": {
         "acquia/blt-behat": 20,
         "acquia/blt-phpcs": 20,
+        "drupal/module_filter": 20,
         "drupal/multiple_fields_remove_button": 15
     },
     "prefer-stable": true,

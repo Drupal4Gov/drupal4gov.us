@@ -37,6 +37,7 @@
         "drupal/field_group": "^3.0",
         "drupal/google_analytics": "^2.2",
         "drupal/jquery_ui": "^1.4",
+        "drupal/module_filter": "3.x-dev",
         "drupal/multiple_fields_remove_button": "^1.0@alpha",
         "drupal/mysql56": "^1.0",
         "drupal/paragraphs": "^1.2",
