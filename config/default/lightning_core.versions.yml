@@ -18,7 +18,7 @@ ctools: 0.0.0
 ctools_block: 0.0.0
 datetime: 0.0.0
 datetime_range: 0.0.0
-dblog: 0.0.0
+dblog: 9.0.4
 devel: 0.0.0
 diff: 0.0.0
 dropzonejs: 0.0.0
@@ -76,6 +76,7 @@ media_library: 8.6.2
 menu_link_content: 0.0.0
 menu_ui: 0.0.0
 metatag: 0.0.0
+module_filter: 0.0.0
 multiple_fields_remove_button: 0.0.0
 node: 0.0.0
 openapi: 0.0.0
