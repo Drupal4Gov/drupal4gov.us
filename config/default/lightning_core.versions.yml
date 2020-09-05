@@ -18,7 +18,7 @@ ctools: 0.0.0
 ctools_block: 0.0.0
 datetime: 0.0.0
 datetime_range: 0.0.0
-dblog: 0.0.0
+dblog: 9.0.5
 devel: 0.0.0
 diff: 0.0.0
 dropzonejs: 0.0.0
