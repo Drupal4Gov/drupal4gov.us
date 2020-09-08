@@ -1,0 +1,14 @@
+uuid: 01e7ff2e-6e64-4a3d-a1d7-08f22185c082
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.webform_reviewer
+  module:
+    - user
+id: user_add_role_action.webform_reviewer
+label: 'Add the Webform reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: webform_reviewer

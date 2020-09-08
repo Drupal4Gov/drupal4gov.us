@@ -46,7 +46,8 @@
         "drupal/seckit": "^1.0.0-alpha2",
         "drupal/shield": "^1.2",
         "drupal/video_embed_field": "^2",
-        "drupal/views_infinite_scroll": "^1.6"
+        "drupal/views_infinite_scroll": "^1.6",
+        "drupal/webform": "^6.0"
     },
     "require-dev": { },
     "extra": {

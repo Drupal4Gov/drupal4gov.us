@@ -44,6 +44,7 @@ field_settings:
           landing_page: full
           news_article: default
           page: default
+          webform: default
   status:
     label: null
     datasource_id: 'entity:node'

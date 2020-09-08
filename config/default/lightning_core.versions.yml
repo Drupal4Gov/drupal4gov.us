@@ -41,8 +41,11 @@ image: 0.0.0
 image_widget_crop: 0.0.0
 inline_entity_form: 0.0.0
 jquery_ui: 1.4.0
+jquery_ui_datepicker: 1.0.0
 jquery_ui_draggable: 1.2.0
 jquery_ui_droppable: 1.2.0
+jquery_ui_tabs: 1.1.0
+jquery_ui_tooltip: 1.1.0
 jsonapi: 0.0.0
 language: 8.6.2
 layout_builder: 8.8.2
@@ -120,3 +123,7 @@ video_embed_media: 0.0.0
 views: 0.0.0
 views_infinite_scroll: 0.0.0
 views_ui: 0.0.0
+webform: 6.0.0-alpha15
+webform_access: 6.0.0-alpha15
+webform_node: 6.0.0-alpha15
+webform_ui: 6.0.0-alpha15

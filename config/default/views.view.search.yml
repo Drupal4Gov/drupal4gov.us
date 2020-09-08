@@ -81,6 +81,7 @@ display:
               landing_page: teaser
               news_article: default
               page: teaser
+              webform: default
       fields:
         rendered:
           table: search_api_index_content
@@ -228,7 +229,9 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-      tags: {  }
+        - 'user.node_grants:view'
+      tags:
+        - 'config:search_api.index.content'
   page:
     display_plugin: page
     id: page
@@ -244,4 +247,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-      tags: {  }
+        - 'user.node_grants:view'
+      tags:
+        - 'config:search_api.index.content'
