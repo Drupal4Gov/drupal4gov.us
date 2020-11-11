@@ -61,5 +61,4 @@ content:
 hidden:
   created: true
   field_document: true
-  field_media_document: true
   uid: true

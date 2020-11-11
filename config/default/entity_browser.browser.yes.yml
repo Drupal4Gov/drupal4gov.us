@@ -1,4 +1,4 @@
-uuid: 08f81d9e-3b8e-4b43-b6cb-7dc8d7150738
+uuid: 5eafb772-d2e3-45f3-91ba-4be2c0a040ad
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
 _core:
   default_config_hash: kT3o2OhRMWgZX6kGxRYSsItntaw241e3UwpGCD3RpJE
-name: media_browser
-label: 'Media browser'
-display: modal
+name: 'yes'
+label: 'yes'
+display: iframe
 display_configuration:
-  width: ''
-  height: ''
-  link_text: 'Add media'
-  auto_open: false
+  width: 100%
+  height: '640'
+  link_text: 'Select entities'
+  auto_open: true
 selection_display: no_display
 selection_display_configuration: {  }
 widget_selector: tabs

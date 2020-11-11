@@ -100,6 +100,11 @@ content:
       match_limit: 10
     third_party_settings: {  }
     region: content
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   field_image: true
   field_meta_tags: true
