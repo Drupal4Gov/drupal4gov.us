@@ -21,6 +21,7 @@ content_roles:
       - 'view any unpublished content'
       - 'view latest version'
       - 'use moderation sidebar'
+      - 'access yes entity browser pages'
   reviewer:
     enabled: true
     label: '? reviewer'

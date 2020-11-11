@@ -3,14 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.media_browser
     - field.field.node.blog_article.body
     - field.field.node.blog_article.field_category_topic
     - field.field.node.blog_article.field_image
     - field.field.node.blog_article.field_tags
     - node.type.blog_article
   module:
-    - entity_browser
+    - media_library
     - path
     - text
 id: node.blog_article.default
@@ -41,19 +40,12 @@ content:
     type: options_select
     region: content
   field_image:
-    type: entity_browser_entity_reference
-    weight: 8
+    type: media_library_widget
+    weight: 101
     settings:
-      entity_browser: media_browser
-      field_widget_display: rendered_entity
-      field_widget_edit: true
-      field_widget_remove: true
-      selection_mode: selection_append
-      field_widget_display_settings:
-        view_mode: thumbnail
-      open: false
-    region: content
+      media_types: {  }
     third_party_settings: {  }
+    region: content
   field_tags:
     weight: 10
     settings:
@@ -122,4 +114,9 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden: {  }

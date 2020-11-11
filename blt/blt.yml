@@ -19,3 +19,6 @@ drush:
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
+cm:
+  core:
+    install_from_config: true
