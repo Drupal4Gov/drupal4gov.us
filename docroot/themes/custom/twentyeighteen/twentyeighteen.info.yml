@@ -1,0 +1,13 @@
+name: 2018 Drupal4Gov Theme
+type: theme
+description: 'COG Subtheme'
+core_version_requirement: ^8.8 || ^9
+base theme: cog
+
+# Regions
+regions:
+  header: Header
+  featured: Featured Content
+  info: System Info (Drupal admin messages, etc.)
+  content: Main Content Area
+  footer: Footer
