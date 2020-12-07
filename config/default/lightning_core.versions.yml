@@ -88,6 +88,7 @@ panels_ipe: 0.0.0
 path: 0.0.0
 path_alias: 8.8.2
 pathauto: 0.0.0
+profile_switcher: 1.0.0-alpha5
 quickedit: 0.0.0
 rdf: 0.0.0
 scheduled_updates: 0.0.0
