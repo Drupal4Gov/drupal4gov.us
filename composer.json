@@ -26,6 +26,7 @@
         "drupal/acquia_purge": "^1.0",
         "drupal/admin_toolbar": "^2.0",
         "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/chosen": "^3.0",
         "drupal/cog": "^1.0.0",
         "drupal/config_ignore": "^2.1",
         "drupal/config_split": "^1.0.0",
@@ -48,7 +49,6 @@
         "drupal/video_embed_field": "^2",
         "drupal/views_infinite_scroll": "^1.6"
     },
-    "require-dev": { },
     "extra": {
         "enable-patching": true,
         "installer-types": [
