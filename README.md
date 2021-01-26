@@ -18,6 +18,7 @@ After creating a fork of the repository in GitHub and installing all dependencie
 * `git clone git@github.com:<your repository>/drupal4gov.us.git` (clone your fork)
 * `git remote add upstream git@github.com:Drupal4Gov/drupal4gov.us.git` (set your fork to track the upstream—*the project‘s code source of truth*—repository)
 * `composer install` (install dependencies for the project)
+*  (For Linux users) add 'export LANDO_SSH_AUTH_SOCK="${SSH_AUTH_SOCK}"' at the end of your ~/.bashrc:
 * `lando start` (provision the VM)
 * `lando blt setup` (install Drupal)
 
