@@ -137,6 +137,3 @@ drush/sites/.checksums
 
 # BLT 11.2.0 update to support simulated deploys
 /travis_wait*
-
- # Added fix for Composer 2.x and Pipelines
-composer.phar
