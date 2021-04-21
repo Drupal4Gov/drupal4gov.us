@@ -22,7 +22,7 @@
         "acquia/drupal-spec-tool": "^4.0.0",
         "acquia/lightning": "^5.0",
         "acquia/memcache-settings": "^1",
-        "drupal/acquia_connector": "^2",
+        "drupal/acquia_connector": "^3",
         "drupal/acquia_purge": "^1.0",
         "drupal/admin_toolbar": "^2.0",
         "drupal/adminimal_admin_toolbar": "^1.11",
