@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.4",
-        "acquia/blt": "^12.0",
+        "acquia/blt": "12.2",
         "acquia/blt-behat": "dev-master",
         "acquia/blt-phpcs": "dev-master",
         "acquia/drupal-spec-tool": "^4.0.0",
@@ -48,7 +48,6 @@
         "drupal/video_embed_field": "^2",
         "drupal/views_infinite_scroll": "^1.6"
     },
-    "require-dev": { },
     "extra": {
         "enable-patching": true,
         "installer-types": [
