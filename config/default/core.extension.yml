@@ -57,7 +57,6 @@ module:
   layout_builder_styles: 0
   layout_discovery: 0
   layout_library: 0
-  lightning: 0
   lightning_api: 0
   lightning_contact_form: 0
   lightning_core: 0
@@ -98,7 +97,6 @@ module:
   panels_ipe: 0
   path: 0
   path_alias: 0
-  profile_switcher: 0
   quickedit: 0
   rdf: 0
   redirect: 0
