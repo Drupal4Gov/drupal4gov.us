@@ -20,24 +20,24 @@ bundle: landing_page
 mode: teaser
 content:
   body:
-    weight: 102
+    type: text_summary_or_trimmed
     label: hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
-    type: text_summary_or_trimmed
+    weight: 102
     region: content
   field_meta_tags:
     type: metatag_empty_formatter
-    region: content
-    weight: 103
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 103
+    region: content
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   langcode: true

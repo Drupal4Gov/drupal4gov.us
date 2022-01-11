@@ -1,7 +1,11 @@
 uuid: 3b13c9c2-4b41-4543-86eb-211beb214aba
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - field_ui
+    - node
+    - panelizer
 _core:
   default_config_hash: FINNLf2pkhqumdQngtjMqoiVaOgXv2cHfnLPCCbB4n0
 id: layout_manager

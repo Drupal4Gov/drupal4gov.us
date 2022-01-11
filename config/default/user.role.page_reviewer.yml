@@ -1,7 +1,11 @@
 uuid: 1c444e72-78ef-4942-a5ef-39404a1dfc3e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - node
 id: page_reviewer
 label: 'Basic page reviewer'
 weight: 3
@@ -10,9 +14,3 @@ permissions:
   - 'access content overview'
   - 'delete any page content'
   - 'edit any page content'
-  - 'use draft_published transition'
-  - 'use needs_review_draft transition'
-  - 'use needs_review_published transition'
-  - 'use published_archived transition'
-  - 'use published_published transition'
-  - 'view moderation states'

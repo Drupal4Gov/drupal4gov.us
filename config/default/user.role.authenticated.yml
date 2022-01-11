@@ -1,7 +1,12 @@
 uuid: 0bb6be5f-8e07-485a-91b4-3df4f93b5744
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - contact
+    - media
+    - shortcut
+    - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated

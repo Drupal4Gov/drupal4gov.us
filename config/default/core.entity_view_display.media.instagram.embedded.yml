@@ -18,21 +18,21 @@ mode: embedded
 content:
   embed_code:
     type: instagram_embed
-    weight: 0
     label: hidden
     settings:
       max_width: 480
       hidecaption: null
     third_party_settings: {  }
+    weight: 0
     region: content
   name:
-    label: hidden
     type: string
-    weight: -5
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   created: true
   field_media_in_library: true
