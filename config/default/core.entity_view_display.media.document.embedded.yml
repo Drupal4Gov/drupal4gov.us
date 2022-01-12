@@ -17,20 +17,20 @@ bundle: document
 mode: embedded
 content:
   field_document:
-    weight: 0
+    type: file_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: file_default
+    weight: 0
     region: content
   name:
-    label: hidden
     type: string
-    weight: -5
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: -5
+    region: content
 hidden:
   created: true
   field_media_in_library: true

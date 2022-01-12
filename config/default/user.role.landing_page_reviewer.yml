@@ -1,7 +1,11 @@
 uuid: 278c1936-978b-4acb-8d78-0bd8eb205113
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.landing_page
+  module:
+    - node
 id: landing_page_reviewer
 label: 'Landing page reviewer'
 weight: 5
@@ -10,9 +14,3 @@ permissions:
   - 'access content overview'
   - 'delete any landing_page content'
   - 'edit any landing_page content'
-  - 'use draft_published transition'
-  - 'use needs_review_draft transition'
-  - 'use needs_review_published transition'
-  - 'use published_archived transition'
-  - 'use published_published transition'
-  - 'view moderation states'

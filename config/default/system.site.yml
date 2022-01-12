@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+langcode: en
 uuid: 0f56f704-04ab-4924-8bf4-825e4a37f742
 name: 'Drupal 4 Gov'
 mail: drupal4gov@gmail.com
@@ -8,7 +11,4 @@ page:
   front: /node/6
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
