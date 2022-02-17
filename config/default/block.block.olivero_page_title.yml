@@ -1,15 +1,15 @@
-uuid: 62f0a1b6-c4a4-4465-b1ee-62772765fae9
+uuid: db552d64-6308-4553-a6cd-4a2dca26b609
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - olivero
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: bartik_page_title
-theme: bartik
-region: content
-weight: -50
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: olivero_page_title
+theme: olivero
+region: content_above
+weight: -5
 provider: null
 plugin: page_title_block
 settings:
