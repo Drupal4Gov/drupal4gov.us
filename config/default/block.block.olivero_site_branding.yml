@@ -1,15 +1,15 @@
-uuid: bf5efb45-1999-4ad0-b157-779747075607
+uuid: a0102bab-dbae-4539-9bb7-61b28a34844b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - cog
+    - olivero
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: cog_branding
-theme: cog
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: olivero_site_branding
+theme: olivero
 region: header
 weight: 0
 provider: null
@@ -21,5 +21,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

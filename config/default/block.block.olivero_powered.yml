@@ -1,17 +1,17 @@
-uuid: 5b245635-29c4-43c8-90d7-1625f364d98b
+uuid: 165e8c31-e132-4501-bcab-bd86227f71a5
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - cog
+    - olivero
 _core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: cog_powered
-theme: cog
-region: branding
-weight: 10
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: 0
 provider: null
 plugin: system_powered_by_block
 settings:

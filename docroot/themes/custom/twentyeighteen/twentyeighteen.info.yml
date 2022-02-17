@@ -2,7 +2,7 @@ name: 2018 Drupal4Gov Theme
 type: theme
 description: 'COG Subtheme'
 core_version_requirement: ^8.8 || ^9
-base theme: cog
+base theme: stable
 
 # Regions
 regions:

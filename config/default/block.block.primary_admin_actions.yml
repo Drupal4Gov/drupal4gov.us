@@ -1,15 +1,15 @@
-uuid: 813b2cd7-b749-4b6c-bd4d-0489f030a956
+uuid: 8725a62b-543e-41e7-b4c9-706e985adca7
 langcode: en
 status: true
 dependencies:
   theme:
-    - cog
+    - olivero
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: cog_local_actions
-theme: cog
-region: content
-weight: -20
+  default_config_hash: sDmKoL9ejxB_fvD_qmgOHa8HN3X9AIsbud2xK8brMiI
+id: primary_admin_actions
+theme: olivero
+region: highlighted
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

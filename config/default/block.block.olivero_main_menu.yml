@@ -1,4 +1,4 @@
-uuid: b7d6547e-eeeb-4015-ab1b-aa0cf5639d7b
+uuid: 71ba4ca3-9dc2-4ea3-be3d-db794e07aea8
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - cog
+    - olivero
 _core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: cog_main_menu
-theme: cog
-region: branding
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+id: olivero_main_menu
+theme: olivero
+region: primary_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
@@ -22,6 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 1
-  expand_all_items: false
+  depth: 2
+  expand_all_items: true
 visibility: {  }

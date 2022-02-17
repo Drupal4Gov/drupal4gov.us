@@ -24,4 +24,4 @@ cm:
     install_from_config: true
 disable-targets:
   tests:
-    security-composer: true;
+    security-drupal: true;
