@@ -3,3 +3,4 @@ _core:
 access_token_expiration: 300
 refresh_token_expiration: 1209600
 use_implicit: false
+disable_openid_connect: false
