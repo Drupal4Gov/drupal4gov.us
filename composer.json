@@ -25,7 +25,6 @@
         "drupal/acquia_purge": "^1.0",
         "drupal/admin_toolbar": "^2.0",
         "drupal/adminimal_admin_toolbar": "^1.11",
-        "drupal/cog": "^1.0.0",
         "drupal/config_ignore": "^2.1",
         "drupal/config_split": "^1.0.0",
         "drupal/core": "^9.0",
