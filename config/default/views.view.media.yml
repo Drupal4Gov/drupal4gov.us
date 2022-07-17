@@ -1228,8 +1228,8 @@ display:
               landing_page_reviewer: '0'
               media_creator: '0'
               media_manager: '0'
-            argument: bundle
             reduce: false
+            argument: bundle
           is_grouped: false
           group_info:
             label: ''

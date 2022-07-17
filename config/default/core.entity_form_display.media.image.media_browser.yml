@@ -9,9 +9,7 @@ dependencies:
     - image.style.medium
     - media.type.image
   module:
-    - content_moderation
     - image_widget_crop
-    - lightning_media
     - path
 _core:
   default_config_hash: iVmRBD7y3Gmddt29sSx9DwwH6Q4UaROqMu7FLyy_bvQ
@@ -37,13 +35,11 @@ content:
       crop_preview_image_style: crop_thumbnail
       crop_list:
         - freeform
+      crop_types_required: {  }
       warn_multiple_usages: false
       show_crop_area: true
       show_default_crop: true
-    third_party_settings:
-      lightning_media:
-        file_links: false
-        remove_button: false
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 2
@@ -70,14 +66,6 @@ content:
     weight: 30
     region: content
     settings: {  }
-    third_party_settings: {  }
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
     third_party_settings: {  }
   status:
     type: boolean_checkbox
