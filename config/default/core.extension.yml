@@ -51,7 +51,6 @@ module:
   jquery_ui: 0
   jquery_ui_draggable: 0
   jquery_ui_droppable: 0
-  jsonapi: 0
   language: 0
   layout_builder: 0
   layout_builder_restrictions: 0
@@ -59,23 +58,10 @@ module:
   layout_builder_styles: 0
   layout_discovery: 0
   layout_library: 0
-  lightning_api: 0
-  lightning_contact_form: 0
   lightning_core: 0
-  lightning_landing_page: 0
   lightning_layout: 0
   lightning_media: 0
-  lightning_media_audio: 0
   lightning_media_bulk_upload: 0
-  lightning_media_document: 0
-  lightning_media_image: 0
-  lightning_media_instagram: 0
-  lightning_media_slideshow: 0
-  lightning_media_twitter: 0
-  lightning_media_video: 0
-  lightning_page: 0
-  lightning_roles: 0
-  lightning_search: 0
   link: 0
   media: 0
   media_entity_instagram: 0
@@ -85,12 +71,8 @@ module:
   menu_ui: 0
   metatag: 0
   multiple_fields_remove_button: 0
+  mysql: 0
   node: 0
-  openapi: 0
-  openapi_jsonapi: 0
-  openapi_ui: 0
-  openapi_ui_redoc: 0
-  openapi_ui_swagger: 0
   options: 0
   page_cache: 0
   panelizer: 0
