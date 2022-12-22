@@ -1,9 +1,9 @@
 name: drupal4gov
-recipe: drupal8
+recipe: acquia
 config:
   webroot: docroot
   xdebug: false
-  php: '8.0'
+  php: '8.1'
 services:
   appserver:
     xdebug: false
@@ -13,9 +13,6 @@ services:
       - echo "Run additional build commands here. Run lando rebuild after updating this file."
       - curl -sL https://deb.nodesource.com/setup_14.x | bash -
       - apt install -y nodejs
-      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-      - apt install -y ./google-chrome-stable_current_amd64.deb
-      - rm google-chrome-stable_current_amd64.deb
     overrides:
       # Pass SSH keys.
       volumes:
