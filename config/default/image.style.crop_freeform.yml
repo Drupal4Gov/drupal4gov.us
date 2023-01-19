@@ -13,4 +13,3 @@ effects:
     weight: null
     data:
       crop_type: freeform
-      automatic_crop_provider: null
