@@ -705,7 +705,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
-require "/app/vendor/acquia/blt/settings/blt.settings.php";
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 
 # IMPORTANT
 # Do not include additional settings here. Instead, add them to settings included
