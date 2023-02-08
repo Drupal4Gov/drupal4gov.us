@@ -4,7 +4,6 @@ module:
   acquia_connector: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
-  adminimal_admin_toolbar: 0
   autosave_form: 0
   big_pipe: 0
   blazy: 0
@@ -108,7 +107,6 @@ module:
   views: 10
   govdrupal: 1000
 theme:
-  stable: 0
   claro: 0
   olivero: 0
 profile: govdrupal
