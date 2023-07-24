@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - contact
+    - file
     - media
     - shortcut
     - system
@@ -17,4 +18,5 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'delete own files'
   - 'view media'
