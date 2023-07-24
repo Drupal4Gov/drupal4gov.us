@@ -8,6 +8,7 @@ dependencies:
     - editor
     - entity_embed
     - media
+    - slick
 _core:
   default_config_hash: Mc8Hl-Ya14lrbMXaUx7Ybmv-18vtqE4lw2DpgNHPj-s
 name: 'Rich Text'
@@ -86,6 +87,7 @@ filters:
     settings:
       default_view_mode: embedded
       allowed_view_modes: {  }
+      allowed_media_types: {  }
   slick_filter:
     id: slick_filter
     provider: slick
@@ -94,3 +96,9 @@ filters:
     settings:
       optionset: default
       media_switch: ''
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: -44
+    settings: {  }

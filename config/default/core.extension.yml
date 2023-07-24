@@ -10,8 +10,6 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor: 0
-  color: 0
   config: 0
   config_filter: 0
   config_ignore: 0
@@ -71,13 +69,12 @@ module:
   options: 0
   page_cache: 0
   panelizer: 0
-  panelizer_quickedit: 0
   panels: 0
   panels_ipe: 0
   path: 0
   path_alias: 0
-  quickedit: 0
-  rdf: 0
+  phpass: 0
+  qa_accounts: 0
   redirect: 0
   schemata: 0
   schemata_json_schema: 0
@@ -86,8 +83,6 @@ module:
   seckit: 0
   serialization: 0
   shortcut: 0
-  simple_oauth: 0
-  simple_oauth_extras: 0
   slick: 0
   slick_entityreference: 0
   syslog: 0

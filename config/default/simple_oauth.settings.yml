@@ -1,6 +1,0 @@
-_core:
-  default_config_hash: YJrGmZVEcxxUt1ffTwS_DybfKrbnRkwF1GXzPj-j7aE
-access_token_expiration: 300
-refresh_token_expiration: 1209600
-use_implicit: false
-disable_openid_connect: false
