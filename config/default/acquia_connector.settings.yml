@@ -1,5 +1,7 @@
-debug: null
-cron_interval: null
-cron_interval_override: null
-hide_signup_messages: null
-third_party_settings: null
+_core:
+  default_config_hash: beF6NmvV0L_jdumoZPJvHZ0cGg1YZokBTzZDD4PFjeo
+debug: false
+cron_interval: 30
+cron_interval_override: 0
+hide_signup_messages: 0
+third_party_settings: {  }
