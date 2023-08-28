@@ -3,104 +3,48 @@ _core:
 module:
   acquia_connector: 0
   admin_toolbar: 0
-  admin_toolbar_tools: 0
-  autosave_form: 0
-  big_pipe: 0
-  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
+  ckeditor5: 0
   config: 0
   config_filter: 0
   config_ignore: 0
   config_split: 0
-  conflict: 0
-  consumers: 0
-  contact: 0
-  contact_storage: 0
-  content_moderation: 0
-  contextual: 0
-  core_context: 0
-  crop: 0
-  ctools: 0
-  ctools_block: 0
   datetime: 0
   datetime_range: 0
-  diff: 0
-  dropzonejs: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
-  embed: 0
-  entity_block: 0
-  entity_browser: 0
-  entity_embed: 0
   environment_indicator: 0
+  environment_indicator_ui: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
-  govdrupal_core: 0
-  help: 0
-  history: 0
   image: 0
-  image_widget_crop: 0
-  inline_entity_form: 0
-  jquery_ui: 0
-  jquery_ui_draggable: 0
-  jquery_ui_droppable: 0
-  language: 0
-  layout_builder: 0
-  layout_builder_restrictions: 0
-  layout_builder_st: 0
-  layout_builder_styles: 0
-  layout_discovery: 0
-  layout_library: 0
+  inline_form_errors: 0
   link: 0
   media: 0
-  media_entity_instagram: 0
-  media_entity_twitter: 0
   media_library: 0
-  memcache: 0
+  menu_link_content: 0
   menu_ui: 0
-  metatag: 0
-  multiple_fields_remove_button: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
-  panelizer: 0
-  panels: 0
-  panels_ipe: 0
-  path: 0
   path_alias: 0
-  phpass: 0
-  redirect: 0
-  schemata: 0
-  schemata_json_schema: 0
-  search_api: 0
-  search_api_db: 0
-  seckit: 0
-  serialization: 0
-  shortcut: 0
-  slick: 0
-  slick_entityreference: 0
-  syslog: 0
   system: 0
   taxonomy: 0
   text: 0
-  token: 0
   toolbar: 0
   update: 0
   user: 0
-  video_embed_field: 0
-  video_embed_media: 0
-  views_infinite_scroll: 0
   workflows: 0
-  menu_link_content: 1
-  pathauto: 1
   views: 10
-  govdrupal: 1000
+  minimal: 1000
 theme:
-  claro: 0
+  stark: 0
   olivero: 0
-profile: govdrupal
+  claro: 0
+profile: minimal

@@ -1,4 +1,4 @@
-uuid: fa2ff524-f712-4777-ae72-15358fb9f0e9
+uuid: c60358f1-d2c4-4c18-b1df-67446418f089
 langcode: en
 status: true
 dependencies: {  }
@@ -27,11 +27,3 @@ filters:
     status: true
     weight: 0
     settings: {  }
-  slick_filter:
-    id: slick_filter
-    provider: slick
-    status: false
-    weight: 4
-    settings:
-      optionset: default
-      media_switch: ''

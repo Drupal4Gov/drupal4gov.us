@@ -3,11 +3,15 @@ project:
   prefix: D4G
   human_name: 'Drupal 4 Gov'
   profile:
-    name: govdrupal
+    name: minimal
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
 git:
+  hooks:
+    pre-commit: ''
+    pre-push: ''
+    commit-msg: ''
   default_branch: master
   remotes:
     - 'drupal4gov@svn-9994.prod.hosting.acquia.com:drupal4gov.git'

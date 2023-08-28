@@ -1,4 +1,4 @@
-uuid: a9a7321e-c2e0-4124-a5ac-2804295bfc81
+uuid: 3dbf8dd8-9577-4c2d-bb65-42b3e62ad63d
 langcode: en
 status: true
 dependencies:
@@ -8,17 +8,19 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
 id: frontpage
 label: Frontpage
 module: node
-description: 'All content promoted to frontpage'
+description: 'All content promoted to the front page.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Master
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -73,8 +75,8 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: '<p>Welcome to [site:name]. No front page content has been created yet.</p><p>Would you like to <a href="profiles/contrib/lightning/README.md">view the README</a>?</p>'
-          tokenize: true
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
+          tokenize: false
         node_listing_empty:
           id: node_listing_empty
           table: node
@@ -96,7 +98,7 @@ display:
           plugin_id: title
           label: ''
           empty: true
-          title: 'Welcome to [site:name]'
+          title: Welcome!
       sorts:
         sticky:
           id: sticky
@@ -178,7 +180,7 @@ display:
           entity_type: node
           entity_field: status
           plugin_id: boolean
-          value: 'true'
+          value: '1'
           group: 1
           expose:
             operator: ''

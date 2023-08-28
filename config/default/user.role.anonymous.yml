@@ -1,9 +1,8 @@
-uuid: 70131637-d138-4402-9f8b-6f5824e8d68e
+uuid: e8e13c32-52e7-4483-8bc9-c873816144f3
 langcode: en
 status: true
 dependencies:
   module:
-    - contact
     - media
     - system
 _core:
@@ -14,5 +13,4 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'access site-wide contact form'
   - 'view media'
