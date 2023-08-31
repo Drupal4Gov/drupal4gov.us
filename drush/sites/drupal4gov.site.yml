@@ -2,7 +2,9 @@ dev:
   uri: drupal4govdev.prod.acquia-sites.com
   host: staging-3383.prod.hosting.acquia.com
   options: {  }
-  paths: { dump-dir: /mnt/tmp }
+  paths:
+    dump-dir: /mnt/tmp
+    drush-script: '/var/www/html/drupal4gov.dev/vendor/bin/drush'
   root: /var/www/html/drupal4gov.dev/docroot
   user: drupal4gov.dev
   ssh: { options: '-p 22' }
@@ -10,7 +12,9 @@ prod:
   uri: drupal4gov.prod.acquia-sites.com
   host: ded-5779.prod.hosting.acquia.com
   options: {  }
-  paths: { dump-dir: /mnt/tmp }
+  paths:
+    dump-dir: /mnt/tmp
+    drush-script: '/var/www/html/drupal4gov.prod/vendor/bin/drush'
   root: /var/www/html/drupal4gov.prod/docroot
   user: drupal4gov.prod
   ssh: { options: '-p 22' }
@@ -18,7 +22,9 @@ test:
   uri: drupal4govstg.prod.acquia-sites.com
   host: staging-3921.prod.hosting.acquia.com
   options: {  }
-  paths: { dump-dir: /mnt/tmp }
+  paths:
+    dump-dir: /mnt/tmp
+    drush-script: '/var/www/html/drupal4gov.test/vendor/bin/drush'
   root: /var/www/html/drupal4gov.test/docroot
   user: drupal4gov.test
   ssh: { options: '-p 22' }
@@ -29,4 +35,5 @@ local:
   uri: http://drupal4gov.lndo.site:8000
   root: /app/docroot
   paths:
-    drush-script: /app/vendor/drush/drush/drush
+    dump-dir: /mnt/tmp
+    drush-script: 'vendor/bin/drush'
