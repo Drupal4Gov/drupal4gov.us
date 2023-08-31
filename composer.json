@@ -27,6 +27,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/environment_indicator": "^4.0",
         "drupal/pathauto": "^1.11",
+        "drupal/qa_accounts": "^1.0",
         "drupal/redirect": "^1.8",
         "drupal/shield": "^1.7",
         "drupal/upgrade_status": "^4.0",
