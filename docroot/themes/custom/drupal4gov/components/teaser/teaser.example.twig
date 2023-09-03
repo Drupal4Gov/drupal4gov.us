@@ -1,0 +1,19 @@
+{% embed 'drupal4gov:teaser' with {
+  attributes,
+  additional_classes: '',
+  title: label,
+  url,
+  author_name,
+  date,
+  metadata,
+  body: content.body,
+} only %}
+  {% block meta %}
+    {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+    {{ metadata }}
+  {% endblock %}
+
+  {% block content %}
+    {{ body }}
+  {% endblock %}
+{% endembed %}

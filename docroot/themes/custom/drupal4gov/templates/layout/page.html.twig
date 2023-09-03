@@ -1,0 +1,71 @@
+<div class="layout-container">
+
+  <div class="container">
+    {{ include ('drupal4gov:header', {
+      main_menu: page.header.drupal4gov_main_menu,
+      show_wide_logo: not is_front,
+      show_blob: is_front,
+      }, with_context = false) }}
+
+      {% if is_front %}
+        {{ include('@drupal4gov/../components/hero/hero.example.twig', {
+          additional_classes: 'component-spacing',
+        }, with_context = false) }}
+      {% endif %}
+  </div>
+
+  <div class="{{ is_front ? 'container' : 'container--small' }}">
+    {{ page.breadcrumb }}
+
+    {{ page.highlighted }}
+
+    {{ page.help }}
+  </div>
+
+  <main>
+      <a id="main-content" tabindex="-1"></a>
+      {% if is_front %}
+        <div class="container">
+          <div class="component-spacing">
+            {{ include('@drupal4gov/../components/card-group/card-group.example-icons.twig', with_context = false) }}
+          </div>
+          <div class="component-spacing">
+            {{ include('@drupal4gov/../components/heading/heading.example.twig', with_context = false) }}
+          </div>
+          <div class="component-spacing">
+            {{ include('@drupal4gov/../components/card-group/card-group.example-cards.twig', with_context = false) }}
+          </div>
+        <div class="container--small">
+      {% else %}
+        <div class="container--small">
+          <div class="component-spacing">
+            {{ page.content }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </main>
+
+  {% embed 'drupal4gov:footer' with {
+    footer_menu: page.footer.drupal4gov_footer,
+    white_bg: is_front,
+  } only %}
+    {% block footer_top_second %}
+      {{ include('@drupal4gov/../components/social-media-menu/social-media-menu.example.twig', {
+        social_logo_path: '/themes/drupal4gov/images/social-logos'
+        }, with_context = false) }}
+    {% endblock %}
+
+    {% block footer_top_third %}
+      {{ include('drupal4gov:email-signup-form', with_context = false) }}
+    {% endblock %}
+
+    {% block footer_bottom_first %}
+      &copy;{{ 'now'|date('Y') }} - Drupal4gov. All rights reserved.
+    {% endblock %}
+
+    {% block footer_bottom_second %}
+      {{ footer_menu }}
+    {% endblock %}
+  {% endembed %}
+</div>

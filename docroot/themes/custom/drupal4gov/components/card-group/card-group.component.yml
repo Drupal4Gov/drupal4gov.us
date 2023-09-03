@@ -1,0 +1,22 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Card Group
+props:
+  type: object
+  required:
+    - max_columns
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    additional_classes:
+      type: string
+      title: Additional CSS classes
+    max_columns:
+      type: number
+      title: Max columns
+      enum:
+        - 1
+        - 2
+        - 3
+slots:
+  content:
+    required: true

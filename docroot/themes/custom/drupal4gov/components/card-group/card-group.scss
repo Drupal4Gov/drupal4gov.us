@@ -1,0 +1,27 @@
+.card-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-inline: auto;
+}
+
+.card-group--columns-2 {
+  gap: 40px;
+  margin-inline: max(60px, auto);
+
+  @media (min-width: 750px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card-group--columns-3 {
+  gap: 20px;
+
+  @media (min-width: 500px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 900px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

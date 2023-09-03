@@ -1,0 +1,105 @@
+.hero {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+@media (min-width: 600px) {
+  .hero {
+    padding-inline: 50px;
+  }
+}
+
+.hero__media {
+  display: none;
+}
+@media (min-width: 950px) {
+  .hero__media {
+    display: block;
+  }
+}
+.hero__media img {
+  aspect-ratio: 1;
+  max-width: none;
+  -webkit-mask-image: url("images/image-mask-shape.svg");
+          mask-image: url("images/image-mask-shape.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero__content {
+  font-size: 45px;
+  text-wrap: balance;
+  text-align: center;
+  line-height: 1.1;
+}
+@media (min-width: 950px) {
+  .hero__content {
+    flex-basis: 551px;
+    text-align: unset;
+  }
+}
+
+.hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 80px;
+  margin-inline: auto;
+}
+@media (min-width: 950px) {
+  .hero__cta {
+    margin-inline: unset;
+  }
+}
+.hero__cta a {
+  display: inline-flex;
+  align-items: center;
+  height: 37px;
+  padding-inline: 20px;
+  border: 2px solid #eee;
+  border-radius: 26px;
+  background-color: white;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+  font-size: 16px;
+}
+.hero__cta a:focus-visible {
+  outline: solid 2px var(--blue-bright);
+  outline-offset: 2px;
+}
+.hero__cta a:first-child {
+  display: inline-flex;
+  align-items: center;
+  height: 37px;
+  padding-inline: 20px;
+  border: 2px solid #eee;
+  border-radius: 26px;
+  background-color: white;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+  background-color: var(--blue-bright);
+  border-color: transparent;
+  color: white;
+}
+.hero__cta a:first-child:focus-visible {
+  outline: solid 2px var(--blue-bright);
+  outline-offset: 2px;
+}
+.hero__cta a:first-child:hover {
+  background-color: var(--blue-dark);
+  color: white;
+}

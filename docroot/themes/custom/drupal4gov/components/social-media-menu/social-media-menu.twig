@@ -1,0 +1,13 @@
+<nav aria-label="{{ 'Social media'|t }}" class="social-media-menu__social-menu {{ additional_classes }}">
+  <ul class="social-media-menu__list">
+    {% for item in social_media %}
+      <li class="social-media-menu__item">
+        <a href="{{ item.url }}" style="--icon: url('{{ item.path_to_logo }}')" class="social-media-menu__link">
+          <span class="visually-hidden">
+            {{- item.title -}}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,16 @@
+<article class="card">
+  <div class="card__media">
+    {{ block('media') }}
+  </div>
+  <div class="card__content">
+    <h3 class="card__title">{{ title }}</h3>
+    {% if text %}
+      <div class="card__text">{{ text }}</div>
+    {% endif %}
+    {% if cta.url %}
+      <div class="card__cta">
+        <a href="{{ cta.url }}" class="card__link">{{ cta.title }}</a>
+      </div>
+    {% endif %}
+  </div>
+</article>

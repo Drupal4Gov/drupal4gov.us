@@ -1,0 +1,22 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Heading
+props:
+  type: object
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    additional_classes:
+      type: string
+      title: Additional CSS classes
+    heading_level:
+      title: Heading level
+      type: string
+      enum:
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+slots:
+  content:
+    required: true

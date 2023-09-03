@@ -1,0 +1,93 @@
+/**
+ * @file
+ * Breadcrumb region.
+ */
+.breadcrumb {
+  --color-background: white;
+  --color-icon: #aaa;
+  --padding: 10px;
+  --separator-width: 6px;
+  --separator-spacing: 8px;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: var(--sp1);
+  /* Shadow on the right side of breadcrumbs for narrow screens. */
+}
+.breadcrumb::after {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: -20px;
+  width: 50px;
+  height: 100%;
+  content: "";
+  background: linear-gradient(to left, var(--color-background) 0%, transparent); /* LTR */
+}
+@media (min-width: 800px) {
+  .breadcrumb::after {
+    content: none;
+  }
+}
+
+[dir=rtl] .breadcrumb::after {
+  background: linear-gradient(to right, var(--color-background) 0%, transparent);
+}
+
+.breadcrumb__content {
+  overflow: auto;
+  margin: calc(-1 * var(--padding));
+  margin-inline-end: calc(-2 * var(--padding));
+  padding-block: var(--padding);
+  padding-inline-start: var(--padding);
+  -webkit-overflow-scrolling: touch;
+}
+
+.breadcrumb__list {
+  overflow-x: auto;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+@media (min-width: 800px) {
+  .breadcrumb__list {
+    overflow: visible;
+    white-space: normal;
+  }
+}
+
+.breadcrumb__item {
+  display: inline-block;
+}
+.breadcrumb__item:nth-child(n+2)::before {
+  display: inline-block;
+  width: var(--separator-width);
+  height: var(--separator-width);
+  margin-inline: var(--separator-spacing);
+  content: "";
+  transform: rotate(45deg) translatex(-25%); /* LTR */
+  border-block-start: 2px solid var(--color-icon);
+  border-inline-end: 2px solid var(--color-icon);
+}
+.breadcrumb__item:last-child {
+  margin-inline-end: 50px;
+}
+@media (min-width: 800px) {
+  .breadcrumb__item:last-child {
+    margin-inline-end: 0;
+  }
+}
+
+[dir=rtl] .breadcrumb__item:nth-child(n+2)::before {
+  transform: rotate(-45deg);
+}
+
+.breadcrumb__link {
+  text-decoration: none;
+  color: var(--color-text-primary-medium);
+}
+.breadcrumb__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Footer Menu
+props:
+  type: object
+  required:
+    - items
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    items:
+      title: Menu Items
+      type: array
+      items:
+        type: object
+        required:
+          - title
+          - attributes
+        properties:
+          section:
+            title: Section
+            type: string
+            description: Define the submenu section.
+          title:
+            title: Title
+            type: string
+            description: Needed to find the icon sprites.
+          in_active_trail:
+            title: In Active Trail
+            type: boolean
+            description: Item is in the active trail.
+          below:
+            title: Below
+            type: array
+            description: The children.

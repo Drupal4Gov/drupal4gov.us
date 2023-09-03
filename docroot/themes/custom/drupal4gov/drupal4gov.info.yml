@@ -1,0 +1,21 @@
+name: Drupal4Gov
+description: A new badass theme for Drupal4Gov.
+type: theme
+'base theme': false
+regions:
+  header: Header
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar: Sidebar
+  footer: 'Footer'
+libraries:
+  - drupal4gov/global
+libraries-extend:
+  core/drupal.message:
+    - drupal4gov/drupal.message
+core_version_requirement: ^10
+ckeditor5-stylesheets:
+  - css/base/utility.css
+dependencies:
+  - 'drupal:sdc'

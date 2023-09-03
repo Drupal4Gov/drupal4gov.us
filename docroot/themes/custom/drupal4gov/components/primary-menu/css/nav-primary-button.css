@@ -1,0 +1,99 @@
+/**
+ * @file
+ * Button that expands second level nav when clicked.
+ */
+.primary-nav__button-toggle {
+  position: relative;
+  overflow: hidden;
+  width: var(--narrow-toggle-button-width);
+  padding: 0;
+  cursor: pointer;
+  text-indent: -999px;
+  border: 0;
+  background: transparent;
+  -webkit-appearance: none;
+}
+.primary-nav__button-toggle:focus-visible {
+  outline: auto 2px currentColor;
+  outline-offset: 2px;
+}
+.primary-nav__button-toggle .icon--menu-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  transition: background-color 0.2s;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+}
+.primary-nav__button-toggle .icon--menu-toggle::before, .primary-nav__button-toggle .icon--menu-toggle::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 0;
+  content: "";
+  transform: translate(-50%, -50%);
+  border-top: solid 3px var(--color-icon);
+}
+.primary-nav__button-toggle .icon--menu-toggle::after {
+  transition: opacity 0.2s;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.primary-nav__button-toggle[aria-expanded=true] .icon--menu-toggle::after {
+  opacity: 0;
+}
+.primary-nav__button-toggle[aria-hidden=true] {
+  pointer-events: none;
+}
+
+/*
+ * Transition to chevron at wide widths.
+ */
+@media (min-width: 1200px) {
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle {
+    flex-shrink: 0;
+    align-self: stretch;
+    height: auto;
+    margin-block: 0;
+    margin-inline-end: -30px;
+    color: inherit;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle:focus-visible {
+    border: 0;
+    outline: 0;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle:focus-visible .icon--menu-toggle {
+    border: solid 2px currentColor;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle:active {
+    color: currentColor; /* Necessary for Safari. */
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle[aria-expanded=true] .icon--menu-toggle::after {
+    opacity: 0.8;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle {
+    inset-inline-start: 3px;
+    width: 18px;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    background-color: var(--color--white);
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle::before {
+    content: none;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle::after {
+    top: calc(50% - 2px);
+    left: 3px;
+    width: 7px;
+    height: 7px;
+    content: "";
+    transform: translateY(-50%) rotate(45deg);
+    opacity: 0.8;
+    border-top: none;
+    border-right: solid 2px currentColor;
+    border-bottom: solid 2px currentColor;
+    background: transparent;
+  }
+}

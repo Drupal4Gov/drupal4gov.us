@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  color: var(--text-body);
+  font-size: var(--body);
+  line-height: 1.5;
+  color: var(--gray);
+
+  &.is-fixed {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+main {
+  padding-bottom: var(--component-spacing);
+  border-top: solid 1px transparent; // Don't let margins overflow.
+  border-bottom: solid 1px transparent; // Don't let margins overflow.
+
+  .path-frontpage & {
+    background-image: linear-gradient(180deg, transparent 0%, #F6F6F6 100%);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+}
+
+a {
+  color: var(--blue-dark);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--blue-bright);
+  }
+
+  &:focus-visible {
+    outline: solid 2px currentColor;
+    outline-offset: 2px;
+  }
+}
+
+button {
+  font-family: inherit;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-width: 100%;
+}
+
+audio {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  margin-block: var(--spacing-sm);
+
+  +  p {
+    margin-top: var(--spacing-xl);
+  }
+}
+
+h1 {
+  margin-block: var(--spacing-xl) var(--spacing-xxl);
+  font-size: var(--h1);
+}
+
+h2 {
+  margin-block: var(--spacing-xxl) var(--spacing-xl);
+  font-size: var(--h2);
+}
+
+h3 {
+  margin-block: var(--spacing-xl) var(--spacing-sm);
+  font-size: var(--h3);
+}
+
+h4 {
+  margin-block: var(--spacing-lg) 20px;
+  font-size: var(--h4);
+}
+
+h5 {
+  margin-block: var(--spacing-lg) 20px;
+  font-size: var(--h5);
+}
+
+h6 {
+  margin-block: var(--spacing-lg) 20px;
+  font-size: var(--h6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--gray);
+  font-family: var(--font-serif);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+blockquote {
+  margin-block: var(--spacing-xxl);
+  padding-inline-start: 20px;
+  border-inline-start: solid 10px var(--blue-light);
+  color: var(--blue-dark);
+}
+
+.skip-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:after {
+    content: "→";
+  }
+}

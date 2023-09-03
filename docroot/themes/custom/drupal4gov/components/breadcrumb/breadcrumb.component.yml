@@ -1,0 +1,20 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Breadcrumb
+props:
+  type: object
+  required:
+    - breadcrumb
+  properties:
+    breadcrumb:
+      type: array
+      required:
+        - text
+        - url
+      properties:
+        text:
+          type: string
+        url:
+          type: string
+    additional_classes:
+      title: Text
+      type: string

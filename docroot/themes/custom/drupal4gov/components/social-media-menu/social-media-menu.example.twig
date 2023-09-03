@@ -1,0 +1,24 @@
+{{ include('drupal4gov:social-media-menu', {
+    social_media: [
+      {
+        title: 'LinkedIn',
+        path_to_logo: social_logo_path ~ '/linkedin.svg',
+        url: '#',
+      },
+      {
+        title: 'Twitter',
+        path_to_logo: social_logo_path ~ '/twitter.svg',
+        url: '#',
+      },
+      {
+        title: 'Youtube',
+        path_to_logo: social_logo_path ~ '/youtube.svg',
+        url: '#',
+      },
+      {
+        title: 'RSS',
+        path_to_logo: social_logo_path ~ '/rss.svg',
+        url: '#',
+      }
+    ]
+  }, with_context = false) }}

@@ -1,0 +1,31 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Hero
+props:
+  type: object
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    additional_classes:
+      type: string
+      title: Additional CSS classes
+    ctas:
+      title: CTAs
+      type: array
+      items:
+        title: cta
+        type: object
+        required:
+          - url
+          - title
+        properties:
+          url:
+            title: URL
+            type: string
+          title:
+            title: Title
+            type: string
+slots:
+  media:
+    required: true
+  content:
+    required: true

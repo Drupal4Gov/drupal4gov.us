@@ -1,0 +1,22 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+machineName: tabs
+name: Tabs
+status: BETA
+schemas:
+  props:
+    type: object
+    required:
+      - primary
+    properties:
+      additional_classes:
+        type: string
+        title: Additional CSS classes
+      primary:
+        type: array
+        title: primary
+      secondary:
+        type: array
+        title: secondary
+libraryDependencies:
+  - core/drupal
+  - core/once

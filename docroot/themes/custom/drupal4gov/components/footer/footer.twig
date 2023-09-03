@@ -1,0 +1,21 @@
+<footer class="footer {{ white_bg ? 'footer--white' }} {{ additonal_classes }}">
+  <div class="footer__top container">
+    <div class="footer__top-first">
+      <img src="/{{ componentMetadata.path }}/images/logo-gray.svg" alt="Drupal for Gov" width="135" height="85">
+    </div>
+    <div class="footer__top-second">
+      {% block footer_top_second %}{% endblock %}
+    </div>
+    <div class="footer__top-third">
+      {% block footer_top_third %}{% endblock %}
+    </div>
+  </div>
+  <div class="footer__bottom container">
+    <div class="footer__bottom-first">
+      {% block footer_bottom_first %}{% endblock %}
+    </div>
+    <div class="footer__bottom-second">
+      {% block footer_bottom_second %}{% endblock %}
+    </div>
+  </div>
+</footer>

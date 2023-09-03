@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Navigation in header.
+ */
+
+@use "../../sass/global/media-queries" as *;
+
+body.is-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.header-nav {
+  --color-background: white;
+  --mobile-nav-width:  min(80%, 350px);
+  --container-padding: 30px;
+
+  position: fixed;
+  z-index: 501; /* Appear above overlay and contextual links in header. */
+  inset-block-start: var(--drupal-displace-offset-top, 0);
+  inset-inline-start: 100%;
+  visibility: hidden;
+  overflow: auto;
+  width: 100%;
+  max-width: var(--mobile-nav-width);
+  height: 100%;
+  padding: 0 var(--container-padding);
+  border-top: solid 70px var(--color-background);
+  background-color: var(--color-background);
+  transition: visibility 0.2s, transform 0.2s;
+
+  @media (forced-colors: active) {
+    border-top-color: canvas;
+  }
+
+  @media ($nav) {
+    border-top: unset;
+    background-color: transparent;
+  }
+
+  &.is-active {
+    visibility: visible;
+    transform: translateX(calc(-100% - var(--drupal-displace-offset-right, 0px)));
+  }
+
+  /*
+   * Ensure top border has the same color as the background when in forced colors.
+   */
+  @media (forced-colors: active) {
+    border-top-color: canvas;
+  }
+}
+
+body:not(.is-always-mobile-nav) .header-nav {
+  @media ($nav) {
+    position: relative;
+    inset: revert;
+    z-index: 1; // Appear above `.contextual-region`.
+    display: flex;
+    visibility: revert;
+    overflow: revert;
+    align-items: center;
+    max-width: none;
+    margin-block-start: auto;
+    padding-block: 0;
+    padding-inline: 0;
+    transition: transform 0.2s;
+    transform: none;
+    border-block-start: 0;
+    box-shadow: none;
+  }
+}
+
+.header-nav-overlay {
+  position: fixed;
+  z-index: 101;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4;
+  background: black;
+
+  @media (forced-colors: active) {
+    background: canvastext;
+  }
+
+  .is-overlay-active & {
+    display: block;
+  }
+}

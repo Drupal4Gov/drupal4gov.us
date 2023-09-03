@@ -1,0 +1,31 @@
+.title-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  container-type: inline-size;
+}
+
+.title-card__title {
+  margin-block: 0;
+  margin-right: 40px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -1.1px;
+  text-wrap: balance;
+
+  @container (inline-size > 310px) {
+    font-size: 60px;
+  }
+}
+
+.title-card__text {
+  font-size: 16px;
+  text-wrap: balance;
+
+  @container (inline-size > 290px) {
+    font-size: 20px;
+  }
+}

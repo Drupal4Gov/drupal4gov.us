@@ -1,0 +1,26 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Card
+props:
+  type: object
+  required:
+    - title
+  properties:
+    title:
+      title: Title
+      type: string
+    text:
+      title: Text
+      type: string
+    cta:
+      type: object
+      title: CTA
+      properties:
+        url:
+          type: string
+          title: URL
+        title:
+          type: string
+          title: Title
+slots:
+  media:
+    required: true

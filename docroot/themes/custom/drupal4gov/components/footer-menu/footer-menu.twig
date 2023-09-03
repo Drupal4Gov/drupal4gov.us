@@ -1,0 +1,7 @@
+<ul{{ attributes.addClass('secondary-menu') }}>
+  {% for item in items %}
+    <li{{ item.attributes.addClass('secondary-menu__item') }}>
+      {{ link(item.title, item.url) }}
+    </li>
+  {% endfor %}
+</ul>

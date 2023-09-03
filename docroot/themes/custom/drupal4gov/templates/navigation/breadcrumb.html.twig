@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Theme override for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ */
+#}
+{{ include('drupal4gov:breadcrumb', {
+  breadcrumb,
+  additional_classes: 'spacing-lg',
+  }, with_context = false) }}

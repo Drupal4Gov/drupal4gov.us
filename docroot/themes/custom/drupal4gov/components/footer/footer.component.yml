@@ -1,0 +1,23 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Footer
+props:
+  type: object
+  properties:
+    additional_classes:
+      type: string
+      title: Additional CSS classes
+    white_bg:
+      title: White background
+      type: boolean
+    footer_menu:
+      title: Footer menu
+      type: object
+slots:
+  footer_top_second:
+    required: true
+  footer_top_third:
+    required: true
+  footer_bottom_first:
+    required: true
+  footer_bottom_second:
+    required: true
