@@ -1,0 +1,19 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Teaser
+props:
+  type: object
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    additional_classes:
+      type: string
+      title: Additional CSS classes
+    url:
+      type: string
+    title:
+      type: string
+slots:
+  meta:
+    required: true
+  content:
+    required: true

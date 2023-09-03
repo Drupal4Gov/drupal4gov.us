@@ -1,0 +1,9 @@
+<article{{ attributes.addClass('teaser').addClass(additional_classes) }}>
+  <div class="teaser__meta">{% block meta %}{% endblock %}</div>
+  <h2 class="teaser__title">
+    <a href="{{ url }}">
+      {{ title }}
+    </a>
+  </h2>
+  <div class="teaser__content">{% block content %}{% endblock %}</div>
+</article>

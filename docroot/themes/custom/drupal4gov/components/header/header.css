@@ -1,0 +1,108 @@
+.site-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 145px;
+}
+
+.site-header__blob {
+  display: contents;
+}
+.site-header__blob svg {
+  position: absolute;
+  z-index: -1;
+  top: -180px;
+  left: -290px;
+  color: #eeeeee;
+}
+@media (min-width: 950px) {
+  .site-header__blob svg {
+    color: var(--blue-dark);
+  }
+}
+
+.site-header__logo {
+  display: flex;
+}
+.site-header__logo a:focus-visible {
+  outline: solid 1px white;
+}
+
+.site-header__wide-logo img {
+  width: 250px;
+}
+
+.site-header__logo--wide {
+  display: flex;
+  align-items: center;
+}
+.site-header__logo--wide .site-header__tall-logo {
+  display: none;
+}
+.site-header__logo--wide a:focus-visible {
+  outline-color: var(--blue-bright);
+}
+
+.site-header__logo--tall {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 950px) {
+  .site-header__logo--tall {
+    align-items: flex-end;
+  }
+}
+.site-header__logo--tall .site-header__tall-logo {
+  display: none;
+}
+@media (min-width: 950px) {
+  .site-header__logo--tall .site-header__tall-logo {
+    display: block;
+  }
+}
+@media (min-width: 950px) {
+  .site-header__logo--tall .site-header__wide-logo {
+    display: none;
+  }
+}
+
+.site-header__button {
+  display: flex;
+}
+@media (min-width: 1200px) {
+  .site-header__button {
+    display: none;
+  }
+}
+
+.primary-nav__menu-item--level-1:last-child .primary-nav__menu-link {
+  display: inline-flex;
+  align-items: center;
+  height: 37px;
+  padding-inline: 20px;
+  border: 2px solid #eee;
+  border-radius: 26px;
+  background-color: white;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+  background-color: transparent;
+  border-color: currentColor;
+  color: var(--blue-bright);
+}
+.primary-nav__menu-item--level-1:last-child .primary-nav__menu-link:focus-visible {
+  outline: solid 2px var(--blue-bright);
+  outline-offset: 2px;
+}
+.primary-nav__menu-item--level-1:last-child .primary-nav__menu-link:hover {
+  background-color: var(--blue-bright);
+  border-color: var(--blue-bright);
+  color: white;
+}
+@media (min-width: 1200px) {
+  .primary-nav__menu-item--level-1:last-child .primary-nav__menu-link {
+    margin-top: unset;
+  }
+}

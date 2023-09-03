@@ -1,0 +1,29 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Messages
+props:
+  type: object
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+    additional_classes:
+      type: string
+    status_headings:
+      type: object
+      properties:
+        status:
+          type: string
+        error:
+          type: string
+        warning:
+          type: string
+    message_list:
+      type: object
+      properties:
+        error:
+          type: array
+# Messages are loaded from a separate library to ensure that 1) CSS is always
+# loaded (in the event of JS triggered messages), and 2) messages.theme.js can
+# be invoked by extending the drupal/drupal.message library.
+libraryOverrides:
+  dependencies:
+    - drupal4gov/messages

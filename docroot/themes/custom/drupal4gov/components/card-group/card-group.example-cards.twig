@@ -1,0 +1,9 @@
+{% embed 'drupal4gov:card-group' with {
+  max_columns: 2,
+  additional_classes: 'container--medium',
+} %}
+  {% block content %}
+    {{ include('@drupal4gov/../components/card/card.example.twig') }}
+    {{ include('@drupal4gov/../components/card/card.example.twig') }}
+  {% endblock %}
+{% endembed %}

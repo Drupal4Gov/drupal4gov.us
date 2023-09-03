@@ -1,0 +1,42 @@
+.teaser {
+  padding-block: var(--spacing-xxl);
+  border-bottom: solid 1px #ccc;
+
+  .views-row:first-child & {
+    padding-top: 0;
+  }
+
+  .views-row:last-child & {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+.teaser__meta {
+  margin-bottom: var(--spacing-lg);
+  font-size: 14px;
+}
+
+.teaser__title {
+  margin-block: var(--spacing-xl);
+  font-size: var(--h2);
+
+  a {
+    color: var(--blue-bright);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--blue-dark);
+    }
+  }
+}
+
+.teaser__content {
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}

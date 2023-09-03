@@ -1,0 +1,39 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Pager
+props:
+  type: object
+  properties:
+    attributes:
+      type: string
+    additional_classes:
+      type: string
+    current:
+      type: number
+    items:
+      type: object
+      properties:
+        pages:
+          type: object
+          properties:
+            attributes:
+              type: string
+            href:
+              type: string
+        next:
+          type: object
+          properties:
+            attributes:
+              type: string
+            href:
+              type: string
+            text:
+              type: string
+        last:
+          type: object
+          properties:
+            attributes:
+              type: string
+            href:
+              type: string
+            text:
+              type: string

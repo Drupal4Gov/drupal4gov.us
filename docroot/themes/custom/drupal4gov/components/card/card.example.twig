@@ -1,0 +1,12 @@
+{% embed 'drupal4gov:card' with {
+  title: 'Become a Member',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  cta: {
+    url: '#',
+    title: 'Join now',
+  }
+} %}
+  {% block media %}
+    <img src="/{{ componentMetadata.path }}/images/card-example.png" alt="Fucking business">
+  {% endblock %}
+{% endembed %}

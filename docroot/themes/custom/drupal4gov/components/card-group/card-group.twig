@@ -1,0 +1,10 @@
+{% set attributes = attributes ?: create_attribute() %}
+{% set classes = [
+  'card-group',
+  'card-group--columns-' ~ max_columns,
+  additional_classes
+  ] %}
+
+<div{{ attributes.addClass(classes) }}>
+  {% block content %}{% endblock %}
+</div>

@@ -1,0 +1,51 @@
+{% embed 'drupal4gov:card-group' with {
+  max_columns: 3,
+} %}
+  {% block content %}
+    {{ include('drupal4gov:title-card', {
+      title: '<span class="blue">What</span> We Do',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt',
+      }) }}
+
+    {% embed 'drupal4gov:icon-card' with {
+      title: 'DrupalGovCon',
+      url: 'http://www.drupalgovcon.com',
+      } %}
+      {% block media %}
+        {{ include('@drupal4gov/../images/icons/capital.svg') }}
+      {% endblock %}
+    {% endembed %}
+    {% embed 'drupal4gov:icon-card' with {
+      title: 'Webinars',
+      url: 'http://www.drupalgovcon.com',
+      } %}
+      {% block media %}
+        {{ include('@drupal4gov/../images/icons/computer.svg') }}
+      {% endblock %}
+    {% endembed %}
+    {% embed 'drupal4gov:icon-card' with {
+      title: 'GovSummit',
+      url: 'http://www.drupalgovcon.com',
+      } %}
+      {% block media %}
+        {{ include('@drupal4gov/../images/icons/stage.svg') }}
+      {% endblock %}
+    {% endembed %}
+    {% embed 'drupal4gov:icon-card' with {
+      title: 'Drupal Global Training Days',
+      url: 'http://www.drupalgovcon.com',
+      } %}
+      {% block media %}
+        {{ include('@drupal4gov/../images/icons/presentation.svg') }}
+      {% endblock %}
+    {% endembed %}
+    {% embed 'drupal4gov:icon-card' with {
+      title: 'Full & Half Days',
+      url: 'http://www.drupalgovcon.com',
+      } %}
+      {% block media %}
+        {{ include('@drupal4gov/../images/icons/time.svg') }}
+      {% endblock %}
+    {% endembed %}
+  {% endblock %}
+{% endembed %}

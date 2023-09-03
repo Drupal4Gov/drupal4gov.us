@@ -1,0 +1,22 @@
+{% embed 'drupal4gov:hero' with {
+    ctas: [
+      {
+        title: 'Discover more',
+        url: '#',
+      },
+      {
+        title: 'Contact us',
+        url: '#',
+      }
+    ]
+  } %}
+  {% block media %}
+    <img src="/{{ componentMetadata.path ~ '/images/hero-default.png' }}" width="467" height="467" alt="Woman smiling while using computer">
+  {% endblock %}
+  {% block content %}
+    <p>
+      <span class="blue">Connecting and serving all levels of government employees</span>
+      <span>committed to open source technology</span>
+    </p>
+  {% endblock %}
+{% endembed %}

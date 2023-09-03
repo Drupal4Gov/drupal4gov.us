@@ -1,0 +1,166 @@
+/**
+ * @file
+ * Messages.
+ */
+
+.messages-list {
+  --messages-icon-size: 32px;
+  --background-color: #1a1a1a;
+  --color: white;
+  --color--red: red;
+  --color--gold: gold;
+  --color--green: green;
+  --icon-color: #aaa;
+  --spacing: 20px;
+
+  margin-block: var(--spacing) var(--spacing-xxl);
+  padding-block: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  list-style: none;
+}
+
+.messages {
+  min-height: calc(var(--messages-icon-size) + 2 * var(--spacing));
+  padding-block: var(--spacing);
+  padding-inline-start: calc(1.5 * var(--spacing));
+  padding-inline-end: calc(1.5 * var(--spacing));
+  color: var(--color);
+  outline: solid 1px transparent;
+  background-color: var(--background-color);
+
+  & * {
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  /* Additional specificity to override contrib modules. */
+  &.messages-list__item {
+    background-image: none;
+  }
+}
+
+.messages__list {
+  margin-block: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  list-style: none;
+}
+
+.messages:not(.hidden) ~ .messages {
+  margin-block-start: var(--spacing);
+}
+
+.messages__item + .messages__item {
+  margin-block-start: calc(0.5 * var(--spacing));
+}
+
+.messages__container {
+  display: flex;
+}
+
+.messages__header {
+  flex-shrink: 0;
+  margin-inline-end: var(--spacing);
+
+  &.no-icon {
+    margin-inline-end: 0;
+  }
+}
+
+.messages__content {
+  overflow: auto; /* Ensure large code blocks can be scrolled to. */
+  flex: 1;
+  padding-block-start: 3px;
+}
+
+.messages__button {
+  flex-shrink: 0;
+  margin-inline-start: var(--spacing);
+  padding-block-start: 3px;
+}
+
+.messages__close {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding-block: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  cursor: pointer;
+  vertical-align: top;
+  border: 0;
+  background: none;
+  appearance: none;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 20px;
+    height: 0;
+    content: "";
+    border-top: solid 2px var(--icon-color);
+  }
+
+  &::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  &::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  &:hover {
+    &::before,
+    &::after {
+      border-color: var(--color--white);
+    }
+  }
+
+  &:focus {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}
+
+.messages__icon svg {
+  vertical-align: top;
+}
+
+.messages--error .messages__icon svg {
+  fill: var(--color--red);
+}
+
+.messages--warning .messages__icon svg {
+  fill: var(--color--gold);
+}
+
+.messages--status .messages__icon svg {
+  fill: var(--color--green);
+}
+
+.messages--info .messages__icon svg {
+  fill: var(--color--primary-60);
+}
+
+.messages a {
+  color: inherit;
+}
+
+.messages pre {
+  margin: 0;
+}
+
+.js-form-managed-file .messages {
+  margin-block-end: var(--spacing);
+  border-inline-start: solid 6px var(--color--red);
+}

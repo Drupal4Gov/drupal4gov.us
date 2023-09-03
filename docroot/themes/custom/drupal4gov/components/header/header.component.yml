@@ -1,0 +1,20 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Header
+props:
+  type: object
+  properties:
+    show_wide_logo:
+      type: boolean
+    show_blob:
+      type: boolean
+    main_menu:
+      type: object
+libraryOverrides:
+  css:
+    component:
+      header.css: {}
+      header-nav.css: {}
+  dependencies:
+    - core/drupal
+    - core/once
+    - core/tabbable

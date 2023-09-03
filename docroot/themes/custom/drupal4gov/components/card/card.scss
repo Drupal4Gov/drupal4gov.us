@@ -1,0 +1,40 @@
+@use "../../sass/global/mixins" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden; // Respect the border radius.
+  box-shadow: 0 10px 12px 0px rgba(181, 184, 185, 0.26);
+}
+
+.card__media {
+  img,
+  video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 44px 36px;
+}
+
+.card__title {
+  margin-block: 0 -0.2em;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card__link {
+  @include pill('primary');
+}

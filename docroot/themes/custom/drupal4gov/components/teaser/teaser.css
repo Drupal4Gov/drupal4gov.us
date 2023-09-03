@@ -1,0 +1,35 @@
+.teaser {
+  padding-block: var(--spacing-xxl);
+  border-bottom: solid 1px #ccc;
+}
+.views-row:first-child .teaser {
+  padding-top: 0;
+}
+.views-row:last-child .teaser {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.teaser__meta {
+  margin-bottom: var(--spacing-lg);
+  font-size: 14px;
+}
+
+.teaser__title {
+  margin-block: var(--spacing-xl);
+  font-size: var(--h2);
+}
+.teaser__title a {
+  color: var(--blue-bright);
+  text-decoration: none;
+}
+.teaser__title a:hover {
+  color: var(--blue-dark);
+}
+
+.teaser__content :first-child {
+  margin-top: 0;
+}
+.teaser__content :last-child {
+  margin-bottom: 0;
+}

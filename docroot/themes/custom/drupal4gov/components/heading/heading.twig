@@ -1,0 +1,10 @@
+{% set attributes = attributes ?: create_attribute() %}
+{% set heading_level = heading_level ?: 'h2' %}
+{% set classes = [
+  'heading',
+  additional_classes,
+] %}
+
+<{{- heading_level }}{{ attributes.addClass(classes)}}>
+  {{ block('content')|striptags('<span>')|raw }}
+</{{- heading_level -}}>

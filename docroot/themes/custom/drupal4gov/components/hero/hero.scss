@@ -1,0 +1,66 @@
+@use "../../sass/global/media-queries" as *;
+@use "../../sass/global/mixins" as *;
+
+.hero {
+  position: relative; // Stacking context to appear above blob.
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+
+  @media (min-width: 600px) {
+    padding-inline: 50px;
+  }
+}
+
+.hero__media {
+  display: none;
+
+  @media ($hero-break) {
+    display: block;
+  }
+
+  img {
+    aspect-ratio: 1;
+    max-width: none;
+    mask-image: url('images/image-mask-shape.svg');
+    mask-repeat: no-repeat;
+    object-fit: cover;
+  }
+}
+
+.hero__content {
+  font-size: 45px;
+  text-wrap: balance;
+  text-align: center;
+  line-height: 1.1;
+
+  @media ($hero-break) {
+    flex-basis: 551px;
+    text-align: unset;
+  }
+}
+
+.hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: fit-content;
+  margin-top: 80px;
+  margin-inline: auto;
+
+  @media ($hero-break) {
+    margin-inline: unset;
+  }
+
+  a {
+    @include pill;
+    font-size: 16px;
+  }
+
+  a:first-child {
+    @include pill('primary');
+  }
+}

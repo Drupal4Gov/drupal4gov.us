@@ -1,0 +1,84 @@
+/**
+ * @file
+ * Styles for pagination.
+ */
+.pager {
+  --pager-item-highlight-color: var(--blue-dark);
+  --pager-item-text-color: inherit;
+  --pager-item-active-text-color: white;
+  --pager-item-background: transparent;
+  --pager-link-hover-color: #eee;
+  --pager-item-width: 40px;
+}
+@media (min-width: 500px) {
+  .pager {
+    --pager-item-width: 54px;
+  }
+}
+
+.pager__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+
+.pager__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--pager-item-width);
+  aspect-ratio: 1;
+  cursor: default;
+  color: var(--pager-item-text-color);
+  background-color: var(--pager-item-background);
+}
+
+[dir=rtl] .pager__item--control {
+  transform: scaleX(-1);
+}
+
+.pager__item--active {
+  color: var(--pager-item-active-text-color);
+  background-color: var(--pager-item-highlight-color);
+}
+
+@media (forced-colors: active) {
+  .pager__item--control path {
+    fill: linktext;
+  }
+}
+
+.pager__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  text-decoration: none;
+  color: var(--pager-item-text-color);
+}
+
+.pager__link:hover {
+  background-color: var(--pager-link-hover-color);
+}
+
+.pager__link:focus {
+  color: var(--pager-item-highlight-color);
+  outline: solid 2px currentColor;
+  outline-offset: -2px;
+}
+
+.pager__item svg {
+  display: block;
+  fill: currentColor;
+}
+
+.pager__item--next svg,
+.pager__item--last svg {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,216 @@
+
+/* Breakpoint where tabs switch between vertical and horizontal layouts. */
+$tabs-layout-switch: #{'min-width: 1000px'};
+
+.tabs {
+  --tabs-height: 60px;
+  --tabs-padding-inline: 20px;
+  --tabs-active-border-size: 5px;
+  --tabs-highlight-color: var(--blue-bright);
+  --tabs-text-color: var(--gray);
+  --tabs-text-color-active: var(--blue-bright);
+  --tabs-letter-spacing: revert;
+  --tabs-font-size: 16px;
+  --tabs-active-background-color: #eee;
+  --tabs-active-background-color-hover: #e5e5e5;
+  --tabs-background-color: #eee;
+  --tabs-background-color-hover: white;
+  --tabs-border-width: 1px;
+  --tabs-border-color: #eee;
+  --tabs-transition-duration: 0.2s;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  margin-inline-start: 0; /* Override [dir] attribute in base <ul> in compiled CSS. */
+  padding: 0;
+  list-style: none;
+
+  @media ($tabs-layout-switch) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .path-frontpage & {
+    margin-bottom: var(--spacing-xl);
+  }
+}
+
+.tabs__tab {
+  display: none;
+  margin: 0;
+  margin-block-end: calc(-1 * var(--tabs-border-width));
+  padding: 0;
+
+  &.is-active {
+    display: flex;
+  }
+
+  @media ($tabs-layout-switch) {
+    display: flex;
+    margin-block-end: 0;
+    margin-inline-start: calc(-1 * var(--tabs-border-width));
+  }
+
+  /* Show tabs when JavaScript disabled. */
+  html:not(.js) & {
+    display: flex;
+  }
+
+  /* Show tabs when tabs-expanded class is present. */
+  .tabs.is-expanded & {
+    display: flex;
+  }
+
+  /* Secondary tabs will always be expanded. */
+  .tabs--secondary & {
+    display: block;
+
+    @media ($tabs-layout-switch) {
+      display: flex;
+    }
+  }
+}
+
+.tabs__link {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: var(--tabs-height);
+  padding-block: 0;
+  padding-inline: var(--tabs-padding-inline);
+  transition: background-color var(--tabs-transition-duration);
+  text-decoration: none;
+  letter-spacing: var(--tabs-letter-spacing);
+  color: var(--tabs-text-color);
+  border: var(--tabs-border-width) solid var(--tabs-border-color);
+  background-color: var(--tabs-background-color);
+  font-size: var(--tabs-font-size);
+
+  &:hover {
+    color: var(--tabs-text-color-active);
+    background-color: var(--tabs-background-color-hover);
+  }
+
+  &:focus {
+    position: relative;
+    outline: solid 3px var(--tabs-highlight-color);
+    outline-offset: -3px;
+  }
+
+  &.is-active {
+    position: relative; /* Anchor :after pseudo-element. */
+    background-color: var(--tabs-active-background-color);
+    color: var(--tabs-text-color-active);
+    font-weight: 600;
+
+    &:hover {
+      background-color: var(--tabs-active-background-color-hover);
+    }
+
+    /*
+     * We use :after pseudo-element in place of border so edges do not appear
+     * diagonally cut off due to other edges with transparent borders.
+     */
+    &:after {
+      position: absolute;
+      inset-block-start: calc(-1 * var(--tabs-border-width));
+      inset-inline-start: calc(-1 * var(--tabs-border-width));
+      height: calc(100% + var(--tabs-border-width) * 2);
+      content: "";
+      border-inline-start: var(--tabs-active-border-size) solid var(--tabs-highlight-color);
+
+      @media ($tabs-layout-switch) {
+        inset-block: auto calc(-1 * var(--tabs-border-width));
+        width: calc(100% + 2 * var(--tabs-border-width));
+        height: 0;
+        border-block-start: var(--tabs-active-border-size) solid var(--tabs-highlight-color);
+        border-inline-start: 0;
+      }
+    }
+  }
+
+  /* No regular borders or background color for secondary tab links. */
+  .tabs--secondary & {
+    @media ($tabs-layout-switch) {
+      border-color: transparent;
+      background-color: transparent;
+    }
+  }
+}
+
+/* Button that opens and closes primary tabs at narrow viewports. */
+.tabs__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tabs-height);
+  margin-block: 0;
+  margin-inline: calc(-1 * var(--tabs-border-width)) 0;
+  cursor: pointer;
+  border: solid var(--tabs-border-width) var(--tabs-border-color);
+  background-color: var(--tabs-background-color);
+
+  &:hover {
+    background-color: var(--tabs-background-color-hover);
+  }
+
+  &:focus {
+    position: relative;
+    border-color: var(--tabs-highlight-color);
+    outline: none;
+  }
+
+  /* Button will not work when JavaScript is disabled, so we hide it. */
+  html:not(.js) & {
+    display: none;
+  }
+
+  @media ($tabs-layout-switch) {
+    display: none;
+  }
+}
+
+.tabs__trigger-icon {
+  position: relative;
+  display: block;
+  width: var(--sp);
+  height: 10px;
+  margin-block-start: calc(-2 * var(--tabs-border-width));
+
+  & > span {
+    position: absolute;
+    inset-inline-start: 0;
+    display: block;
+    width: 100%;
+    transition: transform var(--tabs-transition-duration), opacity var(--tabs-transition-duration), top var(--tabs-transition-duration);
+    border-block-start: solid 2px var(--tabs-highlight-color);
+
+    &:nth-child(1) {
+      inset-block-start: 0;
+
+      .tabs__trigger[aria-expanded="true"] & {
+        inset-block-start: calc(50% + 1px);
+        transform: rotate(45deg);
+      }
+    }
+
+    &:nth-child(2) {
+      inset-block-start: calc(50% + 1px);
+
+      .tabs__trigger[aria-expanded="true"] & {
+        opacity: 0;
+      }
+    }
+
+    &:nth-child(3) {
+      inset-block-start: calc(100% + 2px);
+
+      .tabs__trigger[aria-expanded="true"] & {
+        inset-block-start: calc(50% + 1px);
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

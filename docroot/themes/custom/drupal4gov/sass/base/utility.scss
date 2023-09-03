@@ -1,0 +1,39 @@
+@use "../global/mixins" as *;
+
+.blue {
+  color: var(--blue-bright, #0063DE);
+}
+
+:is(a, button, input).pill {
+  @include pill;
+}
+
+:is(a, button, input).pill--primary {
+  @include pill('primary');
+  cursor: pointer;
+}
+
+// Waaaay overcomplicated feature that breaks the element out of the small
+// container and aligns it ot the larger container.
+.wide-content {
+  --percentage-width: calc(94vw - 16px); // Site container is 94% wide.
+  --actual-screen-width: calc(100vw - 16px); // 16px is approximate scrollbar width.
+  --half-screen-width: calc(var(--actual-screen-width) / 2);
+  --container-small-width: min(var(--site-max-width-small), var(--percentage-width));
+  --container-small-half-width: calc(var(--container-small-width) / 2);
+  --difference-small-width-left: calc(var(--half-screen-width) - var(--container-small-half-width));
+  --container-large-width: min(var(--site-max-width), var(--percentage-width));
+  --container-large-half-width: calc(var(--container-large-width) / 2);
+  --difference-large-width-left: calc(var(--half-screen-width) - var(--container-large-half-width));
+
+  .container--small & {
+    position: relative;
+    left: calc(-1 * var(--difference-small-width-left));
+    margin-left: var(--difference-large-width-left);
+    width: var(--container-large-width);
+  }
+
+  img {
+    width: 100%;
+  }
+}

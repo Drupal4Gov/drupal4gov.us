@@ -1,0 +1,19 @@
+{% set attributes = attributes ?: create_attribute() %}
+{% set classes = [
+  'hero',
+  additional_classes
+  ] %}
+
+<div{{ attributes.addClass(classes) }}>
+  <div class="hero__media">
+    {% block media %}{% endblock %}
+  </div>
+  <div class="hero__content">
+    {% block content %}{% endblock %}
+    <div class="hero__cta">
+      {% for cta in ctas %}
+        <a href="{{ cta.url }}">{{ cta.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

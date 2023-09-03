@@ -1,0 +1,29 @@
+<header id="header" class="site-header" data-drupal-selector="site-header">
+  {% if show_blob %}
+    <div class="site-header__blob">
+      {{ include(componentMetadata.path ~ '/images/hexagon-large.svg') }}
+    </div>
+  {% endif %}
+  <div class="site-header__logo {{ show_wide_logo ? 'site-header__logo--wide' : 'site-header__logo--tall' }}">
+    <a href="{{ url('<front>') }}">
+      <div class="site-header__wide-logo">
+        <img src="/{{ componentMetadata.path ~ '/images/logo-wide.svg' }}" alt="{{ 'Drupal for Gov Home'|t }}" width="211" height="39">
+      </div>
+      <div class="site-header__tall-logo">
+        <img src="/{{ componentMetadata.path ~ '/images/logo-tall.svg' }}" alt="{{ 'Drupal for Gov Home'|t }}" width="135" height="85">
+      </div>
+    </a>
+  </div>
+  <div class="site-header__nav">
+    {# This is the root navigation element that flies out at mobile. #}
+    <div id="header-nav" class="header-nav" data-drupal-selector="header-nav">
+      <nav aria-label="{{ 'Primary navigation'|t }}">
+        {{ main_menu }}
+      </nav>
+    </div>
+  </div>
+  <div class="site-header__button">
+    {{ include('drupal4gov:mobile-nav-button') }}
+  </div>
+</header>
+<div class="header-nav-overlay" data-drupal-selector="header-nav-overlay"></div>
