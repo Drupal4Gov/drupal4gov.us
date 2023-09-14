@@ -61,9 +61,9 @@ This is the project workflow:
 ```
 git fetch upstream
 ```
-* Create a new branch off of upstream/main that is based on the ticket you are working (e.g. D4G-XXX)
+* Create a new branch off of upstream/develop that is based on the ticket you are working (e.g. D4G-XXX)
 ```
-git checkout -b D4G-XXX_your_branch_name upstream/main
+git checkout -b D4G-XXX_your_branch_name upstream/develop
 ```
 * Reset local environment to ensure all is inline with new branch: **WARNING: this is destructive**
 ```
@@ -76,7 +76,7 @@ lando blt sync
 lando blt validate
 lando blt tests
 ```
-* Ensure no other changes have been made to the upstream/main branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
+* Ensure no other changes have been made to the upstream/develop branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
 ```
 git fetch upstream
 git rebase upstream/main
