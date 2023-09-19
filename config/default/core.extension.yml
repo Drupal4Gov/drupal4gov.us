@@ -34,6 +34,8 @@ module:
   options: 0
   page_cache: 0
   path_alias: 0
+  sdc: 0
+  serialization: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -47,4 +49,5 @@ theme:
   stark: 0
   olivero: 0
   claro: 0
+  drupal4gov: 0
 profile: minimal
