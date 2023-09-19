@@ -1,0 +1,52 @@
+:root {
+  --blue-light: #D4EBFF;
+  --blue-bright: #0063DE;
+  --blue-dark: #024699;
+  --gray: #353D47;
+  --spacing: 20px;
+  --font-sans: "DM Sans";
+  --percentage-width: 94%;
+  --site-max-width: 1280px;
+  --site-max-width-medium: 1000px;
+  --site-max-width-small: 800px;
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --spacing-xxxl: 128px;
+  --spacing-component: 200px;
+  --body: 17px;
+  --h1: 40px;
+  --h2: 28px;
+  --h3: 20px;
+  --h4: 16px;
+  --h5: 15px;
+  --h6: 13px;
+  --form-spacing: 10px;
+  --form-accent-color: var(--blue-bright);
+  --form-element-height: 50px;
+  --form-element-padding: 10px;
+  --form-element-background: white;
+  --form-element-border-color: #999;
+  --form-element-border-width: 2px;
+  --form-element-border-radius: 2px;
+  --form-element-color: inherit;
+  --form-element-focus-ring-color: var(--blue-bright);
+  --form-element-error-border-color: red;
+  --form-element-disabled-color: #aaa;
+  --form-element-disabled-bg: #ddd;
+  --form-input-width: 20px;
+  --form-element-label-spacing: 10px;
+  --form-description-text-size: 14px;
+  --form-description-color: #666;
+  --form-fieldset-border: #ddd;
+}
+@media (min-width: 700px) {
+  :root {
+    --h1: 50px;
+    --h2: 32px;
+    --h3: 22px;
+  }
+}

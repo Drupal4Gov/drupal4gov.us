@@ -1,0 +1,70 @@
+.blue {
+  color: var(--blue-bright, #0063DE);
+}
+
+:is(a, button, input).pill {
+  display: inline-flex;
+  align-items: center;
+  height: 37px;
+  padding-inline: 20px;
+  border: 2px solid #eee;
+  border-radius: 26px;
+  background-color: white;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+:is(a, button, input).pill:focus-visible {
+  outline: solid 2px var(--blue-bright);
+  outline-offset: 2px;
+}
+
+:is(a, button, input).pill--primary {
+  display: inline-flex;
+  align-items: center;
+  height: 37px;
+  padding-inline: 20px;
+  border: 2px solid #eee;
+  border-radius: 26px;
+  background-color: white;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+  background-color: var(--blue-bright);
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+:is(a, button, input).pill--primary:focus-visible {
+  outline: solid 2px var(--blue-bright);
+  outline-offset: 2px;
+}
+:is(a, button, input).pill--primary:hover {
+  background-color: var(--blue-dark);
+  color: white;
+}
+
+.wide-content {
+  --percentage-width: calc(94vw - 16px);
+  --actual-screen-width: calc(100vw - 16px);
+  --half-screen-width: calc(var(--actual-screen-width) / 2);
+  --container-small-width: min(var(--site-max-width-small), var(--percentage-width));
+  --container-small-half-width: calc(var(--container-small-width) / 2);
+  --difference-small-width-left: calc(var(--half-screen-width) - var(--container-small-half-width));
+  --container-large-width: min(var(--site-max-width), var(--percentage-width));
+  --container-large-half-width: calc(var(--container-large-width) / 2);
+  --difference-large-width-left: calc(var(--half-screen-width) - var(--container-large-half-width));
+}
+.container--small .wide-content {
+  position: relative;
+  left: calc(-1 * var(--difference-small-width-left));
+  margin-left: var(--difference-large-width-left);
+  width: var(--container-large-width);
+}
+.wide-content img {
+  width: 100%;
+}
