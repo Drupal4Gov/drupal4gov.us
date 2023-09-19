@@ -49,10 +49,11 @@
   {% embed 'drupal4gov:footer' with {
     footer_menu: page.footer and page.footer.drupal4gov_footer ? page.footer.drupal4gov_footer : {},
     white_bg: is_front,
+    social_logo_path: '/' ~ directory ~ '/images/social-logos'
   } only %}
     {% block footer_top_second %}
       {{ include('@drupal4gov/../components/social-media-menu/social-media-menu.example.twig', {
-        social_logo_path: '/themes/drupal4gov/images/social-logos'
+        social_logo_path,
         }, with_context = false) }}
     {% endblock %}
 
