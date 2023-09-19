@@ -1,0 +1,11 @@
+.text-formatted {
+  line-height: 1.9;
+}
+.text-formatted ul, .text-formatted ol {
+  margin-block: var(--spacing-xxl);
+  margin-inline: 1.5em 0;
+}
+.text-formatted ul li, .text-formatted ol li {
+  padding-inline-start: 0.5em;
+  margin-bottom: var(--spacing-xs);
+}
