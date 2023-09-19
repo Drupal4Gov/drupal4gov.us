@@ -1,0 +1,22 @@
+uuid: d230070b-1d43-47ce-8fd3-6dd3e453004c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal4gov
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: drupal4gov_content
+theme: drupal4gov
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

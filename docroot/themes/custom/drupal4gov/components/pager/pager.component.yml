@@ -8,9 +8,13 @@ props:
     additional_classes:
       type: string
     current:
-      type: number
+      type:
+        - number
+        - "null"
     items:
-      type: object
+      type:
+        - object
+        - "null"
       properties:
         pages:
           type: object
