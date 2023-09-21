@@ -52,7 +52,8 @@
             "ergebnis/composer-normalize": true,
             "oomphinc/composer-installers-extender": true,
             "phpstan/extension-installer": true,
-            "acquia/blt": true
+            "acquia/blt": true,
+            "acquia/blt-phpcs": true
         },
         "platform": {
             "php": "8.1"
