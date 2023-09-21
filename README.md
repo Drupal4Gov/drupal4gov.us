@@ -13,7 +13,7 @@ This project is built with BLT, an open-source project template and tool that en
     * [Setup GitHub SSH Keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
     * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
 
-After creating a fork of the repository in GitHub and installing all dependencies above) there are only a few commands to get started:
+After creating a fork of the repository in GitHub and installing all dependencies above there are only a few commands to get started:
 
 * `git clone git@github.com:<your repository>/drupal4gov.us.git` (clone your fork)
 * `git remote add upstream git@github.com:Drupal4Gov/drupal4gov.us.git` (set your fork to track the upstream—*the project‘s code source of truth*—repository)
