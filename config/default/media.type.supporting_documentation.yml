@@ -1,0 +1,13 @@
+uuid: cdcf9cff-5964-45f5-8e36-d81412d2fb75
+langcode: en
+status: true
+dependencies: {  }
+id: supporting_documentation
+label: 'Supporting Documentation'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }
