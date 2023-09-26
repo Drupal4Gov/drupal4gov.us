@@ -58,7 +58,7 @@ content:
     third_party_settings: {  }
   field_image:
     type: media_library_widget
-    weight: 9
+    weight: 125
     region: content
     settings:
       media_types: {  }

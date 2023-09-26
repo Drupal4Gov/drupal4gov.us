@@ -1,9 +1,10 @@
-uuid: 9dec6372-2107-49cc-83ab-836ba2410b58
+uuid: c294ac56-5a8a-480c-a160-f86f035b4605
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
+    - media.type.image
     - node.type.event
 id: node.event.field_image
 field_name: field_image
@@ -17,5 +18,12 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'
-  handler_settings: {  }
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference
