@@ -1,0 +1,24 @@
+uuid: 4dfe5b94-aabd-4d28-8c5b-87d97b6fe532
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.board_member
+  module:
+    - text
+id: node.board_member.body
+field_name: body
+entity_type: node
+bundle: board_member
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
