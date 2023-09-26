@@ -1,0 +1,22 @@
+uuid: 3416d929-9ede-4075-aba5-bd2635577adf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.board_member
+  module:
+    - text
+id: node.board_member.field_name
+field_name: field_name
+entity_type: node
+bundle: board_member
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text
