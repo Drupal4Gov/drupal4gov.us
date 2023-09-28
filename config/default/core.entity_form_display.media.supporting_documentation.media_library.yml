@@ -1,0 +1,26 @@
+uuid: f2020f10-b150-4d95-9c31-d3494dfbc105
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.supporting_documentation.field_media_file
+    - media.type.supporting_documentation
+id: media.supporting_documentation.media_library
+targetEntityType: media
+bundle: supporting_documentation
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_file: true
+  status: true
+  uid: true

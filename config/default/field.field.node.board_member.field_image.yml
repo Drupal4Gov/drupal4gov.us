@@ -1,15 +1,14 @@
-uuid: c294ac56-5a8a-480c-a160-f86f035b4605
+uuid: 5c273df4-e9aa-4af6-98a5-283fbdb82e58
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
-    - media.type.image
-    - node.type.event
-id: node.event.field_image
+    - node.type.board_member
+id: node.board_member.field_image
 field_name: field_image
 entity_type: node
-bundle: event
+bundle: board_member
 label: Image
 description: ''
 required: false
@@ -18,12 +17,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'
-  handler_settings:
-    target_bundles:
-      image: image
-    sort:
-      field: _none
-      direction: ASC
-    auto_create: false
-    auto_create_bundle: ''
+  handler_settings: {  }
 field_type: entity_reference

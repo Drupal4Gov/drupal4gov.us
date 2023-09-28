@@ -1,0 +1,27 @@
+uuid: d79cc278-c5e7-49e1-bdf9-30b96b88b87e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.supporting_documentation.field_media_file
+    - media.type.supporting_documentation
+  module:
+    - file
+id: media.supporting_documentation.default
+targetEntityType: media
+bundle: supporting_documentation
+mode: default
+content:
+  field_media_file:
+    type: file_default
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

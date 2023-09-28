@@ -1,15 +1,15 @@
-uuid: c294ac56-5a8a-480c-a160-f86f035b4605
+uuid: a36de47b-787e-477d-9c82-8046f4f38e73
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
     - media.type.image
-    - node.type.event
-id: node.event.field_image
+    - node.type.blog
+id: node.blog.field_image
 field_name: field_image
 entity_type: node
-bundle: event
+bundle: blog
 label: Image
 description: ''
 required: false

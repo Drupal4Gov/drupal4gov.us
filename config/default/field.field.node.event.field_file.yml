@@ -1,16 +1,16 @@
-uuid: c294ac56-5a8a-480c-a160-f86f035b4605
+uuid: 26d00eff-e542-4def-8b92-29d7d473f7af
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - media.type.image
+    - field.storage.node.field_file
+    - media.type.supporting_documentation
     - node.type.event
-id: node.event.field_image
-field_name: field_image
+id: node.event.field_file
+field_name: field_file
 entity_type: node
 bundle: event
-label: Image
+label: 'Supporting Documentation'
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      image: image
+      supporting_documentation: supporting_documentation
     sort:
       field: _none
       direction: ASC

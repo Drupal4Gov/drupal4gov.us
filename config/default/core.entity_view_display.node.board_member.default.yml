@@ -1,0 +1,54 @@
+uuid: d97716d7-ce71-4e49-aa94-74102b040513
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.board_member.body
+    - field.field.node.board_member.field_image
+    - field.field.node.board_member.field_name
+    - field.field.node.board_member.field_role
+    - node.type.board_member
+  module:
+    - text
+    - user
+id: node.board_member.default
+targetEntityType: node
+bundle: board_member
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_role:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
