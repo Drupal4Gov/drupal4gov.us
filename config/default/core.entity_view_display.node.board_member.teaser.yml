@@ -5,8 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.board_member.body
-    - field.field.node.board_member.field_image
-    - field.field.node.board_member.field_name
+    - field.field.node.board_member.field_board_img
     - field.field.node.board_member.field_role
     - node.type.board_member
   module:
@@ -31,6 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_image: true
-  field_name: true
+  field_board_img: true
   field_role: true
