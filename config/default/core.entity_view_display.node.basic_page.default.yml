@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page.body
-    - field.field.node.basic_page.field_title
     - node.type.basic_page
   module:
     - text
@@ -20,13 +19,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_title:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 102
     region: content
   links:
     settings: {  }

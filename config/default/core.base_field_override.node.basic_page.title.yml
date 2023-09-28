@@ -8,7 +8,7 @@ id: node.basic_page.title
 field_name: title
 entity_type: node
 bundle: basic_page
-label: 'Basic Page'
+label: Title
 description: ''
 required: true
 translatable: true

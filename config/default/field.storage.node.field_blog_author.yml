@@ -1,19 +1,18 @@
-uuid: 0ac5bb63-1827-47b4-a92c-d2e64fba7c46
+uuid: fccda8fc-2411-4d4a-a6fc-de66e3b9f149
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_name
-field_name: field_name
+id: node.field_blog_author
+field_name: field_blog_author
 entity_type: node
-type: text
+type: entity_reference
 settings:
-  max_length: 50
-module: text
+  target_type: node
+module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

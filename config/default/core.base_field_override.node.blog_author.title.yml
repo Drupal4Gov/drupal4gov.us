@@ -1,13 +1,13 @@
-uuid: 9d400152-6094-44d7-b2dd-881fe26272a2
+uuid: 75431de8-d565-463d-85b2-2ccd0bff10e2
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.board_member
-id: node.board_member.title
+    - node.type.blog_author
+id: node.blog_author.title
 field_name: title
 entity_type: node
-bundle: board_member
+bundle: blog_author
 label: Name
 description: ''
 required: true

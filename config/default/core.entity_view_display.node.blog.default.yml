@@ -4,9 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.blog.body
-    - field.field.node.blog.field_author
+    - field.field.node.blog.field_blog_author
     - field.field.node.blog.field_image
-    - field.field.node.blog.field_title
     - node.type.blog
   module:
     - text
@@ -23,10 +22,11 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_author:
-    type: text_default
+  field_blog_author:
+    type: entity_reference_label
     label: above
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
     weight: 106
     region: content
@@ -38,13 +38,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 105
-    region: content
-  field_title:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 102
     region: content
   links:
     settings: {  }

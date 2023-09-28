@@ -1,0 +1,22 @@
+uuid: b7a04e3a-d611-4638-a780-979dcd7c1cbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog_author
+id: node.blog_author.promote
+field_name: promote
+entity_type: node
+bundle: blog_author
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
