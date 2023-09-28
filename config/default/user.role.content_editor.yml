@@ -1,0 +1,63 @@
+uuid: 021aed82-7cae-420f-a129-5e47bd307140
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full
+    - media.type.image
+    - media.type.supporting_documentation
+    - node.type.basic_page
+    - node.type.blog
+    - node.type.board_member
+    - node.type.event
+    - taxonomy.vocabulary.event
+  module:
+    - file
+    - filter
+    - media
+    - node
+    - system
+    - taxonomy
+    - toolbar
+id: content_editor
+label: 'Content Editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'create basic_page content'
+  - 'create blog content'
+  - 'create board_member content'
+  - 'create event content'
+  - 'create image media'
+  - 'create media'
+  - 'create supporting_documentation media'
+  - 'create terms in event'
+  - 'edit any basic_page content'
+  - 'edit any blog content'
+  - 'edit any board_member content'
+  - 'edit any event content'
+  - 'edit own basic_page content'
+  - 'edit own blog content'
+  - 'edit own board_member content'
+  - 'edit own event content'
+  - 'edit own image media'
+  - 'edit own supporting_documentation media'
+  - 'edit terms in event'
+  - 'update any media'
+  - 'update media'
+  - 'use text format full'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view basic_page revisions'
+  - 'view blog revisions'
+  - 'view board_member revisions'
+  - 'view event revisions'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
