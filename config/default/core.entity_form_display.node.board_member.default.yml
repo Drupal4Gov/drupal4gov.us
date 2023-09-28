@@ -4,12 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.board_member.body
-    - field.field.node.board_member.field_image
-    - field.field.node.board_member.field_name
+    - field.field.node.board_member.field_board_img
     - field.field.node.board_member.field_role
+    - image.style.thumbnail
     - node.type.board_member
   module:
-    - media_library
+    - image
     - text
 id: node.board_member.default
 targetEntityType: node
@@ -32,20 +32,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    type: media_library_widget
-    weight: 125
+  field_board_img:
+    type: image_image
+    weight: 128
     region: content
     settings:
-      media_types: {  }
-    third_party_settings: {  }
-  field_name:
-    type: text_textfield
-    weight: 126
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   field_role:
     type: text_textfield

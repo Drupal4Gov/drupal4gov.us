@@ -1,17 +1,18 @@
-uuid: 14845d88-cc78-4cf7-9bdb-a98cd8454617
+uuid: 1fa4a770-0a37-4e0e-b600-e6b72aa9399f
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.basic_page.body
-    - node.type.basic_page
+    - field.field.node.blog_author.body
+    - field.field.node.blog_author.field_url
+    - node.type.blog_author
   module:
     - text
     - user
-id: node.basic_page.teaser
+id: node.blog_author.teaser
 targetEntityType: node
-bundle: basic_page
+bundle: blog_author
 mode: teaser
 content:
   body:
@@ -27,4 +28,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_url: true

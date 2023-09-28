@@ -1,29 +1,27 @@
-uuid: 26d00eff-e542-4def-8b92-29d7d473f7af
+uuid: 663269a0-2259-455d-a7af-27f6c349b67a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_file
-    - media.type.supporting_documentation
     - node.type.event
+  module:
+    - file
 id: node.event.field_file
 field_name: field_file
 entity_type: node
 bundle: event
-label: 'Supporting Documentation'
+label: File
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:media'
-  handler_settings:
-    target_bundles:
-      supporting_documentation: supporting_documentation
-    sort:
-      field: _none
-      direction: ASC
-    auto_create: false
-    auto_create_bundle: ''
-field_type: entity_reference
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf pptx'
+  max_filesize: ''
+  description_field: false
+field_type: file

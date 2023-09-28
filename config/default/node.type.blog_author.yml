@@ -1,4 +1,4 @@
-uuid: edf8768e-5262-4dd9-bb05-8036ac37461a
+uuid: 494e27d4-b867-4aca-b628-debc9957fc48
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'Board Member'
-type: board_member
-description: ''
+name: 'Blog Author'
+type: blog_author
+description: 'Referenced by the blog content type.'
 help: ''
 new_revision: true
 preview_mode: 1

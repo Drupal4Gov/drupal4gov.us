@@ -14,6 +14,7 @@ dependencies:
   module:
     - address
     - datetime_range
+    - file
     - link
     - text
     - user
@@ -59,13 +60,12 @@ content:
     weight: 110
     region: content
   field_file:
-    type: entity_reference_entity_view
+    type: file_default
     label: above
     settings:
-      view_mode: default
-      link: false
+      use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 109
+    weight: 111
     region: content
   field_image:
     type: entity_reference_entity_view
