@@ -6,16 +6,15 @@ dependencies:
     - field.field.node.event.body
     - field.field.node.event.field_address
     - field.field.node.event.field_date
-    - field.field.node.event.field_event_types_
+    - field.field.node.event.field_event_url
     - field.field.node.event.field_file
     - field.field.node.event.field_image
-    - field.field.node.event.field_location
-    - field.field.node.event.field_title
     - field.field.node.event.field_type
     - node.type.event
   module:
     - address
     - datetime_range
+    - link
     - media_library
     - text
 id: node.event.default
@@ -25,7 +24,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 5
+    weight: 8
     region: content
     settings:
       rows: 9
@@ -35,92 +34,85 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 1
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   field_address:
     type: address_default
-    weight: 26
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   field_date:
-    type: daterange_default
-    weight: 7
+    type: daterange_datelist
+    weight: 1
     region: content
-    settings: {  }
+    settings:
+      increment: 15
+      date_order: YMD
+      time_type: '24'
     third_party_settings: {  }
-  field_event_types_:
-    type: options_buttons
-    weight: 27
+  field_event_url:
+    type: link_default
+    weight: 9
     region: content
-    settings: {  }
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_file:
     type: media_library_widget
-    weight: 126
+    weight: 12
     region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
   field_image:
     type: media_library_widget
-    weight: 125
+    weight: 11
     region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-  field_location:
-    type: text_textfield
-    weight: 8
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_title:
-    type: text_textfield
-    weight: 6
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_type:
-    type: entity_reference_autocomplete
-    weight: 10
+    type: options_select
+    weight: 2
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 2
+    weight: 5
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 4
+    weight: 7
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 3
+    weight: 6
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 0
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -128,5 +120,4 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  title: true
+hidden: {  }
