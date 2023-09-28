@@ -1,0 +1,17 @@
+uuid: f446c5f6-1efa-41ef-a03e-27f4b7daa991
+langcode: en
+status: true
+dependencies: {  }
+name: Full
+format: full
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false
