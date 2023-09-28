@@ -6,17 +6,15 @@ dependencies:
     - field.field.node.event.body
     - field.field.node.event.field_address
     - field.field.node.event.field_date
-    - field.field.node.event.field_event_types_
+    - field.field.node.event.field_event_url
     - field.field.node.event.field_file
     - field.field.node.event.field_image
-    - field.field.node.event.field_location
-    - field.field.node.event.field_title
     - field.field.node.event.field_type
     - node.type.event
   module:
     - address
     - datetime_range
-    - options
+    - link
     - text
     - user
 id: node.event.default
@@ -48,12 +46,17 @@ content:
     third_party_settings: {  }
     weight: 103
     region: content
-  field_event_types_:
-    type: list_default
+  field_event_url:
+    type: link
     label: above
-    settings: {  }
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
     third_party_settings: {  }
-    weight: 108
+    weight: 110
     region: content
   field_file:
     type: entity_reference_entity_view
@@ -72,20 +75,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 105
-    region: content
-  field_location:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 104
-    region: content
-  field_title:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 102
     region: content
   field_type:
     type: entity_reference_label

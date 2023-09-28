@@ -1,17 +1,16 @@
-uuid: 41fb8d40-6f1a-45f9-85d9-50d9ad5ec491
+uuid: 78818b81-df72-475b-a62c-b4fafcea783e
 langcode: en
 status: true
 dependencies:
   module:
+    - link
     - node
-    - text
-id: node.field_location
-field_name: field_location
+id: node.field_event_url
+field_name: field_event_url
 entity_type: node
-type: text
-settings:
-  max_length: 255
-module: text
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: 1
 translatable: true
