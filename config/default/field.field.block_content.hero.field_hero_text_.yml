@@ -1,0 +1,24 @@
+uuid: 9586d3b7-8bbb-453f-b0f4-cace11c58a3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_hero_text_
+    - filter.format.half_blue
+  module:
+    - text
+id: block_content.hero.field_hero_text_
+field_name: field_hero_text_
+entity_type: block_content
+bundle: hero
+label: 'Hero Text '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - half_blue
+field_type: text_long
