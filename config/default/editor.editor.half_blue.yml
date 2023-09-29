@@ -1,0 +1,21 @@
+uuid: 471fc178-d5c4-436e-b419-07864e7bbc9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.half_blue
+  module:
+    - ckeditor5
+format: half_blue
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - style
+  plugins:
+    ckeditor5_style:
+      styles:
+        -
+          label: Blue
+          element: '<span class="blue">'
+image_upload: {  }
