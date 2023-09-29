@@ -1,0 +1,19 @@
+{% embed 'drupal4gov:hero' with {
+    ctas: [
+      {
+        title: 'Discover more',
+        url: '#',
+      },
+      {
+        title: 'Contact us',
+        url: '#',
+      }
+    ]
+  } %}
+  {% block media %}
+    {{ content.field_hero_image }}
+  {% endblock %}
+  {% block content %}
+    {{ content.field_hero_text_ }}
+  {% endblock %}
+{% endembed %}
