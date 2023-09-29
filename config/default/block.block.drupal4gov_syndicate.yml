@@ -1,0 +1,23 @@
+uuid: 52c5c287-30e7-4ad5-a553-3f13cc419154
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - drupal4gov
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: drupal4gov_syndicate
+theme: drupal4gov
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

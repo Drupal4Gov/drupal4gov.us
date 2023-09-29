@@ -1,0 +1,22 @@
+uuid: 768b8cb0-f7ba-42e7-922d-1c78e2678c1e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal4gov
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupal4gov_primary_local_tasks
+theme: drupal4gov
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

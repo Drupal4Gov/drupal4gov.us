@@ -1,0 +1,22 @@
+uuid: 8ba66dab-d03d-4cd2-bea9-d49cb1ece00f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal4gov
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: drupal4gov_powered
+theme: drupal4gov
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
