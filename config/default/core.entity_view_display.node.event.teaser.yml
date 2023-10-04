@@ -10,7 +10,9 @@ dependencies:
     - field.field.node.event.field_event_url
     - field.field.node.event.field_file
     - field.field.node.event.field_image
+    - field.field.node.event.field_speaker
     - field.field.node.event.field_type
+    - field.field.node.event.field_video
     - node.type.event
   module:
     - text
@@ -39,4 +41,6 @@ hidden:
   field_event_url: true
   field_file: true
   field_image: true
+  field_speaker: true
   field_type: true
+  field_video: true

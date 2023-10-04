@@ -12,7 +12,11 @@ settings:
   toolbar:
     items:
       - style
+      - sourceEditing
   plugins:
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<span>'
     ckeditor5_style:
       styles:
         -

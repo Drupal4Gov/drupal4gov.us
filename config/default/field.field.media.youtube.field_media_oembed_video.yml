@@ -1,0 +1,19 @@
+uuid: adbd2458-df45-434d-b886-1742c6e7ed79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_video
+    - media.type.youtube
+id: media.youtube.field_media_oembed_video
+field_name: field_media_oembed_video
+entity_type: media
+bundle: youtube
+label: 'Remote video URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

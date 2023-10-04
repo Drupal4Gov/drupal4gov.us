@@ -1,0 +1,22 @@
+uuid: bdaec1b7-9503-4d9f-a866-fe505681c62c
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.youtube
+id: media.youtube.status
+field_name: status
+entity_type: media
+bundle: youtube
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
