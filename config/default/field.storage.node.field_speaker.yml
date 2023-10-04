@@ -1,0 +1,20 @@
+uuid: 1871bc09-4cd5-4f9a-b4ba-b8760ca27d05
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_speaker
+field_name: field_speaker
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
