@@ -1,0 +1,10 @@
+uuid: 9ff686a0-dfd9-4f81-a5a6-921408fc228c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.blog_view
+label: 'Blog View'
+targetEntityType: block_content
+cache: true
