@@ -34,16 +34,19 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  path: 0
   path_alias: 0
   sdc: 0
   serialization: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0
   workflows: 0
+  pathauto: 1
   views: 10
   minimal: 1000
 theme:
