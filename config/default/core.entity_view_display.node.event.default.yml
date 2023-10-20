@@ -9,7 +9,9 @@ dependencies:
     - field.field.node.event.field_event_url
     - field.field.node.event.field_file
     - field.field.node.event.field_image
+    - field.field.node.event.field_speaker
     - field.field.node.event.field_type
+    - field.field.node.event.field_video
     - node.type.event
   module:
     - address
@@ -76,6 +78,14 @@ content:
     third_party_settings: {  }
     weight: 105
     region: content
+  field_speaker:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 113
+    region: content
   field_type:
     type: entity_reference_label
     label: above
@@ -83,6 +93,15 @@ content:
       link: true
     third_party_settings: {  }
     weight: 106
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 112
     region: content
   links:
     settings: {  }

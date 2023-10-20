@@ -12,6 +12,7 @@ module:
   config_filter: 0
   config_ignore: 0
   config_split: 0
+  contextual: 0
   datetime: 0
   datetime_range: 0
   dynamic_page_cache: 0
@@ -25,6 +26,8 @@ module:
   filter: 0
   image: 0
   inline_form_errors: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   media: 0
   media_library: 0
