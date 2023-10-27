@@ -9,6 +9,7 @@ dependencies:
     - node.type.blog
   module:
     - media_library
+    - path
     - text
 id: node.blog.default
 targetEntityType: node
@@ -47,6 +48,12 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox

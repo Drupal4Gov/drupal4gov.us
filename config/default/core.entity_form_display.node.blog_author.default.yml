@@ -8,6 +8,7 @@ dependencies:
     - node.type.blog_author
   module:
     - link
+    - path
     - text
 id: node.blog_author.default
 targetEntityType: node
@@ -37,6 +38,12 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox

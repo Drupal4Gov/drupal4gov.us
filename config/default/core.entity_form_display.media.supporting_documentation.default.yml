@@ -7,6 +7,7 @@ dependencies:
     - media.type.supporting_documentation
   module:
     - file
+    - path
 id: media.supporting_documentation.default
 targetEntityType: media
 bundle: supporting_documentation
@@ -32,6 +33,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

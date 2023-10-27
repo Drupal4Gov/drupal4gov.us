@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.basic_page.body
     - node.type.basic_page
   module:
+    - path
     - text
 id: node.basic_page.default
 targetEntityType: node
@@ -25,6 +26,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
