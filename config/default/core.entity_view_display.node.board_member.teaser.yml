@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.board_member.field_role
     - node.type.board_member
   module:
+    - image
     - text
     - user
 id: node.board_member.teaser
@@ -20,15 +21,27 @@ content:
     type: text_summary_or_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 150
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
-  links:
+  field_board_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_role:
+    type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
 hidden:
-  field_board_img: true
-  field_role: true
+  links: true
