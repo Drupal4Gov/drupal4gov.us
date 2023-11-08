@@ -4,10 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.blog_author.body
+    - field.field.node.blog_author.field_author_image
     - field.field.node.blog_author.field_url
     - node.type.blog_author
   module:
     - link
+    - media_library
+    - path
     - text
 id: node.blog_author.default
 targetEntityType: node
@@ -29,6 +32,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_author_image:
+    type: media_library_widget
+    weight: 123
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_url:
     type: link_default
