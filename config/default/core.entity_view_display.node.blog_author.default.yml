@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.blog_author.body
+    - field.field.node.blog_author.field_author_image
     - field.field.node.blog_author.field_url
     - node.type.blog_author
   module:
@@ -21,6 +22,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_author_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 103
     region: content
   field_url:
     type: link
