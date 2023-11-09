@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog_author.body
+    - field.field.node.blog_author.field_author_image
     - field.field.node.blog_author.field_url
     - node.type.blog_author
   module:
@@ -29,4 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_author_image: true
   field_url: true
