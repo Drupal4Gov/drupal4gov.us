@@ -33,7 +33,8 @@
         "drupal/shield": "^1.7",
         "drupal/upgrade_status": "^4.0",
         "drush/drush": "^12",
-        "oomphinc/composer-installers-extender": "^2"
+        "oomphinc/composer-installers-extender": "^2",
+        "symfony/twig-bridge": "^6.3.8"
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
