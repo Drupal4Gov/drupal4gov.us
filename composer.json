@@ -33,6 +33,7 @@
         "drupal/redirect": "^1.8",
         "drupal/shield": "^1.7",
         "drupal/upgrade_status": "^4.0",
+        "drupal/viewsreference": "^2.0@beta",
         "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2",
         "symfony/twig-bridge": "^6.3.8"
