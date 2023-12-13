@@ -18,6 +18,7 @@ module:
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
+  entity_reference_revisions: 0
   environment_indicator: 0
   environment_indicator_ui: 0
   field: 0
@@ -51,6 +52,7 @@ module:
   workflows: 0
   pathauto: 1
   views: 10
+  paragraphs: 11
   minimal: 1000
 theme:
   stark: 0
