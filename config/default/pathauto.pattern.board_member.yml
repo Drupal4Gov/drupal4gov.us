@@ -1,0 +1,22 @@
+uuid: 5bb653c1-9f49-465b-8bdf-278474a9d5d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: board_member
+label: 'Board Member'
+type: 'canonical_entities:node'
+pattern: '/board-member/[node:title]'
+selection_criteria:
+  f231ee11-768e-4518-8d78-55ddf989499c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f231ee11-768e-4518-8d78-55ddf989499c
+    context_mapping:
+      node: node
+    bundles:
+      board_member: board_member
+selection_logic: and
+weight: -5
+relationships: {  }
