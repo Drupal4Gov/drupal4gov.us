@@ -8,6 +8,7 @@ dependencies:
     - taxonomy.vocabulary.event
   content:
     - 'taxonomy_term:event:02c00767-78ec-4fca-b4aa-a66a8ce9bd98'
+    - 'taxonomy_term:event:3888bcc9-2275-4759-8991-2b180bddecbb'
   module:
     - datetime
     - node
@@ -96,7 +97,7 @@ display:
         type: mini
         options:
           offset: 0
-          items_per_page: 5
+          items_per_page: 10
           total_pages: null
           id: 0
           tags:
@@ -354,23 +355,26 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            - 1
+            1: 1
           group: 1
-          exposed: false
+          exposed: true
           expose:
-            operator_id: ''
-            label: ''
+            operator_id: field_type_target_id_op
+            label: 'Event Type'
             description: ''
             use_operator: false
-            operator: ''
+            operator: field_type_target_id_op
             operator_limit_selection: false
             operator_list: {  }
-            identifier: ''
+            identifier: field_type_target_id
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              content_editor: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -386,7 +390,7 @@ display:
             group_items: {  }
           reduce_duplicates: false
           vid: event
-          type: textfield
+          type: select
           hierarchy: false
           limit: true
           error_message: true
@@ -398,11 +402,11 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: datetime
-          operator: '>'
+          operator: '>='
           value:
             min: ''
             max: ''
-            value: '-1 year'
+            value: '-3 years'
             type: offset
           group: 1
           exposed: false
@@ -449,6 +453,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - user
         - 'user.node_grants:view'
@@ -488,20 +493,23 @@ display:
           group: 1
           exposed: false
           expose:
-            operator_id: ''
-            label: ''
+            operator_id: type_op
+            label: 'Event type'
             description: ''
             use_operator: false
-            operator: ''
+            operator: type_op
             operator_limit_selection: false
             operator_list: {  }
-            identifier: ''
+            identifier: type
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
-            reduce: false
+              anonymous: '0'
+              administrator: '0'
+              content_editor: '0'
+            reduce: true
           is_grouped: false
           group_info:
             label: ''
@@ -524,39 +532,45 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            - 1
+            6: 6
           group: 1
-          exposed: false
+          exposed: true
           expose:
-            operator_id: ''
-            label: ''
+            operator_id: field_type_target_id_op
+            label: 'Event type '
             description: ''
             use_operator: false
-            operator: ''
+            operator: field_type_target_id_op
             operator_limit_selection: false
             operator_list: {  }
-            identifier: ''
+            identifier: field_type_target_id
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              content_editor: '0'
             reduce: false
           is_grouped: false
           group_info:
-            label: ''
-            description: ''
-            identifier: ''
+            label: 'Event Type (field_type)'
+            description: null
+            identifier: field_type_target_id
             optional: true
             widget: select
             multiple: false
             remember: false
             default_group: All
             default_group_multiple: {  }
-            group_items: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
           reduce_duplicates: false
           vid: event
-          type: textfield
+          type: select
           hierarchy: false
           limit: true
           error_message: true
@@ -568,11 +582,11 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: datetime
-          operator: '<'
+          operator: '<='
           value:
             min: ''
             max: ''
-            value: '-1 year'
+            value: '-3 years'
             type: offset
           group: 1
           exposed: false
@@ -619,6 +633,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - user
         - 'user.node_grants:view'
