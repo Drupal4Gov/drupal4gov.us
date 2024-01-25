@@ -15,6 +15,8 @@ dependencies:
     - field.field.node.event.field_video
     - node.type.event
   module:
+    - address
+    - datetime_range
     - media
     - text
     - user
@@ -28,6 +30,23 @@ content:
     label: hidden
     settings:
       trim_length: 600
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_address:
+    type: address_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_date:
+    type: daterange_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
     third_party_settings: {  }
     weight: 2
     region: content
@@ -44,15 +63,13 @@ content:
     region: content
   field_speaker:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     weight: 1
     region: content
 hidden:
-  field_address: true
-  field_date: true
   field_event_url: true
   field_file: true
   field_type: true
