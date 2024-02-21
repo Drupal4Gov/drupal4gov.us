@@ -49,3 +49,27 @@ function drupal4gov_preprocess_field(&$variables) {
     $variables['attributes']['class'][] = 'text-formatted';
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function drupal4gov_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
+  $suggestions[] = 'views_view__' . $variables['view']->id();
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for node.
+ */
+function drupal4gov_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  $elements = $variables['elements'];
+
+  if ($uuid = $elements['#derivative_plugin_id']) {
+    if ($block = \Drupal::service('entity.repository')->loadEntityByUuid('block_content', $uuid)) {
+      $block_type = $block->bundle();
+      $view_mode = strtr($variables['elements']['#configuration']['view_mode'], '.', '_');
+      $suggestions[] = 'block__block_content__' . $block_type;
+      $suggestions[] = 'block__' . $block_type;
+      $suggestions[] = 'block__' . $block_type . '__' . $view_mode;
+    }
+  }
+}
