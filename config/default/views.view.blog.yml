@@ -380,7 +380,7 @@ display:
         type: grid_responsive
         options:
           grouping: {  }
-          columns: 3
+          columns: 1
           cell_min_width: 100
           grid_gutter: 10
           alignment: horizontal
