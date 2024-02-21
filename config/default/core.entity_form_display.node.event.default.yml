@@ -19,7 +19,6 @@ dependencies:
     - file
     - link
     - media_library
-    - path
     - text
 id: node.event.default
 targetEntityType: node
@@ -49,10 +48,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_date:
-    type: daterange_default
+    type: daterange_datelist
     weight: 1
     region: content
-    settings: {  }
+    settings:
+      increment: 15
+      date_order: YMD
+      time_type: '24'
     third_party_settings: {  }
   field_event_url:
     type: link_default

@@ -8,7 +8,7 @@ global:
       css/base/forms.css: {}
     component:
       css/components/text-formatted.css: {}
-      components/messages/messages.css: {}
+      css/components/blog.css: {}
     layout:
       css/layout/layout.css: {}
       css/layout/views.css: {}
