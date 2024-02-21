@@ -1,0 +1,36 @@
+.view-blog {
+
+  .node--type-blog.node--view-mode-teaser>.node__content {
+    display: flex;
+    border-bottom: 1px solid var(--blue-bright);
+    column-gap: 2rem;
+    padding: 26px 0;
+
+    .blog--left {
+      flex: 1 0 70%;
+    }
+
+    .blog--right {
+      align-self: center;
+      flex: 1 0 25%;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-block-end: .83em;
+    }
+  }
+
+  .node--type-blog-author.node--view-mode-teaser .node__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
