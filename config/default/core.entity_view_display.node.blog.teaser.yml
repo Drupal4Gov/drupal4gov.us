@@ -20,15 +20,19 @@ content:
     type: text_summary_or_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 200
     third_party_settings: {  }
-    weight: 101
+    weight: 0
     region: content
-  links:
-    settings: {  }
+  field_blog_author:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
 hidden:
-  field_blog_author: true
   field_image: true
+  links: true

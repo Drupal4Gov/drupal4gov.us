@@ -1,0 +1,10 @@
+uuid: 330400de-6acc-4e74-953c-797afd1d2de4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.blog_body
+label: 'Blog Body'
+targetEntityType: node
+cache: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.blog_author.body
     - field.field.node.blog_author.field_author_image
+    - field.field.node.blog_author.field_position
     - field.field.node.blog_author.field_url
     - node.type.blog_author
   module:
@@ -25,16 +26,24 @@ content:
     region: content
   field_author_image:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
     weight: 103
     region: content
+  field_position:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
   field_url:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
