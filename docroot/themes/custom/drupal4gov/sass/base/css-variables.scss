@@ -57,3 +57,13 @@
   --form-description-color: #666;
   --form-fieldset-border: #ddd;
 }
+
+@mixin hover {
+
+  &.active,
+  &:hover,
+  &:focus,
+  &:active {
+    @content;
+  }
+}

@@ -40,7 +40,7 @@ a {
   text-underline-offset: 2px;
   transition: color 0.2s;
 }
-a:hover {
+a:hover, a:focus, a:active {
   color: var(--blue-bright);
 }
 a:focus-visible {
