@@ -74,8 +74,6 @@
 }
 
 .site-header__button {
-  display: flex;
-
   @media ($nav) {
     display: none;
   }

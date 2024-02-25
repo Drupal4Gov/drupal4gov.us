@@ -66,9 +66,6 @@
   }
 }
 
-.site-header__button {
-  display: flex;
-}
 @media (min-width: 1200px) {
   .site-header__button {
     display: none;
