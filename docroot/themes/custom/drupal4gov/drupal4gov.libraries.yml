@@ -24,3 +24,8 @@ drupal.message:
     components/messages/messages.theme.js: {}
   dependencies:
     - drupal4gov/messages
+
+paragraph--cta:
+  css:
+    base:      
+      components/paragraph--cta/paragraph--cta.css: {}
