@@ -50,7 +50,14 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      <div class="cta--wrapper">
+        <div class="wrapper-left">
+          {{ content|without('field_link') }}
+        </div>
+        <div class="wrapper-right">
+          {{ content.field_link }}
+        </div>
+      </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
