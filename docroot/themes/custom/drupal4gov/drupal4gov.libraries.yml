@@ -12,7 +12,6 @@ global:
     layout:
       css/layout/layout.css: {}
       css/layout/views.css: {}
-
 messages:
   js:
     components/messages/messages.theme.js: {}
@@ -24,3 +23,8 @@ drupal.message:
     components/messages/messages.theme.js: {}
   dependencies:
     - drupal4gov/messages
+
+paragraph--cta:
+  css:
+    base:
+      components/paragraph--cta/paragraph--cta.css: {}
