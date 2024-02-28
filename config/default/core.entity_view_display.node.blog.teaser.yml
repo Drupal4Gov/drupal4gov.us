@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.blog.field_blog_author
     - field.field.node.blog.field_date_single_
     - field.field.node.blog.field_image
+    - field.field.node.blog.field_tags
     - node.type.blog
   module:
     - text
@@ -37,4 +38,5 @@ content:
 hidden:
   field_date_single_: true
   field_image: true
+  field_tags: true
   links: true
