@@ -3,11 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.cta.field_background_color
     - field.field.paragraph.cta.field_body
     - field.field.paragraph.cta.field_link
     - field.field.paragraph.cta.field_title
     - paragraphs.paragraphs_type.cta
   module:
+    - color_field
     - link
     - text
 id: paragraph.cta.default
@@ -15,6 +17,15 @@ targetEntityType: paragraph
 bundle: cta
 mode: default
 content:
+  field_background_color:
+    type: color_field_formatter_text
+    label: hidden
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_body:
     type: text_default
     label: hidden

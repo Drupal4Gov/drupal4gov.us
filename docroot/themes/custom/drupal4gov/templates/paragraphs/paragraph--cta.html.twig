@@ -48,11 +48,11 @@
 %}
 {{ attach_library('drupal4gov/paragraph--cta') }}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }} {% if content.field_background_color|render %}style="background-color: {{ content.field_background_color.0 }}" {% endif %}>
     {% block content %}
       <div class="cta--wrapper">
         <div class="wrapper-left">
-          {{ content|without('field_link') }}
+          {{ content|without('field_link', 'field_background_color') }}
         </div>
         <div class="wrapper-right">
           <a href="{{ content.field_link[0]['#url'] }}" class="button">{{ content.field_link[0]['#title'] }}</a>

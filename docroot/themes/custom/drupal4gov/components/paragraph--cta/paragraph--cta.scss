@@ -1,9 +1,8 @@
 .paragraph--type--cta {
-  border: 2px solid lime;
-
   .cta--wrapper {
     display: flex;
     flex-direction: row;
+    padding: 25px;
   }
 
   .wrapper-left {
@@ -11,6 +10,8 @@
   }
 
   .wrapper-right {
+    display: flex;
+    align-items: center;
     flex: 1 0 auto;
   }
 }

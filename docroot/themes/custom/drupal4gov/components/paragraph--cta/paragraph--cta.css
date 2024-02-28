@@ -1,13 +1,13 @@
-.paragraph--type--cta {
-  border: 2px solid lime;
-}
 .paragraph--type--cta .cta--wrapper {
   display: flex;
   flex-direction: row;
+  padding: 25px;
 }
 .paragraph--type--cta .wrapper-left {
   flex: 1 0 auto;
 }
 .paragraph--type--cta .wrapper-right {
+  display: flex;
+  align-items: center;
   flex: 1 0 auto;
 }
