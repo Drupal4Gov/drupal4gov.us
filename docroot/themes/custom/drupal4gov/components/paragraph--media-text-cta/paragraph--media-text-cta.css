@@ -1,0 +1,17 @@
+.paragraph--type--media-text-cta {
+  border: 2px solid lime;
+}
+.paragraph--type--media-text-cta h2 {
+  text-align: center;
+}
+.paragraph--type--media-text-cta h3 {
+  color: #0063DE;
+}
+.paragraph--type--media-text-cta .media-text-cta--wrapper {
+  display: flex;
+}
+.paragraph--type--media-text-cta .wrapper-text,
+.paragraph--type--media-text-cta .wrapper-media {
+  flex: 1 1 50%;
+  border: 2px solid red;
+}

@@ -1,0 +1,24 @@
+uuid: b48c5442-00c3-40fe-b597-438f6e1d3826
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - filter.format.full
+    - paragraphs.paragraphs_type.media_text_cta
+  module:
+    - text
+id: paragraph.media_text_cta.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: media_text_cta
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full
+field_type: text_long

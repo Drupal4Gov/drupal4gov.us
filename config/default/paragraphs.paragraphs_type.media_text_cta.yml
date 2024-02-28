@@ -1,0 +1,10 @@
+uuid: 8c82fcc0-ec8d-469d-aac6-a4419419a8df
+langcode: en
+status: true
+dependencies: {  }
+id: media_text_cta
+label: 'Media/Text CTA'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
