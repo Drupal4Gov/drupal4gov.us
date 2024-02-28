@@ -1,0 +1,8 @@
+uuid: 0cd42b15-f601-4dfb-94a7-3fe537ac7853
+langcode: en
+status: true
+dependencies: {  }
+id: usa_medium
+label: Medium
+locked: false
+pattern: 'F j,  Y'

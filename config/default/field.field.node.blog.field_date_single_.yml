@@ -1,0 +1,21 @@
+uuid: d5155a39-5f85-4dd1-a8d9-af32a8b30209
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_single_
+    - node.type.blog
+  module:
+    - datetime
+id: node.blog.field_date_single_
+field_name: field_date_single_
+entity_type: node
+bundle: blog
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

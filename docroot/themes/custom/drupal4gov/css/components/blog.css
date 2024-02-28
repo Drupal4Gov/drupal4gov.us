@@ -72,3 +72,29 @@
 .page-node-type-blog .node--type-blog-author .blog--author .field--name-title {
   font-size: var(--h3);
 }
+.page-node-type-blog .field--name-field-date-single- {
+  font-weight: 700;
+}
+.page-node-type-blog .field--name-field-tags {
+  border-top: 1px solid var(--gray);
+  padding-top: 0.75rem;
+  margin-top: 1rem;
+}
+.page-node-type-blog .field--name-field-tags .field__item {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid var(--blue-dark);
+  border-radius: 8px;
+  color: #445259;
+  display: inline-block;
+  background-color: var(--blue-light);
+  margin-right: 5px;
+  margin-top: 11px;
+}
+.page-node-type-blog .field--name-field-tags .field__item:hover, .page-node-type-blog .field--name-field-tags .field__item:focus {
+  background-color: white;
+}
+.page-node-type-blog .field--name-field-tags .field__item a {
+  color: var(--blue-dark);
+  text-decoration: none;
+}
