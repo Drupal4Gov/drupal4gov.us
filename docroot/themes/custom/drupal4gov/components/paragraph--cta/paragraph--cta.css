@@ -1,13 +1,22 @@
+.paragraph--type--cta {
+  border-radius: 45px;
+}
 .paragraph--type--cta .cta--wrapper {
   display: flex;
   flex-direction: row;
-  padding: 25px;
+  padding: 50px 75px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
 .paragraph--type--cta .wrapper-left {
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 }
 .paragraph--type--cta .wrapper-right {
   display: flex;
   align-items: center;
   flex: 1 0 auto;
+}
+.paragraph--type--cta .field--name-field-title {
+  font-weight: 800;
+  font-size: var(--h2);
 }

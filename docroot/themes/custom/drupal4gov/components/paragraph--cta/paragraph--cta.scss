@@ -1,17 +1,25 @@
 .paragraph--type--cta {
+  border-radius: 45px;
+
   .cta--wrapper {
     display: flex;
     flex-direction: row;
-    padding: 25px;
+    padding: 50px 75px;
+    column-gap: 40px;
   }
 
   .wrapper-left {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
   }
 
   .wrapper-right {
     display: flex;
     align-items: center;
     flex: 1 0 auto;
+  }
+
+  .field--name-field-title {
+    font-weight: 800;
+    font-size: var(--h2);
   }
 }
