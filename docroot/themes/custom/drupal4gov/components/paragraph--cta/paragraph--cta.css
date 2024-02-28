@@ -1,3 +1,13 @@
 .paragraph--type--cta {
-  border: 2px solid hotpink;
+  border: 2px solid lime;
+}
+.paragraph--type--cta .cta--wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.paragraph--type--cta .wrapper-left {
+  flex: 1 0 auto;
+}
+.paragraph--type--cta .wrapper-right {
+  flex: 1 0 auto;
 }

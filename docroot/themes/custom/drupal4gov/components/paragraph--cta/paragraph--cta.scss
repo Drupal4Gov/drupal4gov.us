@@ -1,1 +1,16 @@
-.paragraph--type--cta { border: 2px solid hotpink; } 
+.paragraph--type--cta {
+  border: 2px solid lime;
+
+  .cta--wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper-left {
+    flex: 1 0 auto;
+  }
+
+  .wrapper-right {
+    flex: 1 0 auto;
+  }
+}

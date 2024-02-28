@@ -55,7 +55,7 @@
           {{ content|without('field_link') }}
         </div>
         <div class="wrapper-right">
-          {{ content.field_link }}
+          <a href="{{ content.field_link[0]['#url'] }}" class="button">{{ content.field_link[0]['#title'] }}</a>
         </div>
       </div>
     {% endblock %}
