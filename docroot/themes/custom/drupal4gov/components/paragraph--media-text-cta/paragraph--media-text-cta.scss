@@ -1,12 +1,11 @@
 .paragraph--type--media-text-cta {
-  border: 2px solid lime;
 
   h2 {
     text-align: center;
   }
 
   h3 {
-    color: #0063DE;
+    color: var(--blue-bright);
   }
 
   .media-text-cta--wrapper {
@@ -17,5 +16,9 @@
   .wrapper-media {
     flex: 1 1 50%;
     border: 2px solid red;
+  }
+
+  &.style--font-white {
+    color: white; 
   }
 }
