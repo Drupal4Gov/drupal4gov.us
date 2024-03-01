@@ -38,24 +38,27 @@
  * @ingroup themeable
  */
 #}
+{% set font_color = content.field_font_color.0|first %}
 {%
   set classes = [
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished'
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'wide-content',
+    font_color
   ]
 %}
 
 {{ attach_library('drupal4gov/paragraph--cta') }}
 
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+ <div{{ attributes.addClass(classes) }} {% if content.field_background_color|render %}style="background-color: {{ content.field_background_color.0 }}" {% endif %}>
     {% block content %}
      <div class="cta--wrapper">
         <div class="wrapper-left">
         {% if content.field_title|render %} <h2>{{content.field_title}}</h2> {% endif %}
-          {{ content|without('field_link','field_title') }}
+          {{ content|without('field_link','field_title','field_background_color','field_font_color') }}
         </div>
         <div class="wrapper-right">
            <a href="{{ content.field_link[0]['#url'] }}" class="button button--outline">{{ content.field_link[0]['#title'] }}</a>

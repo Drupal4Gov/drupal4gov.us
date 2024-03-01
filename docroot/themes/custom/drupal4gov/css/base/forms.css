@@ -306,7 +306,7 @@ select[multiple] option {
   color: white;
   border-radius: 26px;
   text-decoration: none;
-  border: 2px solid var(--blue-bright);
+  border: 3px solid var(--blue-bright);
 
 &:hover {
   background-color: var(--blue-dark);
