@@ -38,17 +38,20 @@
  * @ingroup themeable
  */
 #}
+{% set font_color = content.field_font_color.0|first %}
 {%
   set classes = [
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished'
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'wide-content',
+    font_color
   ]
 %}
 {{ attach_library('drupal4gov/paragraph--media-text-cta') }}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes)}} {% if content.field_background_color|render %}style="background-color: {{ content.field_background_color.0 }}"{% endif %}>
     {% block content %}
       {% if content.field_title|render %}
         <h2>{{ content.field_title }}</h2>
@@ -59,11 +62,12 @@
               <h3>{{ content.field_subtitle }}</h3>
             {% endif %}
             {{ content.field_body }}
+            {{ content.field_font_color.0 }}
           </div>
           <div class="wrapper-media">
             {{ content.field_image }}
           </div>
-        {{ content|without('field_body', 'field_title', 'field_image', 'field_subtitle') }}
+        {{ content|without('field_body', 'field_title', 'field_image', 'field_subtitle', 'field_background_color', 'field_font_color') }}
       </div>
     {% endblock %}
   </div>
