@@ -1,3 +1,18 @@
 .paragraph--type--cta {
-  border: 2px solid limegreen;
+  border: 2px solid #eee;
+  border-radius: 41px;
+  padding: 12px;
+}
+.paragraph--type--cta h2 {
+  border: 2px solid red;
+}
+.paragraph--type--cta .cta--wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.paragraph--type--cta .wrapper-left {
+  flex: 1 0 auto;
+}
+.paragraph--type--cta .wrapper-right {
+  flex: 1 0 auto;
 }

@@ -280,27 +280,39 @@ select[multiple] option {
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
-}
+
 .button:hover {
   background-color: #e5e5e5;
 }
-.button:focus-visible {
+&:focus-visible {
   outline: solid 2px var(--form-element-focus-ring-color);
   outline-offset: 2px;
 }
-.button[disabled] {
+&[disabled] {
   background-color: var(--form-element-disabled-bg);
   color: var(--form-element-disabled-color);
   cursor: not-allowed;
 }
-.button.button--primary {
+&.button--primary {
   background-color: var(--blue-bright);
   color: white;
-}
-.button.button--primary:hover {
+
+&:hover {
   background-color: var(--blue-dark);
+  } 
 }
-.button:not(:last-child) {
+&.button--outline {
+  background-color: var(--blue-dark);
+  color: white;
+  border-radius: 26px;
+  text-decoration: none;
+  border: 2px solid var(--blue-bright);
+
+&:hover {
+  background-color: var(--blue-dark);
+  } 
+}
+&:not(:last-child) {
   margin-right: 4px;
 }
 .button:where(:not(*:has(.button--primary) > *)):nth-child(1 of .button) {
@@ -309,4 +321,5 @@ select[multiple] option {
 }
 .button:where(:not(*:has(.button--primary) > *)):nth-child(1 of .button):hover {
   background-color: var(--blue-dark);
+}
 }
