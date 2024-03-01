@@ -1,0 +1,23 @@
+uuid: cb9ba5c5-8f93-450f-8f4a-0e3b576fda0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_font_color
+    - paragraphs.paragraphs_type.media_text_cta
+  module:
+    - options
+id: paragraph.media_text_cta.field_font_color
+field_name: field_font_color
+entity_type: paragraph
+bundle: media_text_cta
+label: 'Font color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: style--font-black
+default_value_callback: ''
+settings: {  }
+field_type: list_string

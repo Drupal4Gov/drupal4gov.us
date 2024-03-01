@@ -3,24 +3,44 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.media_text_cta.field_background_color
     - field.field.paragraph.media_text_cta.field_body
+    - field.field.paragraph.media_text_cta.field_font_color
     - field.field.paragraph.media_text_cta.field_image
     - field.field.paragraph.media_text_cta.field_subtitle
     - field.field.paragraph.media_text_cta.field_title
     - paragraphs.paragraphs_type.media_text_cta
   module:
+    - color_field
+    - options
     - text
 id: paragraph.media_text_cta.default
 targetEntityType: paragraph
 bundle: media_text_cta
 mode: default
 content:
+  field_background_color:
+    type: color_field_formatter_text
+    label: hidden
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
   field_body:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_font_color:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_image:
     type: entity_reference_entity_view

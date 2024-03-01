@@ -1,0 +1,27 @@
+uuid: 9ec57b1e-553b-439e-8b92-3fa5f529ed7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_font_color
+field_name: field_font_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: style--font-black
+      label: Black
+    -
+      value: style--font-white
+      label: White
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
