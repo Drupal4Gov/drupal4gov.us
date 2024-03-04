@@ -1,0 +1,27 @@
+.paragraph--type--cta {
+  border: 2px solid #eee;
+  border-radius: 41px;
+}
+.paragraph--type--cta.style--font-white {
+  color: white;
+}
+.paragraph--type--cta h2, .paragraph--type--cta h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.paragraph--type--cta .cta--wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+.paragraph--type--cta .wrapper-left {
+  flex: 1 1 50%;
+  padding: 25px;
+}
+.paragraph--type--cta .wrapper-right {
+  display: flex;
+  align-items: center;
+  flex: 1 1 50% auto;
+  padding: 25px;
+}

@@ -1,0 +1,21 @@
+uuid: 2126dabb-a26d-4801-83a9-74414c2368d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_font_color
+    - paragraphs.paragraphs_type.cta
+  module:
+    - options
+id: paragraph.cta.field_font_color
+field_name: field_font_color
+entity_type: paragraph
+bundle: cta
+label: 'Font color'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
