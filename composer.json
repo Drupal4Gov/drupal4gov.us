@@ -29,6 +29,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/environment_indicator": "^4.0",
         "drupal/inline_entity_form": "^3.0@RC",
+        "drupal/manage_display": "^3.0",
         "drupal/paragraphs": "^1.16",
         "drupal/pathauto": "^1.12",
         "drupal/qa_accounts": "^1.0",
