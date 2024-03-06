@@ -9,26 +9,43 @@ dependencies:
     - field.field.node.board_member.field_role
     - node.type.board_member
   module:
+    - image
+    - manage_display
     - text
-    - user
 id: node.board_member.teaser
 targetEntityType: node
 bundle: board_member
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
+  field_board_img:
+    type: image
     label: hidden
     settings:
-      trim_length: 600
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-    weight: 101
+    weight: 0
     region: content
-  links:
+  field_role:
+    type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 2
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
-  field_board_img: true
-  field_role: true
+  body: true
+  created: true
+  links: true
+  uid: true
