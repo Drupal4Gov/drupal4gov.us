@@ -15,19 +15,38 @@ dependencies:
     - field.field.node.event.field_video
     - node.type.event
   module:
+    - address
+    - datetime_range
+    - manage_display
     - media
     - text
-    - user
 id: node.event.teaser
 targetEntityType: node
 bundle: event
 mode: teaser
 content:
   body:
-    type: text_summary_or_trimmed
+    type: text_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 250
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_address:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_date:
+    type: daterange_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
     third_party_settings: {  }
     weight: 2
     region: content
@@ -40,7 +59,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_speaker:
     type: entity_reference_label
@@ -48,13 +67,22 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 1
+    weight: 3
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
-  field_address: true
-  field_date: true
+  created: true
   field_event_url: true
   field_file: true
   field_type: true
   field_video: true
   links: true
+  uid: true
