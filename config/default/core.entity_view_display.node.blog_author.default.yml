@@ -10,8 +10,8 @@ dependencies:
     - node.type.blog_author
   module:
     - link
+    - manage_display
     - text
-    - user
 id: node.blog_author.default
 targetEntityType: node
 bundle: blog_author
@@ -22,7 +22,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_author_image:
     type: entity_reference_entity_view
@@ -31,7 +31,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 103
+    weight: 4
     region: content
   field_position:
     type: string
@@ -39,7 +39,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 104
+    weight: 5
     region: content
   field_url:
     type: link
@@ -51,11 +51,22 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 102
+    weight: 3
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  uid: true

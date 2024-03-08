@@ -9,8 +9,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - layout_builder
+    - manage_display
     - text
-    - user
 third_party_settings:
   layout_builder:
     enabled: false
@@ -25,7 +25,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_paragraph:
     type: entity_reference_revisions_entity_view
@@ -34,11 +34,22 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  created: true
+  uid: true

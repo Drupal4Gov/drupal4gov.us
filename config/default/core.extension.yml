@@ -24,6 +24,7 @@ module:
   environment_indicator: 0
   environment_indicator_ui: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -33,6 +34,7 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  manage_display: 0
   media: 0
   media_library: 0
   menu_link_content: 0

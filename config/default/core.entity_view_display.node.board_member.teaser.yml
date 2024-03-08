@@ -9,8 +9,8 @@ dependencies:
     - field.field.node.board_member.field_role
     - node.type.board_member
   module:
+    - manage_display
     - text
-    - user
 id: node.board_member.teaser
 targetEntityType: node
 bundle: board_member
@@ -29,6 +29,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_board_img: true
   field_role: true
+  uid: true

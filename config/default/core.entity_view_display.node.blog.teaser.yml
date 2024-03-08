@@ -11,8 +11,8 @@ dependencies:
     - field.field.node.blog.field_tags
     - node.type.blog
   module:
+    - manage_display
     - text
-    - user
 id: node.blog.teaser
 targetEntityType: node
 bundle: blog
@@ -35,8 +35,19 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_date_single_: true
   field_image: true
   field_tags: true
   links: true
+  uid: true
