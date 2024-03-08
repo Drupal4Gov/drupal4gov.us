@@ -11,8 +11,8 @@ dependencies:
     - image.style.blog_150x150_
     - node.type.blog_author
   module:
+    - manage_display
     - media
-    - user
 id: node.blog_author.teaser
 targetEntityType: node
 bundle: blog_author
@@ -29,8 +29,19 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
   body: true
+  created: true
   field_position: true
   field_url: true
   links: true
+  uid: true

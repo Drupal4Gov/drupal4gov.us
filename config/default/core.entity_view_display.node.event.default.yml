@@ -18,8 +18,8 @@ dependencies:
     - datetime_range
     - file
     - link
+    - manage_display
     - text
-    - user
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -108,4 +108,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  uid: true

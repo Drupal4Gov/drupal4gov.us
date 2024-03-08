@@ -15,9 +15,9 @@ dependencies:
     - field.field.node.event.field_video
     - node.type.event
   module:
+    - manage_display
     - media
     - text
-    - user
 id: node.event.teaser
 targetEntityType: node
 bundle: event
@@ -50,7 +50,17 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_address: true
   field_date: true
   field_event_url: true
@@ -58,3 +68,4 @@ hidden:
   field_type: true
   field_video: true
   links: true
+  uid: true

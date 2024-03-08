@@ -8,8 +8,8 @@ dependencies:
     - field.field.node.basic_page.field_paragraph
     - node.type.basic_page
   module:
+    - manage_display
     - text
-    - user
 id: node.basic_page.teaser
 targetEntityType: node
 bundle: basic_page
@@ -21,12 +21,23 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
+  created: true
   field_paragraph: true
+  uid: true

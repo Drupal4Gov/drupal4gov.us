@@ -9,8 +9,8 @@ dependencies:
     - node.type.board_member
   module:
     - image
+    - manage_display
     - text
-    - user
 id: node.board_member.default
 targetEntityType: node
 bundle: board_member
@@ -46,4 +46,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  uid: true

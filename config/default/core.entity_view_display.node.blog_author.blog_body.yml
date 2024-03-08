@@ -12,8 +12,8 @@ dependencies:
     - node.type.blog_author
   module:
     - layout_builder
+    - manage_display
     - media
-    - user
 third_party_settings:
   layout_builder:
     enabled: false
@@ -42,7 +42,18 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
   body: true
+  created: true
   field_url: true
   links: true
+  uid: true
