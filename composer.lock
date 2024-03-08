@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4642f8281694a7450a28ed890aa4601",
+    "content-hash": "e9f6c620bcf8affba7c00e133b53e210",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -3324,6 +3324,71 @@
             }
         },
         {
+            "name": "drupal/field_group",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.4.zip",
+                "reference": "8.x-3.4",
+                "shasum": "80b937e1a11f8b29c69d853fc4bf798c057c6f94"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.4",
+                    "datestamp": "1667241979",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Anybody",
+                    "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
+            }
+        },
+        {
             "name": "drupal/inline_entity_form",
             "version": "3.0.0-rc19",
             "source": {
@@ -3413,6 +3478,54 @@
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
                 "source": "https://git.drupalcode.org/project/inline_entity_form"
+            }
+        },
+        {
+            "name": "drupal/manage_display",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/manage_display.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/manage_display-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "f8e6e0b44f56e3733b5f4db09f7dd41c7ce80a7a"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1684858822",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AdamPS",
+                    "homepage": "https://www.drupal.org/user/2650563"
+                },
+                {
+                    "name": "AstonVictor",
+                    "homepage": "https://www.drupal.org/user/3466615"
+                }
+            ],
+            "description": "Make base fields such as 'title' available in \"Manage Display\"",
+            "homepage": "https://www.drupal.org/project/manage_display",
+            "support": {
+                "source": "https://git.drupalcode.org/project/manage_display"
             }
         },
         {
