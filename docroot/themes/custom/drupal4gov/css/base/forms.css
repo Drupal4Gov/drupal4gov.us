@@ -300,6 +300,16 @@ select[multiple] option {
 .button.button--primary:hover {
   background-color: var(--blue-dark);
 }
+.button.button--outline {
+  background-color: var(--blue-dark);
+  color: white;
+  border-radius: 26px;
+  text-decoration: none;
+  border: 3px solid var(--blue-bright);
+}
+.button.button--outline:hover {
+  background-color: var(--blue-dark);
+}
 .button:not(:last-child) {
   margin-right: 4px;
 }
