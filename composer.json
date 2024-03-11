@@ -38,6 +38,7 @@
         "drupal/qa_accounts": "^1.0",
         "drupal/redirect": "^1.8",
         "drupal/shield": "^1.7",
+        "drupal/token": "^1.13",
         "drupal/upgrade_status": "^4.0",
         "drupal/viewsreference": "^2.0@beta",
         "drush/drush": "^12",
