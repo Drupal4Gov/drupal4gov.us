@@ -81,7 +81,14 @@
 <article{{ attributes.addClass(classes) }}>
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content }}
+    {{ content.field_author_image }}
+
+    <div class="blog--author">
+      {{ content.field_position }}
+      {{ content.field_company }}
+    </div>
+
+    {{ content|without('field_author_image', 'field_position', 'field_company') }}
   </div>
 
 </article>

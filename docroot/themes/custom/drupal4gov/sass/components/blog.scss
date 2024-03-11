@@ -56,6 +56,18 @@
     text-align: center;
   }
 
+  .field--name-title a {
+    color: var(--gray);
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
   .node--type-blog-author {
     display: flex;
     justify-content: center;
@@ -77,13 +89,20 @@
     }
 
     .blog--author {
+      display: flex;
       margin-bottom: 32px;
       text-align: center;
 
-      .field--name-title {
-        font-size: var(--h3);
+      .field--name-field-position+.field--name-field-company {
+        margin-left: 0.3rem;
       }
     }
+  }
+
+  .field--type-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
   }
 
   .field--name-field-date-single- {
@@ -92,8 +111,8 @@
 
   .field--name-field-tags {
     border-top: 1px solid var(--gray);
-padding-top: 0.75rem;
-  margin-top: 1rem;
+    padding-top: 0.75rem;
+    margin-top: 1rem;
 
     .field__item {
       font-size: 16px;
@@ -103,8 +122,8 @@ padding-top: 0.75rem;
       color: #445259;
       display: inline-block;
       background-color: var(--blue-light);
-margin-right: 5px;
-  margin-top: 11px;
+      margin-right: 5px;
+      margin-top: 11px;
 
       &:hover,
       &:focus {
@@ -115,6 +134,18 @@ margin-right: 5px;
         color: var(--blue-dark);
         text-decoration: none;
       }
+    }
+  }
+}
+
+.page-node-type-blog-author {
+  .blog--author {
+    display: flex;
+    margin-bottom: 32px;
+    text-align: left;
+
+    .field--name-field-position+.field--name-field-company {
+      margin-left: 0.3rem;
     }
   }
 }
