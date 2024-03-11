@@ -82,13 +82,11 @@
 
   <div{{ content_attributes.addClass('node__content') }}>
     <div class="blog--left">
-      <h2{{ title_attributes }}>
-        <a href="{{ url }}">{{ label }}</a>
-      </h2>
+      {{ content|without('body', 'field_blog_author') }}
       {{ content.body }} 
     </div>
     <div class="blog--right">
-      {{ content|without('body') }}
+      {{ content.field_blog_author }}
     </div>
   </div>
 
