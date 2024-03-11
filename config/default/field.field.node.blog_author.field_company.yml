@@ -1,0 +1,23 @@
+uuid: 23626062-aa21-42e6-aa55-6c85945dc631
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company
+    - node.type.blog_author
+  module:
+    - link
+id: node.blog_author.field_company
+field_name: field_company
+entity_type: node
+bundle: blog_author
+label: Company
+description: 'If the work place has a URL enter it in here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.blog_author.body
     - field.field.node.blog_author.field_author_image
+    - field.field.node.blog_author.field_company
     - field.field.node.blog_author.field_position
     - field.field.node.blog_author.field_url
     - node.type.blog_author
@@ -22,7 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 6
     region: content
   field_author_image:
     type: entity_reference_entity_view
@@ -31,7 +32,19 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 4
+    weight: 0
+    region: content
+  field_company:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_position:
     type: string
@@ -39,7 +52,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
   field_url:
     type: link
@@ -51,12 +64,12 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 3
+    weight: 7
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   title:
     type: title
@@ -65,7 +78,7 @@ content:
       link_to_entity: true
       tag: h2
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
   created: true
