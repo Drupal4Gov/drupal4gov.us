@@ -46,6 +46,14 @@
 .page-node-type-blog h1 {
   text-align: center;
 }
+.page-node-type-blog .field--name-title a {
+  color: var(--gray);
+  font-weight: bold;
+  text-decoration: none;
+}
+.page-node-type-blog .field--name-title a:hover, .page-node-type-blog .field--name-title a:focus, .page-node-type-blog .field--name-title a:active {
+  text-decoration: underline;
+}
 .page-node-type-blog .node--type-blog-author {
   display: flex;
   justify-content: center;
@@ -66,11 +74,17 @@
   margin-bottom: 16px;
 }
 .page-node-type-blog .node--type-blog-author .blog--author {
+  display: flex;
   margin-bottom: 32px;
   text-align: center;
 }
-.page-node-type-blog .node--type-blog-author .blog--author .field--name-title {
-  font-size: var(--h3);
+.page-node-type-blog .node--type-blog-author .blog--author .field--name-field-position + .field--name-field-company {
+  margin-left: 0.3rem;
+}
+.page-node-type-blog .field--type-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 .page-node-type-blog .field--name-field-date-single- {
   font-weight: 700;
@@ -97,4 +111,13 @@
 .page-node-type-blog .field--name-field-tags .field__item a {
   color: var(--blue-dark);
   text-decoration: none;
+}
+
+.page-node-type-blog-author .blog--author {
+  display: flex;
+  margin-bottom: 32px;
+  text-align: left;
+}
+.page-node-type-blog-author .blog--author .field--name-field-position + .field--name-field-company {
+  margin-left: 0.3rem;
 }

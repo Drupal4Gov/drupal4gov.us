@@ -9,8 +9,8 @@ id: node.blog_author.field_position
 field_name: field_position
 entity_type: node
 bundle: blog_author
-label: Position
-description: ''
+label: 'Job Position'
+description: 'eg. Intern, CEO, etc.'
 required: false
 translatable: false
 default_value: {  }

@@ -1,20 +1,18 @@
-:is(
-  [type="color"],
-  [type="date"],
-  [type="datetime-local"],
-  [type="email"],
-  [type="file"],
-  [type="month"],
-  [type="number"],
-  [type="password"],
-  [type="search"],
-  [type="tel"],
-  [type="text"],
-  [type="time"],
-  [type="url"],
-  [type="week"],
-  textarea
-):where(:not(.no-style)) {
+:is([type="color"],
+[type="date"],
+[type="datetime-local"],
+[type="email"],
+[type="file"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+textarea):where(:not(.no-style)) {
   width: 100%;
   max-width: 100%;
   min-height: var(--form-element-height);
@@ -56,6 +54,7 @@
 }
 
 [type="date"] {
+
   /* Ensure that date field isn't larger than other fields. */
   &::-webkit-datetime-edit-fields-wrapper {
     padding: 0;
@@ -162,7 +161,7 @@ select {
     border: solid 2px var(--form-element-error-border-color);
   }
 
-  + label {
+  +label {
     display: inline-block;
     padding-inline-start: calc(0.5 * var(--form-element-padding));
   }
@@ -239,6 +238,18 @@ select {
   &.button--primary {
     background-color: var(--blue-bright);
     color: white;
+
+    &:hover {
+      background-color: var(--blue-dark);
+    }
+  }
+
+  &.button--outline {
+    background-color: var(--blue-dark);
+    color: white;
+    border-radius: 26px;
+    text-decoration: none;
+    border: 3px solid var(--blue-bright);
 
     &:hover {
       background-color: var(--blue-dark);

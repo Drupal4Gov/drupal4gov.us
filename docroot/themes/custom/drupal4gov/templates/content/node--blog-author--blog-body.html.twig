@@ -81,10 +81,10 @@
 <article{{ attributes.addClass(classes) }}>
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_position') }}
+    {{ content|without('field_position', 'field_company') }}
     <div class="blog--author">
-      {{ label }}
       {{ content.field_position }}
+      {{ content.field_company }}
     </div>
   </div>
 
