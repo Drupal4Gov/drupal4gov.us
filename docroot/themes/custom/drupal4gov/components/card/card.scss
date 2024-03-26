@@ -37,4 +37,9 @@
 
 .card__link {
   @include pill('primary');
+  height: auto;
+  @media only screen and (max-width: 750px) {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }

@@ -34,19 +34,25 @@
 .card__link {
   display: inline-flex;
   align-items: center;
-  height: 37px;
-  padding-inline: 20px;
+  height: auto;
+  padding: 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 0.2s;
   background-color: var(--blue-bright);
   border-color: transparent;
   color: white;
+  height: auto;
+}
+@media only screen and (max-width: 750px) {
+  .card__link {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }
 .card__link:focus-visible {
   outline: solid 2px var(--blue-bright);
@@ -55,4 +61,10 @@
 .card__link:hover {
   background-color: var(--blue-dark);
   color: white;
+}
+@media only screen and (max-width: 750px) {
+  .card__link {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }

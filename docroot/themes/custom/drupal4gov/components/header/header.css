@@ -75,19 +75,24 @@
 .primary-nav__menu-item--level-1:last-child .primary-nav__menu-link {
   display: inline-flex;
   align-items: center;
-  height: 37px;
-  padding-inline: 20px;
+  height: auto;
+  padding: 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 0.2s;
   background-color: transparent;
   border-color: currentColor;
   color: var(--blue-bright);
+}
+@media only screen and (max-width: 750px) {
+  .primary-nav__menu-item--level-1:last-child .primary-nav__menu-link {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }
 .primary-nav__menu-item--level-1:last-child .primary-nav__menu-link:focus-visible {
   outline: solid 2px var(--blue-bright);
