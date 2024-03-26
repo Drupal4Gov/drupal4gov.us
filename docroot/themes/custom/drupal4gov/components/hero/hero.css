@@ -62,17 +62,22 @@
 .hero__cta a {
   display: inline-flex;
   align-items: center;
-  height: 37px;
-  padding-inline: 20px;
+  height: auto;
+  padding: 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 0.2s;
   font-size: 16px;
+}
+@media only screen and (max-width: 750px) {
+  .hero__cta a {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }
 .hero__cta a:focus-visible {
   outline: solid 2px var(--blue-bright);
@@ -81,19 +86,24 @@
 .hero__cta a:first-child {
   display: inline-flex;
   align-items: center;
-  height: 37px;
-  padding-inline: 20px;
+  height: auto;
+  padding: 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 0.2s;
   background-color: var(--blue-bright);
   border-color: transparent;
   color: white;
+}
+@media only screen and (max-width: 750px) {
+  .hero__cta a:first-child {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }
 .hero__cta a:first-child:focus-visible {
   outline: solid 2px var(--blue-bright);
