@@ -34,7 +34,7 @@
 .card__link {
   display: inline-flex;
   align-items: center;
-  height: 37px;
+  height: auto;
   padding-inline: 20px;
   border: 2px solid #eee;
   border-radius: 26px;
@@ -42,12 +42,17 @@
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 0.2s;
   background-color: var(--blue-bright);
   border-color: transparent;
   color: white;
+  @media only screen and (max-width: 750px) {
+    padding: 5px 20px;
+    text-align: center;
+  }
 }
+
+
 .card__link:focus-visible {
   outline: solid 2px var(--blue-bright);
   outline-offset: 2px;
