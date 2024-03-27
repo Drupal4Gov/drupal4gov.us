@@ -1,0 +1,10 @@
+uuid: 1f2bc873-0778-4436-8e3b-8c68c387838f
+langcode: en
+status: true
+dependencies: {  }
+id: media_text_column
+label: 'Media & Text Column'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
