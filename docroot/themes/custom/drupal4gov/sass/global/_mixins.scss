@@ -2,14 +2,15 @@
   display: inline-flex;
   align-items: center;
   height: auto;
-  padding: 20px;
+  padding: 10px 20px;
   border: 2px solid #eee;
   border-radius: 26px;
-  background-color: white;
+  background-color: white; 
   color: inherit;
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.2s;
+  
   @media only screen and (max-width: 750px) {
     padding: 5px 20px;
     text-align: center;

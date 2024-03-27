@@ -84,6 +84,7 @@
   color: var(--blue-bright);
 
   @media ($nav) {
+    height: 37px;
     margin-top: unset;
   }
 }
