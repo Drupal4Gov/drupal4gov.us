@@ -63,7 +63,7 @@
   display: inline-flex;
   align-items: center;
   height: auto;
-  padding: 20px;
+  padding: 10px 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
@@ -87,7 +87,7 @@
   display: inline-flex;
   align-items: center;
   height: auto;
-  padding: 20px;
+  padding: 10px 20px;
   border: 2px solid #eee;
   border-radius: 26px;
   background-color: white;
