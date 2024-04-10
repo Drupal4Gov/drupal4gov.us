@@ -21,7 +21,7 @@
   --spacing-xl: 32px;
   --spacing-xxl: 64px;
   --spacing-xxxl: 128px;
-  --spacing-component: 200px;
+  --spacing-component: 100px;
 
   --body: 17px;
 
@@ -36,6 +36,7 @@
     --h1: 50px;
     --h2: 32px;
     --h3: 22px;
+    --spacing-component: 200px; 
   }
 
   --form-spacing: 10px;
