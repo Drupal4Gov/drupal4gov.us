@@ -1,0 +1,28 @@
+uuid: 253e954d-43c5-4876-82b8-d1330a512aa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - filter.format.full
+    - filter.format.half_blue
+    - filter.format.plain_text
+    - paragraphs.paragraphs_type.media_text_column
+  module:
+    - text
+id: paragraph.media_text_column.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: media_text_column
+label: WYSIWYG
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full
+    - half_blue
+    - plain_text
+field_type: text_long

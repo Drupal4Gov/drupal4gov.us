@@ -28,3 +28,9 @@ paragraph--cta:
   css:
     base:
       components/paragraph--cta/paragraph--cta.css: {}
+
+paragraph--media-text-column:
+  css:
+    base:
+      components/paragraph--media-text-column/paragraph--media-text-column.css: {}
+

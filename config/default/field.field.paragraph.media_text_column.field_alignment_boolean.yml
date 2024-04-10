@@ -1,0 +1,21 @@
+uuid: 667ba3a4-8d54-40c3-b311-809474b70df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_alignment_boolean
+    - paragraphs.paragraphs_type.media_text_column
+id: paragraph.media_text_column.field_alignment_boolean
+field_name: field_alignment_boolean
+entity_type: paragraph
+bundle: media_text_column
+label: 'Media on the Right '
+description: 'Check this to display the media on the right and the text card on the left.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

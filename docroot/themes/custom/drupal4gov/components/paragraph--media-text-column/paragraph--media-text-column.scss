@@ -1,0 +1,40 @@
+.paragraph--type--media-text-column {
+    &.style--media-on-right-off {
+        .media-text-column--wrapper {
+            flex-direction: row-reverse;
+            gap: 10px;
+        }
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    &.style--font-white {
+        color: white;
+    }
+
+    h2,
+    h3 {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .media-text-column--wrapper {
+        display: flex;
+        padding: 25px;
+        gap: 10px;
+    }
+
+
+    .text-column {
+        flex: 1 1 50%;
+    }
+
+    .media-column {
+        display: flex;
+        align-items: center;
+        flex: 1 1 50%;
+    }
+}
