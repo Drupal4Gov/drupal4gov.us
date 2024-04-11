@@ -1,0 +1,23 @@
+uuid: 764a6fc8-9ae7-43cf-abb0-5362b84a8493
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_orientation
+    - paragraphs.paragraphs_type.hover_image_cta
+  module:
+    - options
+id: paragraph.hover_image_cta.field_image_orientation
+field_name: field_image_orientation
+entity_type: paragraph
+bundle: hover_image_cta
+label: 'Image orientation'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Vertical
+default_value_callback: ''
+settings: {  }
+field_type: list_string

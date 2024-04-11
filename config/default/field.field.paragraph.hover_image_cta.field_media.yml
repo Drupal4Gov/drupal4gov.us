@@ -1,0 +1,29 @@
+uuid: 5a9ee8b1-425f-42e4-89e7-9d9d2e9bb977
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.image
+    - paragraphs.paragraphs_type.hover_image_cta
+id: paragraph.hover_image_cta.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: hover_image_cta
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: bad9612f-120e-495a-85e9-9c6f36141a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.hover_image_cta
+  module:
+    - text
+id: paragraph.hover_image_cta.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: hover_image_cta
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
