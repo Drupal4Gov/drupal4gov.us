@@ -34,3 +34,7 @@ paragraph--media-text-column:
     base:
       components/paragraph--media-text-column/paragraph--media-text-column.css: {}
 
+paragraph--hover-image-cta:
+  css:
+    base:
+      components/paragraph--hover-image-cta/paragraph--hover-image-cta.css: {}
