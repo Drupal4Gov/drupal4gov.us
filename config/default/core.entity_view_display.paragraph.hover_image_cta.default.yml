@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.paragraph.hover_image_cta.field_body
     - field.field.paragraph.hover_image_cta.field_image_orientation
+    - field.field.paragraph.hover_image_cta.field_link
     - field.field.paragraph.hover_image_cta.field_media
     - field.field.paragraph.hover_image_cta.field_title
     - paragraphs.paragraphs_type.hover_image_cta
   module:
+    - link
     - options
     - text
 id: paragraph.hover_image_cta.default
@@ -29,6 +31,18 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 8
+    region: content
+  field_link:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_media:
     type: entity_reference_entity_view

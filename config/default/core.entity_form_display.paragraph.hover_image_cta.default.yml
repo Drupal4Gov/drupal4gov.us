@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.paragraph.hover_image_cta.field_body
     - field.field.paragraph.hover_image_cta.field_image_orientation
+    - field.field.paragraph.hover_image_cta.field_link
     - field.field.paragraph.hover_image_cta.field_media
     - field.field.paragraph.hover_image_cta.field_title
     - paragraphs.paragraphs_type.hover_image_cta
   module:
+    - link
     - media_library
     - text
 id: paragraph.hover_image_cta.default
@@ -29,6 +31,14 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_media:
     type: media_library_widget
