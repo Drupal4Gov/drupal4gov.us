@@ -61,7 +61,7 @@
         {% if content.field_subtitle|render %} <h3>{{content.field_subtitle}}</h3> {% endif %}
         {{ content|without('field_media','field_title','field_background_color', 'field_alignment_boolean','field_font_color','field_subtitle') }}
         </div>
-      <div class="media-column"
+      <div class="media-column">
         {{content.field_media}}
         </div>
     {% endblock %}
