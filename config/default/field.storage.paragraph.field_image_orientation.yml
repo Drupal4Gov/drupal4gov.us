@@ -1,0 +1,27 @@
+uuid: 295cb085-630a-45f4-bad7-fd89437ca334
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_image_orientation
+field_name: field_image_orientation
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Vertical
+      label: Vertical
+    -
+      value: Horizontal
+      label: Horizontal
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

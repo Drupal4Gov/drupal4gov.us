@@ -38,32 +38,31 @@
  * @ingroup themeable
  */
 #}
-{% set font_color = content.field_font_color.0|first %}
 {%
   set classes = [
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished',
-    'style--media-on-right-' ~ content.field_alignment_boolean[0]['#markup']|clean_class,
-    font_color
+    'card-orientation-' ~ content.field_image_orientation[0]['#markup']|clean_class
   ]
 %}
 
-{{ attach_library('drupal4gov/paragraph--media-text-column') }}
+{{ attach_library('drupal4gov/paragraph--hover-image-cta') }}
 
 {% block paragraph %}
-<div{{ attributes.addClass(classes) }} {% if content.field_background_color|render %}style="background-color: {{ content.field_background_color.0 }}" {% endif %}>
+  <div{{ attributes.addClass(classes) }}>
     {% block content %}
-    {% if content.field_title|render %} <h2>{{content.field_title}}</h2> {% endif %}
-    <div class="media-text-column--wrapper">
-      <div class="text-column">
-        {% if content.field_subtitle|render %} <h3>{{content.field_subtitle}}</h3> {% endif %}
-        {{ content|without('field_media','field_title','field_background_color', 'field_alignment_boolean','field_font_color','field_subtitle') }}
-        </div>
-      <div class="media-column">
+    <div class="hover-image--wrapper">
+    {% if content.field_link|render %} <a href="{{ content.field_link[0]['#url'] }}">
+{% endif %}
+      <div class="image">
         {{content.field_media}}
         </div>
+<div class="body">
+        {% if content.field_title|render %} <h3>{{content.field_title}}</h3> {% endif %}
+        {{ content|without('field_body','field_image_orientation','field_media', 'field_title','field_link') }}
+</div>
     {% endblock %}
-  </div>
+ {% if content.field_link|render %}</a>{% endif %} </div>
 {% endblock paragraph %}

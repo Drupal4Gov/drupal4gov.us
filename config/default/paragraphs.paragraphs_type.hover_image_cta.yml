@@ -1,0 +1,10 @@
+uuid: 718a537b-b735-4b03-9799-1962265dc45a
+langcode: en
+status: true
+dependencies: {  }
+id: hover_image_cta
+label: 'Hover Image CTA'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

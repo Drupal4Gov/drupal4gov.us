@@ -1,0 +1,50 @@
+.paragraph--type--hover-image-cta .hover-image--wrapper {
+  max-width: 237px;
+  max-height: 343px;
+  margin: 10rem auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.paragraph--type--hover-image-cta .hover-image--wrapper:hover .body {
+  z-index: 0;
+}
+.paragraph--type--hover-image-cta .hover-image--wrapper img {
+  width: 327px;
+  height: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragraph--type--hover-image-cta .hover-image--wrapper .body {
+  background: rgba(0, 99, 222, 0.3);
+  position: absolute;
+  bottom: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+  max-height: 240px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+}
+.paragraph--type--hover-image-cta .hover-image--wrapper .body h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.paragraph--type--hover-image-cta.card-orientation-horizontal .hover-image--wrapper {
+  max-width: 675px;
+  max-height: 343px;
+}
+.paragraph--type--hover-image-cta.card-orientation-horizontal img {
+  width: 675px;
+  height: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragraph--type--hover-image-cta.card-orientation-horizontal .body {
+  max-width: 675px;
+  max-height: 343px;
+}
