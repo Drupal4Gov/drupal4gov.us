@@ -1,0 +1,61 @@
+.paragraph--type--hover-image-cta {
+
+.hover-image--wrapper{
+max-width: 237px;
+max-height: 343px;
+margin: 10rem auto;
+position: relative;
+width: 100%;
+height: 100%;
+
+&:hover {
+    .body {
+        z-index: 0;
+    }
+}
+
+img{
+    width: 327px;
+    height: 343px;
+    object-fit: cover;
+}
+
+.body {
+    background: rgba(#0063DE, 0.3);
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    max-height: 240px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+
+h3{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    }
+  }
+}
+&.card-orientation-horizontal{
+    
+    .hover-image--wrapper{
+        max-width: 675px;
+        max-height: 343px;
+    }
+    img{
+        width: 675px;
+        height: 343px;
+        object-fit: cover;
+    }
+    .body{
+        max-width: 675px;
+        max-height: 343px;
+    }
+}
+
+}
