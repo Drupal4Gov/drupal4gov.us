@@ -24,6 +24,23 @@ drupal.message:
   dependencies:
     - drupal4gov/messages
 
+
+testimonials-slider:
+  js:
+    components/slick/testimonial_slider.js: {}
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal
+    - drupal4gov/slick
+
+slick:
+  css: 
+    base: 
+      https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css: { type: external, preprocess: false, attributes: { defer: true } }
+  js: 
+    https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js: { type: external, minified: true, attributes: { defer: true } }
+
 paragraph--cta:
   css:
     base:
@@ -38,3 +55,8 @@ paragraph--hover-image-cta:
   css:
     base:
       components/paragraph--hover-image-cta/paragraph--hover-image-cta.css: {}
+
+paragraph--testimonial:
+  css:
+    base:
+      components/paragraph--testimonial/paragraph--testimonial.css: {}
