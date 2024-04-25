@@ -3,48 +3,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.testimonials.field_body
-    - field.field.paragraph.testimonials.field_media
-    - field.field.paragraph.testimonials.field_testimonial_name
-    - field.field.paragraph.testimonials.field_testimonial_role
+    - field.field.paragraph.testimonials.field_testimonial
     - paragraphs.paragraphs_type.testimonials
   module:
-    - text
+    - entity_reference_revisions
 id: paragraph.testimonials.default
 targetEntityType: paragraph
 bundle: testimonials
 mode: default
 content:
-  field_body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_media:
-    type: entity_reference_entity_view
-    label: hidden
+  field_testimonial:
+    type: entity_reference_revisions_entity_view
+    label: above
     settings:
       view_mode: default
-      link: false
+      link: ''
     third_party_settings: {  }
-    weight: 7
-    region: content
-  field_testimonial_name:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_testimonial_role:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 9
+    weight: 0
     region: content
 hidden: {  }

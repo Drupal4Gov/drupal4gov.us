@@ -1,18 +1,18 @@
-uuid: b91fca2d-0d02-46b3-94e5-dedc77a5cb52
+uuid: 0152d3cf-257a-4262-8762-a2edb0ee13fc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragraph
-    - node.type.basic_page
+    - field.storage.paragraph.field_testimonial
     - paragraphs.paragraphs_type.testimonial
+    - paragraphs.paragraphs_type.testimonials
   module:
     - entity_reference_revisions
-id: node.basic_page.field_paragraph
-field_name: field_paragraph
-entity_type: node
-bundle: basic_page
-label: Paragraph
+id: paragraph.testimonials.field_testimonial
+field_name: field_testimonial
+entity_type: paragraph
+bundle: testimonials
+label: Testimonial
 description: ''
 required: false
 translatable: false
@@ -23,7 +23,7 @@ settings:
   handler_settings:
     target_bundles:
       testimonial: testimonial
-    negate: 1
+    negate: 0
     target_bundles_drag_drop:
       cta:
         weight: 7
@@ -41,6 +41,6 @@ settings:
         weight: 11
         enabled: false
       view:
-        weight: 2
+        weight: 12
         enabled: false
 field_type: entity_reference_revisions
