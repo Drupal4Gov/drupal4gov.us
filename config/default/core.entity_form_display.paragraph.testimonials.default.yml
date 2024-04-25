@@ -1,0 +1,29 @@
+uuid: 028c365e-dc53-4e8b-b2ce-0dbe6347f537
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonials.field_testimonial
+    - paragraphs.paragraphs_type.testimonials
+  module:
+    - paragraphs
+id: paragraph.testimonials.default
+targetEntityType: paragraph
+bundle: testimonials
+mode: default
+content:
+  field_testimonial:
+    type: entity_reference_paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

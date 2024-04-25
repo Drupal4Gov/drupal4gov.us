@@ -1,0 +1,38 @@
+.testimonial--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  .testimonial-body {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    &::before {
+      content: "";
+      background-color: #0063DE;
+      height: 3px;
+      width: 50px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .testimonial-image {
+    align-self: center;
+    padding: 20px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+  .testimonial-author {
+    text-align: center;
+  }
+}
