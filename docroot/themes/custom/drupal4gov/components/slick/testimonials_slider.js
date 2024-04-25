@@ -5,7 +5,7 @@
           dots: true,
           infinite: true,
           speed: 100,
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           arrows: true,
         });

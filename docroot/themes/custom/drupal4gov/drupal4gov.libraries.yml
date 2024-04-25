@@ -12,6 +12,7 @@ global:
     layout:
       css/layout/layout.css: {}
       css/layout/views.css: {}
+      
 messages:
   js:
     components/messages/messages.theme.js: {}
@@ -27,7 +28,7 @@ drupal.message:
 
 testimonials-slider:
   js:
-    components/slick/testimonial_slider.js: {}
+    components/slick/testimonials_slider.js: {}
   dependencies:
     - core/jquery
     - core/once
