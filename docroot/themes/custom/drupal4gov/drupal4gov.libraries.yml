@@ -9,6 +9,7 @@ global:
     component:
       css/components/text-formatted.css: {}
       css/components/blog.css: {}
+      css/components/board-member.css: {}
     layout:
       css/layout/layout.css: {}
       css/layout/views.css: {}
