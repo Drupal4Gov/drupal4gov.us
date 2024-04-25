@@ -33,6 +33,7 @@
         "drupal/field_group": "^3.4",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/manage_display": "^3.0",
+        "drupal/name": "^1.0@RC",
         "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.12",
         "drupal/qa_accounts": "^1.0",
