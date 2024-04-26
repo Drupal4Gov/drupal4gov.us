@@ -1,0 +1,28 @@
+.paragraph--type--testimonials{
+
+    border: 2px solid red;
+
+    ul.slick-dots{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-image: none;
+        list-style-type: none;
+        padding-left: 0;
+
+         button {
+            border-radius: 100%;
+            height: 1rem;
+            width: 1rem;
+            border: 1px solid black;
+            color: transparent;
+            background: transparent;
+            line-height: 0;
+        }
+    }
+}
+
