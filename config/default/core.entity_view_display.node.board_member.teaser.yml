@@ -6,11 +6,13 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.board_member.body
     - field.field.node.board_member.field_board_img
+    - field.field.node.board_member.field_name
     - field.field.node.board_member.field_role
+    - field.field.node.board_member.field_section
     - node.type.board_member
   module:
     - image
-    - manage_display
+    - name
     - text
 id: node.board_member.teaser
 targetEntityType: node
@@ -28,6 +30,21 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_name:
+    type: name_default
+    label: hidden
+    settings:
+      format: default
+      markup: none
+      list_format: ''
+      link_target: ''
+      preferred_field_reference: ''
+      preferred_field_reference_separator: ', '
+      alternative_field_reference: ''
+      alternative_field_reference_separator: ', '
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_role:
     type: text_default
     label: hidden
@@ -35,17 +52,10 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  title:
-    type: title
-    label: hidden
-    settings:
-      link_to_entity: true
-      tag: h2
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
   body: true
   created: true
+  field_section: true
   links: true
+  title: true
   uid: true

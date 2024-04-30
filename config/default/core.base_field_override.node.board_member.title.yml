@@ -8,7 +8,7 @@ id: node.board_member.title
 field_name: title
 entity_type: node
 bundle: board_member
-label: Name
+label: Title
 description: ''
 required: true
 translatable: true

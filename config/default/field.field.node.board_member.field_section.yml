@@ -1,0 +1,21 @@
+uuid: da123d1a-f62c-412b-aca6-37492a6c3907
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_section
+    - node.type.board_member
+  module:
+    - options
+id: node.board_member.field_section
+field_name: field_section
+entity_type: node
+bundle: board_member
+label: Section
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
