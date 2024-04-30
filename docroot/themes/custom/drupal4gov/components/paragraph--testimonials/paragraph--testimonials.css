@@ -20,6 +20,7 @@
   line-height: 0;
 }
 .paragraph--type--testimonials ul.slick-dots button:hover {
+  cursor: pointer;
   border: 1px solid darkgrey;
   color: darkgrey;
   background: darkgrey;
