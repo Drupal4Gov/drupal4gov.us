@@ -62,3 +62,8 @@ paragraph--testimonial:
   css:
     base:
       components/paragraph--testimonial/paragraph--testimonial.css: {}
+
+paragraph--testimonials:
+  css:
+    base:
+      components/paragraph--testimonials/paragraph--testimonials.css: {}
