@@ -43,6 +43,7 @@
         "drupal/token": "^1.13",
         "drupal/upgrade_status": "^4.0",
         "drupal/viewsreference": "^2.0@beta",
+        "drupal/webform": "^6.2",
         "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2",
         "symfony/twig-bridge": "^6.3.8"
