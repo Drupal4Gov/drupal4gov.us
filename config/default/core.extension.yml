@@ -57,6 +57,8 @@ module:
   update: 0
   user: 0
   viewsreference: 0
+  webform: 0
+  webform_ui: 0
   workflows: 0
   pathauto: 1
   views: 10
