@@ -1,18 +1,20 @@
-:is([type="color"],
-[type="date"],
-[type="datetime-local"],
-[type="email"],
-[type="file"],
-[type="month"],
-[type="number"],
-[type="password"],
-[type="search"],
-[type="tel"],
-[type="text"],
-[type="time"],
-[type="url"],
-[type="week"],
-textarea):where(:not(.no-style)) {
+:is(
+    [type="color"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="email"],
+    [type="file"],
+    [type="month"],
+    [type="number"],
+    [type="password"],
+    [type="search"],
+    [type="tel"],
+    [type="text"],
+    [type="time"],
+    [type="url"],
+    [type="week"],
+    textarea
+  ):where(:not(.no-style)) {
   width: 100%;
   max-width: 100%;
   min-height: var(--form-element-height);
@@ -26,7 +28,8 @@ textarea):where(:not(.no-style)) {
   appearance: none;
 
   &:focus-visible {
-    outline: solid var(--form-element-border-width) var(--form-element-focus-ring-color);
+    outline: solid var(--form-element-border-width)
+      var(--form-element-focus-ring-color);
     outline-offset: 2px;
   }
 
@@ -54,7 +57,6 @@ textarea):where(:not(.no-style)) {
 }
 
 [type="date"] {
-
   /* Ensure that date field isn't larger than other fields. */
   &::-webkit-datetime-edit-fields-wrapper {
     padding: 0;
@@ -161,7 +163,7 @@ select {
     border: solid 2px var(--form-element-error-border-color);
   }
 
-  +label {
+  + label {
     display: inline-block;
     padding-inline-start: calc(0.5 * var(--form-element-padding));
   }
@@ -267,5 +269,31 @@ select {
     &:hover {
       background-color: var(--blue-dark);
     }
+  }
+}
+#edit-resume-cv--label {
+  font-weight: bold;
+}
+
+.form-item-cover-letter {
+  margin-top: 20px;
+
+  #edit-cover-letter--label {
+    font-weight: bold;
+  }
+}
+
+.form-item-portfolio-technology-internship- {
+  margin-top: 20px;
+
+  label {
+    font-weight: bold;
+  }
+}
+
+.form-item-references {
+  margin-top: 20px;
+  label {
+    font-weight: bold;
   }
 }

@@ -320,3 +320,28 @@ select[multiple] option {
 .button:where(:not(*:has(.button--primary) > *)):nth-child(1 of .button):hover {
   background-color: var(--blue-dark);
 }
+
+#edit-resume-cv--label {
+  font-weight: bold;
+}
+
+.form-item-cover-letter {
+  margin-top: 20px;
+}
+.form-item-cover-letter #edit-cover-letter--label {
+  font-weight: bold;
+}
+
+.form-item-portfolio-technology-internship- {
+  margin-top: 20px;
+}
+.form-item-portfolio-technology-internship- label {
+  font-weight: bold;
+}
+
+.form-item-references {
+  margin-top: 20px;
+}
+.form-item-references label {
+  font-weight: bold;
+}
