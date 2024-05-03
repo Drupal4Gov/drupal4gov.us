@@ -269,3 +269,29 @@ select {
     }
   }
 }
+#edit-resume-cv--label {
+  font-weight: bold;
+}
+
+.form-item-cover-letter {
+  margin-top: 20px;
+
+  #edit-cover-letter--label {
+    font-weight: bold;
+  }
+}
+
+.form-item-portfolio-technology-internship- {
+  margin-top: 20px;
+
+  label {
+    font-weight: bold;
+  }
+}
+
+.form-item-references {
+  margin-top: 20px;
+  label {
+    font-weight: bold;
+  }
+}
