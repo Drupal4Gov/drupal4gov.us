@@ -59,7 +59,6 @@
        {% if content.field_title|render or content.body|render %}
           <div class="wrapper-left">
           {% if content.field_title|render %} <h2>{{content.field_title}}</h2> {% endif %}
-            {# {{ content|without('field_link','field_title','field_background_color','field_font_color') }} #}
             {{ content.body }}
           </div>
         {% endif %}
