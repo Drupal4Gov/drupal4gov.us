@@ -79,17 +79,20 @@
 %}
 {{ attach_library('drupal4gov/node') }}
 <article{{ attributes.addClass(classes) }}>
-
-  {{ title_prefix }}
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      {{ label }}
-    </h2>
-  {% endif %}
-  {{ title_suffix }}
-
+ 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content }}
+
+    {% if content.field_board_img|render %}
+      {{ content.field_board_img }}
+    {% else %}
+      <div class="field field--name-field-board-img field--type-image field--label-hidden field__item">
+        <img loading="lazy" src="/images/test-headshot.jpg" alt="Headshot image placeholder">
+      </div>
+    {% endif %}
+
+    <h3><a href="{{ url }}">{{ content.field_name }}</a></h3>
+    {{ content.field_role }}
+
   </div>
 
 </article>

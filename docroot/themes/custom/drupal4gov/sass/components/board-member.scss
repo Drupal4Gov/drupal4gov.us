@@ -25,7 +25,7 @@
     width: 100%;
 
 
-    h2 {
+    h3 {
       margin-block: 18px 7px;
       font-size: var(--h3);
 
@@ -34,6 +34,12 @@
         font-weight: bold;
         text-decoration: none;
       }
+    }
+
+    .field--name-field-board-img {
+      height: 150px;
+      width: 150px; 
+      margin: 0 auto;
     }
 
     img {
