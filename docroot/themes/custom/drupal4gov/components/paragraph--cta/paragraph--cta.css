@@ -5,7 +5,8 @@
 .paragraph--type--cta.style--font-white {
   color: white;
 }
-.paragraph--type--cta h2, .paragraph--type--cta h3 {
+.paragraph--type--cta h2,
+.paragraph--type--cta h3 {
   color: white;
   margin: 0;
   margin-bottom: 25px;
@@ -15,13 +16,17 @@
   flex-direction: row;
   padding: 25px;
 }
-.paragraph--type--cta .wrapper-left {
-  flex: 1 1 50%;
+.paragraph--type--cta .cta--wrapper .wrapper-left {
+  flex: 1 1 100%;
   padding: 25px;
 }
-.paragraph--type--cta .wrapper-right {
+.paragraph--type--cta .cta--wrapper .wrapper-right {
   display: flex;
   align-items: center;
-  flex: 1 1 50% auto;
+  flex: 1 1 auto;
   padding: 25px;
+}
+.paragraph--type--cta .cta--wrapper > div:only-child {
+  flex: 1 0 100%;
+  justify-content: center;
 }
