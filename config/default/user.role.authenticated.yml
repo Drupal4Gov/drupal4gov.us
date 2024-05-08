@@ -2,7 +2,10 @@ uuid: b90ce320-7d00-48c2-a031-e84d03b4944e
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.webform_default
   module:
+    - filter
     - media
     - system
 _core:
@@ -13,4 +16,5 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format webform_default'
   - 'view media'
