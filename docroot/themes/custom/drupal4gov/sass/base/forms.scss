@@ -271,6 +271,7 @@ select {
     }
   }
 }
+// intern application webform //
 #edit-resume-cv--label {
   font-weight: bold;
 }
@@ -297,33 +298,16 @@ select {
     font-weight: bold;
   }
 }
+// intern application webform //
 
-.form-item-full-name- {
-  label {
-    font-weight: bold;
-  }
-}
-
-.form-item-last-name- {
-  label {
-    font-weight: bold;
-  }
-}
-
-.form-item-email {
-  label {
-    font-weight: bold;
-  }
-}
-
-.form-item-subject {
-  label {
-    font-weight: bold;
-  }
-}
-
+// webform contact us //
+.form-item-full-name-,
+.form-item-last-name-,
+.form-item-email,
+.form-item-subject,
 .form-item-body {
   label {
     font-weight: bold;
   }
 }
+// webform contact us //
