@@ -1,4 +1,4 @@
-uuid: a61d83e6-c76d-4032-9b09-9c4d25ab9038
+uuid: 2782124a-502d-460b-80c8-028410826c1a
 langcode: en
 status: open
 dependencies: {  }
@@ -8,36 +8,41 @@ close: null
 uid: 1
 template: false
 archive: false
-id: intern_application
-title: 'Intern application'
+id: contact_us
+title: 'Contact us'
 description: ''
 categories: {  }
 elements: |-
-  resume_cv:
-    '#type': webform_document_file
-    '#title': Resume/CV
-    '#description': '<p>Provide a detailed resume highlighting your educational background, relevant work experience and any technical skills.&nbsp;</p>'
-    '#title_display': before
-    '#description_display': before
+  intro:
+    '#type': webform_message
+    '#message_message': '<p>We value your input, questions and suggestions. Feel free to reach out to us through our contact form, email, or social media channels. We look forward to hearing from you and working together to transform the government digital landscape with open source.&nbsp;</p>'
+  full_name_:
+    '#type': textfield
+    '#title': 'First Name '
     '#required': true
-  cover_letter:
-    '#type': webform_document_file
-    '#title': 'Cover Letter'
-    '#description': '<p>Write a compelling cover letter that outlines why you are interested in the internship, your relevant skills and what you hope to gain from the experience.&nbsp;</p>'
-    '#title_display': before
-    '#description_display': before
+  last_name_:
+    '#type': textfield
+    '#title': 'Last Name '
     '#required': true
-  portfolio_technology_internship_:
+  email:
+    '#type': email
+    '#title': Email
+    '#required': true
+  reason_for_contacting_d4g:
+    '#type': checkboxes
+    '#title': 'Reason for contacting D4G'
+    '#options':
+      'I want to donate to D4G': 'I want to donate to D4G'
+      'I want to sponsor D4G': 'I want to sponsor D4G'
+      'I want to volunteer with D4G': 'I want to volunteer with D4G'
+      'I want to present a webinar for D4G': 'I want to present a webinar for D4G'
+      'I want to write a blog for D4G': 'I want to write a blog for D4G'
+  subject:
+    '#type': textfield
+    '#title': Subject
+  body:
     '#type': textarea
-    '#title': 'Portfolio (Technology Internship)'
-    '#description': '<p>If applying for the technology internship, include a portfolio or examples of your web development projects to showcase your skills and experience.</p>'
-    '#description_display': before
-  references:
-    '#type': textarea
-    '#title': References
-    '#description': '<p>Provide contact information for two professional or academic references who can speak to your abilities and work ethic.&nbsp;</p>'
-    '#description_display': before
-    '#required': true
+    '#title': Body
 css: ''
 javascript: ''
 settings:
@@ -145,7 +150,7 @@ settings:
   confirmation_type: page
   confirmation_url: ''
   confirmation_title: ''
-  confirmation_message: ''
+  confirmation_message: '<p>Thank you for successfully submitting the form. Someone from D4G will be responding to your form submission soon.&nbsp;</p>'
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''

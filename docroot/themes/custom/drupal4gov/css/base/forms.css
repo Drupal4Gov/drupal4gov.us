@@ -345,3 +345,11 @@ select[multiple] option {
 .form-item-references label {
   font-weight: bold;
 }
+
+.form-item-full-name- label,
+.form-item-last-name- label,
+.form-item-email label,
+.form-item-subject label,
+.form-item-body label {
+  font-weight: bold;
+}
