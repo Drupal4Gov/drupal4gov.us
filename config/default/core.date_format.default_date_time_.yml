@@ -1,0 +1,8 @@
+uuid: b74fd997-bb05-4ad9-bebb-ddfba66cae3a
+langcode: en
+status: true
+dependencies: {  }
+id: default_date_time_
+label: 'Default Date & Time '
+locked: false
+pattern: 'F j, Y, g:i a'
