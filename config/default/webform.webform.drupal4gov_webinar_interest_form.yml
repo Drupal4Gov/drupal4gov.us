@@ -1,0 +1,423 @@
+uuid: 5c9c8596-b436-4733-872b-b52d681fcdc6
+langcode: en
+status: open
+dependencies: {  }
+weight: 0
+open: null
+close: null
+uid: 1
+template: false
+archive: false
+id: drupal4gov_webinar_interest_form
+title: 'Drupal4Gov Webinar Interest Form'
+description: ''
+categories: {  }
+elements: |-
+  webinar_presenter:
+    '#type': webform_wizard_page
+    '#title': 'Webinar Presenter'
+    markup:
+      '#type': webform_markup
+      '#markup': '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(32, 33, 36);display:inline !important;float:none;font-family:&quot;docs-Source Sans 3&quot;;font-size:14.6667px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;"><strong>Do you have a topic you are passionate about and you think people will be interested? We want to know about it!&nbsp;</strong></span></p><div style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(32, 33, 36);font-family:&quot;docs-Source Sans 3&quot;;font-size:14.6667px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;"><strong>Once a month, Drupal4Gov hosts a webinar for 200+ attendees that is both live-streamed and recorded. If you are interested in being a webinar presenter, please fill out this interest form!&nbsp;</strong></div>'
+    email:
+      '#type': email
+      '#title': Email
+      '#required': true
+    first_name_:
+      '#type': textfield
+      '#title': 'First Name '
+      '#required': true
+    last_name_:
+      '#type': textfield
+      '#title': 'Last Name '
+      '#required': true
+    agency_company:
+      '#type': textfield
+      '#title': Agency/Company
+      '#required': true
+    what_is_the_title_of_your_webinar_:
+      '#type': textfield
+      '#title': 'What is the title of your webinar?'
+      '#required': true
+    in_a_few_words_please_describe_what_your_webinar_will_be_about_:
+      '#type': textarea
+      '#title': 'In a few words, please describe what your webinar will be about.'
+      '#required': true
+    who_is_your_intended_audience_:
+      '#type': radios
+      '#title': 'Who is your intended audience?'
+      '#options':
+        Beginner: Beginner
+        Intermediate: Intermediate
+        Advanced: Advanced
+        Anyone: Anyone
+      '#required': true
+    please_provide_a_short_50_word_biography_:
+      '#type': textarea
+      '#title': 'Please provide a short, 50-word biography.'
+      '#required': true
+    please_upload_a_headshot_photograph_:
+      '#type': webform_image_file
+      '#title': 'Please upload a headshot photograph.'
+      '#file_help': none
+      '#required': true
+    please_provide_your_social_media_account_linkedin:
+      '#type': textfield
+      '#title': 'Please provide your social media account: LinkedIn'
+      '#required': true
+    please_provide_your_social_media_account_facebook:
+      '#type': textfield
+      '#title': 'Please provide your social media account: Facebook'
+      '#required': true
+    please_provide_your_social_media_account_mastodon:
+      '#type': textfield
+      '#title': 'Please provide your social media account: Mastodon'
+      '#required': true
+    do_you_have_a_co_presenter_:
+      '#type': radios
+      '#title': 'Do you have a co-presenter?'
+      '#options':
+        'Yes': 'Yes'
+        'No': 'No'
+      '#required': true
+  co_presenter:
+    '#type': webform_wizard_page
+    '#title': Co-Presenter
+    '#prev_button_label': Back
+    email_co_presenter:
+      '#type': email
+      '#title': Email
+    first_name_co_presenter:
+      '#type': textfield
+      '#title': 'First Name '
+    last_name_co_presenter:
+      '#type': textfield
+      '#title': 'Last Name '
+    agency_company_co_presenter:
+      '#type': textfield
+      '#title': Agency/Company
+    please_provide_a_short_50_word_biography_co_presenter:
+      '#type': textarea
+      '#title': 'Please provide a short, 50-word biography.'
+    please_upload_a_headshot_photograph_co_presenter:
+      '#type': webform_image_file
+      '#title': 'Please upload a headshot photograph.'
+    please_provide_your_social_media_account_linkedin_co_presenter:
+      '#type': textfield
+      '#title': 'Please provide your social media account: LinkedIn'
+    please_provide_your_social_media_account_twitter:
+      '#type': textfield
+      '#title': 'Please provide your social media account: Twitter'
+    please_provide_your_social_media_account_facebook_co_presenter:
+      '#type': textfield
+      '#title': 'Please provide your social media account: Facebook'
+    please_provide_your_social_media_account_mastodon_co_presenter:
+      '#type': textfield
+      '#title': 'Please provide your social media account: Mastodon'
+    what_is_their_age_:
+      '#type': radios
+      '#title': 'What is their age?'
+      '#options':
+        18-25: 18-25
+        '26 - 30': '26 - 30'
+        '31 - 40': '31 - 40'
+        '41 - 50': '41 - 50'
+        50+: 50+
+    in_which_level_of_their_career_are_they_:
+      '#type': radios
+      '#title': 'In which level of their career are they?'
+      '#options':
+        Entry-level: Entry-level
+        Intermediate: Intermediate
+        Mid-level: Mid-level
+        'Senior or executive-level': 'Senior or executive-level'
+    what_gender_do_they_identify_as_:
+      '#type': radios
+      '#title': 'What gender do they identify as?'
+      '#options':
+        Female: Female
+        Male: Male
+        Non-binary: Non-binary
+        'Prefer not to say': 'Prefer not to say'
+    what_is_their_race_:
+      '#type': radios
+      '#title': 'What is their race?'
+      '#options':
+        'American Indian or American Native': 'American Indian or American Native'
+        Asian: Asian
+        'Black or African American': 'Black or African American'
+        White: White
+        'Hispanic or Latino': 'Hispanic or Latino'
+        'Native Hawaiian or Other Pacific Islander': 'Native Hawaiian or Other Pacific Islander'
+        'Prefer not to say': 'Prefer not to say'
+    in_which_sector_do_they_work_:
+      '#type': radios
+      '#title': 'In which sector do they work?'
+      '#options':
+        Education: Education
+        'Federal Government': 'Federal Government'
+        'Health care': 'Health care'
+        'Information technology': 'Information technology'
+        'Local/State Government': 'Local/State Government'
+        Other: Other
+    other_description:
+      '#type': textfield
+      '#title': 'Other description'
+  demographic_information:
+    '#type': webform_wizard_page
+    '#title': 'Demographic Information'
+    '#prev_button_label': Back
+    '#next_button_label': Next
+    how_did_you_hear_about_our_webinar_:
+      '#type': radios
+      '#title': 'How did you hear about our webinar?'
+      '#options':
+        'Word of Mouth': 'Word of Mouth'
+        'Drupal4Gov Volunteer': 'Drupal4Gov Volunteer'
+        'Drupal Podcast': 'Drupal Podcast'
+        LinkedIn: LinkedIn
+        Twitter: Twitter
+        'Other Social Media': 'Other Social Media'
+      '#required': true
+    other_description_demographics_how_did_you_hear_about_us:
+      '#type': textfield
+      '#title': 'Other description'
+    what_is_your_age_:
+      '#type': radios
+      '#title': 'What is your age '
+      '#options':
+        18-25: 18-25
+        26-30: 26-30
+        31-40: 31-40
+        41-50: 41-50
+        50+: 50+
+      '#required': true
+    in_which_level_of_your_career_are_you_:
+      '#type': radios
+      '#title': 'In which level of your career are you?'
+      '#options':
+        Entry-level: Entry-level
+        Intermediate: Intermediate
+        Mid-level: Mid-level
+        'Senior or executive-level': 'Senior or executive-level'
+      '#required': true
+    what_gender_do_you_identify_as_:
+      '#type': radios
+      '#title': 'What gender do you identify as?'
+      '#options':
+        Female: Female
+        Male: Male
+        Non-binary: Non-binary
+        'Prefer not to say ': 'Prefer not to say '
+      '#required': true
+    what_is_your_race_:
+      '#type': radios
+      '#title': 'What is your race?'
+      '#options':
+        'American Indian or American Native': 'American Indian or American Native'
+        Asian: Asian
+        'Black or African American': 'Black or African American'
+        White: White
+        'Hispanic or Latino': 'Hispanic or Latino'
+        'Native Hawaiian or Other Pacific Islander': 'Native Hawaiian or Other Pacific Islander'
+        'Prefer not to say ': 'Prefer not to say '
+      '#required': true
+    in_which_sector_do_you_work_:
+      '#type': radios
+      '#title': 'In which sector do you work?'
+      '#options':
+        Education: Education
+        'Federal Government ': 'Federal Government '
+        'Health care': 'Health care'
+        'Information Technology ': 'Information Technology '
+        'Local/State Government': 'Local/State Government'
+        Other: Other
+      '#required': true
+    other_description_demographics_work:
+      '#type': textfield
+      '#title': 'Other Description'
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: both
+  form_submit_once: false
+  form_open_message: ''
+  form_close_message: ''
+  form_exception_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_disable_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_reset: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  form_attributes: {  }
+  form_method: ''
+  form_action: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_log: false
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  wizard_page_type: container
+  wizard_page_title_tag: h2
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_url: ''
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }
+variants: {  }
