@@ -358,3 +358,28 @@ select[multiple] option {
 .form-item-body label {
   font-weight: bold;
 }
+
+.form-item-first-name label,
+.form-item-agency-company label,
+.form-item-what-is-the-title-of-your-webinar- label,
+.form-item-in-a-few-words-please-describe-what-your-webinar-will-be-about- label,
+.form-item-please-provide-a-short-50-word-biography- label,
+.form-item-please-upload-a-headshot-photograph- label,
+.form-item-please-provide-your-social-media-account-linkedin label,
+.form-item-please-provide-your-social-media-account-facebook label,
+.form-item-please-provide-your-social-media-account-mastodon label,
+.form-item-email-co-presenter label,
+.form-item-first-name-co-presenter label,
+.form-item-last-name-co-presenter label,
+.form-item-agency-company-co-presenter label,
+.form-item-please-provide-a-short-50-word-biography-co-presenter label,
+.form-item-please-upload-a-headshot-photograph-co-presenter label,
+.form-item-please-provide-your-social-media-account-linkedin-co-presenter label,
+.form-item-please-provide-your-social-media-account-twitter label,
+.form-item-please-provide-your-social-media-account-facebook-co-presenter label,
+.form-item-please-provide-your-social-media-account-mastodon-co-presenter label,
+.form-item-other-description label,
+.form-item-other-description-demographics-how-did-you-hear-about-us label,
+.form-item-other-description-demographics-work label {
+  font-weight: bold;
+}
