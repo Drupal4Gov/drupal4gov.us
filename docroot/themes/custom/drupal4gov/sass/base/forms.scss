@@ -272,6 +272,14 @@ select {
   }
 }
 // intern application webform //
+
+.form-item-first-name,
+.form-item-last-name {
+  label {
+    font-weight: bold;
+  }
+}
+
 #edit-resume-cv--label {
   font-weight: bold;
 }
