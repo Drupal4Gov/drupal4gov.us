@@ -13,6 +13,20 @@ title: 'Intern application'
 description: ''
 categories: {  }
 elements: |-
+  cover_letter:
+    '#type': webform_document_file
+    '#title': 'Cover Letter'
+    '#description': '<p>Write a compelling cover letter that outlines why you are interested in the internship, your relevant skills and what you hope to gain from the experience.&nbsp;</p>'
+    '#title_display': before
+    '#description_display': before
+    '#required': true
+  resume_cv:
+    '#type': webform_document_file
+    '#title': Resume/CV
+    '#description': '<p>Provide a detailed resume highlighting your educational background, relevant work experience and any technical skills.&nbsp;</p>'
+    '#title_display': before
+    '#description_display': before
+    '#required': true
   first_name:
     '#type': textfield
     '#title': 'First Name'
@@ -24,20 +38,6 @@ elements: |-
   email:
     '#type': textfield
     '#title': Email
-    '#required': true
-  resume_cv:
-    '#type': webform_document_file
-    '#title': Resume/CV
-    '#description': '<p>Provide a detailed resume highlighting your educational background, relevant work experience and any technical skills.&nbsp;</p>'
-    '#title_display': before
-    '#description_display': before
-    '#required': true
-  cover_letter:
-    '#type': webform_document_file
-    '#title': 'Cover Letter'
-    '#description': '<p>Write a compelling cover letter that outlines why you are interested in the internship, your relevant skills and what you hope to gain from the experience.&nbsp;</p>'
-    '#title_display': before
-    '#description_display': before
     '#required': true
   portfolio_technology_internship_:
     '#type': textarea

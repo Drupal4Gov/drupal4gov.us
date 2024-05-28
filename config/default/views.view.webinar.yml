@@ -491,7 +491,7 @@ display:
           value:
             min: ''
             max: ''
-            value: now
+            value: '3 years'
             type: offset
           group: 1
           exposed: false
@@ -727,7 +727,7 @@ display:
         - 'config:field.storage.node.field_date'
   block_3:
     id: block_3
-    display_title: 'In-person Events '
+    display_title: 'Events '
     display_plugin: block
     position: 3
     display_options:
@@ -970,7 +970,7 @@ display:
         - 'config:field.storage.node.field_date'
   block_4:
     id: block_4
-    display_title: 'In-person past Events'
+    display_title: 'Past events'
     display_plugin: block
     position: 4
     display_options:
