@@ -13,6 +13,18 @@ title: 'Intern application'
 description: ''
 categories: {  }
 elements: |-
+  first_name:
+    '#type': textfield
+    '#title': 'First Name'
+    '#required': true
+  last_name:
+    '#type': textfield
+    '#title': 'Last Name'
+    '#required': true
+  email:
+    '#type': textfield
+    '#title': Email
+    '#required': true
   resume_cv:
     '#type': webform_document_file
     '#title': Resume/CV
@@ -31,11 +43,6 @@ elements: |-
     '#type': textarea
     '#title': 'Portfolio (Technology Internship)'
     '#description': '<p>If applying for the technology internship, include a portfolio or examples of your web development projects to showcase your skills and experience.</p>'
-    '#description_display': before
-  references:
-    '#type': textarea
-    '#title': References
-    '#description': '<p>Provide contact information for two professional or academic references who can speak to your abilities and work ethic.&nbsp;</p>'
     '#description_display': before
     '#required': true
 css: ''
@@ -145,7 +152,7 @@ settings:
   confirmation_type: page
   confirmation_url: ''
   confirmation_title: ''
-  confirmation_message: ''
+  confirmation_message: "<p><strong>Thank you for submitting your application for a Drupal4Gov internship. A member of our team will review your application and get back to you. We make sure to answer every single application submitted since you've taken the time out to complete our application.&nbsp;</strong></p>"
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''
