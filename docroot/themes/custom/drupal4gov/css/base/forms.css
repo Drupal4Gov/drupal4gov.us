@@ -321,6 +321,11 @@ select[multiple] option {
   background-color: var(--blue-dark);
 }
 
+.form-item-first-name label,
+.form-item-last-name label {
+  font-weight: bold;
+}
+
 #edit-resume-cv--label {
   font-weight: bold;
 }
