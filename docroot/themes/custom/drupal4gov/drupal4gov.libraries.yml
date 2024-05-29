@@ -10,6 +10,7 @@ global:
       css/components/text-formatted.css: {}
       css/components/blog.css: {}
       css/components/board-member.css: {}
+      css/components/event.css: {}
     layout:
       css/layout/layout.css: {}
       css/layout/views.css: {}
