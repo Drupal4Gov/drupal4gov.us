@@ -1,4 +1,5 @@
-.node--type-event.node--view-mode-teaser {
+.node--type-event.node--view-mode-teaser,
+.node--type-event.node--view-mode-full {
 
   .node__content {
     display: flex;
@@ -8,12 +9,13 @@
   }
 
   img {
-    border: 5px solid var(--blue-light);
-    box-shadow: 0 0 10px rgba(#353D47, .45);
-    object-fit: cover;
-    height: 131px;
-    width: 131px;
-    margin-bottom: 16px;
+      border: 5px solid var(--blue-light);
+      box-shadow: 0 0 10px rgba(#353D47, .45);
+      object-fit: cover;
+      border-radius: 100%;
+      height: 131px;
+      width: 131px;
+      margin-bottom: 16px;
   }
 
   a {
@@ -34,7 +36,30 @@
   }
 
   .field--name-field-date {
+    margin-top: 0.5rem;
     font-weight: 700;
   }
 
+  .field--name-field-address {
+    text-align: center;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+  
+  .field--name-body {
+    p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .field--name-field-file,
+  .field--name-field-event-url,
+  .field--name-field-type,
+  .field--name-field-video {
+    text-align: center;
+    margin-top: 1rem;
+  }
 }

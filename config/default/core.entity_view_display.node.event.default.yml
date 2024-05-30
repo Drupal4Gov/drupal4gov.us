@@ -30,28 +30,28 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 5
     region: content
   field_address:
     type: address_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 107
+    weight: 4
     region: content
   field_date:
     type: daterange_default
-    label: above
+    label: hidden
     settings:
       timezone_override: ''
-      format_type: medium
+      format_type: default_date_time_
       separator: '-'
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_event_url:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -59,32 +59,32 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 110
+    weight: 6
     region: content
   field_file:
     type: file_default
-    label: above
+    label: hidden
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 111
+    weight: 8
     region: content
   field_image:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 105
+    weight: 0
     region: content
   field_speaker:
     type: entity_reference_label
     label: above
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 113
+    weight: 2
     region: content
   field_type:
     type: entity_reference_label
@@ -92,7 +92,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 106
+    weight: 9
     region: content
   field_video:
     type: entity_reference_entity_view
@@ -101,12 +101,12 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 112
+    weight: 10
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 7
     region: content
   title:
     type: title
@@ -115,7 +115,7 @@ content:
       link_to_entity: true
       tag: h2
     third_party_settings: {  }
-    weight: -49
+    weight: 1
     region: content
 hidden:
   created: true
