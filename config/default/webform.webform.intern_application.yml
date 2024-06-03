@@ -39,12 +39,22 @@ elements: |-
     '#title_display': before
     '#description_display': before
     '#required': true
+  internship:
+    '#type': webform_entity_checkboxes
+    '#title': 'Internship Programs'
+    '#target_type': taxonomy_term
+    '#selection_handler': 'default:taxonomy_term'
+    '#selection_settings':
+      target_bundles:
+        internship_programs_: internship_programs_
+      sort:
+        field: name
+        direction: asc
   portfolio_technology_internship_:
     '#type': textarea
-    '#title': 'Portfolio (Technology Internship)'
+    '#title': 'Portfolio '
     '#description': '<p>If applying for the technology internship, include a portfolio or examples of your web development projects to showcase your skills and experience.</p>'
     '#description_display': before
-    '#required': true
 css: ''
 javascript: ''
 settings:
