@@ -52,7 +52,7 @@ elements: |-
         direction: asc
   portfolio_technology_internship_:
     '#type': textarea
-    '#title': 'Portfolio (Technology Internship)'
+    '#title': 'Portfolio '
     '#description': '<p>If applying for the technology internship, include a portfolio or examples of your web development projects to showcase your skills and experience.</p>'
     '#description_display': before
 css: ''
