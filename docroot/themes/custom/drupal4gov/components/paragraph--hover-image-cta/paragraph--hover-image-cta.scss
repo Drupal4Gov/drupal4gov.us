@@ -3,7 +3,7 @@
     .hover-image--wrapper {
         max-width: 237px;
         max-height: 343px;
-        margin: 10rem auto;
+        margin: 10px auto;
         position: relative;
         width: 100%;
         height: 100%;
@@ -11,27 +11,34 @@
         &:hover {
             .body {
                 z-index: 0;
+                background: rgba(black, 0.5);
+                box-shadow: 0 0 20px rgba(53, 61, 71, 0.45);
+                height: 100%;
+                
             }
         }
 
         img {
-            width: 327px;
+            width: 100%;
             height: 343px;
             object-fit: cover;
+            transition: all .5s ease;
+            background-position: 50%;
         }
 
         .body {
-            background: rgba(#0063DE, 0.3);
+            background: #0063DE;
+            opacity: .77;
+            transition: height .25s, opacity .3s;
             position: absolute;
             bottom: 0;
-            padding: 16px;
+            padding: 1.1rem 1.67rem .28rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             max-width: 320px;
-            max-height: 240px;
-            z-index: -1;
+            height: 35%;
             left: 0;
             right: 0;
 
@@ -56,8 +63,24 @@
         }
 
         .body {
+            opacity: .77;
+            padding: 1.1rem 1.67rem .28rem;
+            transition: height .25s, opacity .3s;
+            align-content: center;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 100%;
+            justify-content: flex-start;
+            width: 50%;
             max-width: 675px;
             max-height: 343px;
+
+            h3 {
+                text-align: center;
+                width: 100%;
+            }
         }
     }
 

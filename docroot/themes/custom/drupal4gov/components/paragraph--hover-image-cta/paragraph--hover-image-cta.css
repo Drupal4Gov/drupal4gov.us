@@ -1,32 +1,38 @@
 .paragraph--type--hover-image-cta .hover-image--wrapper {
   max-width: 237px;
   max-height: 343px;
-  margin: 10rem auto;
+  margin: 10px auto;
   position: relative;
   width: 100%;
   height: 100%;
 }
 .paragraph--type--hover-image-cta .hover-image--wrapper:hover .body {
   z-index: 0;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(53, 61, 71, 0.45);
+  height: 100%;
 }
 .paragraph--type--hover-image-cta .hover-image--wrapper img {
-  width: 327px;
+  width: 100%;
   height: 343px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 0.5s ease;
+  background-position: 50%;
 }
 .paragraph--type--hover-image-cta .hover-image--wrapper .body {
-  background: rgba(0, 99, 222, 0.3);
+  background: #0063DE;
+  opacity: 0.77;
+  transition: height 0.25s, opacity 0.3s;
   position: absolute;
   bottom: 0;
-  padding: 16px;
+  padding: 1.1rem 1.67rem 0.28rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 320px;
-  max-height: 240px;
-  z-index: -1;
+  height: 35%;
   left: 0;
   right: 0;
 }
@@ -45,6 +51,21 @@
      object-fit: cover;
 }
 .paragraph--type--hover-image-cta.card-orientation-horizontal .body {
+  opacity: 0.77;
+  padding: 1.1rem 1.67rem 0.28rem;
+  transition: height 0.25s, opacity 0.3s;
+  align-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: flex-start;
+  width: 50%;
   max-width: 675px;
   max-height: 343px;
+}
+.paragraph--type--hover-image-cta.card-orientation-horizontal .body h3 {
+  text-align: center;
+  width: 100%;
 }
