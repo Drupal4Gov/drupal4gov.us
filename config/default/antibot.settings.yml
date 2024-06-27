@@ -6,4 +6,7 @@ form_ids:
   - user_pass
   - user_register_form
   - 'contact_message_*'
+  - webform_submission_drupal4gov_webinar_interest_form_add_form
+  - webform_submission_contact_us_add_form
+  - webform_submission_intern_application_add_form
 show_form_ids: false
