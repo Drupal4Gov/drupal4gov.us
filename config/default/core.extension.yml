@@ -5,6 +5,7 @@ module:
   address: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  antibot: 0
   auto_entitylabel: 0
   block: 0
   block_content: 0
