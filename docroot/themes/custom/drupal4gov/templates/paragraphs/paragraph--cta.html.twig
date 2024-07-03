@@ -58,8 +58,8 @@
      <div class="cta--wrapper"> 
        {% if content.field_title|render or content.body|render %}
           <div class="wrapper-left">
-          {% if content.field_title|render %} <h2>{{content.field_title}}</h2> {% endif %}
-            {{ content.body }}
+          {% if content.field_title|render %}<h2>{{ content.field_title }}</h2>{% endif %}
+            {{ content.field_body }}
           </div>
         {% endif %}
         <div class="wrapper-right">
