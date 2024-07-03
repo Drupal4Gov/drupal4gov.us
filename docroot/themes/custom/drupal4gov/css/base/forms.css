@@ -302,10 +302,11 @@ select[multiple] option {
 }
 .button.button--outline {
   background-color: var(--blue-dark);
-  color: white;
-  border-radius: 26px;
-  text-decoration: none;
   border: 3px solid var(--blue-bright);
+  border-radius: 26px;
+  color: white;
+  text-decoration: none;
+  padding-block: 2rem;
 }
 .button.button--outline:hover {
   background-color: var(--blue-dark);
