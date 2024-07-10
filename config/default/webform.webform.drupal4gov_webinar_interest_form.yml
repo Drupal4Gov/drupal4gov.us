@@ -60,19 +60,15 @@ elements: |-
       '#type': webform_image_file
       '#title': 'Please upload a headshot photograph.'
       '#file_help': none
-      '#required': true
     please_provide_your_social_media_account_linkedin:
       '#type': textfield
       '#title': 'Please provide your social media account: LinkedIn'
-      '#required': true
     please_provide_your_social_media_account_facebook:
       '#type': textfield
       '#title': 'Please provide your social media account: Facebook'
-      '#required': true
     please_provide_your_social_media_account_mastodon:
       '#type': textfield
       '#title': 'Please provide your social media account: Mastodon'
-      '#required': true
     do_you_have_a_co_presenter_:
       '#type': radios
       '#title': 'Do you have a co-presenter?'
@@ -83,6 +79,10 @@ elements: |-
   co_presenter:
     '#type': webform_wizard_page
     '#title': Co-Presenter
+    '#states':
+      invisible:
+        ':input[name="do_you_have_a_co_presenter_"]':
+          value: 'No'
     '#prev_button_label': Back
     email_co_presenter:
       '#type': email
