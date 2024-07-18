@@ -11,6 +11,10 @@
 .card__media video {
   width: 100%;
   aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
 }
 
 .card__content {
