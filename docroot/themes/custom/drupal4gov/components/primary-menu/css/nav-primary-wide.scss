@@ -76,7 +76,7 @@ body:not(.is-always-mobile-nav) {
       display: flex;
       align-items: center;
       width: max-content;
-      max-width: 200px;
+      max-width: 250px;
       margin: 0;
     }
 
@@ -91,7 +91,7 @@ body:not(.is-always-mobile-nav) {
       top: calc(100% - (0.5 * var(--spacing)));
       left: 50%;
       visibility: hidden;
-      width: 200px;
+      width: 250px;
       max-height: auto;
       margin-block: 0;
       margin-inline-start: -12px; // Visually center the dropdown on the text (not the button)
@@ -143,6 +143,19 @@ body:not(.is-always-mobile-nav) {
 
       &:hover {
         text-decoration: underline;
+      }
+    }
+
+    .primary-nav__menu-link--level-3 {
+      display: block;
+      margin-block: var(--spacing);
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      .primary-nav__menu-link-inner {
+        padding: 0;
       }
     }
   }
