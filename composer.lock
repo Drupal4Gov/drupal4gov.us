@@ -3650,26 +3650,26 @@
         },
         {
             "name": "drupal/manage_display",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/manage_display.git",
-                "reference": "3.0.0"
+                "reference": "3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/manage_display-3.0.0.zip",
-                "reference": "3.0.0",
-                "shasum": "f8e6e0b44f56e3733b5f4db09f7dd41c7ce80a7a"
+                "url": "https://ftp.drupal.org/files/projects/manage_display-3.0.1.zip",
+                "reference": "3.0.1",
+                "shasum": "23838a88412db17163ad6c78102bf02e5c52a8a3"
             },
             "require": {
-                "drupal/core": "^9.4 || ^10"
+                "drupal/core": "^9.4 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.0",
-                    "datestamp": "1684858822",
+                    "version": "3.0.1",
+                    "datestamp": "1714834549",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3682,18 +3682,24 @@
             ],
             "authors": [
                 {
-                    "name": "AdamPS",
-                    "homepage": "https://www.drupal.org/user/2650563"
+                    "name": "Adam Shepherd (AdamPS)",
+                    "homepage": "https://www.drupal.org/u/adamps",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "AstonVictor",
-                    "homepage": "https://www.drupal.org/user/3466615"
+                    "name": "Viktor Holovachek (AstonVictor)",
+                    "homepage": "https://www.drupal.org/u/astonvictor",
+                    "role": "Maintainer"
                 }
             ],
-            "description": "Make base fields such as 'title' available in \"Manage Display\"",
+            "description": "This project makes base fields such as 'title' available in 'Manage Display'.",
             "homepage": "https://www.drupal.org/project/manage_display",
+            "keywords": [
+                "Drupal"
+            ],
             "support": {
-                "source": "https://git.drupalcode.org/project/manage_display"
+                "source": "https://git.drupalcode.org/project/manage_display",
+                "issues": "https://www.drupal.org/project/issues/manage_display"
             }
         },
         {
