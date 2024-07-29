@@ -148,7 +148,6 @@
 
 .primary-nav__menu-link--level-2 {
   font-size: var(--wide-font-size-submenu);
-  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -158,4 +157,22 @@ html:not(.js) {
     max-height: none;
     opacity: 1;
   }
+}
+
+/*
+  Tertiary menu specific styles.
+*/
+.primary-nav__menu--level-3 {
+  padding-inline: 0;
+  margin-inline-start: calc(1.5 * var(--spacing));
+}
+
+.primary-nav__menu-item--level-3 {
+  margin-block: var(--spacing);
+}
+
+.primary-nav__menu-link--level-3 {
+  font-weight: normal;
+  font-size: var(--wide-font-size-submenu);
+  line-height: 1.5;
 }
