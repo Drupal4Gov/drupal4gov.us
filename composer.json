@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.3",
         "acquia/acquia-cms-starterkit": "^1",
         "acquia/blt": "^13.7",
         "acquia/drupal-environment-detector": "^1",
@@ -71,7 +71,7 @@
             "acquia/blt-phpcs": true
         },
         "platform": {
-            "php": "8.1"
+            "php": "8.3"
         },
         "sort-packages": true
     },
