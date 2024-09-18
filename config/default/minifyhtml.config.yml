@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: fhVyiwn5AvZPkSXkI0c0uUXZFaoL03XgK8VUwjCIY30
+strip_comments: true
+minify: true
+exclude_pages: '/admin*'
