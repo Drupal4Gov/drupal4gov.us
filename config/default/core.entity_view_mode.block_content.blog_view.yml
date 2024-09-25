@@ -6,5 +6,6 @@ dependencies:
     - block_content
 id: block_content.blog_view
 label: 'Blog View'
+description: ''
 targetEntityType: block_content
 cache: true
