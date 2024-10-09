@@ -1,0 +1,237 @@
+uuid: 9ffc2252-a881-4730-a841-cae1c318a3e9
+langcode: en
+status: open
+dependencies: {  }
+weight: 0
+open: null
+close: null
+uid: 1
+template: false
+archive: false
+id: board_of_directors_application
+title: 'Board of Directors Application'
+description: ''
+categories: {  }
+elements: |-
+  first_name:
+    '#type': textfield
+    '#title': 'First Name'
+  last_name:
+    '#type': textfield
+    '#title': 'Last Name'
+  email:
+    '#type': email
+    '#title': Email
+  resume_cv:
+    '#type': webform_document_file
+    '#title': Resume/CV
+  cover_letter:
+    '#type': webform_document_file
+    '#title': 'Cover Letter'
+  role:
+    '#type': webform_entity_checkboxes
+    '#title': Role
+    '#target_type': taxonomy_term
+    '#selection_handler': 'default:taxonomy_term'
+    '#selection_settings':
+      target_bundles:
+        board_of_directors_roles: board_of_directors_roles
+      sort:
+        field: name
+        direction: asc
+  _have_fully_read_and_understood_the_board_member_responsibilitie:
+    '#type': checkbox
+    '#title': 'I have fully read and understood the Board Member Responsibilities.'
+    '#description': '<h3>Board Member Responsibilities<strong>&nbsp;</strong></h3><div class="spb5Rd OIC90c" style="-webkit-text-stroke-width:0px;color:rgb(32, 33, 36);font-family:Roboto, Arial, sans-serif;font-size:11pt;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;line-height:15pt;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;"><ul><li>Serves a minimum of one (1) two-year term on the Board. Eligible to serve two (2) two-year terms if re-elected.</li><li>Attends a minimum of four (1) Drupal4Gov event each month (includes board meetings, Drupal4Gov Days, Webinars, and Drupal GovCon events). The Full Board of Directors meets the 3rd Tuesday of every month from 12:00 p.m. to 1:00 p.m ET.</li><li><div>&nbsp;Makes a serious commitment to participate actively in committee work. D4G is a working board where each director chairs a program.</div></li><li><div>&nbsp;Stays informed about program matters, is prepared for meetings, and reviews and comments on minutes and reports.</div></li><li><div>&nbsp;Builds a collegial working relationship with other board members that contributes to consensus.&nbsp;</div></li><li><div>&nbsp;Participates in the board''s annual evaluation and planning efforts.&nbsp;</div></li><li><div>&nbsp;Participates in the advancement of the strategic plan of the nonprofit including fundraising (if applicable) and member recruitment.&nbsp;</div></li></ul></div>'
+    '#title_display': inline
+    '#description_display': before
+    '#required': true
+  if_elected_i_will_be_able_to_fully_carry_out_my_board_member_res:
+    '#type': checkbox
+    '#title': 'If elected, I will be able to fully carry out my board member responsibilities as written.'
+    '#required': true
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: both
+  form_submit_once: false
+  form_open_message: ''
+  form_close_message: ''
+  form_exception_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_disable_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_reset: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  form_attributes: {  }
+  form_method: ''
+  form_action: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_log: false
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  wizard_page_type: container
+  wizard_page_title_tag: h2
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: inline
+  confirmation_url: ''
+  confirmation_title: ''
+  confirmation_message: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(32, 33, 36);display:inline !important;float:none;font-family:Roboto, Arial, sans-serif;font-size:14.6667px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Thank you for your interest in serving as a member of the Board of Directors for Drupal4Gov Nonprofit.&nbsp;</span></p><div class="N0gd6" style="-webkit-text-stroke-width:0px;color:rgb(32, 33, 36);font-family:Roboto, RobotoDraft, Helvetica, Arial, sans-serif;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;padding-bottom:12px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><div class="cBGGJ OIC90c" style="color:rgb(32, 33, 36);font-family:Roboto, Arial, sans-serif;font-size:11pt;font-weight:400;letter-spacing:0px;line-height:15pt;margin-top:12px;white-space:pre-wrap;" dir="auto"><div>This application will be kept confidential. Applications are used by the Board’s Nominating Committee to identify and evaluate potential board candidates. All new directors are elected by a majority vote of current board members.&nbsp;</div><div>&nbsp;</div><div>&nbsp;We have received your submission and our team will review it shortly.</div><div><br>Here’s what you can expect next:</div><ul><li><div>Review Process: Our team will review your application to ensure it aligns with goals.</div></li><li><div>Follow-Up: We will reach out to you to discuss the next steps and any additional information we may need.<br>If you have any questions in the meantime, please feel free to contact us at contact@drupal4gov.us.<br>&nbsp;</div></li></ul><div>&nbsp;</div></div><div class="liS6Hc" jsname="F0H8Yc">&nbsp;</div></div><p><br>&nbsp;</p>'
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }
+variants: {  }

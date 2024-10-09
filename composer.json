@@ -44,7 +44,6 @@
         "drupal/shield": "^1.7",
         "drupal/token": "^1.13",
         "drupal/trash": "^3.0",
-        "drupal/upgrade_status": "^4.0",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/webform": "^6.2",
         "drush/drush": "^12",
@@ -53,6 +52,7 @@
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
+        "drupal/upgrade_status": "^4.3",
         "mglaman/phpstan-drupal": "^1.1",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.6",
