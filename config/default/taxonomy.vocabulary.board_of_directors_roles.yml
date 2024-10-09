@@ -1,0 +1,8 @@
+uuid: c323f6ab-4127-4b90-a33a-ae684fe994c8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Board of directors roles'
+vid: board_of_directors_roles
+description: ''
+weight: 0
