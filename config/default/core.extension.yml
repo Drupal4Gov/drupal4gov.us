@@ -41,6 +41,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  minifyhtml: 0
   mysql: 0
   name: 0
   node: 0
