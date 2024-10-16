@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - filter.format.full
-    - filter.format.half_blue
     - media.type.image
     - media.type.supporting_documentation
     - node.type.basic_page
@@ -53,7 +52,6 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use text format full'
-  - 'use text format half_blue'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view basic_page revisions'
