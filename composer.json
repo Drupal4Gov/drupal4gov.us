@@ -23,6 +23,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/antibot": "^2.0",
         "drupal/auto_entitylabel": "^3.0",
+        "drupal/ckeditor5_plugin_pack": "^1.2",
         "drupal/color_field": "^3.0",
         "drupal/config_filter": "^1.12",
         "drupal/config_ignore": "^3.1",
@@ -69,7 +70,8 @@
             "oomphinc/composer-installers-extender": true,
             "phpstan/extension-installer": true,
             "acquia/blt": true,
-            "acquia/blt-phpcs": true
+            "acquia/blt-phpcs": true,
+            "php-http/discovery": true
         },
         "platform": {
             "php": "8.1"

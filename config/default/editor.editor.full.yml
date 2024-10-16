@@ -20,6 +20,7 @@ settings:
       - '|'
       - alignment
       - horizontalLine
+      - pageBreak
       - bulletedList
       - numberedList
       - indent
@@ -29,6 +30,8 @@ settings:
       - link
       - '|'
       - drupalInsertImage
+      - fullScreen
+      - findAndReplace
       - sourceEditing
   plugins:
     ckeditor5_alignment:
@@ -49,6 +52,8 @@ settings:
     ckeditor5_list:
       reversed: true
       startIndex: true
+    ckeditor5_plugin_pack_auto_image__auto_image:
+      enabled: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
 image_upload:
