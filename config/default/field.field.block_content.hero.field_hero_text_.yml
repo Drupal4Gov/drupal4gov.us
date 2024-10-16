@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.hero
     - field.storage.block_content.field_hero_text_
-    - filter.format.half_blue
   module:
     - text
 id: block_content.hero.field_hero_text_
@@ -19,6 +18,5 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  allowed_formats:
-    - half_blue
+  allowed_formats: {  }
 field_type: text_long
