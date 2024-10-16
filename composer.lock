@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7794de7ab58b8450d1cc48ac6434c933",
+    "content-hash": "8473a6721ca640ea825ce6817a6b2279",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -12713,11 +12713,11 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.3"
+        "php": ">=8.1"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "8.3"
+        "php": "8.1"
     },
     "plugin-api-version": "2.6.0"
 }
