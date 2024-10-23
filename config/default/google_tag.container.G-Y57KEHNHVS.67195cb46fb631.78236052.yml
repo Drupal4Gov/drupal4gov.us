@@ -1,0 +1,33 @@
+uuid: 0a31c0e0-bf90-402a-a178-aeca6009d038
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: G-Y57KEHNHVS.67195cb46fb631.78236052
+label: G-Y57KEHNHVS
+weight: 0
+tag_container_ids:
+  - G-Y57KEHNHVS
+advanced_settings:
+  consent_mode: false
+dimensions_metrics: {  }
+conditions:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+events:
+  generate_lead:
+    value: ''
+    currency: ''
+  search: {  }
+  webform_purchase: {  }
+  custom: {  }
+  login:
+    method: CMS
+  sign_up:
+    method: CMS
