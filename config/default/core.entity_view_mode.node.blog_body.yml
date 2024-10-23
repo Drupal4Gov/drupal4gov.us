@@ -6,5 +6,6 @@ dependencies:
     - node
 id: node.blog_body
 label: 'Blog Body'
+description: ''
 targetEntityType: node
 cache: true
