@@ -3,6 +3,6 @@
 # Enable twig debugging.
 parameters:
   twig.config:
-    debug: false
+    debug: true
     auto_reload: true
     cache: false
