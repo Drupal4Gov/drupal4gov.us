@@ -22,4 +22,5 @@ settings:
         -
           label: Blue
           element: '<span class="blue">'
-image_upload: {  }
+image_upload:
+  status: false

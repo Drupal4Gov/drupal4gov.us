@@ -4,5 +4,6 @@ status: true
 dependencies: {  }
 name: 'Board of directors roles'
 vid: board_of_directors_roles
-description: ''
+description: null
 weight: 0
+new_revision: false
