@@ -21,31 +21,34 @@ elements: |-
   email:
     '#title': 'Your Email'
     '#type': email
-    '#required': false
     '#default_value': '[current-user:mail]'
   phone:
     '#title': 'Your Phone Number'
     '#type': textfield
-    '#required': false
   background:
-    '#title': 'Professional Background'
     '#type': textarea
+    '#title': 'Professional Background'
+    '#description': '<p><span style="color:#374151;font-family:&apos;Arial&apos;;font-size:16px;font-style:normal;font-weight:normal;text-decoration-skip-ink:none;text-decoration:none;">Briefly outline your professional background, including your experience in Drupal, government projects, or any relevant domains. Highlight your areas of expertise and the knowledge you can bring to the webinar.</span></p>'
     '#required': true
   topics:
-    '#title': 'Presentation Topics'
     '#type': textarea
+    '#title': 'Presentation Topics'
+    '#description': '<p><span style="color:#374151;font-family:&apos;Arial&apos;;font-size:16px;font-style:normal;font-weight:normal;text-decoration-skip-ink:none;text-decoration:none;">Describe the topic(s) you would like to present. Explain why you believe it is relevant and valuable to the Drupal4Gov community. Include an overview of the key points you plan to cover and any unique insights or case studies you can share.</span></p>'
     '#required': true
   format:
-    '#title': 'Presentation Format'
     '#type': textarea
+    '#title': 'Presentation Format'
+    '#description': '<p><span style="color:#374151;font-family:&apos;Arial&apos;;font-size:16px;font-style:normal;font-weight:normal;text-decoration-skip-ink:none;text-decoration:none;">Outline the preferred format of your webinar presentation. This could include the duration of the presentation, whether you would like to include live demos or interactive elements, and any other considerations that would enhance the webinar experience.</span></p>'
     '#required': true
   experience:
-    '#title': 'Previous Experience'
     '#type': textarea
+    '#title': 'Previous Experience'
+    '#description': '<p><span style="color:#374151;font-family:&apos;Arial&apos;;font-size:16px;font-style:normal;font-weight:normal;text-decoration-skip-ink:none;text-decoration:none;">If you have previous experience as a presenter or speaker, please provide a brief overview, including any relevant conferences, webinars, or events where you have presented.</span></p>'
     '#required': true
   additional:
-    '#title': 'Additional Information'
     '#type': textarea
+    '#title': 'Additional Information'
+    '#description': '<p><span style="color:#374151;font-family:&apos;Arial&apos;;font-size:16px;font-style:normal;font-weight:normal;text-decoration-skip-ink:none;text-decoration:none;">Feel free to include any additional information you believe is relevant to your application as a webinar presenter for Drupal4Gov.</span></p>'
     '#reuqired': false
   actions:
     '#type': webform_actions
