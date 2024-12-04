@@ -144,7 +144,7 @@ settings:
   confirmation_type: message
   confirmation_url: ''
   confirmation_title: ''
-  confirmation_message: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(0, 0, 0);display:inline !important;float:none;font-family:Arial;font-size:13px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">By speaking and sharing your expertise through blog posts, webinars, conference sessions, half-day training sessions, or as a trainer, you play a vital role in advancing the knowledge and skills of our community members. Your contributions help foster innovation, collaboration, and growth within the Drupal and government sectors.</span></p>'
+  confirmation_message: '<p>Thank you for your submission.</p><p>By speaking and sharing your expertise through blog posts, webinars, conference sessions, half-day training sessions, or as a trainer, you play a vital role in advancing the knowledge and skills of our community members. Your contributions help foster innovation, collaboration, and growth within the Drupal and government sectors.</p>'
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''
