@@ -1,0 +1,23 @@
+uuid: e6922fba-e1ca-445a-9148-1106a7c352da
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: board_member_teaser
+label: 'Board member teaser (140x140)'
+effects:
+  35ed86e4-d58d-40aa-9009-f09c94545e0c:
+    uuid: 35ed86e4-d58d-40aa-9009-f09c94545e0c
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 140
+      height: 140
+      anchor: center-center
+  1fdb474a-840c-4972-85b9-191366733a62:
+    uuid: 1fdb474a-840c-4972-85b9-191366733a62
+    id: image_effects_auto_orient
+    weight: -10
+    data:
+      scan_exif: true
