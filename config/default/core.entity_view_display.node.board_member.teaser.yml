@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.board_member.field_name
     - field.field.node.board_member.field_role
     - field.field.node.board_member.field_section
+    - image.style.board_member_teaser
     - node.type.board_member
   module:
     - image
@@ -24,7 +25,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: board_member_teaser
       image_loading:
         attribute: lazy
     third_party_settings: {  }
