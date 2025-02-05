@@ -2,7 +2,7 @@
   line-height: 1.9;
 }
 .text-formatted ul, .text-formatted ol {
-  margin-block: var(--spacing-xxl);
+  margin-block: var(--spacing-xl);
   margin-inline: 1.5em 0;
 }
 .text-formatted ul li, .text-formatted ol li {
