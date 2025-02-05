@@ -1,6 +1,6 @@
 uuid: 528a60a1-d80a-496f-a752-6ed887c4e5e5
 langcode: en
-status: true
+status: false
 dependencies: {  }
 name: 'Half Blue'
 format: half_blue
