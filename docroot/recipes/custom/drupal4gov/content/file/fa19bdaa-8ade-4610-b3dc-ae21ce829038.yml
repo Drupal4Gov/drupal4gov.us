@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fa19bdaa-8ade-4610-b3dc-ae21ce829038
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: "Chris O'Donnell.JPG"
+  uri:
+    -
+      value: "public://2024-05/Chris O'Donnell.JPG"
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1966502
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1716406033

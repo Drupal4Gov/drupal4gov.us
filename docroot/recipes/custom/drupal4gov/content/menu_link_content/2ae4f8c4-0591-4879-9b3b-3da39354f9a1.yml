@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2ae4f8c4-0591-4879-9b3b-3da39354f9a1
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a4d8489e-5b2f-4db7-abc8-ce589913b873: menu_link_content
+    4d6b54e4-4d56-4081-86eb-35a2709bca65: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Become A Patron'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 4d6b54e4-4d56-4081-86eb-35a2709bca65
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:a4d8489e-5b2f-4db7-abc8-ce589913b873'
+  revision_translation_affected:
+    -
+      value: true

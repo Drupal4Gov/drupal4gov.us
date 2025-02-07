@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f07fc56-f941-44eb-bf37-9bed41d45ae0
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: History
+  created:
+    -
+      value: 1696726077
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Drupal4Gov was founded to enable government employees to learn and use open source software. The organization aims to foster collaboration, knowledge sharing, and innovation within the government sector using Drupal as the underlying technology. Drupal4Gov provides a platform for government agencies, developers, and other stakeholders to come together and exchange ideas, best practices, and resources related to Drupal.</p><p>Drupal4Gov was formed in response to the growing need for a robust and flexible content management system in the government sector. With its emphasis on security, scalability, and extensibility, Drupal emerged as a popular choice for government agencies seeking to modernize their digital presence. Recognizing this trend, a group of Drupal enthusiasts and government professionals came together to establish Drupal4Gov as a dedicated community for government-focused Drupal users.</p><p>The organization's primary objective is to support government employees in adopting Drupal and leveraging its capabilities effectively. Drupal4Gov provides various resources, including documentation, tutorials, case studies, and training materials tailored to the unique needs of the government sector. The organization also organizes conferences, workshops, and webinars to facilitate networking and knowledge sharing among Drupal users in government.</p><p>One of the significant events organized by Drupal4Gov is Drupal GovCon. Drupal GovCon is an annual conference that brings together government professionals, Drupal developers, and industry experts. The conference serves as a platform to discuss the latest trends, challenges, and innovations in Drupal for the government sector. Drupal GovCon features keynote speeches, panel discussions, workshops, and presentations covering a wide range of topics related to Drupal implementation, site development, accessibility, security, and compliance.</p><p>Drupal GovCon attracts attendees from federal, state, and local government agencies, as well as private sector organizations that work closely with the government. It offers an opportunity for government professionals to learn from their peers, exchange ideas, and gain insights into successful Drupal projects within the government sector. The conference also provides a space for Drupal service providers and developers to showcase their expertise, forge partnerships, and explore potential collaborations with government agencies.</p><p>Over the years, Drupal4Gov and Drupal GovCon have played a crucial role in advancing the adoption of Drupal within the government sector. The organization's efforts have helped government employees leverage Drupal's flexibility and scalability to create user-friendly websites, manage content efficiently, and deliver innovative digital services to citizens. By promoting collaboration and knowledge sharing, Drupal4Gov continues to support the growth and success of Drupal in government, fostering a vibrant community of Drupal users dedicated to serving the public sector's needs.</p>"
+      format: full
+      summary: ''

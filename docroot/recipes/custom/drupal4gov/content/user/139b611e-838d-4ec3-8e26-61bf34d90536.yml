@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 139b611e-838d-4ec3-8e26-61bf34d90536
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: candice.dexter
+  pass:
+    -
+      value: $2y$10$g4E2ytwffTHwS.PkvjHi4ORnt7PeGiTwRviAu4ZACwDssC.7A6FxO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: candice@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694091577
+  access:
+    -
+      value: 1733953751
+  login:
+    -
+      value: 1732139170
+  init:
+    -
+      value: user+21@localhost.localdomain
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

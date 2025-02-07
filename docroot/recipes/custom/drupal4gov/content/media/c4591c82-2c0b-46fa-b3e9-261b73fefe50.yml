@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+  bundle: image
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+    7b97ef89-2fdc-4d40-8c47-c25912c08b95: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  name:
+    -
+      value: 'GovCon 2023 Image 1'
+  created:
+    -
+      value: 1707931858
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7b97ef89-2fdc-4d40-8c47-c25912c08b95
+      alt: 'a group of people sitting in a conference room watching a presenter'
+      title: ''
+      width: 6192
+      height: 4128

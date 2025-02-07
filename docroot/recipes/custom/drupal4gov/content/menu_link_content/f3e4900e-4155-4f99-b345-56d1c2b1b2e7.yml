@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: f3e4900e-4155-4f99-b345-56d1c2b1b2e7
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    88ddf49d-2f8f-4d17-a161-0814eb187689: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Drupal GovCon Session Submission'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://www.drupalgovcon.org/session-tracks'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:88ddf49d-2f8f-4d17-a161-0814eb187689'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,298 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d1fff313-bf44-4306-a74e-29e80735b2cd
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    c4591c82-2c0b-46fa-b3e9-261b73fefe50: media
+    d1dbe37f-c164-47c4-ad2a-3d963bebff36: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: Components
+  created:
+    -
+      value: 1720038290
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /components
+      langcode: en
+      pathauto: 1
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d60bcc3c-2ac5-4cd4-973b-cc4645d2a3d6
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720038298
+          behavior_settings:
+            -
+              value: {  }
+          field_background_color:
+            -
+              color: '#6F96D1'
+              opacity: 0.0
+          field_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immo alio genere; Bork Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Duo Reges: constructio interrete.</p>'
+              format: full
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'http://www.google.com'
+              title: 'This is a link'
+              options: {  }
+          field_title:
+            -
+              value: 'This is a title'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: af17d06f-c401-442d-9851-e8b6573a468f
+          bundle: media_text_column
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720038538
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_alignment_boolean:
+            -
+              value: true
+          field_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immo alio genere; Bork Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Duo Reges: constructio interrete.&nbsp;</p>'
+              format: full
+          field_media:
+            -
+              entity: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+          field_subtitle:
+            -
+              value: Subtitle
+          field_title:
+            -
+              value: 'This is a title'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0913fb1e-df3c-4277-83b7-06a4d93334b6
+          bundle: media_text_column
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720038538
+          behavior_settings:
+            -
+              value: {  }
+          field_alignment_boolean:
+            -
+              value: false
+          field_background_color:
+            -
+              color: '#6F96D1'
+              opacity: 0.0
+          field_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immo alio genere; Bork Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Duo Reges: constructio interrete.&nbsp;</p>'
+              format: full
+          field_media:
+            -
+              entity: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+          field_subtitle:
+            -
+              value: Subtitle
+          field_title:
+            -
+              value: 'This is a title'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 763529de-4c55-4f2f-8fce-69f974ed0c7f
+          bundle: testimonials
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720040821
+          behavior_settings:
+            -
+              value: {  }
+          field_testimonial:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ecdf8489-696a-4f73-919f-9c5a0949b3bc
+                  bundle: testimonial
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1720040821
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_body:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immo alio genere; Bork Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Duo Reges: constructio interrete.</p>'
+                      format: full
+                  field_media:
+                    -
+                      entity: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+                  field_testimonial_name:
+                    -
+                      value: Name
+                  field_testimonial_role:
+                    -
+                      value: Role
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b9990edf-a145-4cc8-bce0-6903b84351d5
+                  bundle: testimonial
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1720198569
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_body:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immo alio genere; Bork Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Duo Reges: constructio interrete.</p><p>Ut in geometria, prima si dederis, danda sunt omnia. Istam voluptatem, inquit, Epicurus ignorat? Bork Quonam, inquit, modo?</p>'
+                      format: full
+                  field_media:
+                    -
+                      entity: d1dbe37f-c164-47c4-ad2a-3d963bebff36
+                  field_testimonial_name:
+                    -
+                      value: 'John Doe'
+                  field_testimonial_role:
+                    -
+                      value: CEO
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b87edd9e-3cea-4b92-806c-4024a625e5b3
+          bundle: hover_image_cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720456278
+          behavior_settings:
+            -
+              value: {  }
+          field_image_orientation:
+            -
+              value: Vertical
+          field_link:
+            -
+              uri: 'https:/google.com'
+              title: ''
+              options: {  }
+          field_media:
+            -
+              entity: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+          field_title:
+            -
+              value: 'This is the title '
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ac3afa85-441f-4f96-8c56-e83c78de356e
+          bundle: hover_image_cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720456330
+          behavior_settings:
+            -
+              value: {  }
+          field_image_orientation:
+            -
+              value: Horizontal
+          field_link:
+            -
+              uri: 'https:/google.com'
+              title: ''
+              options: {  }
+          field_media:
+            -
+              entity: c4591c82-2c0b-46fa-b3e9-261b73fefe50
+          field_title:
+            -
+              value: 'This is the title '

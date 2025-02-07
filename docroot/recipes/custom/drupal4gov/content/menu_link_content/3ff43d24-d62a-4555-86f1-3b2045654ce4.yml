@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3ff43d24-d62a-4555-86f1-3b2045654ce4
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a4d8489e-5b2f-4db7-abc8-ce589913b873: menu_link_content
+    ec02938b-3477-48cd-858f-32970f7c70de: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Apply for an Internship'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: ec02938b-3477-48cd-858f-32970f7c70de
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:a4d8489e-5b2f-4db7-abc8-ce589913b873'
+  revision_translation_affected:
+    -
+      value: true

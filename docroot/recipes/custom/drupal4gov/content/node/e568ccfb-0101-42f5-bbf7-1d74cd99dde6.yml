@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e568ccfb-0101-42f5-bbf7-1d74cd99dde6
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Greg Lund-Chaix'
+  created:
+    -
+      value: 1698635218
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/greg-lund-chaix
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Greg
+      middle: ''
+      family: Lund-Chaix
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Session Selection Coordinator'
+      format: full
+  field_section:
+    -
+      value: govcon

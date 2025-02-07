@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1fec7f4-3d4b-4dac-bb0f-2148e6e5c891
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Mission & Values'
+  created:
+    -
+      value: 1695594969
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<h2>Mission</h2><p>The mission of Drupal4Gov is to empower individuals with the knowledge, tools, and resources to effectively leverage open source technologies for their digital solutions. We strive to foster collaboration, promote innovation, and facilitate the exchange of best practices , ultimately enabling individuals and agencies to deliver secure, accessible, and user-centric online experiences.</p><h2>Values</h2><ul><li><strong>Openness</strong>: We embrace the principles of open-source software and the spirit of openness in our interactions. We promote transparency, inclusivity, and accessibility in all our endeavors, ensuring that knowledge and resources are readily available to all government agencies and individuals interested in Drupal.</li><li><strong>Empowerment</strong>: We aim to empower government employees to take ownership of their Drupal implementations and digital strategies. We provideaccess to resources that empower government employees, non-profit employees, and individuals to make informed decisions regarding open source technologies and achieve their digital transformation goals.</li><li><strong>Knowledge Sharing</strong>: We believe in the power of knowledge sharing and continuous learning. We provide comprehensive resources, training materials, and platforms for professionals to expand their open source expertise, enabling them to build robust, secure, and user-friendly digital solutions for themselves and their agencies.</li><li><strong>Collaboration</strong>: We believe in the power of collaboration and community. We foster an environment where everyone can come together to share their expertise, exchange ideas, and work collectively to advance the use of open source software.</li></ul><p>By upholding these values, Drupal4Gov endeavors to be a trusted and influential organization, driving the successful adoption and utilization of open source technologies.</p>'
+      format: full
+      summary: ''

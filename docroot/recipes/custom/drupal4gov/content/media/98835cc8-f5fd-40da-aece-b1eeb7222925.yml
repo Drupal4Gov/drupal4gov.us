@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 98835cc8-f5fd-40da-aece-b1eeb7222925
+  bundle: image
+  default_langcode: en
+  depends:
+    6e0acfaa-774b-41d4-9242-f5376c507802: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: linkedin_katherine_watier_ong.png
+  created:
+    -
+      value: 1737506361
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 6e0acfaa-774b-41d4-9242-f5376c507802
+      alt: 'Using Prompt Engineering to develop strong, discoverable content poster image'
+      title: ''
+      width: 1280
+      height: 720

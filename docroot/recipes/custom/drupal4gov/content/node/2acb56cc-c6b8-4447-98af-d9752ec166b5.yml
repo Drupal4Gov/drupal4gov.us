@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2acb56cc-c6b8-4447-98af-d9752ec166b5
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: Blog
+  created:
+    -
+      value: 1709931034
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /blog
+      langcode: en
+      pathauto: 1
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4bc68693-e889-4787-83dc-b6311c4e47d7
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1709931044
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_view:
+            -
+              target_id: blog
+              display_id: block_1
+              data: 'a:5:{s:8:"argument";N;s:5:"pager";N;s:5:"title";N;s:5:"limit";N;s:6:"offset";N;}'

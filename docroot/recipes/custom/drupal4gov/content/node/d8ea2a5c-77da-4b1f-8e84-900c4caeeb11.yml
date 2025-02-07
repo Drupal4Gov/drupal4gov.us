@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d8ea2a5c-77da-4b1f-8e84-900c4caeeb11
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Be a Webinar Presenter'
+  created:
+    -
+      value: 1729718475
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /be-webinar-presenter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Thank you for your interest in being a webinar presenter for Drupal4Gov! We appreciate your enthusiasm and expertise in the field. As a webinar presenter, you have the opportunity to share your knowledge, insights, and experiences with government professionals, Drupal developers, and industry experts, contributing to the growth and success of the Drupal4Gov community.</p>'
+      format: full
+      summary: ''

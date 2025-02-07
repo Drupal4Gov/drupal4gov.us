@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3e044d3e-212d-46f0-bfef-ddb440c48e20
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    ae3adfd7-2efc-4c58-b57a-02c665f7a5cb: menu_link_content
+    f4a42bc7-55a9-4efc-8651-9bfc7bc3e9c3: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'About Us'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: f4a42bc7-55a9-4efc-8651-9bfc7bc3e9c3
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:ae3adfd7-2efc-4c58-b57a-02c665f7a5cb'
+  revision_translation_affected:
+    -
+      value: true

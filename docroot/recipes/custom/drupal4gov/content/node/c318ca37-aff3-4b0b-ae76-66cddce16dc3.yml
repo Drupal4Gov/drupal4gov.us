@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c318ca37-aff3-4b0b-ae76-66cddce16dc3
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: Table
+  created:
+    -
+      value: 1712785638
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /table
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<table><tbody><tr><th><p>&nbsp;</p></th><th><p>Platinum</p></th><th><p>Gold</p></th><th><p>Bronze</p></th></tr><tr><td><p>Brand Visibility</p></td><td><p>blah</p></td><td><p>blah</p></td><td><p>blah</p></td></tr><tr><td><p>Social Media Recognition</p></td><td><p>blah</p></td><td><p>blah</p></td><td><p>blah</p></td></tr><tr><td><p>Booth Prioritization</p></td><td><p>blah</p></td><td><p>blah</p></td><td><p>blah</p></td></tr></tbody></table>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bc343030-fe30-4793-8d2e-d26b6228b599
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1712785694
+          behavior_settings:
+            -
+              value: {  }

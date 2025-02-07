@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6e0acfaa-774b-41d4-9242-f5376c507802
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: linkedin_katherine_watier_ong.png
+  uri:
+    -
+      value: 'public://2025-01/linkedin_katherine_watier_ong.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 299349
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1737506361

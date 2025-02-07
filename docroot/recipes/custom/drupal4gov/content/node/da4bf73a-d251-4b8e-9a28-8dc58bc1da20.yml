@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da4bf73a-d251-4b8e-9a28-8dc58bc1da20
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    1f8e0f31-58c7-4799-bc41-0356fc87bf9d: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Daniel Schiavonne'
+  created:
+    -
+      value: 1714144987
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/daniel-schiavonne
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Daniel Schiavonne is a founder, credited with establishing both the Drupal4Gov Non-Profit and Drupal Camp Baltimore. With a passion for Drupal and the government sector, Daniel's leadership has been instrumental in shaping these organizations. His founding roles in Drupal4Gov Non-Profit and Drupal Camp Baltimore reflect his commitment to fostering collaboration, knowledge sharing, and innovation. Through his dedication, Daniel has created platforms that bring together professionals, enthusiasts, and government representatives to drive positive change, making a lasting impact within the open source community and the government sector as a whole.</p>"
+      format: full
+      summary: ''
+  field_board_img:
+    -
+      entity: 1f8e0f31-58c7-4799-bc41-0356fc87bf9d
+      alt: 'Image of Daniel Schiavonne'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Daniel
+      middle: ''
+      family: Schiavonne
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: Secretary
+      format: full
+  field_section:
+    -
+      value: board

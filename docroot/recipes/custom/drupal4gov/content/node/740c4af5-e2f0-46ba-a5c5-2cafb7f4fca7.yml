@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 740c4af5-e2f0-46ba-a5c5-2cafb7f4fca7
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    cc60321c-6a2c-40f6-b5ff-2b7210860990: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: cc60321c-6a2c-40f6-b5ff-2b7210860990
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Drupal4Gov Days'
+  created:
+    -
+      value: 1696780355
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /drupal4govdays
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Full Day Training</h2><p>Expand your Drupal expertise and enhance your technical skills with our full-day technology training sessions offered by Drupal4Gov. These intensive training sessions provide in-depth knowledge and hands-on experience to government professionals, Drupal developers, and individuals interested in mastering Drupal for government projects. Join us for a full day of immersive learning, practical exercises, and expert guidance.</p><h3>Key Features of Full Day Training</h3><p><strong>Comprehensive Curriculum</strong>: Our full-day technology training covers a wide range of topics tailored specifically to the needs of government agencies and their Drupal implementations. From Drupal site building and theming to module development and advanced customization, our training sessions offer a comprehensive curriculum to equip participants with the skills necessary for successful Drupal projects in the government sector.</p><p><strong>Expert Trainers</strong>: Learn from experienced trainers who have deep expertise in Drupal and government projects. Our trainers are industry professionals with a proven track record in delivering effective training programs. They provide practical insights, share best practices, and offer guidance based on real-world scenarios, ensuring participants gain valuable and applicable knowledge.</p><p><strong>Hands-On Exercises</strong>: Our training sessions incorporate hands-on exercises and practical examples to reinforce learning. Participants will have the opportunity to apply their knowledge, work on real Drupal projects, and receive feedback and guidance from the trainers. This interactive learning approach ensures a deeper understanding of the concepts and enhances the participants' ability to utilize Drupal effectively.</p><p><strong>Q&amp;A and Discussion</strong>: Engage in interactive Q&amp;A sessions and discussions with the trainers and fellow participants. This collaborative learning environment allows for the exchange of ideas, troubleshooting challenges, and gaining additional insights. Participants can get their questions answered and learn from the experiences of others in the training.</p><p><strong>Training Materials and Resources</strong>: Receive comprehensive training materials, including documentation, code samples, and additional resources, to support ongoing learning and reference after the training. These materials serve as valuable references to reinforce the concepts covered during the session.</p><h2>Half Day Training</h2><p>Join us for a focused and condensed half-day technology training session that dives deep into specific aspects of Drupal for government projects. Our half-day training sessions offer a concentrated learning experience, delivering targeted knowledge and practical skills to help participants overcome specific challenges encountered in government Drupal implementations.</p><h3><strong>Key Features of Half-Day Training</strong></h3><p><strong>Targeted Topics</strong>: The half-day training sessions zoom in on specific topics or areas of interest within Drupal and the government sector. These targeted sessions provide focused instruction and practical insights into key challenges faced by government agencies. Topics may include accessibility compliance, security best practices, performance optimization, or advanced theming techniques tailored to government projects.</p><p><strong>Expert Instruction</strong>: Benefit from the guidance of expert instructors who possess specialized knowledge in the selected training topics. Our trainers are experienced professionals with a deep understanding of Drupal and the government sector. They offer practical solutions, share real-world examples, and equip participants with the tools and techniques necessary to tackle specific challenges effectively.</p><p><strong>Condensed Learning Experience</strong>: The half-day format allows for a concentrated and streamlined learning experience. The sessions are designed to deliver maximum value within a limited time frame, ensuring participants receive targeted instruction and hands-on practice relevant to the selected training topic.</p><p><strong>Interactive Format</strong>: Engage in interactive discussions, ask questions, and participate in group activities designed to facilitate learning and collaboration. The interactive format encourages active participation and knowledge exchange among participants and trainers.</p><p><strong>Training Materials</strong>: Receive training materials specific to the selected training topic, including reference materials, code snippets, and additional resources. These materials serve as valuable references to reinforce the concepts covered during the training session.</p><p>Join our technology training sessions to expand your Drupal skills, gain practical expertise, and overcome challenges specific to government Drupal projects. Whether you choose the comprehensive full-day training or the focused half-day training, you'll benefit from expert instruction, hands-on practice, and valuable resources to further your professional development in Drupal for the government sector.</p>"
+      format: full
+      summary: ''

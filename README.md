@@ -1,5 +1,5 @@
 # Drupal4Gov
-Welcome to the repo for the Drupal4Gov Website. This is an open source project where we proudly make all of our source code available—not only to those that want to contribute to the project—but also for those that are interested in seeing a working Drupal 8 site.
+Welcome to the repo for the Drupal4Gov Website. This is an open source project where we proudly make all of our source code available—not only to those that want to contribute to the project—but also for those that are interested in seeing a working Drupal 10 site.
 
 ## Getting Started
 
@@ -20,6 +20,16 @@ After creating a fork of the repository in GitHub and installing all dependencie
 * `composer install` (install dependencies for the project)
 * `lando start` (provision the VM)
 * `lando blt setup` (install Drupal)
+
+## Appplying the drupal4gov recipe
+
+The quick start recipe adds data to a vareity of entities (nodes, taxonomy_terms, menu_items, users, media ,and files ) on the site.
+
+* run `lando ssh`
+* run `cd docroot`
+* run `php core/scripts/drupal recipe recipes/custom/drupal4gov -v`
+* run `lando drush cr` (Clears the cache)
+
 
 ## Updating from DrupalVM
 

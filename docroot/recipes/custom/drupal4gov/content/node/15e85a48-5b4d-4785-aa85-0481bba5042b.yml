@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15e85a48-5b4d-4785-aa85-0481bba5042b
+  bundle: board_member
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+    9a2b6b31-3df8-4ca0-a9a8-e088e73168fe: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  title:
+    -
+      value: 'Kirsten Burgard '
+  created:
+    -
+      value: 1714592131
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/kirsten-burgard-0
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p><style type="text/css"></style><span style="font-family:Nunito,Arial;font-size:12pt;font-style:normal;font-weight:normal;" data-sheets-root="1" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kirsten Burgard, a founding member of Drupal GovCon and Drupal4Gov, has been a driving force behind their success. With a history spanning from Capital Camp to the current Drupal4Gov Non-Profit, Kirsten has provided leadership. Presently, she leads the university outreach initiative and the James King Scholarship Program, fostering partnerships with academic institutions and supporting aspiring individuals in the open source community. Kirsten&apos;s contributions have made a significant impact, solidifying Drupal4Gov&apos;s position as a leading organization at the intersection of Drupal and the government sector.&quot;}" data-sheets-userformat="{&quot;2&quot;:13185,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:2,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Nunito&quot;,&quot;16&quot;:12}">Kirsten Burgard, a founding member of Drupal GovCon and Drupal4Gov, has been a driving force behind their success. With a history spanning from Capital Camp to the current Drupal4Gov Non-Profit, Kirsten has provided leadership. Presently, she leads the university outreach initiative and the James King Scholarship Program, fostering partnerships with academic institutions and supporting aspiring individuals in the open source community. Kirsten''s contributions have made a significant impact, solidifying Drupal4Gov''s position as a leading organization at the intersection of Drupal and the government sector.</span></p>'
+      format: full
+      summary: ''
+  field_board_img:
+    -
+      entity: 9a2b6b31-3df8-4ca0-a9a8-e088e73168fe
+      alt: 'Image of Kirsten Burgard'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Kirsten
+      middle: ''
+      family: Burgard
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: President
+      format: full
+  field_section:
+    -
+      value: board

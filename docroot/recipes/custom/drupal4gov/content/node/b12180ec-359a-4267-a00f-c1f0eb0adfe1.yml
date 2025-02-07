@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b12180ec-359a-4267-a00f-c1f0eb0adfe1
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Full & Half Day Session Submission'
+  created:
+    -
+      value: 1696781349
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>If you have a wealth of expertise and want to delve deep into a comprehensive Drupal or government-related topic, our full-day training sessions are the perfect platform. Whether you specialize in Drupal site building, module development, advanced customization, or other relevant areas, you can craft a full-day training session that provides participants with an in-depth understanding and practical skills. Submit a proposal for a full-day training session and contribute to the professional development of government professionals and Drupal enthusiasts.</p><h2>Benefits of Speaking at our Training Sessions:</h2><p><strong>Share Your Expertise</strong>: As a speaker, you have the opportunity to share your expertise, insights, and best practices with a captive audience. Your knowledge and experiences can empower others to overcome challenges and achieve success in their Drupal or government projects.</p><p><strong>Establish Your Credibility</strong>: Speaking at our training sessions allows you to establish yourself as a credible and knowledgeable professional in your field. By showcasing your expertise, you enhance your professional reputation and gain recognition within the Drupal and government communities.</p><p><strong>Contribute to the Community</strong>: Your session will make a significant contribution to the learning and growth of attendees. By sharing your insights and practical skills, you help individuals enhance their Drupal capabilities, advance their government projects, and drive innovation within the community.</p><p><strong>Networking Opportunities</strong>: Speaking at our training sessions provides you with networking opportunities to connect with government professionals, Drupal developers, and industry experts. Expand your professional network, forge valuable relationships, and explore potential collaborations within the Drupal and government sectors.</p><h2>Submission Process</h2><p>To submit your session proposal for a half-day or full-day training, please follow these guidelines:</p><p><strong>Session Title and Abstract</strong>: Provide a clear and concise title that accurately represents your session topic. Craft an engaging abstract that outlines the key concepts, takeaways, and practical skills participants will gain from attending your training session.</p><p><strong>Speaker Information</strong>: Include your name, job title, organization, and a brief bio highlighting your expertise and experience in Drupal or the government sector.</p><p><strong>Target Audience</strong>: Specify the target audience for your training session, such as government professionals, Drupal developers, or individuals with specific skill levels (beginner, intermediate, advanced).</p><p><strong>Session Format and Length</strong>: Indicate whether you are submitting for a half-day or full-day training session. Outline the format, structure, and estimated duration of your session. Learning Objectives: Clearly state the learning objectives participants will achieve by attending your training session. Describe the practical skills, knowledge, or insights they will gain.</p><p><strong>Additional Information</strong>: Feel free to include any additional information that supports your session proposal, such as previous speaking experience, relevant case studies, or additional resources you will provide to participants.</p><p>Submit your session proposal through our designated submission platform or follow the instructions provided on our website. Our team will review all proposals and select the most compelling sessions for inclusion in our training program.</p><p>We value your expertise and contribution to the training sessions, and we look forward to receiving your session proposal. Together, let's empower the Drupal and government communities with valuable knowledge, skills, and innovative solutions!</p>"
+      format: full
+      summary: ''

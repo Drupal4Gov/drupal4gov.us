@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 01dd0f44-9bb9-417e-84eb-88e21b50a790
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Join Our Community'
+  created:
+    -
+      value: 1696783627
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /join-our-community
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p><strong>We welcome you to join the vibrant and inclusive Drupal4Gov community! Whether you are a government professional, Drupal developer, industry expert, or simply passionate about the intersection of Drupal and the government sector, there are several actions you can take to become an active member and contribute to our community's growth and success.</strong></p><h2>Sign Up for Newsletter</h2><p>Stay updated on the latest news, events, resources, and opportunities by signing up for the Drupal4Gov newsletter. Our newsletter keeps you informed about upcoming webinars, training sessions, conference announcements, and community initiatives. It's a great way to stay connected and engaged with the Drupal4Gov community.</p><h2>Speak &amp; Share</h2><p>Share your knowledge, experiences, and insights by participating in discussions, engaging with fellow community members, and contributing to the collective wisdom of the Drupal4Gov community. Share your thoughts and perspectives on relevant topics through various channels, such as online forums, social media, and community events.</p><ul><li>Submit a Blog Post</li><li>Be a Webinar Presenter</li><li>Drupal GovCon Session Submission</li><li>Half-Day Session Submission</li><li>Be a Trainer</li></ul><h2>Become even more active</h2><h3>Get Involved</h3><p>There are various ways to get involved and actively contribute to the Drupal4Gov community:</p><ul><li>Become a Volunteer</li><li>Apply for an Internship</li><li>Become a Member</li><li>Become a Patron</li><li>Apply for Scholarship</li></ul><p>Join the Drupal4Gov community today and make a difference by sharing your expertise, collaborating with industry professionals, and contributing to the growth of Drupal in the government sector. Together, we can drive innovation, foster knowledge sharing, and create positive impact in government technology and services.</p>"
+      format: full
+      summary: ''

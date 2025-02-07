@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 71d47af1-1f70-48d0-927b-e7590949b880
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    1a16662f-d46d-4766-a979-04c870963cc1: user
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: Opportunities
+  created:
+    -
+      value: 1714858480
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>We are excited to invite passionate individuals to join our team and contribute to our mission. Explore the opportunities below and become part of the Drupal4Gov community!</p><h2>Current Openings</h2><h3>Board Members</h3><p>Are you passionate about technology, governance, and community impact? Join Drupal4Gov''s Board of Directors and help shape the strategic direction of our organization. We are seeking visionary leaders committed to advancing open source solutions within the government and nonprofit sectors. If you have expertise in Drupal development, digital transformation, or organizational governance, we invite you to apply.</p><h4>Available Positions</h4><ul><li><a href="/community/opportunities/treasurer">Treasurer</a></li><li><a href="/community/opportunities/large-board-member">At-Large Board Member</a> (four available)</li></ul><hr><h3>Staff Roles</h3><p>Nonprofit staff are long term volunteers. Do you want to make a difference by supporting government and nonprofit organizations in leveraging Drupal for their digital needs? Join our team of dedicated professionals and contribute to impactful projects that drive social change.</p><h4>Available Positions</h4><ul><li><a href="/community/opportunities/executive-director">Executive Director</a></li></ul><hr><h3>Volunteers</h3><p>Are you eager to contribute your skills and time to a meaningful cause? Join our volunteer program and support Drupal4Gov''s mission through various opportunities, from event coordination to content creation.</p><h4>Volunteer Opportunities</h4><ul><li><a href="/community/opportunities/web-developer">Web Developer</a></li></ul><h5>Benefits</h5><ul><li>Gain experience in the Drupal and nonprofit sectors</li><li>Network with industry professionals and like-minded individuals</li><li>Contribute to projects that make a positive impact</li></ul><hr><h3>Interns</h3><p>Are you eager to contribute your skills and time to a meaningful cause? Join our intern program and support Drupal4Gov''s mission through various opportunities, from event coordination to content creation.</p><h5>Benefits</h5><ul><li>Hands-on experience in the Drupal and nonprofit sectors</li><li>Enhance skills in a specific career focus</li><li>Gain experience with working in a remote-first environment</li><li>Obtain relevant training and certifications&nbsp;</li><li>Network with industry professionals and like-minded individuals</li><li>Contribute to projects that make a positive impact</li></ul><p><a href="/apply-internship">Learn more</a> about available Internship Opportunities!</p><hr><h2>Why Join Drupal4Gov?</h2><p>At Drupal4Gov, we offer a dynamic and inclusive environment where your ideas and expertise can thrive. By joining our team, you''ll be part of a community dedicated to driving innovation in government and nonprofit sectors through open source technology.</p><p>To apply for any of the positions listed above or to inquire about volunteering opportunities, please click on the respective position titles and submit your application. We look forward to welcoming passionate individuals who share our commitment to advancing digital accessibility and innovation for the public good.</p><p>Join us in shaping the future of Drupal in government and nonprofits!</p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2d0630d0-7152-4603-bace-f805d1e602a8
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714858517
+          behavior_settings:
+            -
+              value: {  }

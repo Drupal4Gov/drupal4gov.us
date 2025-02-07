@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1897e20c-f987-4ebe-a769-4bd9e7f2421e
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    35c356c6-32f7-41af-a35d-69ce4e7cc175: menu_link_content
+    88380016-2910-492a-b980-0eb7b23bd766: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Be A Trainer'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 88380016-2910-492a-b980-0eb7b23bd766
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:35c356c6-32f7-41af-a35d-69ce4e7cc175'
+  revision_translation_affected:
+    -
+      value: true

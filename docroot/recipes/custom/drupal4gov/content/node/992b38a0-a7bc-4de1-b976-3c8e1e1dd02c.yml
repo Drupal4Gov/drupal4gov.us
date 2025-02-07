@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 992b38a0-a7bc-4de1-b976-3c8e1e1dd02c
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Our Team'
+  created:
+    -
+      value: 1696726544
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /our-team
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Our nonprofit organization is driven by a dedicated and compassionate team of volunteers committed to making a positive impact in the community. We are a group of individuals from diverse backgrounds who share a common mission and a deep sense of purpose. Together, we strive to address the needs of those we serve and create meaningful change in the world.</p>'
+      format: full
+      summary: ''

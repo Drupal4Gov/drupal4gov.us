@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e271dafb-bf75-45e5-90ca-09b02c2a7432
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  filename:
+    -
+      value: test-headshot.jpg
+  uri:
+    -
+      value: 'public://2024-07/test-headshot.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3883
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720198593

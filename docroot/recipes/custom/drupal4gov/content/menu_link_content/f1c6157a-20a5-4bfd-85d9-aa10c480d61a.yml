@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: f1c6157a-20a5-4bfd-85d9-aa10c480d61a
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    4fd56710-0bdb-4af4-a0eb-076b10fe4b6e: menu_link_content
+    71d47af1-1f70-48d0-927b-e7590949b880: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Opportunities
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 71d47af1-1f70-48d0-927b-e7590949b880
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:4fd56710-0bdb-4af4-a0eb-076b10fe4b6e'
+  revision_translation_affected:
+    -
+      value: true

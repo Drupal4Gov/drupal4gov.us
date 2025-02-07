@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b9733b5-0bd1-4ee9-805c-aab735e0c9ca
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'We Want To Hear From You!'
+  created:
+    -
+      value: 1720199624
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /contact
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>We value your input, questions, and suggestions. Feel free to reach out to us through our contact form, email, or social media channels. We look forward to hearing from you and working together to transform the government digital landscape with open source.</p>'
+      format: full
+      summary: ''

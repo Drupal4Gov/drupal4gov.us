@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d59782ac-58df-44de-8ae8-37814f41ee94
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Submit a Blog Post'
+  created:
+    -
+      value: 1729718321
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /submit-blog-post
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Share your expertise, insights, and experiences by submitting a blog post to Drupal4Gov. We welcome high-quality, informative, and thought-provoking articles related to Drupal and the government sector. Whether it's a case study, best practice guide, or a deep dive into a specific topic, your blog post can provide valuable information and insights to our community. Submit your article for consideration, and if selected, it will be published on the Drupal4Gov website, reaching a wide audience of government professionals and Drupal enthusiasts.</p>"
+      format: full
+      summary: ''

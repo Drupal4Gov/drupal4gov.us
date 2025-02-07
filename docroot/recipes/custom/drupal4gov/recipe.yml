@@ -1,0 +1,14 @@
+name: 'Drupal4Gov QuickStart'
+description: 'Demo content for Drupal4gov'
+type: 'Drupal4gov starter kit'
+install:
+  # An array of modules or themes to install, if they are not already.
+  # The system will detect if it is a theme or a module.
+  - claro
+  - drupal4gov 
+config:
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        default: drupal4gov
+        admin: claro

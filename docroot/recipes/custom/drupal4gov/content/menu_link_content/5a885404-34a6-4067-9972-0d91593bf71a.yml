@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5a885404-34a6-4067-9972-0d91593bf71a
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    4fd56710-0bdb-4af4-a0eb-076b10fe4b6e: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Code of Conduct'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://www.drupal.org/dcoc'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:4fd56710-0bdb-4af4-a0eb-076b10fe4b6e'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a0f30179-0da8-4799-9c4a-a7655db1946f
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  title:
+    -
+      value: 'Who We Are'
+  created:
+    -
+      value: 1709233169
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /who-we-are-0
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Drupal4Gov is a vibrant, volunteer-run organization committed to driving the use of Drupal, an open-source content management system, within the government sector. We bring together a diverse community of government professionals, Drupal developers, and industry experts who share the common goal of connecting and serving all levels of government employees committed to open source technology through education.</p><h2>Our Community</h2><p>At Drupal4Gov, our strength lies in our community. We are a passionate and collaborative group of volunteers who believe in the power of Drupal to transform government websites and applications. Our community is inclusive, welcoming, and supportive, fostering an environment where knowledge sharing, innovation, and networking thrive.</p><ul><li><strong>Collaboration</strong>: We strongly believe in the power of collaboration. By bringing together all levels of government employees and their partners with Drupal experts, we create a space where ideas are shared, challenges are discussed, and innovative approaches are discovered. Our community members collaborate to tackle complex problems, ensuring that government employees have the skills, resources, and connections they need to implement Drupal within their organizations.</li><li><strong>Empowerment</strong>: We are committed to empowering our members with the knowledge and resources they need to succeed with Drupal. Our comprehensive documentation, tutorials, and training materials, equip individuals with the tools to take ownership of their Drupal projects and achieve their digital transformation goals.</li><li><strong>Advocacy</strong>: We advocate for the adoption and utilization of Drupal at all levels of government. We extoll the benefits of Drupal, emphasizing its security, scalability, and flexibility. Our advocacy efforts help employees within government agencies make informed decisions and embrace Drupal as a content management system for their digital initiatives.</li><li><strong>Innovation</strong>: We are passionate about innovation and the continuous improvement of Drupal digital experiences. Our community members actively explore new technologies, techniques, and approaches to push the boundaries of what can be achieved with Drupal.&nbsp;</li></ul><h2>How to Engage</h2><p>Joining our community is easy! Whether you are a government employee, in the private sector, or someone simply interested in the intersection of Drupal and government, there are numerous ways to engage with us:</p><ul><li><strong>Membership</strong>: Become a member of Drupal4Gov to access exclusive resources, participate in discussions, and stay up to date with our events.</li><li><strong>Drupal GovCon</strong>: Attend our annual Drupal GovCon conference, a gathering of government professionals, Drupal developers, and industry experts. Share your experiences, gain insights, and network with like-minded individuals passionate about Drupal in government.</li><li><strong>Slack Community</strong>: Engage with our community through our Slack channels, where you can ask questions, seek advice, and share your knowledge with others. Contribute to discussions and connect with professionals who share your interests and expertise.</li><li><strong>Speaking Engagements and Volunteering</strong>: Share your expertise and contribute to the community by speaking at Drupal GovCon or volunteering with Drupal4Gov.&nbsp;</li></ul><h3>Contact Us</h3><p>We value your input and are eager to connect with you. Whether you have questions, suggestions, or want to explore patron opportunities, reach out to us through our contact form, email, or social media channels. We are here to support you and collaborate in driving the use of Drupal in the government sector.</p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b19bc3e6-0ca2-4de3-84f4-2971d1ba5a4c
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1709233207
+          behavior_settings:
+            -
+              value: {  }

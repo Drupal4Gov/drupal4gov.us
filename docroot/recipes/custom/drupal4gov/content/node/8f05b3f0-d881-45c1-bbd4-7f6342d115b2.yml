@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f05b3f0-d881-45c1-bbd4-7f6342d115b2
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Full Day Session Submission'
+  created:
+    -
+      value: 1729718882
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /full-day-session-submission
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Are you a knowledgeable expert in Drupal or the government sector? Are you passionate about sharing your insights, skills, and experiences with others? We invite you to submit your session proposal for our full-day training sessions!</p><p>If you have a wealth of expertise and want to delve deep into a comprehensive Drupal or government-related topic, our full-day training sessions are the perfect platform. Whether you specialize in Drupal site building, module development, advanced customization, or other relevant areas, you can craft a full-day training session that provides participants with an in-depth understanding and practical skills. Submit a proposal for a full-day training session and contribute to the professional development of government professionals and Drupal enthusiasts.</p><h2>Benefits of Speaking at our Training Sessions:&nbsp;</h2><p><strong>Share Your Expertise: </strong>As a speaker, you have the opportunity to share your expertise, insights, and best practices with a captive audience. Your knowledge and experiences can empower others to overcome challenges and achieve success in their Drupal or government projects.</p><p><strong>Establish Your Credibility:</strong> Speaking at our training sessions allows you to establish yourself as a credible and knowledgeable professional in your field. By showcasing your expertise, you enhance your professional reputation and gain recognition within the Drupal and government communities.</p><p><strong>Contribute to the Community: </strong>Your session will make a significant contribution to the learning and growth of attendees. By sharing your insights and practical skills, you help individuals enhance their Drupal capabilities, advance their government projects, and drive innovation within the community.&nbsp;</p><p><strong>Networking Opportunities: </strong>Speaking at our training sessions provides you with networking opportunities to connect with government professionals, Drupal developers, and industry experts. Expand your professional network, forge valuable relationships, and explore potential collaborations within the Drupal and government sectors.</p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0fc6cea1-1754-4071-a2f6-659fdbb91f0f
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1729718949
+          behavior_settings:
+            -
+              value: {  }

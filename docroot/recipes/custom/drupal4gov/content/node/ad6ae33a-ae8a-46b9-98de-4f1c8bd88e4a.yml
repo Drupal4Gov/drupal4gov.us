@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ad6ae33a-ae8a-46b9-98de-4f1c8bd88e4a
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: Donate
+  created:
+    -
+      value: 1696872931
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /donate
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Drupal4Gov relies on the support and generosity of individuals like you to continue our mission of promoting Drupal in the government sector and fostering a thriving community. Your donations play a crucial role in supporting our events, initiatives, resources, and scholarships. By contributing to Drupal4Gov, you are directly contributing to the growth, knowledge sharing, and success of the Drupal and government communities. Here's how you can make a difference.</p><h2>One-Time Donation</h2><p>Make a one-time donation to Drupal4Gov and help us continue providing valuable resources, organizing events, and supporting community initiatives. Your contribution, no matter the amount, is greatly appreciated and will have a lasting impact on our community. Every dollar counts in empowering government professionals, fostering innovation, and advancing the adoption of Drupal in government projects.</p><h2>Recurring Donation</h2><p>Consider setting up a recurring donation to Drupal4Gov. By making a monthly, quarterly, or annual commitment, you provide us with stable and sustainable support that allows us to plan ahead and expand our offerings. Recurring donations provide the foundation for our long-term initiatives, ensuring continuity and enabling us to make a lasting impact in the Drupal and government sectors.</p><h2>Sponsorship Opportunities</h2><p>If you represent a company or organization interested in supporting Drupal4Gov, consider exploring our sponsorship opportunities. Sponsorship not only demonstrates your commitment to government innovation and Drupal excellence but also offers your organization valuable visibility and networking opportunities within our community. Contact us to discuss customized sponsorship packages that align with your goals and objectives.</p><h2>Employer Matching</h2><p>Check if your employer offers a donation matching program. Many companies have initiatives that match their employees' charitable contributions, effectively doubling the impact of your donation. By participating in an employer matching program, you can amplify your support to Drupal4Gov and increase the resources available to drive positive change in the Drupal and government communities.</p><h2>In-Kind Contributions</h2><p>In addition to monetary donations, Drupal4Gov welcomes in-kind contributions that can support our events and community initiatives. This can include services, resources, or expertise that can benefit our organization and community. If you have a specific in-kind contribution in mind or would like to discuss potential opportunities, please reach out to us. We appreciate your willingness to contribute in unique and meaningful ways.</p><h2>Spread the Word</h2><p>Help us reach a wider audience by spreading the word about Drupal4Gov. Share our mission, events, and initiatives with your colleagues, friends, and professional networks. Engage with us on social media, participate in discussions, and encourage others to support our cause. Your advocacy can have a ripple effect, inspiring others to join our community, contribute, and make a difference.</p><p>We sincerely thank you for your generosity, and we appreciate your dedication to Drupal4Gov. Your donation to Drupal4Gov helps us continue providing valuable resources, organizing events, and supporting the Drupal and government communities.</p>"
+      format: full
+      summary: ''

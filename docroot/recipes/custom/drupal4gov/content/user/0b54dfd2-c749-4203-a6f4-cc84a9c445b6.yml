@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: nina
+  pass:
+    -
+      value: $2y$10$Dvk9nPB/75/CFDhOj/.fS.pEpznHZgofYlw3Z82Fi3hLMtMi0wOru
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: nina@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1698434910
+  access:
+    -
+      value: 1720215965
+  login:
+    -
+      value: 1719434635
+  init:
+    -
+      value: user+36@localhost.localdomain
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c4bd28af-47da-485b-b80b-5c0761689755
+  bundle: event
+  default_langcode: en
+  depends:
+    43191d83-d158-42bd-a3d8-594a2e012279: file
+    98835cc8-f5fd-40da-aece-b1eeb7222925: media
+    7975bd8f-03eb-4a4a-b1f6-429e9888b06b: taxonomy_term
+    02c00767-78ec-4fca-b4aa-a66a8ce9bd98: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Using Prompt Engineering to Develop Strong, Discoverable Content'
+  created:
+    -
+      value: 1737504051
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /event/using-prompt-engineering-develop-strong-discoverable-content
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Learn a series of steps and prompts to effectively use AI tools and Drupal's AI functionality to generate content that can increase your site's traffic.</p>"
+      format: full
+      summary: ''
+  field_address:
+    -
+      langcode: ''
+      country_code: US
+      postal_code: ''
+      address_line1: ''
+  field_date:
+    -
+      value: '2025-01-16T15:00:00'
+      end_value: '2025-01-16T16:00:00'
+  field_event_url:
+    -
+      uri: 'https://youtube.com/live/xkS8NR-ZYKE?feature=share'
+      title: ''
+      options: {  }
+  field_file:
+    -
+      entity: 43191d83-d158-42bd-a3d8-594a2e012279
+      display: true
+      description: ''
+  field_image:
+    -
+      entity: 98835cc8-f5fd-40da-aece-b1eeb7222925
+  field_speaker:
+    -
+      entity: 7975bd8f-03eb-4a4a-b1f6-429e9888b06b
+  field_type:
+    -
+      entity: 02c00767-78ec-4fca-b4aa-a66a8ce9bd98

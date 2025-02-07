@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f9b8733e-7e32-4895-9378-a2cc758fe6a9
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    a0f602ea-67e6-4d2c-aca9-f58e0084c98d: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Nina Ogor'
+  created:
+    -
+      value: 1698635160
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/nina-ogor
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Nina Ogor has been a devoted volunteer with the organization for over a decade. Previously, she served as the Logistics Coordinator for the Drupal GovCon conference, successfully managing various aspects such as the registration desk, social events, catering, and volunteer coordination. Recognizing her talent and dedication, Nina transitioned her focus to the Drupal4Gov Non-Profit, where she now plays a pivotal role as the Director of Operations.</p>'
+      format: full
+      summary: ''
+  field_board_img:
+    -
+      entity: a0f602ea-67e6-4d2c-aca9-f58e0084c98d
+      alt: 'Picture of Nina Ogor'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Nina
+      middle: ''
+      family: Ogor
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Member at-large'
+      format: full
+  field_section:
+    -
+      value: board

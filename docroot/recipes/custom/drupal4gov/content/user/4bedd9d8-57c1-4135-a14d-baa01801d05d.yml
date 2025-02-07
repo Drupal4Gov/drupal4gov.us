@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: luisa.gallego
+  pass:
+    -
+      value: $2y$10$P/78qcjTTIwLM5od1Bu4hO.4OUoVgdCSwKQyPdHEUxEisJTj9ZTle
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: luisa@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1706734894
+  access:
+    -
+      value: 1728491689
+  login:
+    -
+      value: 1728490773
+  init:
+    -
+      value: luisa@drupal4gov.us
+  roles:
+    -
+      target_id: content_editor
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

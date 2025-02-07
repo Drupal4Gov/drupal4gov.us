@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dab7f65f-eef1-4a06-bebf-1bc091d91a45
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Become a Volunteer'
+  created:
+    -
+      value: 1696870962
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /become-volunteer
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>If you’ve made it to this page, you’re probably as enthusiastic about building the Drupal community as Drupal4Gov’s current volunteers. But if you need a little more convincing, here are a few of the benefits of gifting your time and skills to our nonprofit:</p><ul><li><strong>Make a Positive Impact</strong>: Help us empower government employees to harness the full potential of Drupal and create exceptional digital experiences for all users.</li><li><strong>Connect with Other Awesome Drupalers</strong>: Collaborate with like-minded professionals in an inclusive environment where everyone loves to share their knowledge and expertise. &nbsp;&nbsp;</li><li><strong>Develop and Refine Your Skills</strong>: As a volunteer, you can choose to donate your time to the projects, initiatives, and programs that align with your interests. Whether that’s event coordination, marketing campaigns, web development, fundraising, grant writing, or content creation (among others), there’s a place for you at Drupal4Gov.</li></ul><p>Visit our <a href="https://drupal4gov.us/community/opportunities">Opportunities page</a> to apply or send us a message on social media. We look forward to hearing from you! &nbsp;&nbsp;<br><br>&nbsp;</p><h1 style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&nbsp;</span></h1>'
+      format: full
+      summary: ''

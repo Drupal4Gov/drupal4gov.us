@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 1a16662f-d46d-4766-a979-04c870963cc1
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: norah
+  pass:
+    -
+      value: $2y$10$NhHfSTHrnNlkNiwv4CkCjOwv7AuNuHdAsnW6SmPgIvknlLDImsleW
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: norah@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1697670567
+  access:
+    -
+      value: 1738858438
+  login:
+    -
+      value: 1738702319
+  init:
+    -
+      value: user+31@localhost.localdomain
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

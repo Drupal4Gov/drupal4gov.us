@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2988d331-dec8-49b6-bdcd-7e3977d89607
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: 'Executive Director'
+  created:
+    -
+      value: 1714858889
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/executive-director
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><meta charset="utf-8"></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Description</span></h2><p style="line-height:1.38;margin-bottom:0pt;margin-left:18pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The Executive Director is a dynamic and visionary leader responsible for overseeing the strategic direction, operations, and overall success of our nonprofit organization. The Director will work closely with the Board of Directors to develop and execute strategic plans, ensure financial sustainability through effective fundraising and budget management, and lead initiatives to enhance the organization''s impact. Exceptional communication skills, a passion for open-source technology, and the ability to foster partnerships with government entities and industry stakeholders are essential attributes for success in this role.&nbsp;</span></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Qualifications</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Collaborate with the board of Directors to identify, create and implement strategic plans to actualize business objectives.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Identify, recruit, train and develop a talented team of employees who can lead critical departments and manage strategic business functions.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Monitor company operations and ensure employees and business practices comply with regulatory and legal requirements.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Develop the organizational culture and promote transparency and collaboration throughout the organization.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Identify potential risks and opportunities within the organization.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Identify potential sources of investment and organize fundraising efforts.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Represent the company at social and corporate events.</span></li></ul><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Requirements</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:10pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Understand finance-related performance standards.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Ability to develop and execute financial strategies.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Written and verbal communication skills.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Knowledge of corporate and regulatory best practices.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Organization and leadership skills.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Strategic thinking and analytical skills.</span></li></ul>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8d7a7558-9dbf-42b8-9e86-07e63462fc4b
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714858943
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cf05b2dc-f481-4164-a19b-38b59696c9ac
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714860191
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLScA_KpochE_4R2bSHzaui9D5fZlHBeiXiXpukoPXBkTdoxyrA/viewform'
+              title: 'Apply Now'
+              options: {  }

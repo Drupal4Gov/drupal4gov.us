@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5edd891c-ddf6-4417-b81e-917b70aaf0c4
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    3e044d3e-212d-46f0-bfef-ddb440c48e20: menu_link_content
+    b1fec7f4-3d4b-4dac-bb0f-2148e6e5c891: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Mission & Values'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: b1fec7f4-3d4b-4dac-bb0f-2148e6e5c891
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:3e044d3e-212d-46f0-bfef-ddb440c48e20'
+  revision_translation_affected:
+    -
+      value: true

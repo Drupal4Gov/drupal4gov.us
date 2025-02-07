@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1968edda-5e8b-4005-b7b5-11de96ecb134
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Dr. William "Bill" Brantley'
+  created:
+    -
+      value: 1714145054
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/dr-william-bill-brantley
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dr. William ""Bill"" Brantley is a distinguished university professor and an experienced government employee renowned for his exceptional project management skills. With a passion for Drupal and the government sector, Bill initially participated in the DrupalGovCon conference as a patron representative. Recognizing his expertise, he transitioned into the role of Web Team Project Manager and played a crucial role in the founding of the Drupal4Gov Non-Profit.&nbsp;</p><p>Currently serving as a Member at-large, Bill continues to contribute his vast knowledge and insights to the Drupal4Gov community. His academic background and extensive experience in project management make him an invaluable asset, shaping the organization''s initiatives and fostering collaboration between academia, government, and Drupal."</p>'
+      format: full
+      summary: ''
+  field_name:
+    -
+      title: ''
+      given: 'Dr. William "Bill"'
+      middle: ''
+      family: Brantley
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Member at-large'
+      format: full
+  field_section:
+    -
+      value: board

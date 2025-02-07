@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 32ac3751-d7b7-416f-a789-a83b57dd3a51
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f778c344-0c80-4786-8150-a23ee87e3723: menu_link_content
+    105f3937-b9b6-43a6-a1f5-4e1854ef2b84: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Gov Summit'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 105f3937-b9b6-43a6-a1f5-4e1854ef2b84
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:f778c344-0c80-4786-8150-a23ee87e3723'
+  revision_translation_affected:
+    -
+      value: true

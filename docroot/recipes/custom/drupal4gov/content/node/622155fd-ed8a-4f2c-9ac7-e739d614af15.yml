@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 622155fd-ed8a-4f2c-9ac7-e739d614af15
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Drupal4Gov Days Partnership'
+  created:
+    -
+      value: 1696782001
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Partner with Drupal4Gov: Host a Half-Day or Full-Day Event!</h2><p>Drupal4Gov welcomes companies and organizations that share our vision of promoting Drupal in the government sector to partner with us and host a half-day or full-day event during the year. By partnering with Drupal4Gov, you can leverage our community's expertise, reach a targeted audience of government professionals and Drupal enthusiasts, and create a valuable platform to showcase your organization's products, services, and thought leadership. Here's how you can collaborate with us:</p><p><strong>Event Proposal</strong>: Submit an event proposal outlining the details of your half-day or full-day event. Provide a clear and concise description of the event, including the theme, objectives, and target audience. Explain how the event aligns with the goals and values of Drupal4Gov and how it benefits the Drupal and government communities. Be sure to highlight any unique aspects or innovative elements that set your event apart.</p><p><strong>Collaboration and Support</strong>: Collaborate with the Drupal4Gov team to refine the event proposal and ensure that it aligns with our community's mission. We will work together to discuss logistics, event promotion, and the level of support you require from Drupal4Gov. Our team will provide guidance, assistance, and resources to help you organize a successful event that meets the needs of the Drupal and government communities.</p><p><strong>Venue and Logistics</strong>: Secure a suitable venue for your event that accommodates the expected number of attendees and provides the necessary facilities for presentations, workshops, networking, and other activities. Take care of logistical aspects such as event scheduling, audiovisual equipment, catering, and any other requirements. If you need assistance or recommendations for venues, our team can provide guidance based on previous events and community preferences.</p><p><strong>Event Promotion</strong>: Collaborate with Drupal4Gov to promote your event to our community through various channels, including our website, newsletters, social media platforms, and community forums. Leverage our network and reach to generate buzz, attract attendees, and maximize the visibility of your event. We will work together to develop a comprehensive marketing and promotion strategy that ensures your event receives the attention it deserves.</p><p><strong>Content and Speakers</strong>: Curate engaging and informative content for your event. Identify speakers who are subject matter experts in the government sector, Drupal, or related fields. Collaborate with Drupal4Gov to identify potential speakers from our community who can contribute valuable insights and knowledge. Ensure that the event program covers a diverse range of topics, caters to various skill levels, and provides practical takeaways for the attendees.</p><p><strong>Sponsorship Opportunities</strong></p><p><strong>By partnering with Drupal4Gov, you gain access to our community's expertise, network, and resources to host a successful half-day or full-day event. Engage with government professionals, Drupal developers, industry leaders, and enthusiasts who are passionate about using Drupal in the government sector.</strong></p><p><strong>To explore partnership opportunities and discuss hosting a half-day or full-day event with Drupal4Gov, please reach out to our partnership team through the designated contact on our website. Together, let's create an impactful event that drives innovation, collaboration, and success in the Drupal and government communities.</strong></p>"
+      format: full
+      summary: ''

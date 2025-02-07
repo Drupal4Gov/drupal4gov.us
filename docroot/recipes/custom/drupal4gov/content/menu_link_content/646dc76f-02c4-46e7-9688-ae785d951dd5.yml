@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 646dc76f-02c4-46e7-9688-ae785d951dd5
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    861831eb-5294-4eec-9402-425fcc4f090e: menu_link_content
+    b12180ec-359a-4267-a00f-c1f0eb0adfe1: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Drupal4Gov Days Session Submission'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: b12180ec-359a-4267-a00f-c1f0eb0adfe1
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:861831eb-5294-4eec-9402-425fcc4f090e'
+  revision_translation_affected:
+    -
+      value: true

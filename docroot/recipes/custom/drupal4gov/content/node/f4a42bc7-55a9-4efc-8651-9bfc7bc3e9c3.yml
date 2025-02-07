@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f4a42bc7-55a9-4efc-8651-9bfc7bc3e9c3
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'About Us'
+  created:
+    -
+      value: 1695594913
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about-us
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>Welcome to Drupal4Gov!</h2><p>Drupal4Gov is a volunteer-run nonprofit community dedicated to advancing the use of Drupal, an open-source content management system, within the government sector. We are passionate about empowering government employees to harness the full potential of Drupal and create exceptional digital experiences for their users.</p><h2>Our Vision</h2><p>At Drupal4Gov, we create avenues to foster collaboration, shared knowledge, and community around using open source at all levels of government. We strive to foster collaboration, innovation, and knowledge sharing, enabling government professionals and Drupal developers to work together and create impactful digital experiences.</p><h2>What We Do</h2><ul><li><strong>Community Building</strong>: We bring together government employees, Drupal experts, and industry thought leaders to foster a collaborative community. Through conferences, workshops, and webinars, we facilitate knowledge sharing, networking, and the exchange of best practices for utalizing Drupal.</li><li><strong>Resources and Documentation</strong>: We provide comprehensive resources, tutorials, and training materials for anyone interested in Drupal. Whether you are a government professional seeking to implement Drupal or a developer looking for guidance, our extensive library of resources will support you at every step.</li><li><strong>Advocacy</strong>: We advocate for the education of Drupal users by providing workshops, trainings, and resources to individuals.</li><li><strong>Drupal GovCon</strong>: Our flagship event, Drupal GovCon, is an annual conference that attracts government professionals, Drupal developers, and industry experts. This conference serves as a platform to discuss the latest trends, challenges, and innovations in Drupal for the government sector. It features inspiring keynotes, engaging panel discussions, informative sessions, and insightful speakers.</li></ul><h2>Join Us</h2><p>Whether you are a government professional, a Drupal developer, or a technology enthusiast passionate about Drupal, we invite you to join our community. Together, we can drive innovation, share knowledge, and shape the future of digital experiences.</p><ul><li><strong>Membership</strong>: Become a member of Drupal4Gov to access exclusive resources, participate in discussions, and stay up to date with the our events.</li><li><strong>Drupal GovCon</strong>: Attend our annual Drupal GovCon conference, a gathering of government professionals, Drupal developers, and industry experts. Share your experiences, gain insights, and network with like-minded individuals passionate about open source.</li><li><strong>Slack Community</strong>: Engage with our community through our Slack channels, where you can ask questions, seek advice, and share your knowledge with others. Contribute to discussions and connect with professionals who share your interests and expertise.</li><li><strong>Speaking Engagements and Volunteering</strong>: Share your expertise and contribute to the community by speaking at Drupal GovCon or volunteering with Drupal4Gov.</li></ul>'
+      format: full
+      summary: ''
