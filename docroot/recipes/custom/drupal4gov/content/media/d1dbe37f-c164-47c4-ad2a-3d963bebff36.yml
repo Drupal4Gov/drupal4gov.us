@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d1dbe37f-c164-47c4-ad2a-3d963bebff36
+  bundle: image
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    e271dafb-bf75-45e5-90ca-09b02c2a7432: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  name:
+    -
+      value: test-headshot.jpg
+  created:
+    -
+      value: 1720198593
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: e271dafb-bf75-45e5-90ca-09b02c2a7432
+      alt: 'Test Headshot'
+      title: ''
+      width: 285
+      height: 285

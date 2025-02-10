@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9cf28b1a-68c4-4b68-b652-149fe69d6c4f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: SMB_5454.JPG
+  uri:
+    -
+      value: 'public://2024-05/SMB_5454.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2168611
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1714697304

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fe08cf07-7856-4e03-bf8f-95304428e37e
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    fa19bdaa-8ade-4610-b3dc-ae21ce829038: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: "Chris O'Donnell"
+  created:
+    -
+      value: 1698635118
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/chris-odonnell
+      langcode: en
+      pathauto: 1
+  field_board_img:
+    -
+      entity: fa19bdaa-8ade-4610-b3dc-ae21ce829038
+      alt: "Chris O'Donnell"
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Chris
+      middle: ''
+      family: "O'Donnell"
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Director of Fundraising & Development'
+      format: full
+  field_section:
+    -
+      value: govcon

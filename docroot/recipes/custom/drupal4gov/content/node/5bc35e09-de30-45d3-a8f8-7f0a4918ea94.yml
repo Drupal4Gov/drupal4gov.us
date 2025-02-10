@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5bc35e09-de30-45d3-a8f8-7f0a4918ea94
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Jess Synder'
+  created:
+    -
+      value: 1698635245
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/jess-synder
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Jess
+      middle: ''
+      family: Synder
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Birds of a Feather Lead'
+      format: full
+  field_section:
+    -
+      value: govcon

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 88380016-2910-492a-b980-0eb7b23bd766
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Be A Trainer'
+  created:
+    -
+      value: 1696784711
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /be-trainer
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>If you are passionate about teaching and helping others grow, consider becoming a trainer for Drupal4Gov. As a trainer, you can design and deliver training programs, share your expertise, and guide government professionals and Drupal developers in acquiring new skills and knowledge. Whether it's conducting full-day training sessions, half-day workshops, or online courses, your expertise can shape the learning journey of our community members. Reach out to us to discuss your training ideas and explore opportunities to become a trainer with Drupal4Gov.</p><p>By speaking and sharing your expertise through blog posts, webinars, conference sessions, half-day training sessions, or as a trainer, you play a vital role in advancing the knowledge and skills of our community members. Your contributions help foster innovation, collaboration, and growth within the Drupal and government sectors.</p>"
+      format: full
+      summary: ''

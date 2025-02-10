@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a94411b1-906e-4b8c-96a8-5cb744041031
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Kirsten Burgard'
+  created:
+    -
+      value: 1698635027
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/kirsten-burgard
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Kirsten Burgard, a founding member of Drupal GovCon and Drupal4Gov, has been a driving force behind their success. With a history spanning from Capital Camp to the current Drupal4Gov Non-Profit, Kirsten has provided leadership. Presently, she leads the university outreach initiative and the James King Scholarship Program, fostering partnerships with academic institutions and supporting aspiring individuals in the open source community. Kirsten's contributions have made a significant impact, solidifying Drupal4Gov's position as a leading organization at the intersection of Drupal and the government sector.</p>"
+      format: full
+      summary: ''
+  field_name:
+    -
+      title: ''
+      given: Kirsten
+      middle: ''
+      family: Burgard
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Founder and Executive Director'
+      format: full

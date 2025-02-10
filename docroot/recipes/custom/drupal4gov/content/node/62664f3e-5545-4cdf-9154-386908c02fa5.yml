@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62664f3e-5545-4cdf-9154-386908c02fa5
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Getting Involved with Drupal4Gov'
+  created:
+    -
+      value: 1696870686
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /get-involved
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>There are several ways you can make a meaningful impact and become an integral part of Drupal4Gov:</p><ul><li><a href="/node/101">Become a Volunteer</a></li><li><a href="/node/106">Apply for an Internship</a></li><li><a href="/become-a-member">Become a Member</a></li><li><a href="/node/116">Become a Patron</a></li><li><a href="/node/121">Apply for a Scholarship</a></li></ul><p>Choose the involvement option that resonates with you and aligns with your goals and interests. By becoming a volunteer, intern, member, sponsor, or scholarship recipient, you contribute to the growth, success, and inclusivity of Drupal4Gov.&nbsp;</p>'
+      format: full
+      summary: ''

@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 604e725d-ce68-4dc3-be73-220a2991d878
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    3d8afbc5-0a56-4c08-87ae-424726bceb32: menu_link_content
+    f19106cc-85a4-46f1-98e7-64a51d6710dc: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: '2025 Webinars'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: f19106cc-85a4-46f1-98e7-64a51d6710dc
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:3d8afbc5-0a56-4c08-87ae-424726bceb32'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 73d8edaf-d4ea-4cad-a455-8256bfcab757
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: 'Director of Programing'
+  created:
+    -
+      value: 1714858989
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/director-programing
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><meta charset="utf-8"></p><h2>Description</h2><p>The Director of Programming is a key leader responsible for overseeing and advancing the technical aspects of our organization''s initiatives. This role involves strategic planning and execution of Drupal-related projects, ensuring alignment with the organization''s mission and goals. They will lead a team of skilled developers, providing guidance, support, and fostering a collaborative and innovative work environment. With a strong background in Drupal development, this individual will drive the implementation of best practices, contribute to the continuous improvement of coding standards, and stay abreast of emerging trends in web development.</p><h2>Qualifications</h2><p>Oversee the administrative aspects of program implementation.Evaluate program effectiveness and provide recommendations for areas of improvement. Plan and manage program activities. Coordinate the tasks of colleagues.Maintain accurate records of all projects.Establish a plan and budget.</p><h2>Requirements</h2><p>Critical-thinking and decision-making skills.Expertise in communication and organization.Proficient in finding creative solutions to complex problems.Strong time management skills and ability to multitask.Ensure the program meets the objectives of the organization.</p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 05edce80-b935-4686-a6fd-f260af964614
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714859005
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9ba8c270-f557-4c03-b653-c010e1e430c5
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714860204
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLScA_KpochE_4R2bSHzaui9D5fZlHBeiXiXpukoPXBkTdoxyrA/viewform'
+              title: 'Apply Now'
+              options: {  }

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 57d63105-effd-403a-8235-a69996800189
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Become a Patron for Drupal4Gov'
+  created:
+    -
+      value: 1696726641
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<h4>Thank you for considering becoming a patron of Drupal4Gov, a nonprofit organization dedicated to empowering government agencies with the use of Drupal, an open-source content management system. By becoming a patron, you have the opportunity to make a significant impact on the government sector and contribute to the advancement of innovative and citizen-centric digital solutions.</h4><h2>Why Become a Drupal4Gov Patron</h2><ul><li><strong>Support Government Innovation</strong>: By becoming a patron of Drupal4Gov, you directly support the innovation and modernization of government agencies' through the education of their employees. Your patronship enables us to provide resources, training materials, and educational events that empower government professionals to leverage Drupal's capabilities effectively. Together, we can transform government websites and applications to deliver better services and experiences for citizens.</li><li><strong>Influence Positive Change</strong> Being a patron of Drupal4Gov allows you to contribute to positive change in the government sector. By promoting the adoption of Drupal, you help enhance security, scalability, and accessibility in government digital solutions. Your support plays a vital role in fostering collaboration, knowledge sharing, and innovation among government agencies, Drupal developers, and industry experts.</li><li><strong>Showcase Your Commitment</strong> As a patron, you demonstrate your commitment to the government sector and your dedication to driving the use of open-source technologies. By aligning your brand with Drupal4Gov, you showcase your organization as a leader in supporting government innovation, digital transformation, and the delivery of citizen-centric services.</li></ul><table><tbody><tr><td><p>Brand Visibility: As a patron, your brand will gain visibility and exposure within the Drupal4Gov network and the wider open source community. Patrons have their logo featured on the Drupal4Gov website on a dedicated Patron page. In addition, patrons and their employee profile pages will have exclusive badges to show patronage toward the organization.</p></td><td><p>x</p></td><td><p>x</p></td><td><p>x</p></td></tr></tbody></table>"
+      format: full
+      summary: ''

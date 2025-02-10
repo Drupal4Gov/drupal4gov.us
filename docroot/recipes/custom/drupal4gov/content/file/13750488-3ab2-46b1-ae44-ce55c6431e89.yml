@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 13750488-3ab2-46b1-ae44-ce55c6431e89
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: BlakeNewman.JPG
+  uri:
+    -
+      value: 'public://2024-05/BlakeNewman.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2344346
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1716407851

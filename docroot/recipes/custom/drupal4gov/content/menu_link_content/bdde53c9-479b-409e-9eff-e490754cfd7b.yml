@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: bdde53c9-479b-409e-9eff-e490754cfd7b
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    8e8822ef-5fe5-4eaf-b592-fd6b88ed4a13: menu_link_content
+    ad6ae33a-ae8a-46b9-98de-4f1c8bd88e4a: node
+default:
+  enabled:
+    -
+      value: false
+  title:
+    -
+      value: Donate
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: ad6ae33a-ae8a-46b9-98de-4f1c8bd88e4a
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:8e8822ef-5fe5-4eaf-b592-fd6b88ed4a13'
+  revision_translation_affected:
+    -
+      value: true

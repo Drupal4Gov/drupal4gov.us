@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5defe8ee-63c7-4abc-9720-39b438bcab01
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: 'Web Developer'
+  created:
+    -
+      value: 1714859071
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/web-developer
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>Description</h2><p>The Web Developer is responsible for assisting the Drupal4Gov Web Team with maintaining and updating the Drupal4Gov website. Tasks will vary, but can include content creation and editing, styling updates, some custom coding, and other duties as specified by the Lead Developer (LD).&nbsp;</p><h2>Qualifications</h2><ul><li>Demonstrated experience in website development</li><li>Proficiency in Drupal or other content management systems.</li><li>Knowledge of UX design principles and responsive web design.Familiarity with SEO best practices.</li><li>Strong communication and collaboration skills.</li></ul><h2>Requirements</h2><ul><li>Hands-on-experience in Drupal development.</li><li>Proficiency in PHP, HTML, CSS, and other relevant web technologies.</li><li>Contribute to the development and implementation of strategic plans Collaborate effectively with other website leads, designers, developers, and stakeholders.</li><li>Familiarity with responsive web design principles and techniques.</li><li>Manage and update website content using Drupal.</li><li>Knowledge of web accessibility standards and best practices.<br>&nbsp;</li></ul>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 81a2a9e8-48d7-4abd-9c1e-b82a73bc8b25
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714859112
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8b546247-ca76-4a4b-bbff-b4ceb080054c
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714860218
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLScA_KpochE_4R2bSHzaui9D5fZlHBeiXiXpukoPXBkTdoxyrA/viewform'
+              title: 'Apply Now'
+              options: {  }

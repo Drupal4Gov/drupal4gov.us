@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c4a3b45d-1468-4301-977b-d1a44027254c
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: Vice-President
+  created:
+    -
+      value: 1714858541
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/vice-president
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><meta charset="utf-8"></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Description</span></h2><p style="line-height:1.38;margin-bottom:0pt;margin-left:18pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The role of a Drupal4Gov Vice President is crucial in supporting the organization''s mission and objectives, particularly in the context of promoting the use of Drupal within the government sector. This leadership position involves collaborating with the Board President, fellow board members, and stakeholders to advance the goals of Drupal4Gov and contribute to the growth and impact of the Drupal community in government.</span></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Qualifications</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Leadership experience within the Drupal community or related technology fields.</span></li><li style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">In-depth knowledge of Drupal and open-source technologies.</span></li><li style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Strong communication and advocacy skills.</span></li><li style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Familiarity with government technology and the challenges faced by government agencies.</span></li></ul><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Requirements</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Extensive experience in Drupal development and implementation, with a proven track record of successful projects in government environments.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Excellent communication and interpersonal skills, with the ability to engage and collaborate with diverse stakeholders.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">In-depth understanding of government processes, policies, and digital transformation initiatives.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Proficiency in Drupal architecture, development, and deployment, as well as a good understanding of web technologies and security practices.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Proven ability to advocate for technology solutions and build strong networks within the Drupal community and government circles.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Adapt to evolving technologies, policies, and project requirements in the dynamic government and technology landscape.</span></li></ul><p>&nbsp;</p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7f98fd1a-e1a6-4be2-b912-d5e35f201214
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714858555
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 990aec38-ad72-4d0f-8c4c-43cebafdcb4a
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714859908
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLSej30XjsGywR2ZmmO95jrDm7LWzDIi2uFrPLoI6gvLVO5xyVQ/viewform'
+              title: 'Apply Now'
+              options: {  }

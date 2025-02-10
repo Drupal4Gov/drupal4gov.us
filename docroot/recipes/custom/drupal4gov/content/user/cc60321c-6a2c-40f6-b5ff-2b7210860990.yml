@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: cc60321c-6a2c-40f6-b5ff-2b7210860990
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: waseem.zeid
+  pass:
+    -
+      value: $2y$10$7x77M/Q/xDcPp4oW4lnW1OW0q6PJMisuOsqFjvd0l7HQCmH0uF7qa
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: waseem@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694093382
+  access:
+    -
+      value: 1728518284
+  login:
+    -
+      value: 1728510273
+  init:
+    -
+      value: user+26@localhost.localdomain
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

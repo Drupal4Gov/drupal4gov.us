@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ed5863f2-bd7c-46a3-a41d-b91ff59dd046
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Become A Member'
+  created:
+    -
+      value: 1696871846
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /become-a-member
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Become a Member of Drupal4Gov and Unlock Exclusive Benefits!</h2><p>By becoming a member of Drupal4Gov, you gain access to a host of exclusive benefits that will enhance your professional growth, expand your network, and provide valuable resources tailored to the intersection of Drupal and the government sector. For a nominal yearly cost of $20, you can enjoy the following membership benefits:</p><h3>Recognition and Visibility</h3><p>As a member of Drupal4Gov, you'll receive recognition for your support and involvement. Your membership will be acknowledged on the Drupal4Gov website, and you'll have the opportunity to showcase your affiliation with our vibrant community. Enjoy the visibility and prestige that comes with being a member of a recognized organization dedicated to Drupal and the government sector.</p><h3>Community Support</h3><p>By becoming a member, you directly support the sustainability and growth of Drupal4Gov. Your membership fees contribute to organizing events, developing resources, and expanding our community initiatives. Your support ensures that Drupal4Gov can continue to provide valuable opportunities, foster knowledge sharing, and promote innovation within the Drupal and government sectors.</p><h3>Special Discounts</h3><p>Benefit from exclusive discounts on Drupal4Gov events, training programs, certifications, and other partner offerings. As a member, you'll enjoy savings on registration fees, access to discounted resources, and special offers from our trusted partners. These discounts provide you with cost-effective ways to enhance your Drupal expertise and stay up-to-date with the latest industry developments.</p><h3>Member-Only Resources</h3><p>Access member-exclusive resources, including whitepapers, case studies, best practice guides, and research materials related to Drupal and the government sector. These resources are curated to provide you with valuable insights, practical tips, and knowledge relevant to your work. Stay informed about industry trends, gain access to expert advice, and leverage these resources to excel in your government projects.</p><p>Joining Drupal4Gov as a member is easy. Simply visit our website, navigate to the membership section, and follow the instructions to complete your registration. For a nominal yearly cost of $20, you'll gain access to a range of benefits that will elevate your professional journey and help you stay at the forefront of Drupal in the government sector.</p><p>Invest in your professional growth, expand your network, and gain exclusive access to valuable resources by becoming a member of Drupal4Gov today!</p>"
+      format: full
+      summary: ''

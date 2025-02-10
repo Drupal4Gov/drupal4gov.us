@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9c58c88f-ad96-4e89-a43b-6cc5d565ffcf
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Support Us'
+  created:
+    -
+      value: 1696727208
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /support-us
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Thank you for considering supporting Drupal4Gov, a volunteer-run nonprofit organization dedicated to empowering individuals within the open source community. Your support is crucial in enabling us to continue our mission of fostering collaboration, innovation, and knowledge sharing.</p><h2>Ways to Support Us</h2><ul><li><strong>Donate</strong>: Your financial contribution can make a significant difference in our ability to provide valuable resources, organize events, and expand our outreach. Every donation, no matter the size, helps us sustain and grow our initiatives. Your support allows us to continue empowering government professionals, promoting innovation, and advancing the use of Drupal in the government sector.</li><li><strong>Volunteer</strong>: Volunteering your time and expertise is a valuable way to support our organization. We welcome individuals who are passionate about our mission and can contribute their skills in areas such as event planning, content creation, website development, and community engagement. By volunteering with us, you directly contribute to the success of our programs and initiatives.</li><li><strong>Spread the Word</strong>: Help us amplify our message and reach a wider audience by spreading the word about Drupal4Gov. Share our website, social media posts, and event announcements with your network. Encourage government professionals, Drupal developers, and industry experts to join our community, participate in Drupal GovCon, and access our valuable resources. Your advocacy and support in raising awareness can make a significant impact.</li><li><strong>Collaborate</strong>: We value collaboration and partnerships. If your organization shares our mission and has complementary expertise or resources, we would be thrilled to explore collaboration opportunities.</li></ul><h2>Benefits of Supporting Us</h2><ul><li><strong>Impact</strong>: Your support directly contributes to the success of government agencies' digital transformation efforts. By empowering government professionals with Drupal expertise, we help them create secure, scalable, and citizen-centric digital solutions. Your contribution enables us to drive positive change and improve government services for citizens.</li><li><strong>Recognition</strong>: We appreciate the support of our donors and volunteers. As a token of our gratitude, we recognize our supporters through public acknowledgments on our website, social media platforms, and event materials. Your support will be highlighted as a testament to your commitment to government innovation and the use of open-source technologies.</li><li><strong>Networking Opportunities</strong>: Supporting Drupal4Gov provides opportunities for networking and collaboration with government agencies, Drupal developers, and industry experts. By aligning your organization with us, you gain access to a community of professionals dedicated to government innovation. These connections can lead to collaborations, partnerships, and business opportunities within the government sector.</li></ul>"
+      format: full
+      summary: ''

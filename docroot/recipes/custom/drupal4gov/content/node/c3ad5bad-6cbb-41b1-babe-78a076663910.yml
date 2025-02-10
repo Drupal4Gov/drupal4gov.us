@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c3ad5bad-6cbb-41b1-babe-78a076663910
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Our Work'
+  created:
+    -
+      value: 1696376817
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /our-work
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>Drupal4Gov is dedicated to empowering government agencies with the use of Drupal, an open source content management system. We believe that Drupal has the power to transform government websites and applications, enabling agencies to deliver secure, scalable, and citizen-centric digital solutions.&nbsp;</p><h2>Key Areas of Focus</h2><p><strong>Education and Resources</strong>: We provide comprehensive education and resources tailored to the unique needs of government agencies. Our website offers documentation, tutorials, case studies, and training materials to help government professionals navigate Drupal implementation, customization, and best practices. By offering accessible and informative resources, we empower government agencies to make informed decisions and effectively leverage Drupal''s capabilities.</p><p><strong>In-Person and Digital Events: </strong><a href="https://www.drupalgovcon.org/">Drupal GovCon</a>, our flagship event, serves as a platform for government professionals, Drupal developers, and industry experts to come together and exchange ideas, insights, and innovations. This annual conference features keynote speeches, panel discussions, workshops, and presentations covering a wide range of Drupal-related topics specific to the government sector. Additional in-person events include <a href="https://drupal4gov.us/drupal4govdays">Drupal4Gov Days</a>, Leadership Exchanges, and <a href="https://drupal4gov.us/govsummit">GovSummit</a>, our yearly summit at DrupalCon. Our expert-led, live <a href="https://drupal4gov.us/webinars">webinars</a> provide an excellent remote option to help you build and develop your Drupal expertise.&nbsp;</p><p><strong>Advocacy and Collaboration</strong>: We advocate for the adoption of Drupal within the government sector, highlighting its benefits, security features, and compliance capabilities. Through strategic partnerships and collaborations, we create opportunities for government agencies to leverage Drupal expertise and deliver exceptional digital experiences.</p><p><strong>Community Engagement</strong>: Our organization is built upon a vibrant and collaborative community of government professionals, Drupal developers, and industry experts. We actively engage our community through online forums, discussion boards, and social media platforms, facilitating the exchange of knowledge, experiences, and best practices. We foster an inclusive and supportive environment where community members can connect, learn from each other, and collaborate on Drupal projects.</p><p><strong>Research and Innovation</strong>: Our team conducts research, explores innovative solutions and shares insights into the use of Drupal for government applications. By identifying and disseminating best practices, we help government agencies stay ahead in the digital landscape, driving innovation and delivering effective digital solutions to citizens.</p><h2>Impact and Achievements</h2><p>Drupal4Gov has made a significant impact on the government sector. We have empowered government agencies to adopt Drupal, resulting in improved security, scalability, and user experiences. Our community engagement efforts have facilitated collaboration and knowledge sharing, creating a network of professionals dedicated to advancing the use of Drupal in government.&nbsp;</p><p>Join us in our mission to transform government digital experiences with Drupal. Explore our resources, participate in <a href="https://www.drupalgovcon.org/">Drupal GovCon</a>, and engage with our <a href="https://drupal4gov.us/join-our-community">community</a>. Together, let''s shape the future of government technology and deliver citizen-centric solutions that make a positive impact in the lives of people around the world.</p>'
+      format: full
+      summary: ''

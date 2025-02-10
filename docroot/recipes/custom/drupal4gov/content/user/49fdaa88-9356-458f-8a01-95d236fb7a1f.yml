@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: nneka.hector
+  pass:
+    -
+      value: $2y$10$pWLOLIDnV7w6GkyutvH6MOwfX6SqeBLhAN3su9HdPqV5oZVIvAaWu
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: nneka@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694091497
+  access:
+    -
+      value: 1698776849
+  login:
+    -
+      value: 1698776291
+  init:
+    -
+      value: user+16@localhost.localdomain
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

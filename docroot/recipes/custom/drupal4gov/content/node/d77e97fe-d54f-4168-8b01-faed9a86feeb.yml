@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d77e97fe-d54f-4168-8b01-faed9a86feeb
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    1a16662f-d46d-4766-a979-04c870963cc1: user
+default:
+  revision_uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  title:
+    -
+      value: 'Drupal Web Development Internship'
+  created:
+    -
+      value: 1731008833
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/internship/web-developer
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>Description</h2><p>As a web intern, you will work on projects related to the Drupal4Gov website or the Drupal GovCon website. You will collaborate with experienced professionals, gain hands-on experience with Drupal development, and contribute to the enhancement and maintenance of these critical platforms.</p><h3>Key Responsibilities</h3><ul><li>Assist in the development and maintenance of the Drupal4Gov website or Drupal GovCon website.</li><li>Collaborate with the web team to implement new features, optimize performance, and ensure security.</li><li>Troubleshoot issues, conduct performance testing, and provide technical support as needed.</li><li>Assist with website content updates and enhancements.</li><li>Participate in code reviews and contribute to the overall improvement of the websites.</li></ul><h3>Qualifications</h3><ul><li>Knowledge of web development technologies, including HTML, CSS, JavaScript, and PHP</li><li>Familiarity with Drupal CMS and its ecosystem</li><li>Experience with Git version control</li><li>Strong problem-solving and analytical skills</li><li>Strong organizational and time management skills</li><li>Functional understanding of web development best practices and responsive design</li></ul><p><a href="/form/intern-application">Apply</a></p>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9d4a4493-0647-4e33-8e0d-35404f53f76a
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1731009835
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: af4a0552-0e30-426c-9abd-e272f2c4b593
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1734123194
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'internal:/form/intern-application'
+              title: 'Apply Now'
+              options: {  }

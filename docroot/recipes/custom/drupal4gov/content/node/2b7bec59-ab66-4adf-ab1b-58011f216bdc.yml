@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2b7bec59-ab66-4adf-ab1b-58011f216bdc
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: 'At-Large Board Member'
+  created:
+    -
+      value: 1714858597
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/large-board-member
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><meta charset="utf-8"></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Description</span></h2><p style="line-height:1.38;margin-bottom:0pt;margin-left:18pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The role of a Board Member is a prestigious and influential position within an organization''s governance structure. Board members are individuals who are selected or elected to serve on the board of directors, providing oversight, strategic guidance, and leadership to ensure the organization''s success and adherence to its mission and values.</span></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Qualifications</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Commitment to the organization''s mission and values.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Leadership experience in a relevant field.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Knowledge of and experience in governance, finance, or strategic planning.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Strong communication and interpersonal skills.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Work collaboratively with diverse stakeholders.</span></li></ul><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Requirements</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Appoint the first directors and officers.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Adopt the bylaws and articles of incorporation.&nbsp;</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Address funding issues.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Help the organization set goals.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Attend and engage in board meetings.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Support board decisions.</span></li><li style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Report to higher-ups with questions and concerns.</span></li></ul>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b06c72ff-7c2b-4d63-bcfb-6bc1f1260cb2
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714858606
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4cfd0c6a-84a5-4b8d-b427-b96f6fd0095d
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714860034
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLSej30XjsGywR2ZmmO95jrDm7LWzDIi2uFrPLoI6gvLVO5xyVQ/viewform'
+              title: 'Apply Now'
+              options: {  }

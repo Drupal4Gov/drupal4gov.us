@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7b97ef89-2fdc-4d40-8c47-c25912c08b95
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+default:
+  uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  filename:
+    -
+      value: SMB_5299.JPG
+  uri:
+    -
+      value: 'public://2024-02/SMB_5299.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5251636
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1707931925

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 58d3c60c-7fb8-4382-ab8f-4b1711557dcd
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Eric Rubino'
+  created:
+    -
+      value: 1698635195
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/eric-rubino
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Eric
+      middle: ''
+      family: Rubino
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Director of Recruitment'
+      format: full
+  field_section:
+    -
+      value: govcon

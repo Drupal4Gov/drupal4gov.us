@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1945e2ce-9223-4c5f-b28a-6896f646ac02
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+default:
+  uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  filename:
+    -
+      value: 'Jessica Dearie.JPG'
+  uri:
+    -
+      value: 'public://2024-05/Jessica Dearie.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1461053
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1714592401

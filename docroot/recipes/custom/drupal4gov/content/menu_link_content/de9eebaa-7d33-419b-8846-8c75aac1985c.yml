@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: de9eebaa-7d33-419b-8846-8c75aac1985c
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a4d8489e-5b2f-4db7-abc8-ce589913b873: menu_link_content
+    ed5863f2-bd7c-46a3-a41d-b91ff59dd046: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Become A Member'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: ed5863f2-bd7c-46a3-a41d-b91ff59dd046
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:a4d8489e-5b2f-4db7-abc8-ce589913b873'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7975bd8f-03eb-4a4a-b1f6-429e9888b06b
+  bundle: speaker
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Katherine Watier Ong'
+  description:
+    -
+      value: '<p>Katherine Watier Ong is the principal of WO Strategies LLC, an organic traffic consultancy that helps science-based, enterprise-sized organizations ensure that their science is found online. She has over two decades of experience in SEO, analytics, content strategy, and voice search optimization. She has worked with (and trained) clients such as Cancer.gov, HealthIT.gov, <a href="http://fisheries.noaa.gov/" rel="nofollow">Fisheries.NOAA.gov</a>, <a href="http://journals.asm.org/" rel="nofollow">Journals.ASM.org</a>, and the National Academies of Sciences. She is also a speaker, author, mentor, and trainer in the digital marketing industry. She has spoken at Voice Global, BrightonSEO, SES, and OMS events. She is the co-host of the <a href="https://fda8e876.streaklinks.com/CRFILwERUTGPcHAIRgPhPhT-/https%3A%2F%2Fdigitalmarketingvictories.com%2F" rel="nofollow">Digital Marketing Victories podcast</a> and has taught SEO classes at <a href="https://fda8e876.streaklinks.com/CRFILv7m5gzbbbgHbwrqHcWI/http%3A%2F%2Fwww.slideshare.net%2Fkatherinewatier%2F2015-31g-uclass-46954899" rel="nofollow">Georgetown University</a> and the Online Marketing Institute. She has a BA in Social Psychology from Hampshire College and an MA in Tech Marketing and Business from Georgetown University.</p><p>You can find her on Twitter (@kwatier), Bluesky (@kwatier.bsky.social), LinkedIn (<a href="https://www.linkedin.com/in/katherinewatier/" rel="nofollow">https://www.linkedin.com/in/katherinewatier/</a>), and her website (<a href="http://wostrategies.com/" rel="nofollow">wostrategies.com</a>).<br>&nbsp;</p>'
+      format: full
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

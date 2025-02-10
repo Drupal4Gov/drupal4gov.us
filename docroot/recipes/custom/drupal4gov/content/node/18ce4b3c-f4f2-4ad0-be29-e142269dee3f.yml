@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 18ce4b3c-f4f2-4ad0-be29-e142269dee3f
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    10941cf4-9376-43e5-9a3d-d3ec5da61f64: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Kevin Lanahan'
+  created:
+    -
+      value: 1714145007
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/kevin-lanahan
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Kevin has been an enthusiastic attendee of the Drupal4Gov conference for many years. Inspired by the community's spirit and impact, he eagerly volunteered with the organization, quickly becoming an invaluable asset. Recognizing his dedication and expertise, Kevin stepped into the role of Treasurer for the Non-Profit, overseeing financial matters with meticulous care.</p>"
+      format: full
+      summary: ''
+  field_board_img:
+    -
+      entity: 10941cf4-9376-43e5-9a3d-d3ec5da61f64
+      alt: 'Picture of Kevin Lanahan'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Kevin
+      middle: ''
+      family: Lanahan
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: Treasurer
+      format: full
+  field_section:
+    -
+      value: board

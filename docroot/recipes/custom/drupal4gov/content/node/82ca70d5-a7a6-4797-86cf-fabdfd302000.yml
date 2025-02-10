@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 82ca70d5-a7a6-4797-86cf-fabdfd302000
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Jon Pugh'
+  created:
+    -
+      value: 1698635228
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/jon-pugh
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Jon
+      middle: ''
+      family: Pugh
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Design Coordinator'
+      format: full
+  field_section:
+    -
+      value: board

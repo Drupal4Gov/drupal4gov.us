@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 752b8ac4-bd62-4d45-a154-5d08661cadf8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a4d8489e-5b2f-4db7-abc8-ce589913b873: menu_link_content
+    94fa4dea-8219-4d85-bd71-ab11555d66b5: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Apply for Scholarship'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 94fa4dea-8219-4d85-bd71-ab11555d66b5
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -46
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:a4d8489e-5b2f-4db7-abc8-ce589913b873'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 43191d83-d158-42bd-a3d8-594a2e012279
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Drupal4Gov Webinar.pdf'
+  uri:
+    -
+      value: 'public://2025-01/Drupal4Gov Webinar.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 5755872
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1737506012

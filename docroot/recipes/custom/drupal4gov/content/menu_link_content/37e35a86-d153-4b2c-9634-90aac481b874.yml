@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 37e35a86-d153-4b2c-9634-90aac481b874
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    35c356c6-32f7-41af-a35d-69ce4e7cc175: menu_link_content
+    cfdeba84-07f5-44fd-9492-77a094917bc2: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Half Day Session Submission'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: cfdeba84-07f5-44fd-9492-77a094917bc2
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:35c356c6-32f7-41af-a35d-69ce4e7cc175'
+  revision_translation_affected:
+    -
+      value: true

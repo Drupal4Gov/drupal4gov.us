@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9a2b6b31-3df8-4ca0-a9a8-e088e73168fe
+  default_langcode: en
+  depends:
+    0b54dfd2-c749-4203-a6f4-cc84a9c445b6: user
+default:
+  uid:
+    -
+      entity: 0b54dfd2-c749-4203-a6f4-cc84a9c445b6
+  filename:
+    -
+      value: Kirsten_Burgard.JPG
+  uri:
+    -
+      value: 'public://2024-05/Kirsten_Burgard.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1896587
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1714592237

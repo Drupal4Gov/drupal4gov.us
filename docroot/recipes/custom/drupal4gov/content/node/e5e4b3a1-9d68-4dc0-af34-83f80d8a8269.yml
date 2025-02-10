@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5e4b3a1-9d68-4dc0-af34-83f80d8a8269
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Board Members'
+  created:
+    -
+      value: 1715022792
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-members
+      langcode: en
+      pathauto: 1
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6ee5396c-95d2-4fde-b28e-edff3d007ca1
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1715022800
+          behavior_settings:
+            -
+              value: {  }
+          field_view:
+            -
+              target_id: board_member
+              display_id: block_1
+              data: 'a:5:{s:5:"title";N;s:8:"argument";N;s:5:"pager";N;s:6:"offset";N;s:5:"limit";N;}'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4cd1654d-36d3-483a-863c-72699ccd319f
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1731534850
+          behavior_settings:
+            -
+              value: {  }
+          field_title:
+            -
+              value: 'Nonprofit Team'
+          field_view:
+            -
+              target_id: board_member
+              display_id: block_2
+              data: 'a:5:{s:5:"title";N;s:8:"argument";N;s:5:"pager";N;s:6:"offset";N;s:5:"limit";N;}'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: db0dd187-623c-4623-ae1b-ec95e166c09c
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1731534850
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_title:
+            -
+              value: 'GovCon Team'
+          field_view:
+            -
+              target_id: board_member
+              display_id: block_3
+              data: 'a:5:{s:5:"title";N;s:8:"argument";N;s:5:"pager";N;s:6:"offset";N;s:5:"limit";N;}'

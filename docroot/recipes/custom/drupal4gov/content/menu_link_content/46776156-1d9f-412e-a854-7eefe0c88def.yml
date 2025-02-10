@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 46776156-1d9f-412e-a854-7eefe0c88def
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    861831eb-5294-4eec-9402-425fcc4f090e: menu_link_content
+    622155fd-ed8a-4f2c-9ac7-e739d614af15: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Drupal4Gov Days Partnership'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 622155fd-ed8a-4f2c-9ac7-e739d614af15
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:861831eb-5294-4eec-9402-425fcc4f090e'
+  revision_translation_affected:
+    -
+      value: true

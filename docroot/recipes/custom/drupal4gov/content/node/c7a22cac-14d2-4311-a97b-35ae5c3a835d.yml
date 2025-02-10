@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c7a22cac-14d2-4311-a97b-35ae5c3a835d
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Christoph Weber'
+  created:
+    -
+      value: 1698635207
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/christoph-weber
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Christoph
+      middle: ''
+      family: Weber
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Strategy & Communication Coordinator'
+      format: full
+  field_section:
+    -
+      value: govcon

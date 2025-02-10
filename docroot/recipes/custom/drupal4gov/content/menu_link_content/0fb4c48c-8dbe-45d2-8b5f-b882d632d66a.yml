@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 0fb4c48c-8dbe-45d2-8b5f-b882d632d66a
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Support Us'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'internal:/donate'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -45
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

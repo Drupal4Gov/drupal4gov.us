@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: eric.rubino
+  pass:
+    -
+      value: $2y$10$IaSof9kiXejH8kXGFPUt.OXCgigqmUMzjcJfOZnRY/hkhLYoW3dBa
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: eric@demo.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1714492894
+  access:
+    -
+      value: 1731019670
+  login:
+    -
+      value: 1731019193
+  init:
+    -
+      value: recruitmentdirector@drupal4gov.us
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

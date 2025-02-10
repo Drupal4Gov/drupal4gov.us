@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 09c10f6b-f258-437f-9b37-5f1660f749ba
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Who We Are'
+  created:
+    -
+      value: 1696723761
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /who-we-are
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2 class="text-align-center">Our Community</h2><p>At Drupal4Gov, our strength lies in our community. We are a passionate group of volunteers who believe in the power of Drupal to transform government websites and applications. Our community is inclusive, welcoming and supportive. We foster an environment where knowledge sharing, innovation and networking thrive.&nbsp;</p><h2 class="text-align-center">Our Values</h2><ul><li><strong>Collaboration: </strong>Our community members collaborate to tackle complex problems, ensuring that government employees have the skills, resources and connections they need to implement Drupal within their organizations.</li><li><strong>Empowerment: </strong>Our comprehensive documentation, tutorials and training materials equip individuals with the tools to take ownership of their Drupal projects and achieve their digital transformation goals.</li><li><strong>Advocacy: </strong>Our advocacy efforts help employees within government agencies make informed decisions and embrace Drupal <em><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(0, 0, 0);display:inline !important;float:none;font-family:&quot;Freight Text Pro Book&quot;, sans-serif;font-size:18.75px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">— </span></em>a content management system that''s secure, scalable and flexible <em><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(0, 0, 0);display:inline !important;float:none;font-family:&quot;Freight Text Pro Book&quot;, sans-serif;font-size:18.75px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">—</span></em> for their digital initiatives.</li><li><strong>Innovation: </strong>We are passionate about innovation and the continuous improvement of Drupal digital experiences. Our community members actively explore new technologies, techniques and approaches to push the boundaries of what can be achieved with Drupal.</li></ul><h2 class="text-align-center">Get Involved</h2><p>Whether you are a government employee, in the private sector or someone simply interested in the intersection of Drupal and government, there are numerous ways to engage with us. Check out our <a href="https://drupal4gov.us/join-our-community">community page</a> to learn more about how to get involved with Drupal4Gov!&nbsp;</p>'
+      format: full
+      summary: ''

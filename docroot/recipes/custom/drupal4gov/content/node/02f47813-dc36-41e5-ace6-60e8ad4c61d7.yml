@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02f47813-dc36-41e5-ace6-60e8ad4c61d7
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  title:
+    -
+      value: Treasurer
+  created:
+    -
+      value: 1714858576
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /community/opportunities/treasurer
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><meta charset="utf-8"></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Description</span></h2><p style="line-height:1.38;margin-bottom:0pt;margin-left:18pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The role of a Drupal4Gov Treasurer is essential in ensuring the financial health and sustainability of the organization. Responsible for overseeing fiscal matters, financial reporting, and budget management, the Treasurer plays a key role in supporting the organization''s mission and goals within the context of Drupal and government technology.</span></p><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Qualifications</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Financial management experience, preferably in a nonprofit or association setting.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Knowledge of nonprofit financial regulations and compliance requirements.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Familiarity with Drupal and/or government technology is advantageous.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Strong analytical and problem-solving skills.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Attention to detail and accuracy in financial reporting.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Excellent communication and collaboration skills</span></li></ul><h2><span style="background-color:transparent;color:#666666;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Requirements</span></h2><ul style="margin-bottom:0;margin-top:0;padding-inline-start:48px;"><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Manages the budget.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Takes the lead in the annual audit.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Answers questions about the audit.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Chairs the finance committee.</span></li><li style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;list-style-type:disc;text-decoration:none;vertical-align:baseline;white-space:pre;" dir="ltr" aria-level="1"><span style="background-color:transparent;color:#000000;font-family:&apos;Source Sans 3&apos;,sans-serif;font-size:12pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Partners with the executive director to ensure the financial reports are continually updated.</span></li></ul>'
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2fb81a70-675b-4bfe-a7ea-932263f35290
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714858585
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7b805376-435b-4dbb-8944-ee995802fdda
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1714860014
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'https://docs.google.com/forms/d/e/1FAIpQLSej30XjsGywR2ZmmO95jrDm7LWzDIi2uFrPLoI6gvLVO5xyVQ/viewform'
+              title: 'Apply Now'
+              options: {  }

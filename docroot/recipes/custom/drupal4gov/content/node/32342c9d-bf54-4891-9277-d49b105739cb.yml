@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 32342c9d-bf54-4891-9277-d49b105739cb
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Drupal4Gov Webinars'
+  created:
+    -
+      value: 1696730404
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /webinars
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">If you’re looking for a convenient and accessible way to expand your knowledge, learn best practices, and stay up to date with the latest trends in Drupal for the government sector, Drupal4Gov webinars are for you!</span></p><h2 style="line-height:1.44;margin-bottom:4pt;margin-top:18pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:19pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Key Features of Our Webinars</strong></span></h2><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Relevant Topics</strong></span><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: Our webinars cover a wide range of topics that are specific to the needs and challenges of government agencies working with Drupal. We address current trends, emerging technologies, security considerations, accessibility standards, compliance requirements, and other relevant aspects of Drupal implementation within the government sector.</span></p><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Expert Presenters</strong></span><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: We bring together industry experts, experienced government professionals, and seasoned Drupal developers to present our webinars. Our presenters have in-depth knowledge and practical experience in Drupal and the government sector, ensuring that the content is insightful, relevant, and applicable to real-world scenarios.</span></p><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Interactive Format</strong></span><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: Ask questions and share your own expertise! Our webinars encourage the exchange of ideas, experiences, and best practices, fostering a collaborative learning environment.</span></p><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Educational Resources</strong></span><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: You''ll receive documentation, case studies, whitepapers, and other materials to supplement your webinar experience. We strive to offer comprehensive and valuable resources that participants can refer to even after the webinar concludes.</span></p><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Recording and Accessibility</strong></span><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: We understand that scheduling conflicts may prevent you from attending the live webinars. Check out the </span><a href="https://www.youtube.com/@Drupal4Govnp"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Drupal4Gov YouTube</span></a><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> channel, and watch our webinars on demand.&nbsp;</span></p><h2 style="line-height:1.44;margin-bottom:4pt;margin-top:18pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:19pt;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>How to Participate</strong></span></h2><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Drupal4Gov webinars are free! Subscribe to our newsletter or follow us on socials to stay updated on upcoming webinars.&nbsp;</span></p><h3 style="line-height:2.28;margin-bottom:4pt;margin-top:16pt;" dir="ltr"><span style="background-color:transparent;color:#434343;font-family:Arial,sans-serif;font-size:13.999999999999998pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Please Share Your Feedback!</span></h3><p style="line-height:2.28;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><span style="background-color:transparent;color:#353d47;font-family:Arial,sans-serif;font-size:13pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">If there is a specific area of interest or a challenge you would like us to address in a webinar, please reach out via our contact form or message us on socials. Your feedback helps us tailor our webinars to your needs.</span></p>'
+      format: full
+      summary: ''

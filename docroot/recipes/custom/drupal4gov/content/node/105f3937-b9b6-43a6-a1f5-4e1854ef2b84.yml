@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 105f3937-b9b6-43a6-a1f5-4e1854ef2b84
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4bedd9d8-57c1-4135-a14d-baa01801d05d: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4bedd9d8-57c1-4135-a14d-baa01801d05d
+  revision_log:
+    -
+      value: 'Revision message: Website copyedit to comply with Plain Language Guidelines. Following AP Style, as per operations director.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: GovSummit
+  created:
+    -
+      value: 1696783335
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /govsummit
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>Are you a federal, state, or local government employee? Are you a private sector contractor? Then our yearly summit at <a href="https://events.drupal.org/portland2024">DrupalCon</a> is for you!</p><p>GovSummit attendees are project managers, content editors, UX researchers and designers, developers, and more. Every year we offer a whole day of structured presentations and open working sessions. Check out the fantastic <a href="https://events.drupal.org/portland2024/session/government-summit">program</a> we put together this year.</p><p>Join your fellow Drupalers to brainstorm, problem-solve, and innovate. Let’s meet up, share our collective expertise, and create amazing digital experiences that center and cater to ALL users!<br>&nbsp;</p>'
+      format: full
+      summary: ''

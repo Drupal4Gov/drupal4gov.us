@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7ab8b2d7-cc41-4783-9a74-67b5fc117440
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    13750488-3ab2-46b1-ae44-ce55c6431e89: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Blake Newman'
+  created:
+    -
+      value: 1698635243
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/blake-newman
+      langcode: en
+      pathauto: 1
+  field_board_img:
+    -
+      entity: 13750488-3ab2-46b1-ae44-ce55c6431e89
+      alt: 'Picture of Blake Newman'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Blake
+      middle: ''
+      family: Newman
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Program Logistics Coordinator '
+      format: full
+  field_section:
+    -
+      value: govcon

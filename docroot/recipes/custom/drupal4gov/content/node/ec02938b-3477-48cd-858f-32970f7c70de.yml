@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ec02938b-3477-48cd-858f-32970f7c70de
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    1a16662f-d46d-4766-a979-04c870963cc1: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Apply for an Internship'
+  created:
+    -
+      value: 1696871062
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /apply-internship
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Apply for Drupal4Gov’s exciting paid internship opportunities and gain practical experience while contributing to an inclusive and knowledgeable community of professionals in the tech and government space. &nbsp;We offer internships in various areas, including project management, web development, and digital marketing. If you''re interested in joining us as an intern, here''s what you need to know:</p><p>NOTE: All positions for the 2024-2025 academic year are filled.</p><h4>Internship Opportunities</h4><ul><li><a href="/community/opportunities/internship/project-management">Project Management Internship</a></li><li><a href="/community/opportunities/internship/digital-marketing">Digital Marketing Internship</a></li><li><a href="/community/opportunities/internship/web-developer">Drupal Web Development Internship</a></li></ul><p>&nbsp;</p>'
+      format: full
+      summary: ''

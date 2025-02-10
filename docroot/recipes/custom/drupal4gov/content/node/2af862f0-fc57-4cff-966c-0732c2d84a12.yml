@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2af862f0-fc57-4cff-966c-0732c2d84a12
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Speaking and Sharing with Drupal4Gov'
+  created:
+    -
+      value: 1696784071
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /speaking-sharing-with-drupal4gov
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>At Drupal4Gov, we believe in the power of knowledge sharing and collaboration. We invite you to become a part of our community by speaking and sharing your expertise through various channels. Whether it's through blog post submissions, webinar presentations, conference sessions, half-day training sessions, or becoming a trainer, there are multiple avenues for you to contribute and make a meaningful impact.</p><p><strong>Blog Post Submission</strong>: Share your expertise, insights, and experiences by submitting a blog post to Drupal4Gov. We welcome high-quality, informative, and thought-provoking articles related to Drupal and the government sector. Whether it's a case study, best practice guide, or a deep dive into a specific topic, your blog post can provide valuable information and insights to our community. Submit your article for consideration, and if selected, it will be published on the Drupal4Gov website, reaching a wide audience of government professionals and Drupal enthusiasts.</p><p><strong>Be a Webinar Presenter</strong>: Consider becoming a webinar presenter for Drupal4Gov. Our webinars offer a convenient platform to share your knowledge, best practices, and innovative ideas with government professionals, Drupal developers, and industry experts. As a webinar presenter, you can deliver engaging and informative presentations, conduct live demos, and engage in Q&amp;A sessions with participants. If you have specialized knowledge in Drupal or the government sector, reach out to us with your webinar topic proposal. We will work together to schedule and promote your webinar, providing a valuable learning opportunity for our community.</p><p><strong>Drupal GovCon Session Submission</strong>: Drupal GovCon, our flagship conference, provides an excellent platform for you to showcase your expertise and contribute to the Drupal and government communities. We invite you to submit a session proposal for Drupal GovCon, whether it's a presentation, panel discussion, or workshop. Share your knowledge, insights, and success stories with a diverse audience of government professionals, Drupal developers, and industry leaders. Drupal GovCon offers a unique opportunity to network, collaborate, and inspire others while gaining visibility and recognition within the community.</p><p><strong>Half-Day Session Submission</strong>: If you have specialized knowledge and want to deliver an in-depth training experience, consider submitting a proposal for a half-day session. These sessions provide focused and intensive instruction on specific topics within Drupal and the government sector. You can share your expertise, practical insights, and hands-on skills with participants, equipping them with the knowledge to overcome specific challenges in government projects. Submit your proposal, outline your session's learning objectives and structure, and contribute to the professional development of our community.</p><p><strong>Be a Trainer</strong>: If you are passionate about teaching and helping others grow, consider becoming a trainer for Drupal4Gov. As a trainer, you can design and deliver training programs, share your expertise, and guide government professionals and Drupal developers in acquiring new skills and knowledge. Whether it's conducting full-day training sessions, half-day workshops, or online courses, your expertise can shape the learning journey of our community members. Reach out to us to discuss your training ideas and explore opportunities to become a trainer with Drupal4Gov.</p><p>By speaking and sharing your expertise through blog posts, webinars, conference sessions, half-day training sessions, or as a trainer, you play a vital role in advancing the knowledge and skills of our community members. Your contributions help foster innovation, collaboration, and growth within the Drupal and government sectors.</p>"
+      format: full
+      summary: ''

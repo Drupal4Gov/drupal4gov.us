@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f1d3db6-9fd4-4869-98d4-1197f411a308
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+default:
+  revision_uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Tim Wood'
+  created:
+    -
+      value: 1698635245
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/tim-wood
+      langcode: en
+      pathauto: 1
+  field_name:
+    -
+      title: ''
+      given: Tim
+      middle: ''
+      family: Wood
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Registration Lead'
+      format: full

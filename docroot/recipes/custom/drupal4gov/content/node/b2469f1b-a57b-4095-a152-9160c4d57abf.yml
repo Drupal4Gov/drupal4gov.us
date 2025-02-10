@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2469f1b-a57b-4095-a152-9160c4d57abf
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    7059347b-0089-4e43-ac42-f92f8f1c68df: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Mike Madison'
+  created:
+    -
+      value: 1698635184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/mike-madison
+      langcode: en
+      pathauto: 1
+  field_board_img:
+    -
+      entity: 7059347b-0089-4e43-ac42-f92f8f1c68df
+      alt: 'Placeholder Image'
+      title: ''
+      width: 285
+      height: 285
+  field_name:
+    -
+      title: ''
+      given: Mike
+      middle: ''
+      family: Madison
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Director of Technology'
+      format: full
+  field_section:
+    -
+      value: govcon

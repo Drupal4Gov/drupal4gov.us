@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8768f1e7-162c-4f09-b12d-c97677701fec
+  bundle: blog_author
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Kirsten Burgard'
+  created:
+    -
+      value: 1712781618
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /author/kirsten-burgard
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Testing. &nbsp;Fix this later.</p>'
+      format: full
+      summary: ''
+  field_position:
+    -
+      value: 'Drupal4gov Founder'

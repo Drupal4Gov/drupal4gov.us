@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 10941cf4-9376-43e5-9a3d-d3ec5da61f64
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: SMB_5592.JPG
+  uri:
+    -
+      value: 'public://2024-05/SMB_5592.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1336005
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1714697596

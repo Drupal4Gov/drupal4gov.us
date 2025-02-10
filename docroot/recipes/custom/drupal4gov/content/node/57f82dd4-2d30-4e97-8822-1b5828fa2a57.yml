@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 57f82dd4-2d30-4e97-8822-1b5828fa2a57
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    1a16662f-d46d-4766-a979-04c870963cc1: user
+default:
+  revision_uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 1a16662f-d46d-4766-a979-04c870963cc1
+  title:
+    -
+      value: 'Project Management Internship'
+  created:
+    -
+      value: 1731008833
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /community/opportunities/internship/project-management
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Description</h2><p>As a project management intern at Drupal4Gov, you will play a crucial role in supporting the day-to-day operations and organizational aspects of our community. You'll work closely with the Drupal4Gov team to assist in tasks such as event coordination, community outreach, content creation, and social media management. This internship offers an opportunity to develop organizational skills, gain insight into the operations of a vibrant community, and contribute to the growth and success of Drupal4Gov.</p><h3>Key Responsibilities</h3><ul><li>Assist with event coordination, logistics, and attendee communication.</li><li>Support community outreach initiatives, including social media management and content creation.</li><li>Assist with project management tasks such as documentation, data entry, and records maintenance.</li><li>Collaborate with the Drupal4Gov team to contribute to community initiatives and projects.</li><li>Assist with reporting on project status and health, identifying, managing, and resolving project risks and issues</li><li>Assist with monitoring quality assurance and change control processes</li><li>Proactively communicate with sponsors, team, and all other relevant stakeholders for each assigned project as directed</li><li>Documentation and preparation for quarterly Board meetings including agenda creation and powerpoint presentation</li></ul><h3>Qualifications</h3><ul><li>Strong organizational and time management skills</li><li>Excellent communication and interpersonal skills</li><li>Ability to work independently and problem solve</li><li>Attention to detail and ability to multitask</li><li>Familiarity with Drupal or the government sector is a plus but not required</li><li>Proficiency in basic computer applications and online collaboration tools</li></ul>"
+      format: full
+      summary: ''
+  field_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a71e7b16-8cdf-4f4b-a4b2-bb87ebb40f57
+          bundle: view
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1731009623
+          behavior_settings:
+            -
+              value: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7d5b05a5-016e-4a4f-bad5-5b641d3efa90
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1734123043
+          behavior_settings:
+            -
+              value: {  }
+          field_font_color:
+            -
+              value: style--font-black
+          field_link:
+            -
+              uri: 'internal:/form/intern-application'
+              title: 'Apply Now'
+              options: {  }

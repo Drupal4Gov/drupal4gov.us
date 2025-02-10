@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 94fa4dea-8219-4d85-bd71-ab11555d66b5
+  bundle: basic_page
+  default_langcode: en
+  depends:
+    4e42d7fe-bc84-4304-ac97-d2b08551f4f4: user
+    49fdaa88-9356-458f-8a01-95d236fb7a1f: user
+default:
+  revision_uid:
+    -
+      entity: 4e42d7fe-bc84-4304-ac97-d2b08551f4f4
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 49fdaa88-9356-458f-8a01-95d236fb7a1f
+  title:
+    -
+      value: 'Apply for Scholarship'
+  created:
+    -
+      value: 1696872541
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /apply-scholarship
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>At Drupal4Gov, we believe in creating an inclusive and accessible community for individuals interested in Drupal. We offer scholarships to ensure that financial constraints do not hinder participation in Drupal events, conferences, training programs, and other valuable opportunities. If you are passionate about Drupal but facing financial limitations, we encourage you to apply for a scholarship.</p><p>Here's how:</p><h3>Eligibility</h3><p>Our scholarships are open to individuals who demonstrate a genuine interest in Drupal, regardless of their background or experience level. Whether you're a student, professional, or enthusiast, we welcome applications from individuals who can benefit from and contribute to the Drupal4Gov community.</p><h3>Evaluation and Selection Process</h3><p>All scholarship applications will be reviewed by the Drupal4Gov scholarship committee. Selection will be based on a combination of factors, including financial need, passion for Drupal and the government sector, commitment to community engagement, and potential impact. The committee will assess applications carefully and select deserving candidates who align with the scholarship's purpose and goals.</p><h3>Notification</h3><p>Once the selection process is complete, you will be notified of the outcome via the contact information provided in your application. If you are awarded a scholarship, you will receive details about the next steps, including any necessary instructions or requirements.</p><p>We encourage you to take advantage of the scholarship opportunities available through Drupal4Gov. By applying for a scholarship, you can overcome financial barriers and participate in valuable events, training programs, and community initiatives. We are committed to creating an inclusive community where everyone has equal opportunities to learn, contribute, and excel.</p><p>Ready to apply for a scholarship?</p>"
+      format: full
+      summary: ''

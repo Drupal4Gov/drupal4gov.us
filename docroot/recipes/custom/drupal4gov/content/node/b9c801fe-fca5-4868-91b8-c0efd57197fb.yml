@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b9c801fe-fca5-4868-91b8-c0efd57197fb
+  bundle: board_member
+  default_langcode: en
+  depends:
+    139b611e-838d-4ec3-8e26-61bf34d90536: user
+    9cf28b1a-68c4-4b68-b652-149fe69d6c4f: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 139b611e-838d-4ec3-8e26-61bf34d90536
+  title:
+    -
+      value: 'Nneka Hector'
+  created:
+    -
+      value: 1698635106
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /board-member/nneka-hector
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Nneka Hector has been a dedicated volunteer with Drupal4Gov for a nearly a decade. What started as attendance at events soon transformed into active involvement in the organization. Passionate about empowering the community, Nneka is a staunch advocate for code contribution and webinar trainings. Taking the lead, Nneka ensures the success of the organization's webinars and spearheads code contributions, driving innovation and collaboration within the Drupal4Gov community. Currently, Nneka holds two vital roles as the Co-Organizer of the Drupal GovCon conference and as a Member at-large for the Drupal4Gov Non-Profit.</p>"
+      format: full
+      summary: ''
+  field_board_img:
+    -
+      entity: 9cf28b1a-68c4-4b68-b652-149fe69d6c4f
+      alt: 'Image of Nneka Hector'
+      title: ''
+      width: 6192
+      height: 4128
+  field_name:
+    -
+      title: ''
+      given: Nneka
+      middle: ''
+      family: Hector
+      generational: ''
+      credentials: ''
+  field_role:
+    -
+      value: 'Member at-large'
+      format: full
+  field_section:
+    -
+      value: board

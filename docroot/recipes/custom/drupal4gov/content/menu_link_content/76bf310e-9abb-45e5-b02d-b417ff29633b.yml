@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 76bf310e-9abb-45e5-b02d-b417ff29633b
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    35c356c6-32f7-41af-a35d-69ce4e7cc175: menu_link_content
+    d59782ac-58df-44de-8ae8-37814f41ee94: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Submit a Blog Post'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: d59782ac-58df-44de-8ae8-37814f41ee94
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:35c356c6-32f7-41af-a35d-69ce4e7cc175'
+  revision_translation_affected:
+    -
+      value: true
