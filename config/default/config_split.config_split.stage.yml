@@ -6,13 +6,14 @@ id: stage
 label: Stage
 description: ''
 weight: 1
+stackable: false
+no_patching: false
+storage: folder
 folder: ../config/envs/stage
 module:
   acquia_connector: 0
   qa_accounts: 0
   syslog: 0
 theme: {  }
-blacklist: {  }
-graylist: {  }
-graylist_dependents: true
-graylist_skip_equal: true
+complete_list: {  }
+partial_list: {  }
