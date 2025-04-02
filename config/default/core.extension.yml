@@ -39,6 +39,7 @@ module:
   file_mdm_font: 0
   filter: 0
   google_tag: 0
+  honeypot: 0
   image: 0
   image_effects: 0
   inline_entity_form: 0
