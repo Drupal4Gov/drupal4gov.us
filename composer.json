@@ -42,7 +42,7 @@
         "drupal/minifyhtml": "^2.0",
         "drupal/name": "^1.0",
         "drupal/paragraphs": "^1.17",
-        "drupal/pathauto": "^1.12",
+        "drupal/pathauto": "^1.13",
         "drupal/qa_accounts": "^1.0",
         "drupal/redirect": "^1.8",
         "drupal/shield": "^1.7",
