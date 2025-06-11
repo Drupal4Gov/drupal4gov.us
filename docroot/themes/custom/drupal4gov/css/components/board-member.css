@@ -1,22 +1,33 @@
 .view-board-member .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 32px;
 }
 .view-board-member .views-row {
-  flex: 1 0 22%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 22%;
+          flex: 1 0 22%;
 }
 .view-board-member .node__content {
   text-align: center;
 }
 
 .node--type-board-member.node--view-mode-teaser {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
   min-height: 250px;
-  align-content: center;
-  align-self: stretch;
-  justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 .node--type-board-member.node--view-mode-teaser h3 {
@@ -35,7 +46,8 @@
 }
 .node--type-board-member.node--view-mode-teaser img {
   border: 5px solid var(--blue-light);
-  box-shadow: 0 0 10px rgba(53, 61, 71, 0.4509803922);
+  -webkit-box-shadow: 0 0 10px rgba(53, 61, 71, 0.4509803922);
+          box-shadow: 0 0 10px rgba(53, 61, 71, 0.4509803922);
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 100%;

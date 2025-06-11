@@ -3,8 +3,12 @@
 }
 
 :is(a, button, input).pill {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: auto;
   padding: 10px 20px;
   border: 2px solid #eee;
@@ -13,6 +17,7 @@
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 @media only screen and (max-width: 750px) {
@@ -27,8 +32,12 @@
 }
 
 :is(a, button, input).pill--primary {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: auto;
   padding: 10px 20px;
   border: 2px solid #eee;
@@ -37,6 +46,7 @@
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   background-color: var(--blue-bright);
   border-color: transparent;

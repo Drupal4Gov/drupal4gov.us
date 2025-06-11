@@ -1,9 +1,15 @@
 .hero {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 60px;
 }
 @media (min-width: 600px) {
@@ -39,16 +45,23 @@
 }
 @media (min-width: 950px) {
   .hero__content {
-    flex-basis: 551px;
+    -ms-flex-preferred-size: 551px;
+        flex-basis: 551px;
     text-align: unset;
   }
 }
 
 .hero__cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 20px;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 80px;
@@ -60,8 +73,12 @@
   }
 }
 .hero__cta a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: auto;
   padding: 10px 20px;
   border: 2px solid #eee;
@@ -70,6 +87,7 @@
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   font-size: 16px;
 }
@@ -84,8 +102,12 @@
   outline-offset: 2px;
 }
 .hero__cta a:first-child {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: auto;
   padding: 10px 20px;
   border: 2px solid #eee;
@@ -94,6 +116,7 @@
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   background-color: var(--blue-bright);
   border-color: transparent;

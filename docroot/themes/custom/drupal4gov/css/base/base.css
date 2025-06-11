@@ -2,7 +2,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -29,6 +30,7 @@ main {
   border-bottom: solid 1px transparent;
 }
 .path-frontpage main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#F6F6F6));
   background-image: linear-gradient(180deg, transparent 0%, #F6F6F6 100%);
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -38,6 +40,7 @@ a {
   color: var(--blue-dark);
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 a:hover, a:focus, a:active {
@@ -119,8 +122,10 @@ h6 {
 
 blockquote {
   margin-block: var(--spacing-xxl);
-  padding-inline-start: 20px;
-  border-inline-start: solid 10px var(--blue-light);
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  -webkit-border-start: solid 10px var(--blue-light);
+          border-inline-start: solid 10px var(--blue-light);
   color: var(--blue-dark);
 }
 

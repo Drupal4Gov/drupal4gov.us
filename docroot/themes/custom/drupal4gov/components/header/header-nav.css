@@ -23,7 +23,10 @@ body.is-fixed {
   padding: 0 var(--container-padding);
   border-top: solid 70px var(--color-background);
   background-color: var(--color-background);
+  -webkit-transition: visibility 0.2s, -webkit-transform 0.2s;
+  transition: visibility 0.2s, -webkit-transform 0.2s;
   transition: visibility 0.2s, transform 0.2s;
+  transition: visibility 0.2s, transform 0.2s, -webkit-transform 0.2s;
   /*
    * Ensure top border has the same color as the background when in forced colors.
    */
@@ -41,7 +44,8 @@ body.is-fixed {
 }
 .header-nav.is-active {
   visibility: visible;
-  transform: translateX(calc(-100% - var(--drupal-displace-offset-right, 0px)));
+  -webkit-transform: translateX(calc(-100% - var(--drupal-displace-offset-right, 0px)));
+          transform: translateX(calc(-100% - var(--drupal-displace-offset-right, 0px)));
 }
 @media (forced-colors: active) {
   .header-nav {
@@ -54,18 +58,29 @@ body.is-fixed {
     position: relative;
     inset: revert;
     z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     visibility: revert;
     overflow: revert;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: none;
-    margin-block-start: auto;
+    -webkit-margin-before: auto;
+            margin-block-start: auto;
     padding-block: 0;
     padding-inline: 0;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
-    transform: none;
-    border-block-start: 0;
-    box-shadow: none;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-border-before: 0;
+            border-block-start: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 }
 

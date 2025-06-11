@@ -24,6 +24,7 @@ services:
     type: node:22
     globals:
       gulp-cli: latest
+      npm: latest
 tooling:
   blt:
     service: appserver
