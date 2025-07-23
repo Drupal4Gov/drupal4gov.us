@@ -7,12 +7,6 @@ config:
 services:
   appserver:
     xdebug: false
-    build_as_root:
-      - apt-get update
-      - apt-get install libxss1
-      - echo "Run additional build commands here. Run lando rebuild after updating this file."
-      - curl -sL https://deb.nodesource.com/setup_14.x | bash -
-      - apt install -y nodejs
     overrides:
       # Pass SSH keys.
       volumes:
@@ -26,6 +20,11 @@ services:
         SSH_AUTH_SOCK: /run/host-services/ssh-auth.sock
       cap_add:
         - SYS_ADMIN
+  node:
+    type: node:22
+    globals:
+      gulp-cli: latest
+      npm: latest
 tooling:
   blt:
     service: appserver
@@ -45,6 +44,12 @@ tooling:
     description: Fix ssh auth sock permission for MacOS users. Lando rebuild fixes the problem as well.
     cmd: "/bin/chgrp www-data /run/host-services/ssh-auth.sock && /bin/chmod g+w /run/host-services/ssh-auth.sock"
     user: root
+  node:
+    service: node
+  npm:
+    service: node
+  gulp:
+    service: node
 events:
   post-start:
     - appserver: test -e ~/.ssh/config || printf 'Host *\n  AddKeysToAgent yes\n' > ~/.ssh/config

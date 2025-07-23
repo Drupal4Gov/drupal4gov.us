@@ -21,6 +21,7 @@
   width: 50px;
   height: 100%;
   content: "";
+  background: -webkit-gradient(linear, right top, left top, from(var(--color-background)), to(transparent));
   background: linear-gradient(to left, var(--color-background) 0%, transparent); /* LTR */
 }
 @media (min-width: 800px) {
@@ -30,20 +31,24 @@
 }
 
 [dir=rtl] .breadcrumb::after {
+  background: -webkit-gradient(linear, left top, right top, from(var(--color-background)), to(transparent));
   background: linear-gradient(to right, var(--color-background) 0%, transparent);
 }
 
 .breadcrumb__content {
   overflow: auto;
   margin: calc(-1 * var(--padding));
-  margin-inline-end: calc(-2 * var(--padding));
+  -webkit-margin-end: calc(-2 * var(--padding));
+          margin-inline-end: calc(-2 * var(--padding));
   padding-block: var(--padding);
-  padding-inline-start: var(--padding);
+  -webkit-padding-start: var(--padding);
+          padding-inline-start: var(--padding);
   -webkit-overflow-scrolling: touch;
 }
 
 .breadcrumb__list {
   overflow-x: auto;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 0;
@@ -67,21 +72,27 @@
   height: var(--separator-width);
   margin-inline: var(--separator-spacing);
   content: "";
-  transform: rotate(45deg) translatex(-25%); /* LTR */
-  border-block-start: 2px solid var(--color-icon);
-  border-inline-end: 2px solid var(--color-icon);
+  -webkit-transform: rotate(45deg) translatex(-25%);
+          transform: rotate(45deg) translatex(-25%); /* LTR */
+  -webkit-border-before: 2px solid var(--color-icon);
+          border-block-start: 2px solid var(--color-icon);
+  -webkit-border-end: 2px solid var(--color-icon);
+          border-inline-end: 2px solid var(--color-icon);
 }
 .breadcrumb__item:last-child {
-  margin-inline-end: 50px;
+  -webkit-margin-end: 50px;
+          margin-inline-end: 50px;
 }
 @media (min-width: 800px) {
   .breadcrumb__item:last-child {
-    margin-inline-end: 0;
+    -webkit-margin-end: 0;
+            margin-inline-end: 0;
   }
 }
 
 [dir=rtl] .breadcrumb__item:nth-child(n+2)::before {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .breadcrumb__link {

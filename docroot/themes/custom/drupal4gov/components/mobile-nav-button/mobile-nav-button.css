@@ -13,12 +13,18 @@
   --color-background: transparent;
   position: relative;
   z-index: 505; /* Appear above mobile nav. */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   width: var(--size);
   height: var(--size);
-  margin-inline-end: auto;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
   padding-block: 0;
   padding-inline: 6px;
   cursor: pointer;
@@ -35,7 +41,8 @@
   color: inherit; /* Override Safari's default UA styles. */
 }
 .mobile-nav-button * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mobile-nav-button__icon {
@@ -53,22 +60,29 @@
   width: 100%;
   height: 0;
   content: "";
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
   border-top: solid 3px var(--color-primary);
 }
 .mobile-nav-button__icon::before {
-  transform: translateY(-11px);
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
 }
 .mobile-nav-button__icon::after {
-  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
 }
 
 .mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon {
   border-top-color: transparent;
 }
 .mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon::before {
-  transform: translateY(-3px) rotate(-45deg);
+  -webkit-transform: translateY(-3px) rotate(-45deg);
+          transform: translateY(-3px) rotate(-45deg);
 }
 .mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon::after {
-  transform: translateY(-3px) rotate(45deg);
+  -webkit-transform: translateY(-3px) rotate(45deg);
+          transform: translateY(-3px) rotate(45deg);
 }

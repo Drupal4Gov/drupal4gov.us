@@ -23,8 +23,10 @@
   left: 50%;
   width: 16px;
   height: 16px;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   border-radius: 2px;
 }
 .primary-nav__button-toggle .icon--menu-toggle::before, .primary-nav__button-toggle .icon--menu-toggle::after {
@@ -34,12 +36,15 @@
   width: 15px;
   height: 0;
   content: "";
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   border-top: solid 3px var(--color-icon);
 }
 .primary-nav__button-toggle .icon--menu-toggle::after {
+  -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  transform: translate(-50%, -50%) rotate(90deg);
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
 }
 .primary-nav__button-toggle[aria-expanded=true] .icon--menu-toggle::after {
   opacity: 0;
@@ -53,11 +58,14 @@
  */
 @media (min-width: 1200px) {
   body:not(.is-always-mobile-nav) .primary-nav__button-toggle {
-    flex-shrink: 0;
-    align-self: stretch;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
     height: auto;
     margin-block: 0;
-    margin-inline-end: -30px;
+    -webkit-margin-end: -30px;
+            margin-inline-end: -30px;
     color: inherit;
   }
   body:not(.is-always-mobile-nav) .primary-nav__button-toggle:focus-visible {
@@ -76,7 +84,8 @@
   body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle {
     inset-inline-start: 3px;
     width: 18px;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     border-radius: 4px;
     background-color: var(--color--white);
   }
@@ -89,7 +98,8 @@
     width: 7px;
     height: 7px;
     content: "";
-    transform: translateY(-50%) rotate(45deg);
+    -webkit-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
     opacity: 0.8;
     border-top: none;
     border-right: solid 2px currentColor;

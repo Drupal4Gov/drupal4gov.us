@@ -1,11 +1,20 @@
 .icon-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .icon-card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
   width: 100%;
   padding: 40px;
@@ -13,6 +22,7 @@
   border-radius: 8px;
   background-color: white;
   color: var(--blue-bright);
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   text-decoration: none;
   text-align: center;

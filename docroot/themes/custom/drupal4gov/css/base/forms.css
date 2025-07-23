@@ -156,8 +156,10 @@ select {
   max-width: 100%;
   height: var(--form-element-height);
   padding-block: 0;
-  padding-inline-start: var(--form-element-padding);
-  padding-inline-end: calc(3 * var(--form-element-padding));
+  -webkit-padding-start: var(--form-element-padding);
+          padding-inline-start: var(--form-element-padding);
+  -webkit-padding-end: calc(3 * var(--form-element-padding));
+          padding-inline-end: calc(3 * var(--form-element-padding));
   color: var(--form-element-color);
   border: 1px solid var(--form-element-border-color);
   border-radius: var(--form-element-border-radius);
@@ -196,7 +198,8 @@ select[multiple] option {
 }
 @media (forced-colors: active) {
   select {
-    padding-inline-end: var(--form-element-padding);
+    -webkit-padding-end: var(--form-element-padding);
+            padding-inline-end: var(--form-element-padding);
     background-image: none;
     -webkit-appearance: revert;
        -moz-appearance: revert;
@@ -229,7 +232,8 @@ select[multiple] option {
 [type=checkbox] + label,
 [type=radio] + label {
   display: inline-block;
-  padding-inline-start: calc(0.5 * var(--form-element-padding));
+  -webkit-padding-start: calc(0.5 * var(--form-element-padding));
+          padding-inline-start: calc(0.5 * var(--form-element-padding));
 }
 
 [type=radio] {
@@ -268,8 +272,12 @@ select[multiple] option {
 }
 
 .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: var(--form-element-height);
   margin-block: var(--form-spacing);
   padding-inline: calc(3 * var(--form-element-padding));

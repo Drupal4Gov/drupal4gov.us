@@ -6,6 +6,7 @@
   margin-inline: 1.5em 0;
 }
 .text-formatted ul li, .text-formatted ol li {
-  padding-inline-start: 0.5em;
+  -webkit-padding-start: 0.5em;
+          padding-inline-start: 0.5em;
   margin-bottom: var(--spacing-xs);
 }

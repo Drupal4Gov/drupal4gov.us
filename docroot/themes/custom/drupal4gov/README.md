@@ -2,5 +2,5 @@ drupal4gov theme, generated from starterkit_theme. Additional information on gen
 
 Navigate to the theme.
 
-- `npm install`
-- `gulp watch`
+- `lando npm install`
+- `lando gulp watch`

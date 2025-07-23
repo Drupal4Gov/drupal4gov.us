@@ -9,7 +9,8 @@
 .paragraph--type--hover-image-cta .hover-image--wrapper:hover .body {
   z-index: 0;
   background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 20px rgba(53, 61, 71, 0.45);
+  -webkit-box-shadow: 0 0 20px rgba(53, 61, 71, 0.45);
+          box-shadow: 0 0 20px rgba(53, 61, 71, 0.45);
   height: 100%;
 }
 .paragraph--type--hover-image-cta .hover-image--wrapper img {
@@ -17,20 +18,31 @@
   height: 343px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background-position: 50%;
 }
 .paragraph--type--hover-image-cta .hover-image--wrapper .body {
   background: #0063DE;
   opacity: 0.77;
+  -webkit-transition: height 0.25s, opacity 0.3s;
   transition: height 0.25s, opacity 0.3s;
   position: absolute;
   bottom: 0;
   padding: 1.1rem 1.67rem 0.28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 320px;
   height: 35%;
   left: 0;
@@ -53,14 +65,26 @@
 .paragraph--type--hover-image-cta.card-orientation-horizontal .body {
   opacity: 0.77;
   padding: 1.1rem 1.67rem 0.28rem;
+  -webkit-transition: height 0.25s, opacity 0.3s;
   transition: height 0.25s, opacity 0.3s;
-  align-content: center;
-  align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 100%;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 50%;
   max-width: 675px;
   max-height: 343px;
