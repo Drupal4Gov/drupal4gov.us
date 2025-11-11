@@ -49,16 +49,17 @@ content:
     weight: 0
     region: content
     settings:
-      override_field_settings: false
+      override_field_settings: true
       labels:
         title: Title
-        given: Given
+        given: 'First Name'
         middle: 'Middle name(s)'
-        family: Family
+        family: 'Last Name'
         generational: Generational
         credentials: Credentials
-      widget_layout: stacked
-      show_component_required_marker: false
+      widget_layout: inline
+      show_component_required_marker: true
+      flag_required_input: true
       credentials_inline: false
       size:
         title: 6
@@ -69,12 +70,12 @@ content:
         credentials: 35
       title_display:
         title: description
-        given: description
+        given: placeholder
         middle: description
-        family: description
+        family: placeholder
         generational: description
         credentials: description
-      field_title_display: invisible
+      field_title_display: none
     third_party_settings: {  }
   field_role:
     type: text_textfield

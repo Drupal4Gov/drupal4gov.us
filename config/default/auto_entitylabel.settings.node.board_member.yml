@@ -1,0 +1,10 @@
+status: 1
+pattern: '[node:field_name]'
+escape: false
+preserve_titles: false
+save: true
+chunk: 50
+dependencies:
+  config:
+    - node.type.board_member
+new_content_behavior: 0
