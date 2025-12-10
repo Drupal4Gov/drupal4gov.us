@@ -8568,16 +8568,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v6.4.23",
+            "version": "v6.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "452d19f945ee41345fd8a50c18b60783546b7bd3"
+                "reference": "b03d11e015552a315714c127d8d1e0f9e970ec88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/452d19f945ee41345fd8a50c18b60783546b7bd3",
-                "reference": "452d19f945ee41345fd8a50c18b60783546b7bd3",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b03d11e015552a315714c127d8d1e0f9e970ec88",
+                "reference": "b03d11e015552a315714c127d8d1e0f9e970ec88",
                 "shasum": ""
             },
             "require": {
@@ -8625,7 +8625,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.23"
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.29"
             },
             "funding": [
                 {
@@ -8637,11 +8637,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-26T09:17:58+00:00"
+            "time": "2025-11-08T16:40:12+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -9481,7 +9485,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -9541,7 +9545,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -9550,6 +9554,10 @@
                 },
                 {
                     "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
