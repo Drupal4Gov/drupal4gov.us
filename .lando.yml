@@ -5,6 +5,8 @@ config:
   xdebug: false
   php: '8.3'
 services:
+  database:
+    type: 'mysql:8.0'
   appserver:
     xdebug: false
     overrides:
