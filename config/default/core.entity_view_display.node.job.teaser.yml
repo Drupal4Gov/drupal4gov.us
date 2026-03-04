@@ -1,0 +1,47 @@
+uuid: 16bb8bc0-7703-4953-9475-f85d4ea6526d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.job.body
+    - field.field.node.job.field_application_link
+    - field.field.node.job.field_qualifications
+    - field.field.node.job.field_requirements
+    - node.type.job
+  module:
+    - manage_display
+    - text
+id: node.job.teaser
+targetEntityType: node
+bundle: job
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  field_application_link: true
+  field_qualifications: true
+  field_requirements: true
+  uid: true

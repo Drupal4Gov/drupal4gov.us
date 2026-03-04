@@ -1,0 +1,19 @@
+uuid: 060f700f-17a2-4208-853a-8568816e05d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_qualifications
+field_name: field_qualifications
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
