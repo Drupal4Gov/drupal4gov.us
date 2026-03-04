@@ -1,17 +1,10 @@
 adding:
-  cache:
-    page:
-      max_age: 86400
   css:
     preprocess: false
   js:
     preprocess: false
 removing:
-  cache:
-    page:
-      max_age: 0
   css:
     preprocess: true
   js:
     preprocess: true
-  stale_file_threshold: 2592000
