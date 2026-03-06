@@ -1,0 +1,22 @@
+uuid: 2690128f-790f-42b1-813a-1cabe813e322
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: job
+label: Job
+type: 'canonical_entities:node'
+pattern: 'community/opportunities/[node:title]'
+selection_criteria:
+  efcf67fe-b66c-4516-a6e7-68a1b0529f58:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: efcf67fe-b66c-4516-a6e7-68a1b0529f58
+    context_mapping:
+      node: node
+    bundles:
+      job: job
+selection_logic: and
+weight: -5
+relationships: {  }
