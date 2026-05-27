@@ -7,7 +7,7 @@ dependencies:
 id: job
 label: Job
 type: 'canonical_entities:node'
-pattern: 'community/opportunities/[node:title]'
+pattern: '/community/opportunities/[node:title]'
 selection_criteria:
   efcf67fe-b66c-4516-a6e7-68a1b0529f58:
     id: 'entity_bundle:node'
