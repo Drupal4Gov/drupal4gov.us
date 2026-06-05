@@ -1,0 +1,46 @@
+uuid: d11d2ad8-5fec-4cf3-b351-d4db93622ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.job
+    - paragraphs.paragraphs_type.cta
+  module:
+    - entity_reference_revisions
+id: node.job.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: job
+label: CTA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cta: cta
+    negate: 0
+    target_bundles_drag_drop:
+      cta:
+        weight: 7
+        enabled: true
+      hover_image_cta:
+        weight: 8
+        enabled: false
+      media_text_column:
+        weight: 9
+        enabled: false
+      testimonial:
+        weight: 10
+        enabled: false
+      testimonials:
+        weight: 11
+        enabled: false
+      view:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

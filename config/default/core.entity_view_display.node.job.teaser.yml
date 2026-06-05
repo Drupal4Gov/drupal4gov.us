@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.job.body
-    - field.field.node.job.field_application_link
+    - field.field.node.job.field_paragraph
     - field.field.node.job.field_qualifications
     - field.field.node.job.field_requirements
     - node.type.job
@@ -41,7 +41,7 @@ content:
     region: content
 hidden:
   created: true
-  field_application_link: true
+  field_paragraph: true
   field_qualifications: true
   field_requirements: true
   uid: true

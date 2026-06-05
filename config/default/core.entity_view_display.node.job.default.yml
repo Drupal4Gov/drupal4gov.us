@@ -4,12 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.job.body
-    - field.field.node.job.field_application_link
+    - field.field.node.job.field_paragraph
     - field.field.node.job.field_qualifications
     - field.field.node.job.field_requirements
     - node.type.job
   module:
-    - link
+    - entity_reference_revisions
     - manage_display
     - text
 id: node.job.default
@@ -24,28 +24,25 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_application_link:
-    type: link
-    label: above
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: hidden
     settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    weight: 104
+    weight: 3
     region: content
   field_qualifications:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 102
     region: content
   field_requirements:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 103
