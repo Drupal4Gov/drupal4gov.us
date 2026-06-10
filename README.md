@@ -89,7 +89,7 @@ lando blt tests
 * Ensure no other changes have been made to the upstream/develop branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
 ```
 git fetch upstream
-git rebase upstream/main
+git rebase upstream/develop
 ```
 * Push your commit(s) to *your* origin
 ```
