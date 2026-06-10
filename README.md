@@ -5,13 +5,13 @@ Welcome to the repo for the Drupal4Gov Website. This is an open source project w
 
 This project is built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
 
-* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://docs.acquia.com/blt/install/) and [Lando System Requirements](https://docs.lando.dev/basics/installation.html).
+* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://web.archive.org/web/20240418183307/https://docs.acquia.com/acquia-cms/add-ons/blt/install) and [Lando System Requirements](https://docs.lando.dev/getting-started/requirements.html).
 * Fork the parent repository in GitHub (see button to right of repository title to do this)
 * Request access to the Drupal4Gov organization in GitHub
 * Request access to the Acquia Cloud Environment for Drupal GovCon
 * Setup a SSH key that can be used for GitHub and the Acquia Cloud (you CAN use the same key)
     * [Setup GitHub SSH Keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-    * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
+    * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud-platform/generating-ssh-public-key)
 
 After creating a fork of the repository in GitHub and installing all dependencies above there are only a few commands to get started:
 
@@ -45,7 +45,7 @@ Note that the new local project url is http://drupal4gov.lndo.site:8080
 
 ## Working with Lando and BLT
 
-Our team utilizes a standard [Git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for our development workflow. You can read more about our recommended workflow in the [BLT docs](https://docs.acquia.com/blt/developer/dev-workflow/#workflow-example-local-development).
+Our team utilizes a standard [Git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for our development workflow. You can read more about our recommended workflow in the [BLT docs](https://web.archive.org/web/20191213123410/https://docs.acquia.com/blt/developer/dev-workflow/#workflow-example-local-development).
 
 In general, "all" commands (drush, blt, etc.) should be run "inside" the Lando container. You can do this by first running the `lando` command.
 
