@@ -5,15 +5,14 @@ dependencies:
   config:
     - field.field.node.board_member.body
     - field.field.node.board_member.field_board_img
+    - field.field.node.board_member.field_media
     - field.field.node.board_member.field_name
     - field.field.node.board_member.field_role
     - field.field.node.board_member.field_section
-    - image.style.thumbnail
+    - image.style.medium
     - node.type.board_member
   module:
     - image
-    - name
-    - options
     - text
 id: node.board_member.default
 targetEntityType: node
@@ -25,31 +24,25 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_board_img:
     type: image
     label: hidden
     settings:
       image_link: ''
-      image_style: thumbnail
+      image_style: medium
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: 1
     region: content
-  field_name:
-    type: name_default
+  field_media:
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      format: default
-      markup: none
-      list_format: ''
-      link_target: ''
-      preferred_field_reference: ''
-      preferred_field_reference_separator: ', '
-      alternative_field_reference: ''
-      alternative_field_reference_separator: ', '
+      view_mode: medium
+      link: false
     third_party_settings: {  }
     weight: 0
     region: content
@@ -58,14 +51,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
-    region: content
-  field_section:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
+    weight: 2
     region: content
   links:
     settings: {  }
@@ -74,5 +60,7 @@ content:
     region: content
 hidden:
   created: true
+  field_name: true
+  field_section: true
   title: true
   uid: true
