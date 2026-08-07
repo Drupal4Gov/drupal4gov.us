@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.board_member.body
     - field.field.node.board_member.field_board_img
+    - field.field.node.board_member.field_media
     - field.field.node.board_member.field_name
     - field.field.node.board_member.field_role
     - field.field.node.board_member.field_section
@@ -25,7 +26,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_board_img:
     type: image
@@ -37,6 +38,15 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_name:
     type: name_default
@@ -58,7 +68,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_section:
     type: list_default
