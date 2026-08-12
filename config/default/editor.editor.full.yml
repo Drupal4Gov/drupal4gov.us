@@ -12,6 +12,7 @@ settings:
   toolbar:
     items:
       - heading
+      - style
       - bold
       - italic
       - underline
@@ -58,6 +59,11 @@ settings:
       enabled: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: Button
+          element: '<a class="button button--primary">'
 image_upload:
   status: true
   scheme: public
