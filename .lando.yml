@@ -7,19 +7,25 @@ config:
 services:
   database:
     type: 'mysql:8.0'
+
   appserver:
     xdebug: false
     overrides:
-      # Pass SSH keys.
       volumes:
+        # Pass SSH keys.
         - type: bind
-          # Linux user: add 'export LANDO_SSH_AUTH_SOCK="${SSH_AUTH_SOCK}"' at the end of your ~/.bashrc:
-          # Mac user: MacOS specific path is here as the variable default value, nothing to do.
           source: "${LANDO_SSH_AUTH_SOCK:-/run/host-services/ssh-auth.sock}"
           target: /run/host-services/ssh-auth.sock
+
+        # Disable SSL for local MySQL client connections.
+        - type: bind
+          source: ./lando/mysql-client.cnf
+          target: /etc/mysql/conf.d/99-lando-client.cnf
+
       environment:
         DRUSH_OPTIONS_URI: "https://drupal4gov.lndo.site/"
         SSH_AUTH_SOCK: /run/host-services/ssh-auth.sock
+
       cap_add:
         - SYS_ADMIN
   node:
