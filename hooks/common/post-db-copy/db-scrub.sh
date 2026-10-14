@@ -13,11 +13,14 @@ target_env="$2"
 db_name="$3"
 source_env="$4"
 
-# Prep for BLT commands.
+# Prep for Drush commands.
 repo_root="/var/www/html/$site.$target_env"
 export PATH=$repo_root/vendor/bin:$PATH
 cd $repo_root
 
-blt artifact:ac-hooks:db-scrub $site $target_env $db_name $source_env -D drush.ansi=false
+# Never scrub production.
+if [ "$target_env" != "prod" ]; then
+  drush sql:sanitize --yes --no-interaction
+fi
 
 set +v

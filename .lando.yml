@@ -28,9 +28,6 @@ services:
       gulp-cli: latest
       npm: latest
 tooling:
-  blt:
-    service: appserver
-    cmd: /app/vendor/bin/blt
   xdebug-on:
     service: appserver
     description: Enable xdebug for apache.
