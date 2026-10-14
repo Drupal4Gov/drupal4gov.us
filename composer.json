@@ -28,8 +28,8 @@
         "drupal/config_filter": "^1.12",
         "drupal/config_ignore": "^3.1",
         "drupal/config_split": "^2.0",
-        "drupal/core-composer-scaffold": "^11",
-        "drupal/core-recommended": "^11",
+        "drupal/core-composer-scaffold": "^10.4",
+        "drupal/core-recommended": "^10.4",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/entity_reference_revisions": "^1.11",
         "drupal/environment_indicator": "^4.0",
@@ -54,8 +54,9 @@
         "drupal/trash": "^3.0",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/webform": "^6.2",
-        "drush/drush": "^13",
-        "oomphinc/composer-installers-extender": "^2"
+        "drush/drush": "^12",
+        "oomphinc/composer-installers-extender": "^2",
+        "symfony/twig-bridge": "^6.3.8"
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
