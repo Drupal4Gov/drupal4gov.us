@@ -23,6 +23,16 @@ $databases['default']['default'] = [
   'prefix' => '',
 ];
 
+// DDEV uses its own database container and credentials.
+if (getenv('IS_DDEV_PROJECT') === 'true') {
+  $databases['default']['default'] = array_merge($databases['default']['default'], [
+    'database' => 'db',
+    'username' => 'db',
+    'password' => 'db',
+    'host' => 'db',
+  ]);
+}
+
 // Use development service parameters.
 $settings['container_yamls'][] = EnvironmentDetector::getRepoRoot() . '/docroot/sites/development.services.yml';
 $settings['container_yamls'][] = EnvironmentDetector::getRepoRoot() . '/docroot/sites/local.development.services.yml';

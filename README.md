@@ -21,6 +21,26 @@ After creating a fork of the repository in GitHub and installing all dependencie
 * `lando composer install` (install dependencies for the project)
 * `lando drush site:install minimal --existing-config -y` (install Drupal from config), or sync a database from Acquia (see below)
 
+## Using DDEV instead of Lando
+
+The project also ships a [DDEV](https://ddev.com) config (`.ddev/config.yaml`), which is what Acquia's current local development docs lead with. Lando and DDEV can both be used, and both can run at the same time: DDEV serves https://drupal4gov.ddev.site and Lando uses its own proxy ports. They keep separate databases.
+
+* `ddev start` (provision the containers)
+* `ddev composer install` (install dependencies for the project)
+* Get a database, either:
+    * `ddev auth ssh` then `ddev drush sql:sync @drupal4gov.dev @self -y` (uses the Drush aliases in `drush/sites`), or
+    * `ddev pull acquia` (needs your Acquia API key and secret in `~/.ddev/global_config.yaml`; see `.ddev/providers/acquia.yaml`)
+* `ddev drush deploy -y` (run updates and import config)
+* `ddev drush uli` (log in)
+
+Other DDEV equivalents of the Lando commands below:
+
+* `ddev composer lint`
+* `ddev xdebug on` / `ddev xdebug off`
+* `ddev exec -d /var/www/html/docroot/themes/custom/drupal4gov npx gulp` (theme build)
+
+`local.settings.php` detects DDEV and switches to DDEV's database credentials automatically. If you created your `local.settings.php` before DDEV was added, copy `default.local.settings.php` over it.
+
 ## Appplying the drupal4gov recipe
 
 The quick start recipe adds data to a vareity of entities (nodes, taxonomy_terms, menu_items, users, media ,and files ) on the site.
