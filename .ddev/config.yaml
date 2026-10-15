@@ -15,6 +15,7 @@ composer_version: "2"
 disable_settings_management: true
 web_environment:
     - ACQUIA_ENVIRONMENT_ID=drupal4gov.dev
+    - DRUSH_OPTIONS_URI=https://drupal4gov.ddev.site
 corepack_enable: false
 
 # Key features of DDEV's config.yaml:
