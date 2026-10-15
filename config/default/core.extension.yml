@@ -44,6 +44,9 @@ module:
   image_effects: 0
   inline_entity_form: 0
   inline_form_errors: 0
+  jquery_ui: 0
+  jquery_ui_autocomplete: 0
+  jquery_ui_menu: 0
   layout_builder: 0
   layout_builder_expose_all_field_blocks: 0
   layout_discovery: 0
@@ -55,6 +58,7 @@ module:
   menu_link_content: 0
   menu_ui: 0
   minifyhtml: 0
+  module_filter: 0
   mysql: 0
   name: 0
   node: 0
