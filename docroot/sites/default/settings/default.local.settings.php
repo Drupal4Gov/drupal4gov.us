@@ -5,27 +5,37 @@
  * Local development override configuration feature.
  */
 
-use Acquia\Blt\Robo\Common\EnvironmentDetector;
+use Acquia\Drupal\RecommendedSettings\Helpers\EnvironmentDetector;
 use Drupal\Component\Assertion\Handle;
 
-$db_name = '${drupal.db.database}';
+$db_name = 'acquia';
 
 /**
  * Database configuration.
  */
 $databases['default']['default'] = [
   'database' => $db_name,
-  'username' => '${drupal.db.username}',
-  'password' => '${drupal.db.password}',
-  'host' => '${drupal.db.host}',
-  'port' => '${drupal.db.port}',
+  'username' => 'acquia',
+  'password' => 'acquia',
+  'host' => 'database',
+  'port' => '3306',
   'driver' => 'mysql',
   'prefix' => '',
 ];
 
+// DDEV uses its own database container and credentials.
+if (getenv('IS_DDEV_PROJECT') === 'true') {
+  $databases['default']['default'] = array_merge($databases['default']['default'], [
+    'database' => 'db',
+    'username' => 'db',
+    'password' => 'db',
+    'host' => 'db',
+  ]);
+}
+
 // Use development service parameters.
 $settings['container_yamls'][] = EnvironmentDetector::getRepoRoot() . '/docroot/sites/development.services.yml';
-$settings['container_yamls'][] = EnvironmentDetector::getRepoRoot() . '/docroot/sites/blt.development.services.yml';
+$settings['container_yamls'][] = EnvironmentDetector::getRepoRoot() . '/docroot/sites/local.development.services.yml';
 
 // Allow access to update.php.
 $settings['update_free_access'] = TRUE;

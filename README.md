@@ -3,9 +3,9 @@ Welcome to the repo for the Drupal4Gov Website. This is an open source project w
 
 ## Getting Started
 
-This project is built with BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
+This project uses [Lando](https://lando.dev) for local development, Drush for site tasks, and [Acquia Drupal Recommended Settings](https://docs.acquia.com/drupal-recommended-settings/) for environment-aware `settings.php` includes.
 
-* Ensure that your computer meets the minimum installation requirements (and then install the required applications). See the [BLT System Requirements](https://web.archive.org/web/20240418183307/https://docs.acquia.com/acquia-cms/add-ons/blt/install) and [Lando System Requirements](https://docs.lando.dev/getting-started/requirements.html).
+* Ensure that your computer meets the [Lando System Requirements](https://docs.lando.dev/getting-started/requirements.html).
 * Fork the parent repository in GitHub (see button to right of repository title to do this)
 * Request access to the Drupal4Gov organization in GitHub
 * Request access to the Acquia Cloud Environment for Drupal GovCon
@@ -17,9 +17,29 @@ After creating a fork of the repository in GitHub and installing all dependencie
 
 * `git clone git@github.com:<your repository>/drupal4gov.us.git` (clone your fork)
 * `git remote add upstream git@github.com:Drupal4Gov/drupal4gov.us.git` (set your fork to track the upstream—*the project‘s code source of truth*—repository)
-* `composer install` (install dependencies for the project)
-* `lando start` (provision the VM)
-* `lando blt setup` (install Drupal)
+* `lando start` (provision the containers)
+* `lando composer install` (install dependencies for the project)
+* `lando drush site:install minimal --existing-config -y` (install Drupal from config), or sync a database from Acquia (see below)
+
+## Using DDEV instead of Lando
+
+The project also ships a [DDEV](https://ddev.com) config (`.ddev/config.yaml`), which is what Acquia's current local development docs lead with. Lando and DDEV can both be used, and both can run at the same time: DDEV serves https://drupal4gov.ddev.site and Lando uses its own proxy ports. They keep separate databases.
+
+* `ddev start` (provision the containers)
+* `ddev composer install` (install dependencies for the project)
+* Get a database, either:
+    * `ddev auth ssh` then `ddev drush sql:sync @drupal4gov.dev @self -y` (uses the Drush aliases in `drush/sites`), or
+    * `ddev pull acquia` (needs your Acquia API key and secret in `~/.ddev/global_config.yaml`; see `.ddev/providers/acquia.yaml`)
+* `ddev drush deploy -y` (run updates and import config)
+* `ddev drush uli` (log in)
+
+Other DDEV equivalents of the Lando commands below:
+
+* `ddev composer lint`
+* `ddev xdebug on` / `ddev xdebug off`
+* `ddev exec -d /var/www/html/docroot/themes/custom/drupal4gov npx gulp` (theme build)
+
+`local.settings.php` detects DDEV and switches to DDEV's database credentials automatically. If you created your `local.settings.php` before DDEV was added, copy `default.local.settings.php` over it.
 
 ## Appplying the drupal4gov recipe
 
@@ -31,33 +51,33 @@ The quick start recipe adds data to a vareity of entities (nodes, taxonomy_terms
 * run `lando drush cr` (Clears the cache)
 
 
-## Updating from DrupalVM
+## Updating from BLT
 
-If you have been a part of our team in the past and have a local DrupalVM, here are a few steps to take to update to Lando.
+BLT has been removed from this project. If you have an existing local environment:
 
-* `blt vm:nuke` to destroy the old vm
-* open the blt/local.blt.yml file and look for a "vm" key. If present, remove the vm (and enable:true) keys from the file
+* run `lando rebuild -y` (removes the old `lando blt` command)
+* run `lando composer install`
+* in `docroot/sites/default/settings/local.settings.php`, replace `use Acquia\Blt\Robo\Common\EnvironmentDetector;` with `use Acquia\Drupal\RecommendedSettings\Helpers\EnvironmentDetector;` and `blt.development.services.yml` with `local.development.services.yml` (or delete the file and copy `default.local.settings.php` over it)
+* `blt/local.blt.yml` is no longer used and can be deleted
 
-* run `lando start`
-* run `lando blt setup`
+## Working with Lando
 
-Note that the new local project url is http://drupal4gov.lndo.site:8080
+Our team utilizes a standard [Git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for our development workflow.
 
-## Working with Lando and BLT
-
-Our team utilizes a standard [Git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for our development workflow. You can read more about our recommended workflow in the [BLT docs](https://web.archive.org/web/20191213123410/https://docs.acquia.com/blt/developer/dev-workflow/#workflow-example-local-development).
-
-In general, "all" commands (drush, blt, etc.) should be run "inside" the Lando container. You can do this by first running the `lando` command.
+In general, "all" commands (drush, composer, etc.) should be run "inside" the Lando container. You can do this by prefixing them with `lando`.
 
 For example:
 
 Cleanly Install Drupal:
 
-`lando blt setup`
+`lando drush site:install minimal --existing-config -y`
 
 Sync Drupal Database from Cloud:*
 
-`lando blt sync`
+```
+lando drush sql:sync @drupal4gov.dev @self -y
+lando drush deploy -y
+```
 
 Log Into Drupal
 
@@ -77,14 +97,14 @@ git checkout -b D4G-XXX_your_branch_name upstream/develop
 ```
 * Reset local environment to ensure all is inline with new branch: **WARNING: this is destructive**
 ```
-lando blt sync
+lando drush sql:sync @drupal4gov.dev @self -y
+lando drush deploy -y
 ```
 * Do whatever work is required for ticket.
 * Create new commit(s) as needed. All commit messages should follow the pattern: `"D4G-XXX: Commit message goes here."` They must include the ticket number (with a dash AND a colon), a message, and a period.
-* Run tests/validation scripts:
+* Run validation scripts:
 ```
-lando blt validate
-lando blt tests
+lando composer lint
 ```
 * Ensure no other changes have been made to the upstream/develop branch. If they have, rebase your branch: *(This helps avoid infuriating merge conflicts)*
 ```
