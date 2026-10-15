@@ -28,8 +28,9 @@
         "drupal/config_filter": "^1.12",
         "drupal/config_ignore": "^3.1",
         "drupal/config_split": "^2.0",
-        "drupal/core-composer-scaffold": "^10.4",
-        "drupal/core-recommended": "^10.4",
+        "drupal/core-composer-scaffold": "10.6.19",
+        "drupal/core-project-message": "10.6.19",
+        "drupal/core-recommended": "10.6.19",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/entity_reference_revisions": "^1.11",
         "drupal/environment_indicator": "^4.0",
@@ -70,15 +71,16 @@
     },
     "config": {
         "allow-plugins": {
+            "acquia/drupal-recommended-settings": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
             "ergebnis/composer-normalize": true,
             "oomphinc/composer-installers-extender": true,
-            "phpstan/extension-installer": true,
             "php-http/discovery": true,
-            "acquia/drupal-recommended-settings": true
+            "phpstan/extension-installer": true
         },
         "platform": {
             "php": "8.3"
