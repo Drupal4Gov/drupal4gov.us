@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.board_member.body
     - field.field.node.board_member.field_board_img
+    - field.field.node.board_member.field_media
     - field.field.node.board_member.field_name
     - field.field.node.board_member.field_role
     - field.field.node.board_member.field_section
@@ -12,6 +13,7 @@ dependencies:
     - node.type.board_member
   module:
     - image
+    - media_library
     - name
     - path
     - text
@@ -44,6 +46,13 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_media:
+    type: media_library_widget
+    weight: 26
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
   field_name:
     type: name_default
     weight: 0
@@ -70,9 +79,9 @@ content:
         credentials: 35
       title_display:
         title: description
-        given: placeholder
+        given: title
         middle: description
-        family: placeholder
+        family: title
         generational: description
         credentials: description
       field_title_display: none
