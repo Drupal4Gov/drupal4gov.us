@@ -77,6 +77,7 @@ module:
   toolbar: 0
   trash: 0
   update: 0
+  upgrade_status: 0
   user: 0
   viewsreference: 0
   webform: 0
