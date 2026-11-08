@@ -56,7 +56,7 @@
         "drupal/trash": "^3.0",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/webform": "^6.3",
-        "drush/drush": "^12",
+        "drush/drush": "^13",
         "oomphinc/composer-installers-extender": "^2",
         "symfony/twig-bridge": "^6.3.8"
     },
