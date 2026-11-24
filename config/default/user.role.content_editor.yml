@@ -10,6 +10,7 @@ dependencies:
     - node.type.blog
     - node.type.board_member
     - node.type.event
+    - taxonomy.vocabulary.board_of_directors_roles
     - taxonomy.vocabulary.event
   module:
     - file
@@ -19,6 +20,7 @@ dependencies:
     - system
     - taxonomy
     - toolbar
+    - webform
 id: content_editor
 label: 'Content Editor'
 weight: 3
@@ -30,6 +32,7 @@ permissions:
   - 'access media overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'access webform overview'
   - 'create basic_page content'
   - 'create blog content'
   - 'create board_member content'
@@ -37,23 +40,28 @@ permissions:
   - 'create image media'
   - 'create media'
   - 'create supporting_documentation media'
+  - 'create terms in board_of_directors_roles'
   - 'create terms in event'
   - 'edit any basic_page content'
   - 'edit any blog content'
   - 'edit any board_member content'
   - 'edit any event content'
+  - 'edit any webform'
   - 'edit own basic_page content'
   - 'edit own blog content'
   - 'edit own board_member content'
   - 'edit own event content'
   - 'edit own image media'
   - 'edit own supporting_documentation media'
+  - 'edit terms in board_of_directors_roles'
   - 'edit terms in event'
+  - 'revert term revisions in board_of_directors_roles'
   - 'update any media'
   - 'update media'
   - 'use text format full'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view any webform submission'
   - 'view basic_page revisions'
   - 'view blog revisions'
   - 'view board_member revisions'
@@ -61,3 +69,4 @@ permissions:
   - 'view media'
   - 'view own unpublished content'
   - 'view own unpublished media'
+  - 'view term revisions in board_of_directors_roles'
