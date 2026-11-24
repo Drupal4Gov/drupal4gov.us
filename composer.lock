@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98be9586c0ff6b571ad6a5a44a8ae698",
+    "content-hash": "034fe536866ea92093c5b53db2f4940a",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -4666,17 +4666,17 @@
         },
         {
             "name": "drupal/name",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/name.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/name-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "67a04df49fbc6766dddc04ef726f517c0d7671e2"
+                "url": "https://ftp.drupal.org/files/projects/name-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "4301e78bcd119a4e2b9eb1cd6a388ac77a4d936d"
             },
             "require": {
                 "drupal/core": "^11.0 || ^10.3"
@@ -4685,13 +4685,14 @@
                 "drupal/diff": "^2@beta",
                 "drupal/feeds": "^3.0",
                 "drupal/token": "^1.0",
-                "drush/drush": ">=9.0"
+                "drush/drush": ">=9.0",
+                "phpmd/phpmd": "^2.14"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1779662872",
+                    "version": "8.x-1.6",
+                    "datestamp": "1793815055",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
